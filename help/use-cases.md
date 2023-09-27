@@ -2,9 +2,9 @@
 title: Adobe组合建模器用例
 description: Adobe组合建模器用例。
 feature: Schemas, Datasets, Conversions, Harmonized Data, Marketing Touch Points, Models, Plans
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 5d86d07562deeb200d418000a73390616c916d7e
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '629'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ Adobe组合建模器支持以下主要用例。
 
 ### 挑战
 
-此用例解决的挑战包括：
+这些用例解决的挑战包括：
 
 * 很难从孤立的客户历程数据、信号丢失和带围墙的花园中测量增量性能。
 * 从MMM和MTA分开的方法得到的见解不一致，降低了对结果的信心。
@@ -30,11 +30,11 @@ Adobe组合建模器支持以下主要用例。
 
 ### 方针
 
-此用例的基于步骤的方法：
+此用例的基于步骤的方法是：
 
 | 步骤 | 详细信息 |
 |---|---|
-| 摄取 | 识别数据源并将其摄取到常用架构下。 <br/>利用在Adobe Analytics或Customer Journey Analytics中的现有投资，实现快速部署。 |
+| 摄取 | 识别数据源并将其摄取到常用架构下。 <br/>将Adobe Analytics或Customer Journey Analytics中的现有投资应用到快速通道部署。 |
 | 配置 | 使用AI-as-a-Service框架为特定的业务目标配置灵活的模型<br/>通过双向传输学习自动确保接触点和摘要级别的一致性。 |
 | 分析 | 清楚地了解整体营销和单个渠道/子渠道的ROI。<br/>清楚地了解哪些接触点最能推动增量转化。 |
 
@@ -46,7 +46,7 @@ Adobe组合建模器支持以下主要用例。
 成功实施此使用可能会产生以下影响：
 
 * 合并聚合数据、接触点数据和外部变量，以获得最佳的测量视图。
-* 使用AI-as-a-Service解决方案，通过访问模型透明度来提高置信度，快速创建用于推动成功的模型。
+* 使用AI-as-a-Service解决方案快速创建模型，并通过访问模型透明度来提高置信度，从而推动成功。
 * 通过在摘要级别和接触点级别的结果中保持一致，提高对战略和战术决策的信心。
 
 +++
@@ -54,13 +54,13 @@ Adobe组合建模器支持以下主要用例。
 
 ## 制定营销计划以优化ROI
 
-此用例利用用户友好、支持AI的优化和方案规划工具来最大限度地提高ROI。
+此用例使用用户友好、支持AI的优化和方案规划工具来最大限度地提高ROI。
 
 +++ 详细信息
 
 ### 挑战
 
-此用例解决的挑战包括：
+这些用例解决的挑战包括：
 
 * 根据效率曲线制定数据驱动型营销投资计划，而不依赖直觉。
 * 同时实现跨多个地区、业务线和渠道的最大化结果。
@@ -69,7 +69,7 @@ Adobe组合建模器支持以下主要用例。
 
 ### 方针
 
-此用例的基于步骤的方法：
+此用例的基于步骤的方法是：
 
 | 步骤 | 详细信息 |
 |---|---|
@@ -90,44 +90,47 @@ Adobe组合建模器支持以下主要用例。
 
 +++
 
+<!-- This use case is not supported with initial release
 
-## 进行数据驱动飞行优化
+## Make data-driven inflight optimizations
 
-此用例可帮助您通过评估实际和预测的性能以迅速做出改进，从而每周提高ROI。
+This use case helps you to improve ROI weekly by assessing actual and forecasted performance to make inflight improvements.
 
-+++ 详细信息
++++ Details
 
-### 挑战
+### Challenges
 
-此用例解决的挑战包括：
+The challenges this use case addresses are:
 
-* Campaign的性能通常较慢，或者缺少自信优化所需的粒度。
-* 跨数十个渠道和来源的杂乱、非标准化数据导致洞察速度变慢。
-* 不能实现工具普及化，过度依赖特定专家或外部供应商，增加了周转时间。
+* Campaign performance is often slow, or lacks granularity need to confidently optimize.
+* Messy, non-standardized data across dozens of channels and sources drives slow time to insight.
+* No democratized access to tools and overreliance on select experts or external vendors, increasing turnaround times.
 
 
 
-### 方针
+### Approach
 
-此用例的基于步骤的方法：
+The step based approach for this use case:
 
-| 步骤 | 详细信息 |
+| Step | Details |
 |---|---|
-| 摄取 | 在常见架构中摄取数据，以便轻松进行模型刷新和跨Experience Platform应用程序的可重用性。<br/>使用自动化协调工具简化数据管道、清洁和QA。 |
-| 刷新 | 使用用户友好的自助服务平台构建和刷新AI/ML模型。<br/>每周或每月获取新结果，包括按渠道划分的历史投资回报率和预测投资回报率。 |
-| 优化 | 根据测量到的性能跨渠道转移支出，从而进行快速飞行优化。 |
+| Ingest | Ingest data in common schemas for easy model refreshes and reusability across Experience Platform applications.<br/>Streamline data piping, cleaning & QA with automated harmonization tools. |
+| Refresh | Build and refresh AI/ML  models using a user-friendly, self-service platform.<br/>Get new results, including historic and forecasted ROIs by channel, on a weekly or monthly basis. |
+| Optimize | Make rapid inflight optimizations by shifting spend across channels based on measured performance. |
 
 {style="table-layout:auto"}
 
 
-### 影响
+### Impact 
 
-成功实施此使用可能会产生以下影响：
+Successful implementation of this use can have the following impact:
 
-* 通过标准化数据架构和通用数据基础，在测量和分析用例中最大限度地提高速度、可扩展性和可用性。
-* 通过可反映最佳预测ROI的数据驱动型支出转移快速进行每周或每月飞行优化，并最大限度地提高ROI。
+* Maximize speed, scalability, and usability across measurement & analytic use cases with standardized data schemas and common data foundation.
+* Rapidly make weekly or monthly inflight optimizations and maximize ROI with data-driven spend shifts that reflect best forecasted ROIs.
 
 +++
+
+-->
 
 ## 跨Adobe应用程序激活战术见解
 
@@ -137,20 +140,20 @@ Adobe组合建模器支持以下主要用例。
 
 ### 挑战
 
-此用例解决的挑战包括：
+这些用例解决的挑战包括：
 
 * 仅靠自上而下的解决方案可能无法发现精细的关键优化机会。
-* 测量模型的输出是压倒性的，描述过于夸张，并且不容易产生见解或操作。
+* 测量模型的输出是压倒性的，描述过于夸张，并且不容易产生洞察或操作。
 * 无法进行临时分析以获得见解，因为模型不透明，并且粒度分数不可用。
 
 
 ### 方针
 
-此用例的基于步骤的方法：
+此用例的基于步骤的方法是：
 
 | 步骤 | 详细信息 |
 |---|---|
-| 模型 | 配置并训练AI/ML模型，以获得一致的MTA接触点分数和MMM聚合结果。 |
+| 模型 | 配置和训练AI/ML模型，以获得一致的MTA接触点分数和MMM聚合结果。 |
 | 分析 | 将增量接触点得分导出到Customer Journey Analytics或外部BI工具中。<br/>执行粒度分析，并使用接触点得分构建高级功能板。 |
 | 操作 | 使用Real-time Customer Data Platform为热门消费者区段创建和激活回顾链接。<br/>为未来的营销活动制定按客户细分的数据驱动型营销策略。 |
 

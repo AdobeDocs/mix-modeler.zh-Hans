@@ -1,7 +1,7 @@
 ---
 description: 介绍Adobe组合建模器的连续功能发布策略
 title: Adobe混合建模器版本
-source-git-commit: 827c25486bb56c80c52e663f391d60083e094f83
+source-git-commit: afe12371a1d5ac24377d67f4941ee14c8defd683
 workflow-type: tm+mt
 source-wordcount: '38'
 ht-degree: 0%
@@ -11,7 +11,6 @@ ht-degree: 0%
 # Adobe混合建模器版本
 
 Adobe组合建模器版本在持续交付模型上运行，该模型允许采用可扩展的分阶段方法进行功能部署。
-
 
 <!--
 ## Release strategy
