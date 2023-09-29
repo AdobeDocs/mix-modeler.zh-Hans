@@ -1,10 +1,10 @@
 ---
 title: Adobe组合建模器概述
-description: 了解如何使用Adobe组合建模器衡量活动并全面优化所有渠道中的规划。
+description: 了解如何使用 Adobe Mix Modeler 跨所有渠道衡量营销活动并全面优化规划。
 source-git-commit: 9e89d9820c28021e151ad31874ac3bcbaa008f9c
 workflow-type: tm+mt
 source-wordcount: '102'
-ht-degree: 2%
+ht-degree: 18%
 
 ---
 

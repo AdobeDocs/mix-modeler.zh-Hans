@@ -1,11 +1,11 @@
 ---
 title: Adobe组合建模器概述
-description: 大致了解Adobe组合建模器的功能和特性。
+description: 大致了解 Adobe Mix Modeler 的功能。
 feature: Plans, Harmonized Data, Models
 source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
 workflow-type: tm+mt
 source-wordcount: '268'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
