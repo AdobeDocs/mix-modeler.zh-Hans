@@ -1,10 +1,10 @@
 ---
-title: 比较计划
-description: 了解如何在Adobe组合建模器中比较计划。
-source-git-commit: 1eaebc6f6178270a9e8aebb6b250e0b0a6289f52
+title: 管理
+description: 了解如何管理Adobe Mix Modeler。
+source-git-commit: 4a6cbda1ff0a779ebf8a38a4de3f797ed9e54b00
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 7%
+source-wordcount: '158'
+ht-degree: 8%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 7%
 
 在Adobe Experience Cloud UI中，
 
-1. 选择 **[!UICONTROL Permissions]** 从左边栏的下面 **[!UICONTROL ADMINISTRATION]**.
+1. 选择 **[!UICONTROL Permissions]** 从左边栏，下面 **[!UICONTROL ADMINISTRATION]**.
 
 1. 选择 ![人员](assets/icons/User.svg) **[!UICONTROL Roles]** 从左侧面板。
 
-1. 选择现有角色，或使用以下方式创建角色 **[!UICONTROL Create role]**. 如果您选择了现有角色，请选择 ![编辑](assets/icons/Edit.svg) **[!UICONTROL Edit]** 编辑角色的权限。 请参阅 [管理角色](https://helpx.adobe.com/cn/enterprise/using/admin-console.html) 以了解更多信息。
+1. 选择现有角色，或使用以下方式创建角色 **[!UICONTROL Create role]**. 如果选择现有角色，请选择 ![编辑](assets/icons/Edit.svg) **[!UICONTROL Edit]** 编辑角色的权限。 请参阅 [管理角色](https://helpx.adobe.com/cn/enterprise/using/admin-console.html) 以了解更多信息。
 
 1. 请确保为角色选择以下权限：
 
