@@ -2,15 +2,15 @@
 title: Mix Modeler概述
 description: 了解如何用 Mix Modeler 在所有渠道上衡量营销活动并全面优化规划。
 feature: Harmonized Data, Models, Plans
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+source-git-commit: d02cfdf3ad5a0872a0f9c2c9f98973e79f1a9de8
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '97'
 ht-degree: 18%
 
 ---
 
 
-# AdobeMix Modeler指南
+# Adobe混合建模器指南
 
 ![横幅](assets/mix-modeler-banner.png)
 
