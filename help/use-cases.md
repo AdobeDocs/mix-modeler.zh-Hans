@@ -1,18 +1,18 @@
 ---
-title: Adobe组合建模器用例
-description: Adobe组合建模器用例。
+title: Mix Modeler用例
+description: Mix Modeler用例。
 feature: Schemas, Datasets, Conversions, Harmonized Data, Marketing Touch Points, Models, Plans
-source-git-commit: 5d86d07562deeb200d418000a73390616c916d7e
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '625'
 ht-degree: 3%
 
 ---
 
 
-# Adobe组合建模器用例
+# Mix Modeler用例
 
-Adobe组合建模器支持以下主要用例。
+Mix Modeler支持以下主要用例。
 
 ## 了解全渠道增量性能
 

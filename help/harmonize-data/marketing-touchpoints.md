@@ -1,10 +1,10 @@
 ---
 title: 营销接触点
-description: 了解如何在Adobe组合建模器中创建营销接触点，以将其用作协调数据的一部分。
+description: 了解如何创建营销接触点，以将其用作Mix Modeler中协调数据的一部分。
 feature: Harmonized Data, Marketing Touch Points
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '259'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 ## 管理营销接触点
 
-要在Adobe组合建模器界面中查看可用的营销接触点表，请执行以下操作：
+要在Mix Modeler界面中查看可用的营销接触点表，请执行以下操作：
 
 1. 选择 ![数据搜索](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** 从左边栏开始。
 
@@ -38,7 +38,7 @@ ht-degree: 1%
 
 ## 添加营销接触点
 
-要添加营销接触点，请在 ![数据搜索](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Marketing touchpoint]** Adobe组合建模器中的接口：
+要添加营销接触点，请在 ![数据搜索](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Marketing touchpoint]** 界面Mix Modeler：
 
 1. 选择 ![添加](../assets/icons/AddCircle.svg) 添加营销接触点。
 

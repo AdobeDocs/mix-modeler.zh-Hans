@@ -1,10 +1,10 @@
 ---
 title: 架构
-description: 了解如何管理将数据摄取到Adobe组合建模器所需的架构。
+description: 了解如何管理将数据摄取到Mix Modeler所需的架构。
 feature: Schemas
-source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
+source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '344'
 ht-degree: 6%
 
 ---
@@ -12,9 +12,9 @@ ht-degree: 6%
 
 # 架构
 
-要管理架构，请支持您要在Adobe Experience Platform中摄取并在Adobe组合建模器中使用的数据：
+要管理架构，请支持要在Adobe Experience Platform中摄取并在Mix Modeler中使用的数据：
 
-1. 转到Adobe混合建模器界面。
+1. 转到Mix Modeler界面。
 
 1. 选择 ![架构](../assets/icons/Schemas.svg) **[!UICONTROL Schemas]**，下 **[!UICONTROL DATA MANAGEMENT]**.
 
@@ -22,7 +22,7 @@ ht-degree: 6%
 
 ## 汇总或汇总数据
 
-强烈建议使用XDM摘要量度类作为架构的基础，该架构支持您要在Experience Platform中摄取并在Adobe组合建模器中使用的任何聚合或摘要数据。
+强烈建议使用XDM摘要量度类作为任何要摄取到Experience Platform并在Mix Modeler中使用的聚合或摘要数据的架构基础。
 
 将XDM摘要量度类用于：
 

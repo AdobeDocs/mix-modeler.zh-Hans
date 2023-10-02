@@ -1,10 +1,10 @@
 ---
 title: 数据集规则
-description: 了解如何在Adobe组合建模器中定义要用作协调数据一部分的数据集规则。
+description: 了解如何定义要用作协调Mix Modeler中数据一部分的数据集规则。
 feature: Harmonized Data, Dataset Rules
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '798'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 数据集规则
 
-数据集规则可帮助您将协调的字段与您在Adobe组合建模器中摄取的数据中的字段进行映射。
+数据集规则可帮助您将协调的字段与您在Mix Modeler中引入的数据中的字段进行映射。
 
 * 对于在Adobe Experience Platform中摄取的聚合数据，可将一个或多个可用数据集字段映射到相应的协调字段。
 * 对于事件数据，您可以直接或使用条件将一个或多个协调的字段单独映射到数据集中的字段。
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 管理数据集规则和映射
 
-要查看可用数据集映射的表，请在Adobe组合建模器界面中：
+要查看可用数据集映射的表，请在Mix Modeler界面中执行以下操作：
 
 1. 选择 ![数据搜索](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** 从左边栏开始。
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 | ---------------------- | ----------|
 | 数据集 | 数据集的名称。 |
 | 来源 | 数据集的源，可以是Adobe Analytics、体验事件、摘要（汇总）或使用者体验事件。 |
-| 架构 | 数据集符合的架构。 您可以快速选择架构名称以在“Adobe混合建模器 — 架构”的架构编辑器的新选项卡中打开架构。 |
+| 架构 | 数据集符合的架构。 您可以快速选择架构名称，以在“Mix Modeler — 架构”的架构编辑器的新选项卡中打开架构。 |
 | 粒度 | 数据集中的数据粒度。 可能的值包括“每日”、“每周”、“每月”或“每年”。 |
 | 一周开始 | 指定将一周中的哪一天视为特定数据集的新周的开始。 |
 | 上次修改时间 | 上次修改数据集映射的数据和时间。 |
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 ### 创建数据集映射
 
-要创建数据集映射，请在 ![数据搜索](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** Adobe混合建模器中的界面，选择 **[!UICONTROL Create Dataset Mapping]**.
+要创建数据集映射，请在 ![数据搜索](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** 界面中，选择Mix Modeler **[!UICONTROL Create Dataset Mapping]**.
 
 在 **[!UICONTROL Create]** 屏幕，
 
@@ -107,7 +107,7 @@ ht-degree: 0%
 
 ### 编辑数据集映射
 
-要编辑数据集映射，请在 ![数据搜索](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** Adobe组合建模器中的接口：
+要编辑数据集映射，请在 ![数据搜索](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** 界面Mix Modeler：
 
 1. 选择 ![更多](../assets/icons/More.svg) 在 **[!UICONTROL Dataset]** 要编辑的数据集映射的列。
 1. 从上下文菜单中，选择 ![编辑](../assets/icons/Edit.svg) **[!UICONTROL Edit]** 以开始编辑数据集映射。 请参阅 [创建数据集映射](#create-a-dataset-mapping) 以了解更多详细信息。
@@ -115,7 +115,7 @@ ht-degree: 0%
 
 ### 删除数据集映射
 
-要删除数据集映射，请在 ![数据搜索](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** Adobe组合建模器中的接口：
+要删除数据集映射，请在 ![数据搜索](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** 界面Mix Modeler：
 
 1. 选择 ![更多](../assets/icons/More.svg) 在 **[!UICONTROL Dataset]** 要删除的数据集映射的列。
 1. 从上下文菜单中，选择 ![删除](../assets/icons/Delete.svg) **[!UICONTROL Delete]** 以删除数据集映射。

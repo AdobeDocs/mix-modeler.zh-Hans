@@ -1,11 +1,11 @@
 ---
 title: 协调的字段
-description: 了解如何在Adobe组合建模器中定义要用作协调数据一部分的字段。
-feature: Harmonized Data
-source-git-commit: abbfc78e9fa774a240d000131f35d3dc257c15ea
+description: 了解如何定义要用作协调Mix Modeler中数据一部分的字段。
+feature: Harmonized Data, Harmonized Fields
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 9%
+source-wordcount: '655'
+ht-degree: 10%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 9%
 
 ## 全球一体化领域
 
-Adobe组合建模器中的默认可用全局协调字段包括：
+Mix Modeler中默认可用的全局协调字段包括：
 
 
 | 字段名称 | 显示名称 | 类别 | 数据类型 | 注释 |
@@ -53,7 +53,7 @@ Adobe组合建模器中的默认可用全局协调字段包括：
 
 ## 管理协调的字段
 
-要查看可用协调字段的表，请在Adobe组合建模器界面中执行以下操作：
+要在Mix Modeler界面中查看可用协调字段的表，请执行以下操作：
 
 1. 选择 ![数据搜索](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** 从左边栏开始。
 
@@ -81,7 +81,7 @@ Adobe组合建模器中的默认可用全局协调字段包括：
 
 ### 添加协调字段
 
-为了添加一个统一的字段，请在 ![数据搜索](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Adobe组合建模器中的接口：
+为了添加一个统一的字段，请在 ![数据搜索](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Mix Modeler界面：
 
 1. 选择 ![添加](../assets/icons/AddCircle.svg)添加字段。
 
@@ -107,7 +107,7 @@ Adobe组合建模器中的默认可用全局协调字段包括：
 
 您只能编辑之前创建的协调字段。 您无法编辑全局协调字段。
 
-要编辑协调的字段，请在 ![数据搜索](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Adobe组合建模器中的接口：
+要编辑协调的字段，请在 ![数据搜索](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Mix Modeler界面：
 
 1. 选择要编辑的协调字段。 例如：**[!UICONTROL Region]**。
 
@@ -121,7 +121,7 @@ Adobe组合建模器中的默认可用全局协调字段包括：
 
 您只能删除之前创建的协调字段。 您不能删除全球协调字段。
 
-要删除协调字段，请在 ![数据搜索](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Adobe组合建模器中的接口：
+要删除协调字段，请在 ![数据搜索](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Mix Modeler界面：
 
 1. 例如，选择要删除的协调字段 **[!UICONTROL Region]**.
 

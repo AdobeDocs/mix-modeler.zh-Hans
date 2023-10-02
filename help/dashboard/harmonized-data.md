@@ -1,10 +1,10 @@
 ---
 title: 协调的数据概述仪表板
-description: 了解如何在Adobe组合建模器中使用协调的数据概述仪表板。
+description: 了解如何在Mix Modeler中使用协调的数据概述仪表板。
 feature: Dashboard, Harmonized Data
-source-git-commit: abbfc78e9fa774a240d000131f35d3dc257c15ea
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 统一的数据概述
 
-Adobe组合Modeler概述中的“协调数据”标签提供了对协调数据的洞察，您已配置该数据作为所摄取数据和协调数据设置的一部分使用。
+Mix Modeler概述中的“协调数据”选项卡提供了对协调数据的洞察，您配置该数据作为所摄取数据和协调数据设置的一部分使用。
 
 此概述显示了四个KPI状态卡小组件（顶行）和六个其他可配置小组件。
 

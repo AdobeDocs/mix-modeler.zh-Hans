@@ -1,18 +1,20 @@
 ---
-title: 查看当前的Adobe混合建模器发行说明
+title: 查看当前Mix Modeler发行说明
 description: 最新的Mix Modeler发行说明
-source-git-commit: 592d85cf9b1dfde8a9ca087d14445339fb64ecc7
+feature-set: Experience Cloud
+feature: Release Notes
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '179'
 ht-degree: 6%
 
 ---
 
-# 当前Adobe Mix Modeler发行说明
+# 当前Mix Modeler发行说明
 
 **上次更新**：2023年10月4日。
 
-这些发行说明涵盖Adobe Mix Modeler的初始版本。 Adobe Mix Modeler发布在持续交付模型上运行，该模型允许大约每月一次的发布频率。 因此，这些发行说明将会相应更新，因此请定期检查。
+这些发行说明涵盖Mix Modeler的初始版本。 Mix Modeler发布在持续交付模型上运行，该模型允许大约每月一次的发布频率。 因此，这些发行说明将会相应更新，因此请定期检查。
 
 
 ## 新增功能或更新后的功能
@@ -29,8 +31,8 @@ ht-degree: 6%
 
 >[!MORELIKETHIS]
 >
->* [Adobe Mix Modeler介绍](https://business.adobe.com/products/experience-platform/planning-and-measurement.html)
->* [Adobe Mix ModelerExperience League文档](https://experienceleague.adobe.com/docs/mix-modeler.html?lang=en)
+>* [Mix Modeler介绍](https://business.adobe.com/products/experience-platform/planning-and-measurement.html)
+>* [Mix ModelerExperience League文档](https://experienceleague.adobe.com/docs/mix-modeler.html?lang=en)
 
 
 

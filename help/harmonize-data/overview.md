@@ -1,10 +1,10 @@
 ---
 title: 协调数据
-description: 了解如何在Adobe组合建模器中协调数据。
+description: 了解如何在Mix Modeler中协调数据。
 feature: Harmonized Data
-source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
+source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '798'
 ht-degree: 16%
 
 ---
@@ -12,16 +12,16 @@ ht-degree: 16%
 
 # 协调数据
 
-根据数据源的不同，Adobe混合建模器中的数据具有不同的性质。 数据可以是：
+根据数据源的不同，Mix Modeler中的数据具有不同的性质。 数据可以是：
 
 * 聚合数据，例如从围墙花园数据源收集的数据，或者从运行广告牌营销活动、事件或物理广告营销活动收集的离线广告数据（如支出），
 * 事件数据，例如来自第一方数据源的事件数据。 此事件数据可以是通过Adobe Analytics源连接器从Adobe Analytics收集的数据，也可以是通过Adobe Experience Platform Web或移动SDK或边缘网络API收集的数据，或使用源连接器摄取的数据。
 
-Adobe组合Modeler的协调服务可将聚合和事件数据吸收到一致的数据视图中。 此数据视图是Adobe组合建模器中的计划和模型的源。
+Mix Modeler的协调服务将聚合和事件数据吸收到一致的数据视图中。 此数据视图是Mix Modeler中计划和模型的源。
 
 ## 统一数据的示例
 
-假设您有以下数据集可用于Adobe组合建模器。
+假设您有以下数据集可用于Mix Modeler。
 
 **数据集1**
 
@@ -114,7 +114,7 @@ Adobe组合Modeler的协调服务可将聚合和事件数据吸收到一致的�
 
 ## 查看协调的数据
 
-要查看您的协调数据，请在Adobe组合建模器界面中执行以下操作：
+要查看您的协调数据，请在Mix Modeler界面中执行以下操作：
 
 1. 选择 ![数据搜索](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** 从左边栏开始。
 

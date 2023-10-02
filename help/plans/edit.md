@@ -1,10 +1,10 @@
 ---
 title: 编辑计划
-description: 了解如何在Adobe组合建模器中编辑计划。
+description: 了解如何在Mix Modeler中编辑计划。
 feature: Plans
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 编辑计划
 
-要编辑计划，请在 ![PLan](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** Adobe组合建模器中的界面，按名称选择您的计划。
+要编辑计划，请在 ![PLan](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** 界面中，按计划名称选择您的Mix Modeler。
 
 在 [!UICONTROL Plan insights]，即会创建您的计划洞察，并显示 [!UICONTROL Model]， [!UICONTROL Data range]、和 [!UICONTROL Total budget] 计划的基础。
 

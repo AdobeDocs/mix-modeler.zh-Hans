@@ -1,10 +1,10 @@
 ---
 title: 转化
-description: 了解如何在Adobe组合建模器中创建要用作协调数据一部分的转化。
+description: 了解如何创建转化，以便在Mix Modeler中协调数据时使用。
 feature: Harmonized Data, Conversions
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '241'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 ## 管理转化
 
-要查看可用转化表，请在Adobe组合建模器界面中：
+要在Mix Modeler界面中查看可用转化的表格，请执行以下操作：
 
 1. 选择 ![数据搜索](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** 从左边栏开始。
 
@@ -38,7 +38,7 @@ ht-degree: 3%
 
 ## 添加转化
 
-要添加转化，请在 ![数据搜索](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** Adobe组合建模器中的接口：
+要添加转化，请在 ![数据搜索](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** 界面Mix Modeler：
 
 1. 选择 ![添加](../assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion]**.
 

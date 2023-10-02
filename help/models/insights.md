@@ -1,8 +1,8 @@
 ---
 title: 模型分析
-description: 了解如何在Adobe组合建模器中获取有关模型的详细信息，如历史概述、模型见解和模型质量。
+description: 了解如何获取有关模型的详细信息，如Mix Modeler中的历史概述、模型见解和模型质量。
 feature: Models
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 模型分析
 
-要查看模型洞察，请在 ![模型](../assets/icons/FileData.svg) **[!UICONTROL Models]** Adobe组合建模器中的接口：
+要查看模型洞察，请在 ![模型](../assets/icons/FileData.svg) **[!UICONTROL Models]** 界面Mix Modeler：
 
 1. 选择模型名称 **[!UICONTROL Last run status]** 之 <span style="color:green">●</span> **[!UICONTROL Success]** 从 **[!UICONTROL Models]** 表格。
 
@@ -68,5 +68,7 @@ ht-degree: 0%
 * MAPE（平均绝对误差百分比），最常用于测量预测准确度的KPI之一，它以实际值的百分比表示预测误差。
 
 * RMSE（均方根误差）：显示平均“误差”，根据误差的平方进行加权。
+
+![模型质量](../assets/model-quality.png)
 
 

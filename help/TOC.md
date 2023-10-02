@@ -2,20 +2,20 @@
 user-guide-title: Mixed Modeler
 breadcrumb-title: Mixed Modeler
 user-guide-description: 了解如何使用 Mixed Modeler。
-source-git-commit: 1eaebc6f6178270a9e8aebb6b250e0b0a6289f52
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 42%
+source-wordcount: '63'
+ht-degree: 53%
 
 ---
 
 
-# Adobe混合建模器指南 {#using}
+# Mix Modeler 指南 {#using}
 
-+ [Adobe混合建模器指南](overview.md)
++ [Mix Modeler 指南](overview.md)
 
 + 开始使用 {#get-started}
-   + [什么是Adobe组合建模器？](get-started/about.md)
+   + [什么是Mix Modeler？](get-started/about.md)
    + [应用程序工作流](get-started/workflow.md)
 
 + 功能板 {#dashboard}

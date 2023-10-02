@@ -1,18 +1,18 @@
 ---
 title: 比较计划
-description: 了解如何在Adobe组合建模器中比较计划。
+description: 了解如何在Mix Modeler中比较计划。
 feature: Plans
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 1%
+source-wordcount: '100'
+ht-degree: 2%
 
 ---
 
 
 # 比较计划
 
-要在“Adobe组合建模器计划”界面中比较计划，请执行以下操作：
+要在“Mix Modeler计划”界面中比较计划，请执行以下操作：
 
 * 选择 ![比较](../assets/icons/Compare.svg) **[!UICONTROL Compare Plans]**. 在比较计划中，为每个计划选择一个计划 **[!UICONTROL _选择计划_]**.
 

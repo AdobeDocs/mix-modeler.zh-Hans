@@ -1,19 +1,20 @@
 ---
-title: Adobe组合建模器概述
-description: 了解如何用 Adobe Mix Modeler 在所有渠道上衡量营销活动并全面优化规划。
-source-git-commit: 9e89d9820c28021e151ad31874ac3bcbaa008f9c
+title: Mix Modeler概述
+description: 了解如何用 Mix Modeler 在所有渠道上衡量营销活动并全面优化规划。
+feature: Harmonized Data, Models, Plans
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '96'
 ht-degree: 18%
 
 ---
 
 
-# Adobe混合建模器指南
+# AdobeMix Modeler指南
 
 ![横幅](assets/mix-modeler-banner.png)
 
-本技术文档指南提供了以下方面的自助帮助 **Adobe组合建模器**. “Adobe组合建模器”是一种Adobe Experience Cloud应用程序，可跨所有渠道（付费、免费和拥有）测量营销活动并全面优化规划。 Adobe组合建模器构建于Adobe Experience Platform之上并由Adobe Sensei提供支持。
+本技术文档指南提供了以下方面的自助帮助 **Adobe组合建模器**. Mix Modeler是一种Adobe Experience Cloud应用程序，可跨所有渠道（付费、免费和拥有）测量营销活动并全面优化规划。 Mix Modeler是基于Adobe Experience Platform构建的，由Adobe Sensei提供支持。
 
 >[!AVAILABILITY]
 >
@@ -21,7 +22,7 @@ ht-degree: 18%
 
 ## 开始使用
 
-* 什么是 [Adobe组合建模器](get-started/about.md)？
+* 什么是 [混合建模器](get-started/about.md)？
 
 * 什么是典型的 [应用程序工作流](get-started/workflow.md)？
 

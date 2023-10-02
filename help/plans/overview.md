@@ -1,10 +1,10 @@
 ---
 title: 计划
-description: 了解如何在Adobe组合建模器中查看、选择和操作计划。
+description: 了解如何在Mix Modeler中查看、选择和操作计划。
 feature: Plans
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '293'
 ht-degree: 2%
 
 ---
@@ -12,12 +12,12 @@ ht-degree: 2%
 
 # 计划
 
-Adobe组合建模器中的计划允许您按业务部门和渠道分配预算。 计划功能与根据您的统一数据经过培训的模型的结果相集成。
+Mix Modeler中的计划允许您按业务部门和渠道分配预算。 计划功能与根据您的统一数据经过培训的模型的结果相集成。
 
 
 ## 查看计划
 
-要查看当前计划的表，请在Adobe组合建模器界面中：
+要查看当前计划的表，请在Mix Modeler界面中：
 
 1. 选择 ![](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** 从左边栏开始。
 

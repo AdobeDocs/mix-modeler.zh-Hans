@@ -1,15 +1,15 @@
 ---
-title: Adobe混合建模器术语表
-description: Adobe混合建模器术语表。
+title: Mix Modeler术语表
+description: Mix Modeler术语表。
 feature: Datasets, Conversions, Marketing Touch Points, Harmonized Data
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '218'
 ht-degree: 1%
 
 ---
 
-# Adobe混合建模器术语表
+# Mix Modeler术语表
 
 文档中使用了以下术语和首字母缩略词：
 

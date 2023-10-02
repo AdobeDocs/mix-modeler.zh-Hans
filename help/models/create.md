@@ -1,10 +1,10 @@
 ---
 title: 创建模型
-description: 了解如何在Adobe组合建模器中创建模型。
+description: 了解如何在Mix Modeler中创建模型。
 feature: Models
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # 创建模型
 
-要创建模型，请在 ![模型](../assets/icons/FileData.svg) **[!UICONTROL Models]** Adobe混合建模器中的界面，选择 **[!UICONTROL Guide me]**.
+要创建模型，请在 ![模型](../assets/icons/FileData.svg) **[!UICONTROL Models]** 界面中，选择Mix Modeler **[!UICONTROL Guide me]**.
 
 为了构建自定义AI支持的模型，界面提供了分步引导式模型配置流程。
 
 1. 在 **[!UICONTROL Setup]** 步骤：
 
-   1. 输入您的模型 **[!UICONTROL Name]**&#x200B;例如 `Demo model`. 输入 **[!UICONTROL Description]**&#x200B;例如 `Demo model to explore AI featues of Adobe Mix Modeler`.
+   1. 输入您的模型 **[!UICONTROL Name]**&#x200B;例如 `Demo model`. 输入 **[!UICONTROL Description]**&#x200B;例如 `Demo model to explore AI featues of Mix Modeler`.
 
       ![模型名称和描述](../assets/model-name-description.png)
 
@@ -113,7 +113,7 @@ ht-degree: 0%
 
    1. 在 **[!UICONTROL Define training window]** 部分，选择范围
 
-      * **[!UICONTROL Have Adobe Mix Modeler select a helpful training window]** 和
+      * **[!UICONTROL Have Mix Modeler select a helpful training window]** 和
 
       * **[!UICONTROL Manually input a training window]**&#x200B;的问题。选中后，定义年数 **[!UICONTROL Include events the following years prior to a conversion]**.
 

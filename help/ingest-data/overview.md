@@ -1,10 +1,10 @@
 ---
 title: 引入数据
-description: 了解如何将数据摄取到Adobe组合建模器。
+description: 了解如何将数据摄取到Mix Modeler。
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
-source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
+source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '460'
 ht-degree: 14%
 
 ---
@@ -28,7 +28,7 @@ Adobe Mix Modeler可与事件级数据、来自不同封闭花园的营销工作
 
 ## 准则
 
-要将数据摄取到Adobe Experience Platform以与Adobe组合建模器一起使用，请遵循以下准则：
+要将数据摄取到Adobe Experience Platform以用于Mix Modeler，请遵循以下准则：
 
 * 添加到数据集的增量数据不应有任何重叠。
 * 来自单个源的所有数据都应具有相同的粒度。
@@ -38,7 +38,7 @@ Adobe Mix Modeler可与事件级数据、来自不同封闭花园的营销工作
 
 ## 示例
 
-在下面查找一些通常用于Adobe组合建模器的数据示例，这些示例超出了更标准的体验事件数据。
+在下面查找一些通常用于Mix Modeler的数据示例，这些示例超出了更标准的体验事件数据。
 
 +++ 汇总营销工作数据
 
@@ -80,7 +80,8 @@ Adobe Mix Modeler可与事件级数据、来自不同封闭花园的营销工作
 
 +++
 
-要在Adobe组合建模器中处理数据，您需要在数据集中收集数据，并按照Adobe Experience Platform中的架构进行建模。 通过Adobe Mix Modeler界面可轻松访问Experience Platform架构和数据集UI。
+要在Mix Modeler中处理数据，您需要在Adobe Experience Platform中收集并仿照架构建模的数据。 通过Mix Modeler界面，可以轻松访问架构和数据集UI。
+
 
 >[!MORELIKETHIS]
 >

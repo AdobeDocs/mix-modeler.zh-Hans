@@ -1,28 +1,28 @@
 ---
-title: Adobe组合建模器概述
-description: 大致了解 Adobe Mix Modeler 的功能。
+title: Mix Modeler概述
+description: 大致了解 Mix Modeler 的功能。
 feature: Plans, Harmonized Data, Models
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '260'
 ht-degree: 5%
 
 ---
 
 
-# Adobe组合建模器概述
+# Mix Modeler概述
 
-由Adobe Sensei提供支持的Adobe组合建模器允许营销人员跨所有渠道（付费、免费和拥有）衡量促销活动并全面优化规划。 其统一的方法体系在营销接触点和聚合级别都进行递增式测量，同时确保完全一致的结果。
+由Adobe Sensei提供支持的Mix Modeler功能，允许营销人员跨所有渠道（付费、免费和拥有）衡量促销活动并全面优化计划。 其统一的方法体系在营销接触点和聚合级别都进行递增式测量，同时确保完全一致的结果。
 
-Adobe组合建模器通过数字营销和离线营销的全面（端到端）衡量应用程序，提供所有营销活动对业务和营销活动结果的增量影响。
+Mix Modeler通过数字营销和离线营销的全面（端到端）衡量应用程序，提供所有营销活动对业务和营销活动结果的增量影响。
 
-Adobe组合Modeler在战略和战术层面提供了以下类型的优化和可操作的见解，以便您更好地理解：
+Mix Modeler在战略和战术层面提供以下类型的优化和可操作的见解，以便您更好地了解：
 
 * 跨各种渠道的营销支出和产生的效果，以及
 * 建议的投资水平，以实现未来的业务目标。
 
 
-要完成此功能，Adobe组合建模器将结合使用：
+要完成此功能，Mix Modeler将结合使用：
 
 * 自下而上（事件级别）数据和自上而下（聚合级别）数据，
 * 外部市场因素及内部因素，以及
@@ -35,7 +35,7 @@ AI/ML双向传输学习将营销组合建模(MMM)和多接触点归因(MTA)结�
 
 ## 功能
 
-Adobe组合建模器提供以下功能：
+Mix Modeler提供以下功能：
 
 | 功能 | 描述 |
 |---|---|
