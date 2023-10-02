@@ -2,9 +2,9 @@
 title: 引入数据
 description: 了解如何将数据摄取到Mix Modeler。
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
-source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
+source-git-commit: 7778c235b4d34bc91869098961b053b2455ff5b3
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '459'
 ht-degree: 14%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 14%
 
 # 引入数据
 
-Adobe Mix Modeler可与事件级数据、来自不同封闭花园的营销工作成果数据以及来自任何其他来源（如离线广告、内部因素或外部因素）的汇总或摘要数据配合使用。
+Mix Modeler可与事件级数据、来自不同封闭花园的营销工作成果数据以及来自任何其他来源（如离线广告、内部因素或外部因素）的汇总或摘要数据配合使用。
 
 客户可以将摄取到Adobe Experience Platform中的任何类型的数据用作数据集，此类数据基于将XDM ExperienceEvent或XDM摘要量度用作基类的架构。
 
