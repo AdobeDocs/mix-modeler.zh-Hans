@@ -2,10 +2,10 @@
 title: 数据集
 description: 了解如何管理将数据摄取到Adobe组合建模器所需的数据集。
 feature: Datasets
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 17%
+source-wordcount: '66'
+ht-degree: 18%
 
 ---
 
@@ -19,3 +19,8 @@ ht-degree: 17%
 1. 选择 ![数据](../assets/icons/Data.svg) **[!UICONTROL Datasets]**，下 **[!UICONTROL DATA MANAGEMENT]**.
 
 请参阅 [数据集UI指南](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hans) 以了解更多信息。
+
+>[!MORELIKETHIS]
+>
+>* [引入数据](overview.md)
+>* [架构](schemas.md)

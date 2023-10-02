@@ -2,9 +2,9 @@
 title: 协调数据
 description: 了解如何在Adobe组合建模器中协调数据。
 feature: Harmonized Data
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '804'
 ht-degree: 16%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 16%
 
 根据数据源的不同，Adobe混合建模器中的数据具有不同的性质。 数据可以是：
 
-* 汇总数据，例如从围墙花园数据源收集的，
+* 聚合数据，例如从围墙花园数据源收集的数据，或者从运行广告牌营销活动、事件或物理广告营销活动收集的离线广告数据（如支出），
 * 事件数据，例如来自第一方数据源的事件数据。 此事件数据可以是通过Adobe Analytics源连接器从Adobe Analytics收集的数据，也可以是通过Adobe Experience Platform Web或移动SDK或边缘网络API收集的数据，或使用源连接器摄取的数据。
 
 Adobe组合Modeler的协调服务可将聚合和事件数据吸收到一致的数据视图中。 此数据视图是Adobe组合建模器中的计划和模型的源。
