@@ -2,13 +2,13 @@
 title: 计划
 description: 了解如何在Mix Modeler中查看、选择和操作计划。
 feature: Plans
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 2%
 
 ---
-
 
 # 计划
 
@@ -45,7 +45,7 @@ Mix Modeler中的计划允许您按业务部门和渠道分配预算。 计划�
 
 您可以选择一个或多个计划，这会显示“计划”操作栏。 通过操作栏，您可以删除、比较或复制计划。
 
-要删除“计划”表格中的所有选择，请选择 ![关闭](../assets/icons/Close.svg) 在操作栏中
+要删除“计划”表中的所有选择，请选择 ![关闭](../assets/icons/Close.svg) 在操作栏中
 
 ![计划操作栏](../assets/plans-action-bar.png)
 
@@ -69,7 +69,8 @@ Mix Modeler中的计划允许您按业务部门和渠道分配预算。 计划�
 要删除计划，请执行以下操作：
 
 1. 从表中选择一个或多个计划。
-1. 选择 ![删除](../assets/icons/Delete.svg) **[!UICONTROL Delete]** 从操作栏中。 您的计划将立即删除。
+1. 选择 ![删除](../assets/icons/Delete.svg) **[!UICONTROL Delete]** 从操作栏中。
 
-
-
+   >[!WARNING]
+   >
+   >   立即删除所选的计划！

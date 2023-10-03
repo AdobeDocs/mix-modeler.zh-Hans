@@ -2,33 +2,33 @@
 title: 引入数据
 description: 了解如何将数据摄取到Mix Modeler。
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
-source-git-commit: 7778c235b4d34bc91869098961b053b2455ff5b3
+exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '453'
 ht-degree: 14%
 
 ---
-
 
 # 引入数据
 
 Mix Modeler可与事件级数据、来自不同封闭花园的营销工作成果数据以及来自任何其他来源（如离线广告、内部因素或外部因素）的汇总或摘要数据配合使用。
 
-客户可以将摄取到Adobe Experience Platform中的任何类型的数据用作数据集，此类数据基于将XDM ExperienceEvent或XDM摘要量度用作基类的架构。
+客户可以将摄取到Experience Platform中的任何类型的数据用作数据集，此类数据基于将XDM ExperienceEvent或XDM摘要量度用作基类的架构。
 
 例如：
 
 * 使用Adobe Analytics源连接器收集并转换为符合Adobe Analytics架构的默认或自定义版本的数据集，或者，
-* 使用Adobe Experience Platform Web SDK、Mobile SDK或边缘网络服务器API收集的数据，用于收集Web、移动设备或任何其他类型设备上的客户交互。
+* 使用Experience PlatformWeb SDK、Mobile SDK或边缘网络服务器API收集的数据，用于收集Web、移动设备或任何其他类型设备上的客户交互。
 * 聚合来自封闭花园(如Facebook、YouTube)、流量源或离线广告数据的数据，
 * 包含对模型构建有用的内部或外部因素的非营销汇总或汇总数据。
 
-您可以使用Adobe Experience Platform支持的任何类型的机制来摄取体验事件级别、汇总营销工作数据和其他来源的数据。 例如Adobe Experience Platform SDK、API、源连接器以及流式摄取和批量摄取。
+您可以使用Experience Platform支持的任何类型的机制来从其他来源摄取体验事件级的数据、汇总营销工作数据和数据。 例如Experience PlatformSDK、API、源连接器以及流式摄取和批量摄取。
 
 
 ## 准则
 
-要将数据摄取到Adobe Experience Platform以用于Mix Modeler，请遵循以下准则：
+要将数据摄取到Experience Platform中以用于Mix Modeler，请遵循以下准则：
 
 * 添加到数据集的增量数据不应有任何重叠。
 * 来自单个源的所有数据都应具有相同的粒度。
@@ -80,7 +80,7 @@ Mix Modeler可与事件级数据、来自不同封闭花园的营销工作成果
 
 +++
 
-要在Mix Modeler中处理数据，您需要在Adobe Experience Platform中收集并仿照架构建模的数据。 通过Mix Modeler界面，可以轻松访问架构和数据集UI。
+要在Mix Modeler中处理数据，您需要在数据集中收集数据，并在Experience Platform中根据架构建模。 通过Mix Modeler界面，可以轻松访问架构和数据集UI。
 
 
 >[!MORELIKETHIS]

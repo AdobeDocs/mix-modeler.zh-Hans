@@ -1,14 +1,15 @@
 ---
 title: Mix Modeler指南
 description: 了解如何用 Mix Modeler 在所有渠道上衡量营销活动并全面优化规划。
+short-description: 了解如何用 Mix Modeler 在所有渠道上衡量营销活动并全面优化规划。
 feature: Harmonized Data, Models, Plans
-source-git-commit: 7778c235b4d34bc91869098961b053b2455ff5b3
+exl-id: 3427c338-f2a0-416b-bb4c-d8fef929c38a
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 18%
+source-wordcount: '112'
+ht-degree: 29%
 
 ---
-
 
 # Adobe混合建模器指南
 

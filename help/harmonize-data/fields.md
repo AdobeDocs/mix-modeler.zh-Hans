@@ -2,13 +2,13 @@
 title: 协调的字段
 description: 了解如何定义要用作协调Mix Modeler中数据一部分的字段。
 feature: Harmonized Data, Harmonized Fields
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: f051279a-1ae9-49bd-a946-abfc34c90413
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 10%
 
 ---
-
 
 # 协调的字段
 
@@ -126,5 +126,3 @@ Mix Modeler中默认可用的全局协调字段包括：
 1. 例如，选择要删除的协调字段 **[!UICONTROL Region]**.
 
 1. 选择 ![删除](../assets/icons/Delete.svg) **[!UICONTROL Delete]** 从 **[!UICONTROL Edit harmonization values]** 左窗格。
-
-

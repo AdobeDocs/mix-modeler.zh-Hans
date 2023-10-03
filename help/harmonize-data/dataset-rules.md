@@ -2,13 +2,13 @@
 title: 数据集规则
 description: 了解如何定义要用作协调Mix Modeler中数据一部分的数据集规则。
 feature: Harmonized Data, Dataset Rules
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 0%
 
 ---
-
 
 # 数据集规则
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
       ![创建数据集规则](../assets/dataset-create-summary.png)
 
-1. 选择事件类型的数据集后，位于下面的阴影框中 **[!UICONTROL Map to harmonized fields]**：
+1. 选择事件类型的数据集时(**[!UICONTROL Experience Events]**， **[!UICONTROL Adobe Analytics]**， **[!UICONTROL Consumer Experience Events]**)，在下面的阴影框中 **[!UICONTROL Map to harmonized fields]**：
 
    1. 从中选择协调字段 **[!UICONTROL Standard harmonized field]**.
 
@@ -132,4 +132,3 @@ ht-degree: 0%
 1. 选择 **[!UICONTROL Sync]** 根据定义的数据集规则在数据集中协调的数据和数据之间开始同步。 要取消同步，请选择 **[!UICONTROL Cancel]**.
 
    ![同步数据](../assets/sync-data.png)
-

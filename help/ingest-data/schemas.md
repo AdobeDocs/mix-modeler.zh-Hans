@@ -2,17 +2,17 @@
 title: 架构
 description: 了解如何管理将数据摄取到Mix Modeler所需的架构。
 feature: Schemas
-source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
+exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '345'
 ht-degree: 6%
 
 ---
 
-
 # 架构
 
-要管理架构，请支持要在Adobe Experience Platform中摄取并在Mix Modeler中使用的数据：
+要管理架构，请支持要在Experience Platform摄取并在Mix Modeler中使用的数据：
 
 1. 转到Mix Modeler界面。
 
@@ -40,7 +40,7 @@ ht-degree: 6%
 
 ![外部因素架构](../assets/external-factors-schema.png)
 
-此简单架构可用于摄取包含以下数据的数据集：
+此简单架构可用于摄取包含数据的数据集，例如：
 
 - 竞争者索引数据
 
@@ -63,7 +63,7 @@ ht-degree: 6%
   | ... | ... | ... | ... |
 
 
-有关更全面的示例，请参见下文 **[!DNL LumaPaidMarketingSchema]** 使用 **[!DNL XDM Summary Metrics]** 作为基类。 架构使用专用字段组（带颜色注释）进行量度(**[!DNL AMMMetrics]**)，尺寸(**[!DNL AMMDimensions]**)和其他特定于客户的信息(**[!DNL CustomerSpecific]**)。
+有关更全面的示例，请参见下文 **[!DNL LumaPaidMarketingSchema]** 使用 **[!DNL XDM Summary Metrics]** 作为基类。 架构使用专用字段组（带颜色注释）进行量度(**[!DNL AMMMetrics]**)，尺寸(**[!DNL AMMDimensions]**)，以及其他特定于客户的信息(**[!DNL CustomerSpecific]**)。
 
 ![概要架构](../assets/summary-schema.png)
 

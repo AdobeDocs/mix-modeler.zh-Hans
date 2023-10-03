@@ -1,20 +1,21 @@
 ---
 title: Mix Modeler概述
 description: 大致了解 Mix Modeler 的功能。
+short-description: 大致了解 Mix Modeler 的功能。
 feature: Plans, Harmonized Data, Models
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 5%
+source-wordcount: '270'
+ht-degree: 8%
 
 ---
 
-
 # Mix Modeler概述
 
-由Adobe Sensei提供支持的Mix Modeler功能，允许营销人员跨所有渠道（付费、免费和拥有）衡量促销活动并全面优化计划。 其统一的方法体系在营销接触点和聚合级别都进行递增式测量，同时确保完全一致的结果。
+由Adobe Sensei提供支持的Mix Modeler功能，允许营销人员跨所有渠道（付费、免费和拥有）衡量促销活动并全面优化计划。 其统一的方法体系会在营销接触点和聚合级别进行递增式测量，同时确保完全一致的结果。
 
-Mix Modeler通过数字营销和离线营销的全面（端到端）衡量应用程序，提供所有营销活动对业务和营销活动结果的增量影响。
+Mix Modeler通过数字和离线营销的全面（端到端）衡量应用程序，提供所有营销活动对业务和营销活动结果的增量影响。
 
 Mix Modeler在战略和战术层面提供以下类型的优化和可操作的见解，以便您更好地了解：
 
@@ -45,12 +46,3 @@ Mix Modeler提供以下功能：
 | **创建和比较预算方案** | 制定多个预算计划并比较其影响，以便为您的业务做出最佳决策。 |
 
 {style="table-layout:auto"}
-
-
-
-
-
-
-
-
-
