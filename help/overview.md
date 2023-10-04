@@ -4,10 +4,10 @@ description: 了解如何用 Mix Modeler 在所有渠道上衡量营销活动并
 short-description: 了解如何用 Mix Modeler 在所有渠道上衡量营销活动并全面优化规划。
 feature: Harmonized Data, Models, Plans
 exl-id: 3427c338-f2a0-416b-bb4c-d8fef929c38a
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: 5ade7901230b62a48a9e2320a992f566fa762ede
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 29%
+source-wordcount: '99'
+ht-degree: 33%
 
 ---
 
@@ -16,10 +16,6 @@ ht-degree: 29%
 ![横幅](assets/mix-modeler-banner.png)
 
 本技术文档指南为Adobe提供自助帮助 **混合建模器**. Mix Modeler是一种Adobe Experience Cloud应用程序，可跨所有渠道（付费、免费和拥有）测量营销活动并全面优化规划。 Mix Modeler是基于Adobe Experience Platform构建的，由Adobe Sensei提供支持。
-
->[!AVAILABILITY]
->
->该产品将于2023年晚些时候推出。 可在此处找到草稿文档。
 
 ## 开始使用
 
