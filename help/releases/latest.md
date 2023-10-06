@@ -1,6 +1,6 @@
 ---
 title: 查看当前Mix Modeler发行说明
-description: 最新的Mix Modeler发行说明
+description: 最新 Mix Modeler 发行说明
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
