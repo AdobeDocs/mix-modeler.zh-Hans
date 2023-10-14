@@ -4,14 +4,18 @@ description: 大致了解 Mix Modeler 的功能。
 short-description: 大致了解 Mix Modeler 的功能。
 feature: Plans, Harmonized Data, Models
 exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: 512cc28a9fab81438d54e30bb6e20f05da5265d1
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '282'
 ht-degree: 8%
 
 ---
 
 # Mix Modeler概述
+
+请观看此视频，以快速大致了解Mix Modeler功能。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424872/?learn=on)
 
 由Adobe Sensei提供支持的Mix Modeler功能，允许营销人员跨所有渠道（付费、免费和拥有）衡量促销活动并全面优化计划。 其统一的方法体系会在营销接触点和聚合级别进行递增式测量，同时确保完全一致的结果。
 
