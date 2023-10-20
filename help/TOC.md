@@ -2,10 +2,10 @@
 user-guide-title: Mix Modeler 指南
 breadcrumb-title: Mix Modeler 指南
 user-guide-description: 了解如何使用 Mix Modeler。
-source-git-commit: 7778c235b4d34bc91869098961b053b2455ff5b3
+source-git-commit: 101029c8b6095b3ec9842228913fac3720132cdf
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 55%
+source-wordcount: '70'
+ht-degree: 51%
 
 ---
 
@@ -31,6 +31,8 @@ ht-degree: 55%
 + 计划 {#plans}
    + [概述](plans/overview.md)
    + [创建计划](plans/create.md)
+   + [编辑计划](plans/edit.md)
+   + [比较计划](plans/compare.md)
 
 + 协调数据 {#harmonize-data}
    + [概述](harmonize-data/overview.md)

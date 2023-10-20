@@ -2,13 +2,13 @@
 title: 模型
 description: 了解如何在Mix Modeler中配置和使用模型。
 feature: Models
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
+source-git-commit: f445cb2b1ec04ffe9247e858c048587802bffe9c
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
-
 
 # 模型
 
@@ -16,7 +16,26 @@ Mix Modeler中的模型功能允许您配置、训练特定于您的业务目标
 
 这些模型基于您在Mix Modeler应用工作流程中创建的统一数据。
 
-要创建模型，请使用“混合建模器”步骤引导式模型配置流程，此流程可在选择时提供 **[!UICONTROL Guide me]**. 请参阅 [创建模型](create.md) 以了解更多详细信息。
+Mix Modeler模型是一种机器学习模型，用于根据营销人员的投资来测量和/或预测指定的结果。 营销接触点和摘要级别的数据可用作输入。 Mix Modeler允许您根据不同的变量集、维度和结果（如收入、销量、商机）创建模型的变体。
+
+模型需要：
+
+* 一次转换，
+* 一个或多个营销接触点（渠道），包括摘要级别的数据、营销接触点数据（事件数据）或两者，
+* 可配置的回看窗口用于
+* 可配置的培训窗口。
+
+模型可以选择包括：
+
+* 外部因素，
+* 内部因素，
+* 所谓的“先验分布”（概率分布表示数据在先或在观测该数据之前所具有的知识或不确定性），其按渠道对先前转化进行索引，
+* 支出份额，在营销数据稀疏时使用相对支出份额作为代理。
+
+
+## 创建模型
+
+要创建模型，请使用选择时提供的Mix Modeler逐步引导模型配置流程 **[!UICONTROL Guide me]**. 请参阅 [创建模型](create.md) 以了解更多详细信息。
 
 ## 管理模型
 
@@ -64,7 +83,7 @@ Mix Modeler中的模型功能允许您配置、训练特定于您的业务目标
 
 >[!NOTE]
 >
->此选择仅适用于训练成功的模型。
+>此选择仅适用于已成功训练的模型。
 >
 
 要查看模型的分析，请在Mix Modeler界面中：
@@ -74,5 +93,3 @@ Mix Modeler中的模型功能允许您配置、训练特定于您的业务目标
 1. 选择模型名称 **[!UICONTROL Last run status]** 之 <span style="color:green">●</span> **[!UICONTROL Success]** 从 **[!UICONTROL Models]** 表格。
 
 1. 从上下文菜单中，选择 **[!UICONTROL Model Insights]**. 您将被重定向到 [模型分析](insights.md).
-
-
