@@ -3,9 +3,9 @@ title: 计划
 description: 了解如何在Mix Modeler中查看、选择和操作计划。
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: f445cb2b1ec04ffe9247e858c048587802bffe9c
+source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '417'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,6 @@ Mix Modeler中的计划允许您按业务部门和渠道分配预算。 计划�
    | 列名称 | 详细信息 |
    |---|---|
    | 名称 | 计划的名称 |
-   | 描述 | 模型的描述 |
    | 模型 | 用作计划基础的模型。 |
    | Date range | 计划的完整日期范围。 |
    | 预算 | 计划的总预算。 |
@@ -62,6 +61,7 @@ Mix Modeler中的计划允许您按业务部门和渠道分配预算。 计划�
 ## 编辑计划
 
 要编辑计划，请从表中选择计划的名称。 请参阅 [编辑计划](edit.md) 以了解更多信息。
+
 
 ## 选择并对计划执行操作
 

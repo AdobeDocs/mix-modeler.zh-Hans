@@ -2,13 +2,13 @@
 title: 编辑计划
 description: 了解如何在Mix Modeler中编辑计划。
 feature: Plans
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: 91385595-284f-4fcb-b54b-9539905e552b
+source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
-
 
 # 编辑计划
 
@@ -16,13 +16,24 @@ ht-degree: 0%
 
 在 [!UICONTROL Plan insights]，即会创建您的计划洞察，并显示 [!UICONTROL Model]， [!UICONTROL Data range]、和 [!UICONTROL Total budget] 计划的基础。
 
-完成检索后，您将看到计划概述以及的可视化图表 [!UICONTROL Forecasted ROI] 和 [!UICONTROL Forecasted revenue].
+完成检索后，您将看到计划的概览，包括：
+
+- [!UICONTROL Forecasted paid channel ROI] 可视化
+- [!UICONTROL Forecasted revenue] 可视化
+- [!UICONTROL Data range breakdown] 计划表，显示以下列
+
+   - 渠道
+   - ROI
+   - CPA
+   - 收入
+   - 转化目标
+   - 支出
+
+![计划概览](../assets/overview-plan.png)
 
 1. 选择 **[!UICONTROL Close]** 以返回到“计划”界面。
 
-1. （可选）选择 **[!UICONTROL Plan breakdown]** 以查看计划的划分表。
-
-   ![计划概览](../assets/overview-plan.png)
+1. 要下载包含日期范围划分数据的CSV文件，请选择 ![下载](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
 
 1. 要编辑计划，请选择 **[!UICONTROL Edit plan]**：
 
@@ -65,4 +76,3 @@ ht-degree: 0%
 1. 要取消计划更新，请选择 **[!UICONTROL Cancel]**.
 
    在 **[!UICONTROL No work will be saved]** 对话框，选择 **[!UICONTROL Cancel]** 继续制定计划或选择 **[!UICONTROL OK]** 以返回到“计划”界面。
-

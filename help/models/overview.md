@@ -3,9 +3,9 @@ title: 模型
 description: 了解如何在Mix Modeler中配置和使用模型。
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: f445cb2b1ec04ffe9247e858c048587802bffe9c
+source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
@@ -52,10 +52,9 @@ Mix Modeler模型是一种机器学习模型，用于根据营销人员的投资
    | 名称 | 模型的名称 |
    | 描述 | 模型的描述 |
    | 转化事件 | 您为模型选择的转换。 |
-   | 数据集 | 模型用于训练和评分的数据集。 默认情况下，这是协调的数据集。 |
    | 运行频率 | 训练模型的运行频率。 |
    | 上次运行 | 模型上次训练的日期和时间。 |
-   | 上次运行状态 | 模型上次运行的状态。 <br/><span style="color:green">●</span> 成功<br/><span style="color:orange">●</span> 培训问题<br/> <span style="color:orange">●</span> 正在等待训练 <br/><span style="color:red">●</span> 失败 |
+   | 状态 | 模型上次运行的状态。 <br/><span style="color:green">●</span> 成功<br/><span style="color:orange">●</span> 培训问题<br/> <span style="color:orange">●</span> 正在等待训练 <br/><span style="color:red">●</span> 失败 |
 
    {style="table-layout:auto"}
 
@@ -73,9 +72,7 @@ Mix Modeler模型是一种机器学习模型，用于根据营销人员的投资
 
 要查看模型的更多详细信息，请执行以下操作：
 
-1. 选择要查看其更多详细信息的模型名称。
-
-1. 从上下文菜单中，选择 **[!UICONTROL More]**. 您会在右窗格中看到所选模型的详细信息。
+1. 选择 ![信息](../assets/icons/Info.svg) ，以便模型显示包含详细信息的弹出窗口。
 
 
 
@@ -93,3 +90,20 @@ Mix Modeler模型是一种机器学习模型，用于根据营销人员的投资
 1. 选择模型名称 **[!UICONTROL Last run status]** 之 <span style="color:green">●</span> **[!UICONTROL Success]** 从 **[!UICONTROL Models]** 表格。
 
 1. 从上下文菜单中，选择 **[!UICONTROL Model Insights]**. 您将被重定向到 [模型分析](insights.md).
+
+
+### 重新得分
+
+>[!NOTE]
+>
+>此选择仅适用于已成功训练的模型。
+>
+
+要重新对模型计分，请在Mix Modeler界面中：
+
+1. 选择 ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** 从左边栏开始。
+
+1. 选择模型名称 **[!UICONTROL Last run status]** 之 <span style="color:green">●</span> **[!UICONTROL Success]** 从 **[!UICONTROL Models]** 表格。
+
+1. 从上下文菜单中，选择 **[!UICONTROL Re-score]**. 显示模型的更新状态可能需要几分钟的时间。
+

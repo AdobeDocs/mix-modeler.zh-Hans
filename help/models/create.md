@@ -3,7 +3,7 @@ title: 创建模型
 description: 了解如何在Mix Modeler中创建模型。
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: eab3818b97bf65164eb586bc443a970794583b55
+source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 创建模型
 
-要创建模型，请在 ![模型](../assets/icons/FileData.svg) **[!UICONTROL Models]** 界面中，选择Mix Modeler **[!UICONTROL Guide me]**.
+要创建模型，请在 ![模型](../assets/icons/FileData.svg) **[!UICONTROL Models]** 界面中，选择Mix Modeler **[!UICONTROL Open model canvas]**.
 
 为了构建自定义AI支持的模型，界面提供了分步引导式模型配置流程。
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
    1. 选择 **[!UICONTROL Next]** 以继续执行下一步。 选择 **[!UICONTROL Cancel]** 以取消模型配置。
 
-1. 在 **[!UICONTROL Configure]** 步骤：
+1. 在 **[!UICONTROL Configured]** 步骤：
 
    1. 在 **[!UICONTROL Conversion goal]** 部分，在容器中：
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
       * 要添加营销接触点容器，请选择 ![添加](../assets/icons/AddCircle.svg) **[!UICONTROL Add marketing touchpoint]**.
 
-      * 要删除营销接触点容器，请在容器中选择 ![更多](../assets/icons/More.svg) 并选择 **[!UICONTROL Remove container]** 从上下文菜单中。
+      * 要删除营销接触点容器，请在容器中选择 ![更多](../assets/icons/More.svg)，并选择 **[!UICONTROL Remove container]** 从上下文菜单中。
 
         ![模型 — 营销接触点 — 步骤](../assets/model-marketing-touchpoint-step.png)
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
       * 要添加符合条件的数据填充容器，请选择 ![添加](../assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**.
 
-      * 要删除符合条件的数据群体容器，请在容器中选择 ![更多](../assets/icons/More.svg) 并选择 **[!UICONTROL Remove container]** 从上下文菜单中。
+      * 要删除符合条件的数据群体容器，请在容器中选择 ![更多](../assets/icons/More.svg)，并选择 **[!UICONTROL Remove container]** 从上下文菜单中。
 
         ![模型 — 符合条件的数据群体](../assets/model-eligible-data-population-step.png)
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
       * 要添加额外的外部因素数据集容器，请选择 ![添加](../assets/icons/AddCircle.svg) **[!UICONTROL Add external factor]**.
 
-      * 要删除外部因子数据集容器，请在容器中选择 ![更多](../assets/icons/More.svg) 并选择 **[!UICONTROL Remove container]** 从上下文菜单中。
+      * 要删除外部因子数据集容器，请在容器中选择 ![更多](../assets/icons/More.svg)，并选择 **[!UICONTROL Remove container]** 从上下文菜单中。
 
         ![模型 — 外部因素数据集](../assets/model-external-factors-dataset-step.png)
 
@@ -101,7 +101,7 @@ ht-degree: 0%
 
       * 要添加其他内部因素数据集容器，请选择 ![添加](../assets/icons/AddCircle.svg) **[!UICONTROL Add internal factor]**.
 
-      * 要删除其他内部因子数据集容器，请在容器中选择 ![更多](../assets/icons/More.svg) 和 **[!UICONTROL Remove container]** 从上下文菜单中。
+      * 要删除其他内部因子数据集容器，请在容器中选择 ![更多](../assets/icons/More.svg)、和 **[!UICONTROL Remove container]** 从上下文菜单中。
 
         ![模型 — 内部因素数据集](../assets/model-internal-factors-dataset-step.png)
 
