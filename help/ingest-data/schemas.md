@@ -3,10 +3,10 @@ title: 架构
 description: 了解如何管理将数据摄取到Mix Modeler所需的架构。
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: e40d1eb484f3ee6d289adbe1355455bbb202825a
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 6%
+source-wordcount: '377'
+ht-degree: 3%
 
 ---
 
@@ -68,3 +68,18 @@ ht-degree: 6%
 ![概要架构](../assets/summary-schema.png)
 
 鉴于配置文件提取的异步性质，在从外部源收集聚合或摘要数据时，建议使用外部源系统审核详细信息字段组作为架构的一部分。 此字段组为外部源定义一组审核属性。
+
+
+## 支持的数据类型
+
+目前，Mix Modeler支持Experience Platform数据类型的子集。 以下基本数据类型（字段），如中所述 [模式组合基础](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type)支持：
+
+- 字符串
+- 整数
+- 多次
+- 布尔型
+- 长
+- 短
+- 字节
+- 日期
+- 日期时间
