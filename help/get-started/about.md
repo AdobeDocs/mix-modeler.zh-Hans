@@ -4,16 +4,16 @@ description: 大致了解 Mix Modeler 的功能。
 short-description: 大致了解 Mix Modeler 的功能。
 feature: Plans, Harmonized Data, Models
 exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
-source-git-commit: 512cc28a9fab81438d54e30bb6e20f05da5265d1
+source-git-commit: 18bb0bb50d5045536a58cb36cc9b99ccb9b17e25
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '287'
 ht-degree: 8%
 
 ---
 
 # Mix Modeler概述
 
-请观看此视频，以快速大致了解Mix Modeler功能。
+请观看此视频，以快速了解Mix Modeler功能。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3424872/?learn=on)
 
@@ -50,3 +50,7 @@ Mix Modeler提供以下功能：
 | **创建和比较预算方案** | 制定多个预算计划并比较其影响，以便为您的业务做出最佳决策。 |
 
 {style="table-layout:auto"}
+
+>[!MORELIKETHIS]
+>
+>[了解Mix Modeler工作流程](workflow.md)
