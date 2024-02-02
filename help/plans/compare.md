@@ -2,13 +2,13 @@
 title: 比较计划
 description: 了解如何在Mix Modeler中比较计划。
 feature: Plans
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: 40f6ade5-77eb-4ef7-ba60-4a2d2fcf1a60
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 2%
+source-wordcount: '102'
+ht-degree: 1%
 
 ---
-
 
 # 比较计划
 
@@ -23,9 +23,9 @@ ht-degree: 2%
 * 计划
 * Date range
 * 模型
-* 预算
-* 混合类型
-* 支出细分
+* 总预算
+* 渠道错误： **[!UICONTROL AI automated]** 或 **[!UICONTROL Custom + AI]**
+* 计划支出
 * 预测的ROI
 * ROI细分
 * 预测退货

@@ -3,10 +3,10 @@ title: 协调的字段
 description: 了解如何定义要用作协调Mix Modeler中数据一部分的字段。
 feature: Harmonized Data, Harmonized Fields
 exl-id: f051279a-1ae9-49bd-a946-abfc34c90413
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 10%
+source-wordcount: '685'
+ht-degree: 8%
 
 ---
 
@@ -57,7 +57,7 @@ Mix Modeler中默认可用的全局协调字段包括：
 
 1. 选择 ![数据搜索](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** 从左边栏开始。
 
-1. 选择 **[!UICONTROL Fields]** 从顶部栏中。 您会看到协调字段的表。
+1. 选择 **[!UICONTROL Fields]** 从顶部栏中。 您会看到协调字段的表。 如果有更多页面可用，请使用 ![向左箭头](../assets/icons/ChevronLeft.svg) 或 ![向右箭头](../assets/icons/ChevronRight.svg) 在 **[!UICONTROL Page _x _之_x_]** 在表的页面之间移动。
 
    表格列指定有关协调字段的详细信息
 
@@ -66,10 +66,10 @@ Mix Modeler中默认可用的全局协调字段包括：
    | 字段名称 | 协调字段的名称。 |
    | 显示名称 | 协调字段的显示名称。 此显示名称在定义数据集规则、营销接触点和转化定义时使用。 |
    | 类别 | 指定协调的数据字段是否为 [!UICONTROL Dimension]， a [!UICONTROL Metric] 或 [!UICONTROL Derived]. 派生类别是使用基于量度的公式定义的协调字段。 |
-   | 所有者 | 指示协调字段是否为默认字段([!UICONTROL Global])，或由您定义([!UICONTROL Client])。 |
    | 数据类型 | 指定数据类型([!UICONTROL Number]， [!UICONTROL String]， [!UICONTROL Currency]， [!UICONTROL DateTime])。 |
-   | 创建日期时间 | 创建协调字段的日期和时间。 |
-   | 上次修改的日期时间 | 上次修改协调字段的数据和时间。 |
+   | 创建日期 | 创建协调字段的日期和时间。 |
+   | 所有者 | 指示协调字段是否为默认字段([!UICONTROL Global])，或由您定义([!UICONTROL Client])。 |
+   | 上次修改日期 | 上次修改协调字段的数据和时间。 |
    | 公式 | 指定基于派生类别的协调字段的公式。 |
 
    {style="table-layout:auto"}
@@ -77,13 +77,11 @@ Mix Modeler中默认可用的全局协调字段包括：
 1. 要搜索特定的协调字段，请使用 ![Search](../assets/icons/Search.svg) **[!UICONTROL *搜索协调字段&#x200B;*]**.
 
 
-
-
 ### 添加协调字段
 
 为了添加一个统一的字段，请在 ![数据搜索](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Mix Modeler界面：
 
-1. 选择 ![添加](../assets/icons/AddCircle.svg)添加字段。
+1. 选择 ![添加](../assets/icons/AddCircle.svg) **[!UICONTROL Add field]**.
 
 1. 在 **[!UICONTROL Create]** 对话框：
 
@@ -105,13 +103,13 @@ Mix Modeler中默认可用的全局协调字段包括：
 
 ### 编辑协调的字段
 
-您只能编辑之前创建的协调字段。 您无法编辑全局协调字段。
+您只能编辑之前创建的协调字段（所有者是客户）。 您无法编辑全局协调字段。
 
 要编辑协调的字段，请在 ![数据搜索](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Mix Modeler界面：
 
 1. 选择要编辑的协调字段。 例如：**[!UICONTROL Region]**。
 
-1. 在 **[!UICONTROL Edit harmonization values]** 窗格，修改值 **[!UICONTROL Display name]**， **[!UICONTROL Category]**、和 **[!UICONTROL Data type]**.
+1. 在 **[!UICONTROL Edit harmonization values]** 窗格，修改值 **[!UICONTROL Display name]**， **[!UICONTROL Category]**、和 **[!UICONTROL Data type]**. 请参阅 [添加协调字段](#add-a-harmonized-field) 以了解更多信息。
 
 1. 选择 **[!UICONTROL Submit]** 将更改应用于协调字段。
 
@@ -119,10 +117,15 @@ Mix Modeler中默认可用的全局协调字段包括：
 
 ### 删除协调字段
 
-您只能删除之前创建的协调字段。 您不能删除全球协调字段。
+您只能删除之前创建的协调字段（所有者即客户）。 您不能删除全球协调字段。
 
 要删除协调字段，请在 ![数据搜索](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Mix Modeler界面：
 
 1. 例如，选择要删除的协调字段 **[!UICONTROL Region]**.
 
 1. 选择 ![删除](../assets/icons/Delete.svg) **[!UICONTROL Delete]** 从 **[!UICONTROL Edit harmonization values]** 左窗格。
+
+   >[!WARNING]
+   >
+   >   该字段将立即删除。
+

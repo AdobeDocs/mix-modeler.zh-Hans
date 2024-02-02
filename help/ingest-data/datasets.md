@@ -3,10 +3,10 @@ title: 数据集
 description: 了解如何管理将数据摄取到Mix Modeler所需的数据集。
 feature: Datasets
 exl-id: 788de24d-9021-48f8-87ab-09252b91276a
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 19%
+source-wordcount: '54'
+ht-degree: 5%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 19%
 
 1. 转到Mix Modeler界面。
 
-1. 选择 ![数据](../assets/icons/Data.svg) **[!UICONTROL Datasets]**，下 **[!UICONTROL DATA MANAGEMENT]**.
+1. 选择 ![数据](../assets/icons/Data.svg) **[!UICONTROL Datasets]**，下 **[!UICONTROL SETUP]**.
 
-请参阅 [数据集UI指南](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hans) 以了解更多信息。
+请参阅 [数据集UI指南](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en) 以了解更多信息。
 
 >[!MORELIKETHIS]
 >

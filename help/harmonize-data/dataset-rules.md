@@ -3,9 +3,9 @@ title: 数据集规则
 description: 了解如何定义要用作协调Mix Modeler中数据一部分的数据集规则。
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '980'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,15 @@ ht-degree: 0%
 * 对于事件数据，您可以直接或使用条件将一个或多个协调的字段单独映射到数据集中的字段。
 
 
-## 管理数据集规则和映射
+## 管理数据集规则
 
-要查看可用数据集映射的表，请在Mix Modeler界面中执行以下操作：
+要查看可用数据集规则的表，请在Mix Modeler界面中：
 
 1. 选择 ![数据搜索](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** 从左边栏开始。
 
-1. 选择 **[!UICONTROL Dataset rules]** 从顶部栏中。 您会看到数据集映射的表。
+1. 选择 **[!UICONTROL Dataset rules]** 从顶部栏中。 您会看到数据集规则的表。
 
-表列指定有关数据集映射的详细信息：
+表列指定有关数据集规则的详细信息：
 
 | 列名称 | 详细信息 |
 | ---------------------- | ----------|
@@ -35,33 +35,34 @@ ht-degree: 0%
 | 架构 | 数据集符合的架构。 您可以快速选择架构名称，以在“Mix Modeler — 架构”的架构编辑器的新选项卡中打开架构。 |
 | 粒度 | 数据集中的数据粒度。 可能的值包括“每日”、“每周”、“每月”或“每年”。 |
 | 一周开始 | 指定将一周中的哪一天视为特定数据集的新周的开始。 |
-| 上次修改时间 | 上次修改数据集映射的数据和时间。 |
+| 状态 | 字段的状态： <p><span style="color:gray">●</span> 草稿或 <p><span style="color:green">●</span> 活动 |
+| 上次修改时间 | 上次修改数据集规则的数据和时间。 |
 
 {style="table-layout:auto"}
 
-### 创建数据集映射
+### 创建数据集规则
 
-要创建数据集映射，请在 ![数据搜索](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** 界面中，选择Mix Modeler **[!UICONTROL Create Dataset Mapping]**.
+要创建数据集规则，请在 ![数据搜索](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** 界面中，选择Mix Modeler **[!UICONTROL Create Dataset rule]** 在 **[!UICONTROL Dataset rules configuration]** 向导。
 
 在 **[!UICONTROL Create]** 屏幕，
 
-1. 在 **[!UICONTROL Dataset Details]**，从中选择数据集 **[!UICONTROL Select dataset]** 以开始配置。
+1. 在 **[!UICONTROL Dataset details]**，从中选择数据集 **[!UICONTROL Select dataset]** 以开始配置。 在列表中，数据集分类为 **[!UICONTROL Consumer Experience Events]**， **[!UICONTROL Adobe Analytics]**， **[!UICONTROL Experience Event]** 和 **[!UICONTROL Summary]**.
 
 1. 选择日期 **[!UICONTROL Start of the week]**.
 
 1. 选择 **[!UICONTROL Daily]**， **[!UICONTROL Weekly]**， **[!UICONTROL Monthly]** 或 **[!UICONTROL Yearly]** 对象 **[!UICONTROL Granularity]**.
 
-1. 当您选择了 **[!UICONTROL Summary]** 数据集类型：
+1. 当您选择的数据集为 **[!UICONTROL Summary]** 类别：
 
-   1. 映射每个 **[!UICONTROL Available dataset fields]** 到对应的 **[!UICONTROL Standard harmonized fields]**. 如果不想将数据集字段映射到协调字段，请明确选择 **[!UICONTROL -- None --]**.
+   1. 映射每个 **[!UICONTROL Available dataset fields]** 到对应的 **[!UICONTROL Standard harmonized fields]** 在 **[!UICONTROL Map to harmonized fields]**. 如果不想将数据集字段映射到协调字段，请明确选择 **[!UICONTROL -- None --]**.
 
    1. 如果您需要新的协调字段，但无法从列表中获得，请选择 **[!UICONTROL Create New]** 创建新的协调字段。 您会看到中概述的对话框 [添加新的协调字段](fields.md#add-a-harmonized-field) 以快速添加新的协调字段。
 
-   1. 完成所有字段的映射后，选择 **[!UICONTROL Save]**. 选择 **[!UICONTROL Cancel]** 以取消映射。
+   1. 为规则的所有字段完成映射后，选择 **[!UICONTROL Save as draft]** 保存规则的草稿版本或 **[!UICONTROL Save]** 以保存并激活规则。  选择 **[!UICONTROL Cancel]** 以取消规则配置。
 
       ![创建数据集规则](../assets/dataset-create-summary.png)
 
-1. 选择事件类型的数据集时(**[!UICONTROL Experience Events]**， **[!UICONTROL Adobe Analytics]**， **[!UICONTROL Consumer Experience Events]**)，在下面的阴影框中 **[!UICONTROL Map to harmonized fields]**：
+1. 选择事件类别数据集后(**[!UICONTROL Experience Events]**， **[!UICONTROL Adobe Analytics]**， **[!UICONTROL Consumer Experience Events]**)，在下面的框中 **[!UICONTROL Map to harmonized fields]**：
 
    1. 从中选择协调字段 **[!UICONTROL Standard harmonized field]**.
 
@@ -93,7 +94,7 @@ ht-degree: 0%
 
       * 使用 **[!UICONTROL Map Into]** **[!UICONTROL Mapping type]** 以映射 **[!UICONTROL Channel Type At Source]** 将字段统一到 **[!UICONTROL channel_type]** 中的字段 **[!DNL Luma Transactions]** 数据集。
 
-      * 使用 **[!UICONTROL Case]** **[!UICONTROL Mapping]** 键入以有条件地映射 **[!UICONTROL marketing.campaignName]** 中的字段 **[!DNL Luma Transactions]** 数据集到 **[!UICONTROL Campaign]** 协调字段。 Campaign协调字段设置为：
+      * 使用 **[!UICONTROL Case]** **[!UICONTROL Mapping type]** 有条件地映射 **[!UICONTROL marketing.campaignName]** 中的字段 **[!DNL Luma Transactions]** 数据集到 **[!UICONTROL Campaign]** 协调字段。 Campaign协调字段设置为：
 
          * `Black Friday` 当 **[!UICONTROL marketing.campaignName]** 是 `_black_friday` 或 `BlackFriday`.
          * 至的值 **[!UICONTROL marketing.campaignName]** 在所有其他情况下。
@@ -102,23 +103,23 @@ ht-degree: 0%
 
 1. 选择 ![添加](../assets/icons/AddCircle.svg) **[!UICONTROL Add field]** 以定义附加字段。
 
-完成后，选择 **[!UICONTROL Save]** 以保存映射，或选择 **[!UICONTROL Cancel]** 以取消映射。
+完成后，选择 **[!UICONTROL Save as draft]** 保存规则的草稿版本或 **[!UICONTROL Save]** 以保存并激活规则。  选择 **[!UICONTROL Cancel]** 以取消规则配置。
 
 
-### 编辑数据集映射
+### 编辑数据集规则
 
-要编辑数据集映射，请在 ![数据搜索](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** 界面Mix Modeler：
+要编辑数据集规则，请在 ![数据搜索](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** 界面Mix Modeler：
 
-1. 选择 ![更多](../assets/icons/More.svg) 在 **[!UICONTROL Dataset]** 要编辑的数据集映射的列。
-1. 从上下文菜单中，选择 ![编辑](../assets/icons/Edit.svg) **[!UICONTROL Edit]** 以开始编辑数据集映射。 请参阅 [创建数据集映射](#create-a-dataset-mapping) 以了解更多详细信息。
+1. 选择 ![更多](../assets/icons/More.svg) 在 **[!UICONTROL Dataset]** 要编辑的数据集规则的列。
+1. 从上下文菜单中，选择 ![编辑](../assets/icons/Edit.svg) **[!UICONTROL Edit]** 以开始编辑数据集规则。 请参阅 [创建数据集规则](#create-a-dataset-rule) 以了解更多详细信息。
 
 
-### 删除数据集映射
+### 删除数据集规则
 
-要删除数据集映射，请在 ![数据搜索](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** 界面Mix Modeler：
+要删除数据集规则，请在 ![数据搜索](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** 界面Mix Modeler：
 
-1. 选择 ![更多](../assets/icons/More.svg) 在 **[!UICONTROL Dataset]** 要删除的数据集映射的列。
-1. 从上下文菜单中，选择 ![删除](../assets/icons/Delete.svg) **[!UICONTROL Delete]** 以删除数据集映射。
+1. 选择 ![更多](../assets/icons/More.svg) 在 **[!UICONTROL Dataset]** 要删除的数据集规则的列。
+1. 从上下文菜单中，选择 ![删除](../assets/icons/Delete.svg) **[!UICONTROL Delete]** 以删除数据集规则。 系统将提示您进行确认。 选择 **[!UICONTROL Delete]** 以永久删除选定的数据集规则。
 
 
 ## 同步数据
@@ -132,3 +133,27 @@ ht-degree: 0%
 1. 选择 **[!UICONTROL Sync]** 根据定义的数据集规则在数据集中协调的数据和数据之间开始同步。 要取消同步，请选择 **[!UICONTROL Cancel]**.
 
    ![同步数据](../assets/sync-data.png)
+
+
+## 数据合并首选项
+
+您可以定义首选项，以便在汇总来源和事件来源的数据合并在一起时解决冲突。 为此，请执行以下操作：
+
+1. 选择 ![数据合并首选项](../assets/icons/Merge.svg) **数据合并首选项**.
+
+1. 在 **[!UICONTROL Data merge preferences]** 对话框：
+
+   ![数据合并首选项](../assets/data-merge-preferences.png)
+
+   1. 从中选择一个默认量度首选项 **[!UICONTROL Default metric preference]** 列表。 <p>在协调期间，如果多个数据源尝试更新给定渠道的量度字段，则会应用默认首选项。 此首选项应用于沙盒级别，除非为以下位置定义的特定量度首选项覆盖 **[!UICONTROL Metric based preference]**.
+
+   1. 使用 ![加号](../assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]**，以便在下面添加一个或多个量度 **[!UICONTROL Metric based preference]**.
+
+
+
+      * 从中选择一个量度 **[!UICONTROL _量度选择_]** 列表，和
+      * 选择 **[!UICONTROL Summary]** 或 **[!UICONTROL Event]**。
+
+      使用 ![删除](../assets/icons/Close.svg) 从列表中删除条目。
+
+   1. 选择 **[!UICONTROL Save]** 以保存数据合并首选项。 选择 **[!UICONTROL Cancel]** 以取消。

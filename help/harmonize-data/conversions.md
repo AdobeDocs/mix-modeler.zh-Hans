@@ -2,13 +2,13 @@
 title: 转化
 description: 了解如何创建转化，以便在Mix Modeler中协调数据时使用。
 feature: Harmonized Data, Conversions
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: a8559426-452a-43e8-9a60-0c0bc97d863c
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 3%
+source-wordcount: '318'
+ht-degree: 1%
 
 ---
-
 
 # 转化
 
@@ -31,6 +31,7 @@ ht-degree: 3%
 | 名称 | 转换的名称。 |
 | 收入 | 用于计算转化收入的统一数据指标。 |
 | 转化量度 | 用作分析转化指标的协调数据指标。 |
+| 类别 | 转化的转化类别。 |
 | 已创建 | 创建转化的日期和时间。 |
 | 上次修改时间 | 上次修改转换的日期和时间。 |
 
@@ -42,13 +43,13 @@ ht-degree: 3%
 
 1. 选择 ![添加](../assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion]**.
 
-1. 在 **[!UICONTROL Create Conversion]** 对话框：
+1. 在 **[!UICONTROL Create conversion]** 对话框：
 
    1. 输入名称 **[!UICONTROL Conversion]**&#x200B;例如 `Store Conversions`.
 
    1. 定义 **[!UICONTROL Conversion category]**.
 
-      1. 从中选择值 **[!UICONTROL *选择协调……*]**例如 `Conversion Type`.
+      1. 从中选择值 **[!UICONTROL *选择协调……*]**例如 `Conversion types`.
 
       1. 选择运算符的值 ![V形](../assets/icons/ChevronDown.svg)例如 **[!UICONTROL is]**.
 
@@ -60,6 +61,23 @@ ht-degree: 3%
 
    1. 要创建转换，请选择 **[!UICONTROL Create]**. 要取消转换的创建，请选择 **[!UICONTROL Cancel]**.
 
-      ![替换文字](../assets/create-conversion.png)
+      ![替换文本](../assets/create-conversion.png)
 
 1. 创建后，转化会被添加到转化表中。
+
+
+## 查看转化
+
+要查看转换，请执行以下操作：
+
+1. 选择 ![更多](../assets/icons/More.svg) 将鼠标悬停在表中的转化名称上时，出现此错误。
+
+1. 选择 ![视图](../assets/icons/ViewDetail.svg) **视图**. 此时将显示一个对话框，其中显示了转换的详细信息。 请参阅 [添加转化](#add-a-conversion) 以了解更多信息。 选择 **[!UICONTROL Cancel]** 以关闭对话框。
+
+
+## 删除转换
+
+要删除转换，请执行以下操作：
+
+1. 选择 ![删除](../assets/icons/Delete.svg) **删除** 将鼠标悬停在表中的转化名称上时，出现此错误。
+1. 在 **[!UICONTROL Delete conversion]** 对话框确认对话框选择 **[!UICONTROL Delete]** 以永久删除转换。

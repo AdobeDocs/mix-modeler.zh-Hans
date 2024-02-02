@@ -3,9 +3,9 @@ title: 创建计划
 description: 了解如何在Mix Modeler中创建计划。
 feature: Plans
 exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
-source-git-commit: f445cb2b1ec04ffe9247e858c048587802bffe9c
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
       1. 输入 **[!UICONTROL Plan name]**&#x200B;例如 `Demo plan`. 输入 **[!UICONTROL Description]**&#x200B;例如 `Demo plan for Luma company`.
       1. 选择 **[!UICONTROL Model]** 从 **[!UICONTROL _选择一个选项……_.]**.
-      1. 您可以选择 ![链接输出](../assets/icons/LinkOut.svg) **[!UICONTROL Create model]** 在计划创建中直接创建模型。
+      1. 您可以选择 ![链接输出](../assets/icons/LinkOut.svg) **[!UICONTROL Create model]** 在计划创建中直接创建模型。 这将在您的浏览器中打开一个新选项卡，并显示 [模型](../models/overview.md) 界面。
 
          ![计划设置](../assets/plan-setup.png)
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
    * 选择 <img src="../assets/icons/NewPlan.svg" width="25" /> **[!UICONTROL Create plan now]** 如果要生成具有预测的ROI的AI推荐计划，请执行以下操作。
 
-     选择 **[!UICONTROL OK]**。您的计划已创建。
+     选择 **[!UICONTROL OK]**. 您的计划已创建。
 
 
    * 选择 ![表编辑](../assets/icons/TableEdit.svg) **[!UICONTROL Edit channel budgets first]** 如果您要在创建具有预测ROI的计划之前编辑渠道预算。
@@ -70,4 +70,4 @@ ht-degree: 0%
 
    1. 完成后，选择 **[!UICONTROL Create]**.
 
-   1. 在 **[!UICONTROL Create plan]** 对话框，选择 **[!UICONTROL Create plan]** 以创建您的计划。 选择 **[!UICONTROL Cancel]** 以取消计划的创建。
+   1. 在 **[!UICONTROL Create plan]** 对话框，选择 **[!UICONTROL Create plan]** 以创建您的计划。 选择 **[!UICONTROL Cancel]** 以取消计划的创建。 A **[!UICONTROL No work is saved]** 将显示对话框以确认。

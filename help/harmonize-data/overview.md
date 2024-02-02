@@ -3,10 +3,10 @@ title: 协调数据
 description: 了解如何在Mix Modeler中协调数据。
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 16%
+source-wordcount: '854'
+ht-degree: 7%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 16%
 * 聚合或摘要数据，例如从围墙花园数据源收集的数据，或通过运行广告牌营销活动、事件或物理广告营销活动收集的离线广告数据（如支出），
 * 事件数据，例如来自第一方数据源的事件数据。 此事件数据可以是通过Adobe Analytics源连接器从Adobe Analytics收集的数据，也可以是通过Experience PlatformWeb或移动SDK或边缘网络API收集的数据，或使用源连接器摄取的数据。
 
-Mix Modeler的协调服务将聚合和事件数据吸收到一致的数据视图中。 此数据视图是Mix Modeler中计划和模型的源。
+Mix Modeler的协调服务将聚合和事件数据吸收到一致的数据视图中。 此数据视图与内部和外部因素数据相结合，是Mix Modeler中模型的来源。
 
 ## 统一数据的示例
 
@@ -69,7 +69,7 @@ Mix Modeler的协调服务将聚合和事件数据吸收到一致的数据视图
 
 客户提供的示例体验事件数据集（Web SDK事件）。
 
-| 时间戳 | 身份命名空间 | 身份ID | 渠道 | 点击次数 |
+| 时间戳 | 标识命名空间 | 身份ID | 渠道 | 点击次数 |
 |--- |--- |--- |--- |---:|
 | 01-01-2022 00:01:01.000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | CSE | 1 |
 | 01-01-2022 00:01:01.000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | CSE | 1 |
@@ -122,7 +122,7 @@ Mix Modeler的协调服务将聚合和事件数据吸收到一致的数据视图
 
    1. 要重新定义协调数据重算所依据的期间，请输入日期范围 **[!UICONTROL Date range]** 或使用 ![日历](../assets/icons/Calendar.svg) 以选择数据范围。
 
-   1. 要修改“协调数据”表中显示的协调字段列，请使用 ![设置](../assets/icons/Setting.svg) 以打开 **[!UICONTROL Column settings]** 对话框。
+   1. 要修改“协调”数据表中显示的协调字段列，请使用 ![设置](../assets/icons/Setting.svg) 以打开 **[!UICONTROL Column settings]** 对话框。
 
       1. 选择 ![选择框](../assets/icons/SelectBox.svg) 来自的一个或多个列 **[!UICONTROL AVAILABLE COLUMNS]** 和使用 ![V形向右](../assets/icons/ChevronRight.svg) 以将这些列添加到 **[!UICONTROL SELECTED COLUMNS]**.
 
@@ -133,3 +133,5 @@ Mix Modeler的协调服务将聚合和事件数据吸收到一致的数据视图
       1. 要更改列的显示顺序，可以将列移入 **[!UICONTROL SELECTED COLUMNS]** 通过拖放来上下移动。
 
    1. 选择 **[!UICONTROL Submit]** 以提交列设置更改。 选择 **[!UICONTROL Close]** 取消您所做的任何更改。
+
+1. 如果有更多页面可用，请使用 ![向左箭头](../assets/icons/ChevronLeft.svg) 或 ![向右箭头](../assets/icons/ChevronRight.svg) 在 **[!UICONTROL Page _x _之_x_]** 以在页面之间移动。

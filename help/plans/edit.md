@@ -3,9 +3,9 @@ title: 编辑计划
 description: 了解如何在Mix Modeler中编辑计划。
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
+source-git-commit: cbe4b4bf17773a42e4a13d4777443e5f1f50dc6e
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,11 @@ ht-degree: 0%
 
 1. 选择 **[!UICONTROL Close]** 以返回到“计划”界面。
 
+1. 选择 **[!UICONTROL X]** 或 **[!UICONTROL  %]** 操作说明 **[!UICONTROL View ROI]**.
+
 1. 要下载包含日期范围划分数据的CSV文件，请选择 ![下载](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
+
+1. 要查看按渠道类别划分的日期范围细分，请选择 **[!UICONTROL All channels]**， **[!UICONTROL Paid channels]**，或 **[!UICONTROL Non-paid channels]** 从 **[!UICONTROL View]** 选择。
 
 1. 要编辑计划，请选择 **[!UICONTROL Edit plan]**：
 

@@ -3,7 +3,7 @@ title: 架构
 description: 了解如何管理将数据摄取到Mix Modeler所需的架构。
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-source-git-commit: e40d1eb484f3ee6d289adbe1355455bbb202825a
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 3%
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 1. 转到Mix Modeler界面。
 
-1. 选择 ![架构](../assets/icons/Schemas.svg) **[!UICONTROL Schemas]**，下 **[!UICONTROL DATA MANAGEMENT]**.
+1. 选择 ![架构](../assets/icons/Schemas.svg) **[!UICONTROL Schemas]**，下 **[!UICONTROL SETUP]**.
 
 请参阅 [架构UI概述](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en) 以了解更多信息。
 

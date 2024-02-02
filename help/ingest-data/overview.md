@@ -3,10 +3,10 @@ title: 引入数据
 description: 了解如何将数据摄取到Mix Modeler。
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: 1dbdee00f518d98241fc042e2aabc0e40d5a9153
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 14%
+source-wordcount: '459'
+ht-degree: 8%
 
 ---
 
@@ -80,7 +80,7 @@ Mix Modeler可与事件级数据、来自不同封闭花园的oe汇总营销成�
 
 +++
 
-要在Mix Modeler中处理数据，您需要在数据集中收集数据，并在Experience Platform中根据架构建模。 通过Mix Modeler界面，可以轻松访问架构和数据集UI。
+要在Mix Modeler中处理数据，您需要在数据集中收集数据，并在Experience Platform中根据架构建模。 通过Mix Modeler界面可轻松访问Experience Platform架构和数据集UI。
 
 
 >[!MORELIKETHIS]
