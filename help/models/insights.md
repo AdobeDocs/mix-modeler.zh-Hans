@@ -3,9 +3,9 @@ title: 模型分析
 description: 了解如何获取有关模型的详细信息，如Mix Modeler中的历史概述、模型见解和模型质量。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
+source-git-commit: 17d4609f251808f68372185ac90530e164024b5f
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -51,11 +51,15 @@ ht-degree: 0%
 
 * 营销绩效摘要。
 
+* 边际响应曲线。
+
 ![模型 — 模型洞察](../assets/model-model-insights.png)
 
 您可以将鼠标悬停在每个小组件中的单个图表元素上，以显示包含更多详细信息的弹出框。
 
 要下载包含构件数据的CSV文件，请选择 ![下载](../assets/icons/Download.svg).
+
+要以Microsoft®Excel格式下载完整的模型分析数据，请选择 ![下载](../assets/icons/Download.svg) **[!UICONTROL Download data]**.
 
 
 
