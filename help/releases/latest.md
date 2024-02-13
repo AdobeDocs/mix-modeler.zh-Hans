@@ -4,9 +4,9 @@ description: 最新 Mix Modeler 发行说明
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 17d4609f251808f68372185ac90530e164024b5f
+source-git-commit: 651f8e485f7dff0c4388aa3fdf26d93adb0d7d0f
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '164'
 ht-degree: 6%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 6%
 | **增强的下载功能** | 您现在可以 [下载完整的模型分析](../models/insights.md) 在Microsoft®，Excel格式 | 2024年1月31日 |
 | **边际响应曲线** | [模型洞察](../models/insights.md) 提供了一个额外的构件来显示边际响应曲线。 | 2024年1月31日 |
 | **数据合并首选项** | 您可以定义 [数据合并首选项](../harmonize-data/dataset-rules.md#data-merge-preferences) 用于协调数据集的数据集规则。 | 2024年1月31日 |
-| **使用情况报表** | 统一数据集UI还有一个 [使用情况报表](../harmonize-data/usage-report.md) 选项卡，提供有关模型和转化用法的更多见解。 | 202年1月31日 |
+| **使用情况报表** | 统一数据集UI还有一个 [使用情况报表](../harmonize-data/usage-report.md) 选项卡，提供有关模型和转化用法的更多见解。 | 2024年1月31日 |
 | **更新了计划分析UI** | 计划分析UI已更新，允许您选择要报告的ROI和渠道。 | 2024年1月31日 |
 
 {style="table-layout:auto"}
