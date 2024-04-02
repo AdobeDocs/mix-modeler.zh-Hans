@@ -3,9 +3,9 @@ title: 模型分析
 description: 了解如何获取有关模型的详细信息，如Mix Modeler中的历史概述、模型见解和模型质量。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 17d4609f251808f68372185ac90530e164024b5f
+source-git-commit: 4f4c7f05e90d73a0ab4865150b1ec4c2af88fc12
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -62,18 +62,29 @@ ht-degree: 0%
 要以Microsoft®Excel格式下载完整的模型分析数据，请选择 ![下载](../assets/icons/Download.svg) **[!UICONTROL Download data]**.
 
 
-
-
 ## 模型质量
 
-“模型质量”选项卡显示用于测量的构件：
+![模型质量评估](/help/assets/model-quality-assessment.png)
+模型质量选项卡显示
 
-* R2（R平方），它表明数据拟合回归模型（拟合优度）的程度。
+* [!UICONTROL Model Assessment] 可视化，可按实际转化与预测转化或残差转化进行划分。
 
-* MAPE（平均绝对误差百分比），最常用于测量预测准确度的KPI之一，它以实际值的百分比表示预测误差。
+  要划分可视化图表，请选择 **[!UICONTROL Actual vs. Predicted]** 或 **[!UICONTROL Residuals]** 从 **[!UICONTROL Breakdown]** 列表。
 
-* RMSE（均方根误差）：显示平均“误差”，根据误差的平方进行加权。
+* [!UICONTROL Model fitting metrics] 表，其中显示每个转化指标的以下列：
 
-![模型质量](../assets/model-quality.png)
+   * 实际转化
 
-要下载包含构件数据的CSV文件，请选择 ![更多](../assets/icons/More.svg) 在小部件中，从上下文菜单中选择 ![下载](../assets/icons/Download.svg) **[!UICONTROL Download as CSV]**.
+   * 模型化转化
+
+   * 剩余转化（实际转化与模型转化之间的差异）
+
+   * 模型质量得分值：
+
+      * R2（R平方），它表明数据拟合回归模型（拟合优度）的程度。
+
+      * MAPE（平均绝对误差百分比），最常用于测量预测准确度的KPI之一，它以实际值的百分比表示预测误差。
+
+      * RMSE（均方根误差）：显示平均“误差”，根据误差的平方进行加权。
+
+  要下载包含该表数据的CSV文件，请选择 ![下载](../assets/icons/Download.svg).

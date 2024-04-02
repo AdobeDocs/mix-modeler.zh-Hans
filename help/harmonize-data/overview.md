@@ -3,9 +3,9 @@ title: 协调数据
 description: 了解如何在Mix Modeler中协调数据。
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: 4f4c7f05e90d73a0ab4865150b1ec4c2af88fc12
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '893'
 ht-degree: 7%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 7%
 * 聚合或摘要数据，例如从围墙花园数据源收集的数据，或通过运行广告牌营销活动、事件或物理广告营销活动收集的离线广告数据（如支出），
 * 事件数据，例如来自第一方数据源的事件数据。 此事件数据可以是通过Adobe Analytics源连接器从Adobe Analytics收集的数据，也可以是通过Experience PlatformWeb或移动SDK或边缘网络API收集的数据，或使用源连接器摄取的数据。
 
-Mix Modeler的协调服务将聚合和事件数据吸收到一致的数据视图中。 此数据视图与内部和外部因素数据相结合，是Mix Modeler中模型的来源。
+Mix Modeler的协调服务将聚合和事件数据吸收到一致的数据视图中。 此数据视图与内部和外部因素数据相结合，是Mix Modeler中模型的来源。 该服务在不同数据集上使用最高的粒度。 例如，如果一个数据集的粒度为每月，而其余数据集的粒度为每周和每日，则协调服务使用每月粒度创建一个数据视图。
 
 ## 统一数据的示例
 
@@ -118,7 +118,7 @@ Mix Modeler的协调服务将聚合和事件数据吸收到一致的数据视图
 
 1. 选择 ![数据搜索](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** 从左边栏开始。
 
-1. 选择 **[!UICONTROL Harmonized Data]** 从顶部栏中。 根据您定义的字段、数据集规则、营销接触点和转化，您可以看到协调数据的简述。
+1. 选择 **[!UICONTROL Harmonized Data]** 从顶部栏中。 系统将根据您定义的字段、数据集规则、营销接触点和转化显示协调数据的简述。
 
    1. 要重新定义协调数据重算所依据的期间，请输入日期范围 **[!UICONTROL Date range]** 或使用 ![日历](../assets/icons/Calendar.svg) 以选择数据范围。
 

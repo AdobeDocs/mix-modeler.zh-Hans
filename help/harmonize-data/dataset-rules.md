@@ -3,9 +3,9 @@ title: 数据集规则
 description: 了解如何定义要用作协调Mix Modeler中数据一部分的数据集规则。
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: 4f4c7f05e90d73a0ab4865150b1ec4c2af88fc12
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '998'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 在 **[!UICONTROL Create]** 屏幕，
 
-1. 在 **[!UICONTROL Dataset details]**，从中选择数据集 **[!UICONTROL Select dataset]** 以开始配置。 在列表中，数据集分类为 **[!UICONTROL Consumer Experience Events]**， **[!UICONTROL Adobe Analytics]**， **[!UICONTROL Experience Event]** 和 **[!UICONTROL Summary]**.
+1. 在 **[!UICONTROL Dataset details]**，从中选择数据集 **[!UICONTROL Select dataset]** 以开始配置。 在列表中，数据集分类为 **[!UICONTROL Consumer Experience Events]**， **[!UICONTROL Adobe Analytics]**， **[!UICONTROL Experience Event]** 和， **[!UICONTROL Summary]**.
 
 1. 选择日期 **[!UICONTROL Start of the week]**.
 
@@ -54,11 +54,13 @@ ht-degree: 0%
 
 1. 当您选择的数据集为 **[!UICONTROL Summary]** 类别：
 
+   1. 要定义数据集的数据是必须聚合还是正在替换现有数据，请选择 **[!UICONTROL Aggregation]** 或 **[!UICONTROL Replacement]** 对象 **[!UICONTROL Data restatement is by]**.
+
    1. 映射每个 **[!UICONTROL Available dataset fields]** 到对应的 **[!UICONTROL Standard harmonized fields]** 在 **[!UICONTROL Map to harmonized fields]**. 如果不想将数据集字段映射到协调字段，请明确选择 **[!UICONTROL -- None --]**.
 
    1. 如果您需要新的协调字段，但无法从列表中获得，请选择 **[!UICONTROL Create New]** 创建新的协调字段。 您会看到中概述的对话框 [添加新的协调字段](fields.md#add-a-harmonized-field) 以快速添加新的协调字段。
 
-   1. 为规则的所有字段完成映射后，选择 **[!UICONTROL Save as draft]** 保存规则的草稿版本或 **[!UICONTROL Save]** 以保存并激活规则。  选择 **[!UICONTROL Cancel]** 以取消规则配置。
+   1. 为规则的所有字段完成映射后，选择 **[!UICONTROL Save as draft]** 保存规则的草稿版本或 **[!UICONTROL Save]** 以保存并激活规则。 选择 **[!UICONTROL Cancel]** 以取消规则配置。
 
       ![创建数据集规则](../assets/dataset-create-summary.png)
 
@@ -103,7 +105,7 @@ ht-degree: 0%
 
 1. 选择 ![添加](../assets/icons/AddCircle.svg) **[!UICONTROL Add field]** 以定义附加字段。
 
-完成后，选择 **[!UICONTROL Save as draft]** 保存规则的草稿版本或 **[!UICONTROL Save]** 以保存并激活规则。  选择 **[!UICONTROL Cancel]** 以取消规则配置。
+完成后，选择 **[!UICONTROL Save as draft]** 保存规则的草稿版本或 **[!UICONTROL Save]** 以保存并激活规则。 选择 **[!UICONTROL Cancel]** 以取消规则配置。
 
 
 ### 编辑数据集规则
@@ -119,7 +121,7 @@ ht-degree: 0%
 要删除数据集规则，请在 ![数据搜索](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** 界面Mix Modeler：
 
 1. 选择 ![更多](../assets/icons/More.svg) 在 **[!UICONTROL Dataset]** 要删除的数据集规则的列。
-1. 从上下文菜单中，选择 ![删除](../assets/icons/Delete.svg) **[!UICONTROL Delete]** 以删除数据集规则。 系统将提示您进行确认。 选择 **[!UICONTROL Delete]** 以永久删除选定的数据集规则。
+1. 从上下文菜单中，选择 ![删除](../assets/icons/Delete.svg) **[!UICONTROL Delete]** 以删除数据集规则。 系统会提示您进行确认。 选择 **[!UICONTROL Delete]** 以永久删除选定的数据集规则。
 
 
 ## 同步数据
@@ -130,7 +132,7 @@ ht-degree: 0%
 
 1. 从 **[!UICONTROL Sync data for dataset rules]** 对话框，请选择 **[!UICONTROL Refresh harmonized data for summary datasets]**， **[!UICONTROL Refresh harmonized data for event datasets]**，或 **[!UICONTROL Refresh harmonized data for both summary + event datasets]**.
 
-1. 选择 **[!UICONTROL Sync]** 根据定义的数据集规则在数据集中协调的数据和数据之间开始同步。 要取消同步，请选择 **[!UICONTROL Cancel]**.
+1. 要根据定义的数据集规则在数据集中的协调数据和数据之间启动同步，请选择 **[!UICONTROL Sync]**. 要取消同步，请选择 **[!UICONTROL Cancel]**.
 
    ![同步数据](../assets/sync-data.png)
 
