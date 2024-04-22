@@ -3,9 +3,9 @@ title: 编辑计划
 description: 了解如何在Mix Modeler中编辑计划。
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: 3e2330ffe0337c4ac9ef09fda3cd611656179d29
+source-git-commit: 128a548af9b22e6b14794b1ba94def6431e97c51
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 1. 要下载包含日期范围划分数据的CSV文件，请选择 ![下载](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**. 从上下文菜单中：
 
-   - 选择 ![下载](../assets/icons/Download.svg) **[!UICONTROL Detailed CSV]** CSV格式的详细数据，或者
+   - 选择 ![下载](../assets/icons/Download.svg) **[!UICONTROL Detailed CSV]** CSV格式的详细数据。
    - 选择 ![下载](../assets/icons/Download.svg) **[!UICONTROL Summary CSV]** CSV格式的摘要数据。
 
    详细数据是按周划分键的细粒度数据。 摘要数据由模型提供的日期范围作为数据键。
