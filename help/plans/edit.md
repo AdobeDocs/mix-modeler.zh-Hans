@@ -3,9 +3,9 @@ title: 编辑计划
 description: 了解如何在Mix Modeler中编辑计划。
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: b2719da8b49441c00d86f47596546fd7341f16bd
+source-git-commit: 3e2330ffe0337c4ac9ef09fda3cd611656179d29
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,12 @@ ht-degree: 0%
 
 1. 选择 **[!UICONTROL X]** 或 **[!UICONTROL  %]** 操作说明 **[!UICONTROL View ROI]**.
 
-1. 要下载包含日期范围划分数据的CSV文件，请选择 ![下载](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**. 从上下文菜单中，选择 ![下载](../assets/icons/Download.svg) **[!UICONTROL Detailed CSV]** （对于CSV格式的详细数据），或者 ![下载](../assets/icons/Download.svg) **[!UICONTROL Summary CSV]** CSV格式的摘要数据。
+1. 要下载包含日期范围划分数据的CSV文件，请选择 ![下载](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**. 从上下文菜单中：
+
+   - 选择 ![下载](../assets/icons/Download.svg) **[!UICONTROL Detailed CSV]** CSV格式的详细数据，或者
+   - 选择 ![下载](../assets/icons/Download.svg) **[!UICONTROL Summary CSV]** CSV格式的摘要数据。
+
+   详细数据是按周划分键的细粒度数据。 摘要数据由模型提供的日期范围作为数据键。
 
 1. 要查看按渠道类别划分的日期范围细分，请选择 **[!UICONTROL All channels]**， **[!UICONTROL Paid channels]**，或 **[!UICONTROL Non-paid channels]** 从 **[!UICONTROL View]** 选择。
 
