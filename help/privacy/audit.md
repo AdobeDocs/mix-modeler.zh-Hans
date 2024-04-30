@@ -2,7 +2,7 @@
 title: 审核
 description: 了解如何审核Mix Modeler。
 feature: Administration
-source-git-commit: 44e37f385241d90da87e1fd85fb4ce9024b67250
+source-git-commit: e1ef6f2b54ae7c80cb115b417909b154b6153ce2
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 6%
@@ -50,3 +50,4 @@ ht-degree: 6%
 1. 要修改活动日志中显示的列，请选择 ![列](../assets/icons/ColumnSetting.svg) 和 **[!UICONTROL Customize table]** 对话框选择要显示的列。 选择 **[!UICONTROL Apply]** 要应用所选内容， **[!UICONTROL Cancel]** 以取消选择。
 
 1. 要下载审核日志，请选择 ![下载](../assets/icons/Download.svg) **[!UICONTROL Download log]**. 在 **[!UICONTROL Download log]** 对话框选择 **[!UICONTROL CSV]** 或 **[!UICONTROL JSON]** 作为格式，然后选择 **[!UICONTROL Download]**.
+
