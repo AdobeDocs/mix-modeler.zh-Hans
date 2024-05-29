@@ -4,18 +4,25 @@ description: 最新 Mix Modeler 发行说明
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 4f4c7f05e90d73a0ab4865150b1ec4c2af88fc12
+source-git-commit: e90ddd25ba7b78bd360096dda4e3af80304a5176
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 8%
+source-wordcount: '260'
+ht-degree: 9%
 
 ---
 
 # 当前Mix Modeler发行说明
 
-**上次更新**：2024年4月1日。
+**上次更新**：2024年5月29日
 
 这些发行说明涵盖最新版本的Mix Modeler。 Mix Modeler发布在持续交付模型上运行，该模型允许大约每月一次的发布频率。 因此，这些发行说明将会相应更新，因此请定期检查。
+
+## 2024 年 5 月
+
+| 功能 | 描述 | 正式发布 |
+|---|---|---|
+| **数据合并首选项** [!BADGE beta] | [数据合并首选项](../harmonize-data/dataset-rules.md#data-merge-preferences) 在合并来自汇总的数据和事件数据源的数据时协助解决冲突。 | 2024年5月29日 |
+| **字段级访问控制** | 定义数据集规则时，Experience Platform的 [基于属性的访问控制](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) 强制在 [字段级](../harmonize-data/dataset-rules.md#field-level-access-control). | 2024年5月29日 |
 
 
 ## 2024 年 4 月
@@ -42,4 +49,4 @@ ht-degree: 8%
 >[!MORELIKETHIS]
 >
 >* [Mix Modeler介绍](https://business.adobe.com/products/experience-platform/planning-and-measurement.html)
->* [Mix ModelerExperience League文档](https://experienceleague.adobe.com/en/docs/mix-modeler)
+>* [Mix ModelerExperience League文档](https://experienceleague.adobe.com/zh-hans/docs/mix-modeler)

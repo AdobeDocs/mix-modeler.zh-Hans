@@ -3,9 +3,9 @@ title: 数据集规则
 description: 了解如何定义要用作协调Mix Modeler中数据一部分的数据集规则。
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 4f4c7f05e90d73a0ab4865150b1ec4c2af88fc12
+source-git-commit: e86e0d64db01eb98c68c3f6877f5a7cc8b855b88
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1207'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,8 @@ ht-degree: 0%
 | 列名称 | 详细信息 |
 | ---------------------- | ----------|
 | 数据集 | 数据集的名称。 |
-| 来源 | 数据集的源，可以是Adobe Analytics、体验事件、摘要（汇总）或使用者体验事件。 |
-| 架构 | 数据集符合的架构。 您可以快速选择架构名称，以在“Mix Modeler — 架构”的架构编辑器的新选项卡中打开架构。 |
+| 来源 | 数据集的来源： Adobe Analytics、体验事件、摘要（汇总）或使用者体验事件。 |
+| 架构 | 数据集符合的架构。 您可以快速选择架构名称，以在架构编辑器的新选项卡中打开架构。 ![架构](../assets/icons/Schemas.svg) [架构](../ingest-data/schemas.md). |
 | 粒度 | 数据集中的数据粒度。 可能的值包括“每日”、“每周”、“每月”或“每年”。 |
 | 一周开始 | 指定将一周中的哪一天视为特定数据集的新周的开始。 |
 | 状态 | 字段的状态： <p><span style="color:gray">●</span> 草稿或 <p><span style="color:green">●</span> 活动 |
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 ### 创建数据集规则
 
-要创建数据集规则，请在 ![数据搜索](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** 界面中，选择Mix Modeler **[!UICONTROL Create Dataset rule]** 在 **[!UICONTROL Dataset rules configuration]** 向导。
+要创建数据集规则，请在 ![数据搜索](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** 界面中，选择Mix Modeler **[!UICONTROL Create a dataset rule]** 在 **[!UICONTROL Dataset rules configuration]** 向导。
 
 在 **[!UICONTROL Create]** 屏幕，
 
@@ -54,11 +54,11 @@ ht-degree: 0%
 
 1. 当您选择的数据集为 **[!UICONTROL Summary]** 类别：
 
-   1. 要定义数据集的数据是必须聚合还是正在替换现有数据，请选择 **[!UICONTROL Aggregation]** 或 **[!UICONTROL Replacement]** 对象 **[!UICONTROL Data restatement is by]**.
+   1. 要定义数据集的数据是聚合还是替换现有数据，请选择 **[!UICONTROL Aggregation]** 或 **[!UICONTROL Replacement]** 对象 **[!UICONTROL Data restatement is by]**.
 
    1. 映射每个 **[!UICONTROL Available dataset fields]** 到对应的 **[!UICONTROL Standard harmonized fields]** 在 **[!UICONTROL Map to harmonized fields]**. 如果不想将数据集字段映射到协调字段，请明确选择 **[!UICONTROL -- None --]**.
 
-   1. 如果您需要新的协调字段，但无法从列表中获得，请选择 **[!UICONTROL Create New]** 创建新的协调字段。 您会看到中概述的对话框 [添加新的协调字段](fields.md#add-a-harmonized-field) 以快速添加新的协调字段。
+   1. 如果您需要新的协调字段，但无法从列表中获得，请选择 **[!UICONTROL Create New]** 创建新的协调字段。 您会看到中概述的对话框 [添加新的协调字段](fields.md#add-a-harmonized-field).
 
    1. 为规则的所有字段完成映射后，选择 **[!UICONTROL Save as draft]** 保存规则的草稿版本或 **[!UICONTROL Save]** 以保存并激活规则。 选择 **[!UICONTROL Cancel]** 以取消规则配置。
 
@@ -80,9 +80,9 @@ ht-degree: 0%
 
       1. 当您选择后 **[!UICONTROL Map Into]**，选择 **[!UICONTROL Field]** 和 **[!UICONTROL *AEP数据集字段&#x200B;*]**或&#x200B;**[!UICONTROL Value]**和默认值，默认将协调字段映射到数据集字段或输入值。
 
-      1. 当您选择 **[!UICONTROL Case]**，选择 **[!UICONTROL Field]** 和 **[!UICONTROL *AEP数据集字段&#x200B;*]**或&#x200B;**[!UICONTROL Value]**和默认值，默认将协调字段映射到数据集字段或输入值。
+      1. 当您选择时 **[!UICONTROL Case]**，选择 **[!UICONTROL Field]** 和 **[!UICONTROL *AEP数据集字段&#x200B;*]**或&#x200B;**[!UICONTROL Value]**和默认值，默认将协调字段映射到数据集字段或输入值。
 
-         1. 此外，您还可以定义一个或多个情况，其中包含一个或多个条件以显式设置值。 每个条件都可以检查特定的 **[!UICONTROL *AEP数据集字段&#x200B;*]**是否&#x200B;**[!UICONTROL Exists]**或&#x200B;**[!UICONTROL Not Exists]**还是说&#x200B;**[!UICONTROL Contains]**，**[!UICONTROL Not Contains]**，**[!UICONTROL Equals]**，**[!UICONTROL Not Equals]**，**[!UICONTROL Starts With]**，或&#x200B;**[!UICONTROL Ends With]**输入的值**[!UICONTROL *&#x200B;输入输入值&#x200B;*]**.
+         1. 要显式设置值，可定义一个或多个情况，其中包含一个或多个条件。 每个条件都可以检查特定的 **[!UICONTROL *AEP数据集字段&#x200B;*]**是否&#x200B;**[!UICONTROL Exists]**或&#x200B;**[!UICONTROL Not Exists]**还是说&#x200B;**[!UICONTROL Contains]**，**[!UICONTROL Not Contains]**，**[!UICONTROL Equals]**，**[!UICONTROL Not Equals]**，**[!UICONTROL Starts With]**，或&#x200B;**[!UICONTROL Ends With]**输入的值**[!UICONTROL *&#x200B;输入输入值&#x200B;*]**.
 
          1. 要添加其他案例，请选择 ![添加](../assets/icons/AddCircle.svg) **[!UICONTROL Add case]**，要添加其他条件，请选择 ![添加](../assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**.
 
@@ -130,7 +130,10 @@ ht-degree: 0%
 
 1. 选择 **[!UICONTROL Sync data]**。
 
-1. 从 **[!UICONTROL Sync data for dataset rules]** 对话框，请选择 **[!UICONTROL Refresh harmonized data for summary datasets]**， **[!UICONTROL Refresh harmonized data for event datasets]**，或 **[!UICONTROL Refresh harmonized data for both summary + event datasets]**.
+1. 从 **[!UICONTROL Sync data for dataset rules]** 对话框，请选择
+   * **[!UICONTROL Refresh harmonized data for summary datasets]**，
+   * **[!UICONTROL Refresh harmonized data for event datasets]**，或
+   * **[!UICONTROL Refresh harmonized data for both summary + event datasets]**。
 
 1. 要根据定义的数据集规则在数据集中的协调数据和数据之间启动同步，请选择 **[!UICONTROL Sync]**. 要取消同步，请选择 **[!UICONTROL Cancel]**.
 
@@ -139,23 +142,49 @@ ht-degree: 0%
 
 ## 数据合并首选项
 
-您可以定义首选项，以便在汇总来源和事件来源的数据合并在一起时解决冲突。 为此，请执行以下操作：
+>[!NOTE]
+>
+>[!BADGE Beta]{type=Informative}
 
-1. 选择 ![数据合并首选项](../assets/icons/Merge.svg) **数据合并首选项**.
+数据合并首选项有助于在合并来自汇总的数据和事件数据源的数据时解决冲突。 用例包括：
+
+* 在多个数据集中测量和报告相同的广告量度，或
+* 某些数据集中的量度测量可能不完整，而另一个数据集可能是特定量度的超集，从而导致重复计数。
+
+要确保准确的模型预测，您可以定义数据合并首选项：
+
+1. 选择 ![数据合并首选项](../assets/icons/Merge.svg) [!BADGE beta] **数据合并首选项**.
 
 1. 在 **[!UICONTROL Data merge preferences]** 对话框：
 
    ![数据合并首选项](../assets/data-merge-preferences.png)
 
-   1. 从中选择一个默认量度首选项 **[!UICONTROL Default metric preference]** 列表。 <p>在协调期间，如果多个数据源尝试更新给定渠道的量度字段，则会应用默认首选项。 此首选项应用于沙盒级别，除非为以下位置定义的特定量度首选项覆盖 **[!UICONTROL Metric based preference]**.
+   * 选择 **[!UICONTROL Default metric preference]**. 在协调期间，如果多个数据源更新了给定渠道的量度字段，则会应用选定的默认量度首选项。 首选项应用于沙盒级别，除非针对基于特定量度的首选项被覆盖。
 
-   1. 使用 ![加号](../assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]**，以便在下面添加一个或多个量度 **[!UICONTROL Metric based preference]**.
+   * 要添加基于特定量度的首选项，请执行以下操作：
 
+      1. 选择 ![加号](../assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]**.
+         1. 从中选择一个量度 **[!UICONTROL *量度选择&#x200B;*]**列表。
+         1. 选择 **[!UICONTROL CHANNELS]** 或 **[!UICONTROL CONVERSION TYPES]**. 从列表中，选择 **[!UICONTROL All]** 或特定渠道或转化类型。
+         1. 选择 **[!UICONTROL Summary]** 或 **[!UICONTROL Event]** 指定在合并数据时是否首选度量使用摘要数据或事件数据（以及所有或所选渠道）。
 
+要添加一个或多个其他渠道或转化类型，请执行以下操作：
 
-      * 从中选择一个量度 **[!UICONTROL _量度选择_]** 列表，和
-      * 选择 **[!UICONTROL Summary]** 或 **[!UICONTROL Event]**。
+         1. 选择 ![加号](../assets/icons/AddCircle.svg) **[!UICONTROL Add a channel]** 或 ![加号](../assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion type]**.
+         1. 选择 **[!UICONTROL Summary]** 或 **[!UICONTROL Event]**。
 
-      使用 ![删除](../assets/icons/Close.svg) 从列表中删除条目。
+要删除渠道或转化类型，请执行以下操作： select ![交叉](../assets/icons/Close.svg).
 
-   1. 选择 **[!UICONTROL Save]** 以保存数据合并首选项。 选择 **[!UICONTROL Cancel]** 以取消。
+      1. 要添加基于首选项的更具体的量度，请重复上一步骤。
+
+   * 要删除基于现有特定量度的首选项，请选择 ![删除](../assets/icons/Delete.svg).
+
+1. 选择 **[!UICONTROL Save]** 以保存数据合并首选项。 数据重新同步已启动。 <br/>选择 **[!UICONTROL Cancel]** 以取消。
+
+## 字段级访问控制
+
+在为协调的数据集配置数据集规则时，Experience Platform [基于属性的访问控制](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) 在字段级别强制实施。 当标签附加到架构字段并启用拒绝您访问该字段的活动策略时，字段会受到限制。 因此：
+
+* 在创建数据集规则时，您看不到为您限制的架构字段，
+* 您无法查看或编辑受限制的一个或多个架构字段的映射。 在编辑或查看包含此类受限字段的数据集规则时，您会看到以下屏幕。
+  ![不允许操作](../assets/action-not-permitted.png)
