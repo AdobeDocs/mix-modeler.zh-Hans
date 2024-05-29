@@ -3,9 +3,9 @@ title: 数据集规则
 description: 了解如何定义要用作协调Mix Modeler中数据一部分的数据集规则。
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: e86e0d64db01eb98c68c3f6877f5a7cc8b855b88
+source-git-commit: 8b2939a84e8f20f775663f2c46184504e44216aa
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1094'
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!BADGE Beta]{type=Informative}
+>[!BADGE beta]{type=Informative}
 
 数据合并首选项有助于在合并来自汇总的数据和事件数据源的数据时解决冲突。 用例包括：
 
@@ -153,9 +153,9 @@ ht-degree: 0%
 
 要确保准确的模型预测，您可以定义数据合并首选项：
 
-1. 选择 ![数据合并首选项](../assets/icons/Merge.svg) [!BADGE beta] **数据合并首选项**.
+1. 选择 ![数据合并首选项](../assets/icons/Merge.svg) [!BADGE beta].
 
-1. 在 **[!UICONTROL Data merge preferences]** 对话框：
+1. 在 **[!UICONTROL Data merge preferences]** [!BADGE beta]{type=Informative}
 
    ![数据合并首选项](../assets/data-merge-preferences.png)
 
@@ -168,12 +168,12 @@ ht-degree: 0%
          1. 选择 **[!UICONTROL CHANNELS]** 或 **[!UICONTROL CONVERSION TYPES]**. 从列表中，选择 **[!UICONTROL All]** 或特定渠道或转化类型。
          1. 选择 **[!UICONTROL Summary]** 或 **[!UICONTROL Event]** 指定在合并数据时是否首选度量使用摘要数据或事件数据（以及所有或所选渠道）。
 
-要添加一个或多个其他渠道或转化类型，请执行以下操作：
+         要添加一个或多个其他渠道或转化类型，请执行以下操作：
 
          1. 选择 ![加号](../assets/icons/AddCircle.svg) **[!UICONTROL Add a channel]** 或 ![加号](../assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion type]**.
          1. 选择 **[!UICONTROL Summary]** 或 **[!UICONTROL Event]**。
 
-要删除渠道或转化类型，请执行以下操作： select ![交叉](../assets/icons/Close.svg).
+         要删除渠道或转化类型，请选择 ![交叉](../assets/icons/Close.svg).
 
       1. 要添加基于首选项的更具体的量度，请重复上一步骤。
 
@@ -181,10 +181,13 @@ ht-degree: 0%
 
 1. 选择 **[!UICONTROL Save]** 以保存数据合并首选项。 数据重新同步已启动。 <br/>选择 **[!UICONTROL Cancel]** 以取消。
 
-## 字段级访问控制
+<!--
+## Field-level access control
 
-在为协调的数据集配置数据集规则时，Experience Platform [基于属性的访问控制](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) 在字段级别强制实施。 当标签附加到架构字段并启用拒绝您访问该字段的活动策略时，字段会受到限制。 因此：
+When configuring dataset rules for harmonized datasets, Experience Platform's [attribute based access control](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) is enforced on a field-level. A field is restricted when a label is attached to a schema field and an active policy is enabled that denies access for you to that field. As a result:
 
-* 在创建数据集规则时，您看不到为您限制的架构字段，
-* 您无法查看或编辑受限制的一个或多个架构字段的映射。 在编辑或查看包含此类受限字段的数据集规则时，您会看到以下屏幕。
-  ![不允许操作](../assets/action-not-permitted.png)
+* you do not see the schema fields that are restricted for you when you create a dataset rule, 
+* you are not able to view or edit the mapping of one or more schema fields that are restricted for you. When you edit or view a dataset rule containing such restricted fields, you see the following screen.
+  ![Action not permitted](../assets/action-not-permitted.png)
+
+-->
