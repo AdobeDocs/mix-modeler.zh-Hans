@@ -3,9 +3,9 @@ title: 协调的字段
 description: 了解如何定义要用作协调Mix Modeler中数据一部分的字段。
 feature: Harmonized Data, Harmonized Fields
 exl-id: f051279a-1ae9-49bd-a946-abfc34c90413
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: fecb122f6e2e8ae532babd0e2964ad200174a032
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '687'
 ht-degree: 8%
 
 ---
@@ -66,7 +66,7 @@ Mix Modeler中默认可用的全局协调字段包括：
    | 字段名称 | 协调字段的名称。 |
    | 显示名称 | 协调字段的显示名称。 此显示名称在定义数据集规则、营销接触点和转化定义时使用。 |
    | 类别 | 指定协调的数据字段是否为 [!UICONTROL Dimension]， a [!UICONTROL Metric] 或 [!UICONTROL Derived]. 派生类别是使用基于量度的公式定义的协调字段。 |
-   | 数据类型 | 指定数据类型([!UICONTROL Number]， [!UICONTROL String]， [!UICONTROL Currency]， [!UICONTROL DateTime])。 |
+   | 数据类型 | 指定数据类型([!UICONTROL Number]， [!UICONTROL String]， [!UICONTROL Currency]， [!UICONTROL Date time])。 |
    | 创建日期 | 创建协调字段的日期和时间。 |
    | 所有者 | 指示协调字段是否为默认字段([!UICONTROL Global])，或由您定义([!UICONTROL Client])。 |
    | 上次修改日期 | 上次修改协调字段的数据和时间。 |
@@ -93,7 +93,7 @@ Mix Modeler中默认可用的全局协调字段包括：
 
    1. 选择 **[!UICONTROL Data type]**.
 
-      - **[!UICONTROL String]** 或 **[!UICONTROL DateTime]**，当选择的类别为Dimension时。
+      - **[!UICONTROL String]** 或 **[!UICONTROL Date time]**，当选择的类别为Dimension时。
       - **[!UICONTROL Number]** 或 **[!UICONTROL Currency]** 当选择的类别为“量度”或“派生”时。
 
    1. 选择 **[!UICONTROL Submit]** 添加协调字段。 选择 **[!UICONTROL Close]** 结束对话，但不添加协调字段。

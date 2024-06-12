@@ -4,9 +4,9 @@ description: 最新 Mix Modeler 发行说明
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 8b2939a84e8f20f775663f2c46184504e44216aa
+source-git-commit: cefa5ccc8850e4931b2d0acffe9ca5e8c3f92e00
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '285'
 ht-degree: 10%
 
 ---
@@ -17,6 +17,15 @@ ht-degree: 10%
 
 这些发行说明涵盖最新版本的Mix Modeler。 Mix Modeler发布在持续交付模型上运行，该模型允许大约每月一次的发布频率。 因此，这些发行说明将会相应更新，因此请定期检查。
 
+## 2024 年 6 月
+
+| 功能 | 描述 | 正式发布 |
+|---|---|---|
+| **字段级访问控制** | 定义数据集规则时，Experience Platform的 [基于属性的访问控制](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) 强制在 [字段级](../harmonize-data/dataset-rules.md#field-level-access-control). | 2024年6月12日 |
+| P **旧知识接触点** | 仅营销接触点，在 [!UICONTROL Configure] 步骤，可在 [[!UICONTROL Prior Knowledge]](../models/create.md) 部分。 | 2024年6月12日 |
+
+{style="table-layout:auto"}
+
 ## 2024 年 5 月
 
 | 功能 | 描述 | 正式发布 |
@@ -25,9 +34,7 @@ ht-degree: 10%
 
 {style="table-layout:auto"}
 
-<!--
-| **Field-level access control** | When defining dataset rules, Experience Platform's [attribute based access control](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) is enforced on a [field-level](../harmonize-data/dataset-rules.md#field-level-access-control). | May 29, 2024 |
--->
+
 
 
 ## 2024 年 4 月

@@ -3,9 +3,9 @@ title: 数据集规则
 description: 了解如何定义要用作协调Mix Modeler中数据一部分的数据集规则。
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 8b2939a84e8f20f775663f2c46184504e44216aa
+source-git-commit: a066cdff03eade86b09f03209a08ebfa2ab32e8e
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1210'
 ht-degree: 0%
 
 ---
@@ -159,7 +159,7 @@ ht-degree: 0%
 
    ![数据合并首选项](../assets/data-merge-preferences.png)
 
-   * 选择 **[!UICONTROL Default metric preference]**. 在协调期间，如果多个数据源更新了给定渠道的量度字段，则会应用选定的默认量度首选项。 首选项应用于沙盒级别，除非针对基于特定量度的首选项被覆盖。
+   * 选择 **[!UICONTROL Default metric preference]**. 在协调期间，如果多个数据源更新了给定渠道的量度字段，则会应用选定的默认量度首选项。 首选项应用于沙盒级别，除非针对基于特定量度的首选项被覆盖。 您可以选择 **[!UICONTROL Summary data]**， **[!UICONTROL Event data]** 和 **[!UICONTROL Sum of summmary and event data]**.
 
    * 要添加基于特定量度的首选项，请执行以下操作：
 
@@ -181,13 +181,11 @@ ht-degree: 0%
 
 1. 选择 **[!UICONTROL Save]** 以保存数据合并首选项。 数据重新同步已启动。 <br/>选择 **[!UICONTROL Cancel]** 以取消。
 
-<!--
-## Field-level access control
 
-When configuring dataset rules for harmonized datasets, Experience Platform's [attribute based access control](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) is enforced on a field-level. A field is restricted when a label is attached to a schema field and an active policy is enabled that denies access for you to that field. As a result:
+## 字段级访问控制
 
-* you do not see the schema fields that are restricted for you when you create a dataset rule, 
-* you are not able to view or edit the mapping of one or more schema fields that are restricted for you. When you edit or view a dataset rule containing such restricted fields, you see the following screen.
-  ![Action not permitted](../assets/action-not-permitted.png)
+在为协调的数据集配置数据集规则时，Experience Platform [基于属性的访问控制](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) 在字段级别强制实施。 当标签附加到架构字段并启用拒绝您访问该字段的活动策略时，字段会受到限制。 因此：
 
--->
+* 在创建数据集规则时，您看不到为您限制的架构字段，
+* 您无法查看或编辑受限制的一个或多个架构字段的映射。 在编辑或查看包含此类受限字段的数据集规则时，您会看到以下屏幕。
+  ![不允许操作](../assets/action-not-permitted.png)
