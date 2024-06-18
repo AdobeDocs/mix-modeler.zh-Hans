@@ -3,9 +3,9 @@ title: 比较计划
 description: 了解如何在Mix Modeler中比较计划。
 feature: Plans
 exl-id: 40f6ade5-77eb-4ef7-ba60-4a2d2fcf1a60
-source-git-commit: 18bb0bb50d5045536a58cb36cc9b99ccb9b17e25
+source-git-commit: eb7e964b96c87e74809d1e6182e45351a71ed13c
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '134'
 ht-degree: 1%
 
 ---
@@ -26,9 +26,15 @@ ht-degree: 1%
 * 总预算
 * 渠道预算： **[!UICONTROL AI automated]** 或 **[!UICONTROL Custom + AI]**
 * 计划支出
-* 预测的ROI
-* ROI细分
+* 预测的投资回报率(ROI)或CPA（每项操作的成本）
+* ROI（投资回报率）或CPA（每次操作的成本）细目
 * 预测退货
+
+其中：
+
+* ROI被定义为（递增收入 — 支出）/支出。
+* CPA被定义为支出/增量转化。
+
 
 ![比较计划](../assets/compare-plans.png)
 
