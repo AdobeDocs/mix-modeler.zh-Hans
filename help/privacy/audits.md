@@ -3,10 +3,10 @@ title: 审核
 description: 了解如何从Mix Modeler访问审核。
 feature: Administration
 exl-id: aa65aac5-bea4-43ff-b0d0-9e8a6a97d3ca
-source-git-commit: 28ab9273c1f606c8b685225f412d51ee305b5f31
+source-git-commit: c45f4e4412258f959726c49129c6b9b6fff48f4a
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 7%
+source-wordcount: '315'
+ht-degree: 6%
 
 ---
 
@@ -37,6 +37,15 @@ ht-degree: 7%
    | Mix Modeler模型 | 创建 | 允许或拒绝 |
    | Mix Modeler模型 | 更新 | 允许或拒绝 |
    | Mix Modeler模型 | Delete | 允许或拒绝 |
+   | Mix Modeler模型 | 重新得分 | 允许或拒绝 |
+   | Mix Modeler模型 | 克隆 | 允许或拒绝 |
+   | Mix Modeler模型 | 培训/重新培训 | 允许或拒绝 |
+   | Mix Modeler模型 | 下载/保存元数据 | 允许或拒绝 |
+   | Mix Modeler计划 | 创建 | 允许或拒绝 |
+   | Mix Modeler计划 | 更新 | 允许或拒绝 |
+   | Mix Modeler计划 | 更改关联的模型 | 允许或拒绝 |
+   | Mix Modeler数据协调 | 触发器同步 | 允许或拒绝 |
+
 
 1. 在活动日志中选择一个条目，以打开面板了解更多详细信息。
 
