@@ -3,7 +3,7 @@ title: 模型
 description: 了解如何在Mix Modeler中配置和使用模型。
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Mix Modeler模型是一种机器学习模型，用于根据营销人员的投资
 
 要查看当前模型的表，请在Mix Modeler界面中：
 
-1. 选择 ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** 从左边栏开始。
+1. 选择 ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** 从左边栏开始。
 
 1. 您会看到当前模型的表。
 
@@ -58,14 +58,14 @@ Mix Modeler模型是一种机器学习模型，用于根据营销人员的投资
 
    {style="table-layout:auto"}
 
-1. 要更改为列表显示的列，请选择 ![列设置](../assets/icons/ColumnSetting.svg) 并打开列 ![Check](../assets/icons/Checkmark.svg) 或关闭。
+1. 要更改为列表显示的列，请选择 ![列设置](/help/assets//icons/ColumnSetting.svg) 并打开列 ![Check](/help/assets//icons/Checkmark.svg) 或关闭。
 
 
 ### 查看模型的详细信息
 
 要查看模型的更多详细信息，请执行以下操作：
 
-1. 选择 ![信息](../assets/icons/Info.svg) ，以便模型显示包含详细信息的弹出窗口。
+1. 选择 ![信息](/help/assets//icons/Info.svg) ，以便模型显示包含详细信息的弹出窗口。
 
 
 
@@ -73,7 +73,7 @@ Mix Modeler模型是一种机器学习模型，用于根据营销人员的投资
 
 要查看模型的分析，请在Mix Modeler界面中：
 
-1. 选择 ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** 从左边栏开始。
+1. 选择 ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** 从左边栏开始。
 
 1. 选择模型名称 **[!UICONTROL Last run status]** 之 <span style="color:green">●</span> **[!UICONTROL Success]** 从 **[!UICONTROL Models]** 表格。 模型分析仅适用于已成功训练的模型。
 
@@ -85,7 +85,7 @@ Mix Modeler模型是一种机器学习模型，用于根据营销人员的投资
 
 要重新对模型计分，请在Mix Modeler界面中：
 
-1. 选择 ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** 从左边栏开始。
+1. 选择 ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** 从左边栏开始。
 
 1. 选择模型名称 **[!UICONTROL Last run status]** 之 <span style="color:green">●</span> **[!UICONTROL Success]** 从 **[!UICONTROL Models]** 表格。 只有经过成功训练的模型才能重新计分。
 

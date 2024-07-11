@@ -3,7 +3,7 @@ title: 协调数据
 description: 了解如何在Mix Modeler中协调数据。
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 4f4c7f05e90d73a0ab4865150b1ec4c2af88fc12
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 7%
@@ -15,7 +15,7 @@ ht-degree: 7%
 根据数据源的不同，Mix Modeler中的数据具有不同的性质。 数据可以是：
 
 * 聚合或摘要数据，例如从围墙花园数据源收集的数据，或通过运行广告牌营销活动、事件或物理广告营销活动收集的离线广告数据（如支出），
-* 事件数据，例如来自第一方数据源的事件数据。 此事件数据可以是通过Adobe Analytics源连接器从Adobe Analytics收集的数据，也可以是通过Experience PlatformWeb或移动SDK或边缘网络API收集的数据，或使用源连接器摄取的数据。
+* 事件数据，例如来自第一方数据源的事件数据。 此事件数据可以是通过Adobe Analytics源连接器从Adobe Analytics收集的数据，也可以是通过Experience PlatformWeb或移动SDK或Edge NetworkAPI收集的数据，或使用源连接器摄取的数据。
 
 Mix Modeler的协调服务将聚合和事件数据吸收到一致的数据视图中。 此数据视图与内部和外部因素数据相结合，是Mix Modeler中模型的来源。 该服务在不同数据集上使用最高的粒度。 例如，如果一个数据集的粒度为每月，而其余数据集的粒度为每周和每日，则协调服务使用每月粒度创建一个数据视图。
 
@@ -116,17 +116,17 @@ Mix Modeler的协调服务将聚合和事件数据吸收到一致的数据视图
 
 要查看您的协调数据，请在Mix Modeler界面中执行以下操作：
 
-1. 选择 ![数据搜索](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** 从左边栏开始。
+1. 选择 ![数据搜索](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** 从左边栏开始。
 
 1. 选择 **[!UICONTROL Harmonized Data]** 从顶部栏中。 系统将根据您定义的字段、数据集规则、营销接触点和转化显示协调数据的简述。
 
-   1. 要重新定义协调数据重算所依据的期间，请输入日期范围 **[!UICONTROL Date range]** 或使用 ![日历](../assets/icons/Calendar.svg) 以选择数据范围。
+   1. 要重新定义协调数据重算所依据的期间，请输入日期范围 **[!UICONTROL Date range]** 或使用 ![日历](/help/assets//icons/Calendar.svg) 以选择数据范围。
 
-   1. 要修改“协调”数据表中显示的协调字段列，请使用 ![设置](../assets/icons/Setting.svg) 以打开 **[!UICONTROL Column settings]** 对话框。
+   1. 要修改“协调”数据表中显示的协调字段列，请使用 ![设置](/help/assets//icons/Setting.svg) 以打开 **[!UICONTROL Column settings]** 对话框。
 
-      1. 选择 ![选择框](../assets/icons/SelectBox.svg) 来自的一个或多个列 **[!UICONTROL AVAILABLE COLUMNS]** 和使用 ![V形向右](../assets/icons/ChevronRight.svg) 以将这些列添加到 **[!UICONTROL SELECTED COLUMNS]**.
+      1. 选择 ![选择框](/help/assets//icons/SelectBox.svg) 来自的一个或多个列 **[!UICONTROL AVAILABLE COLUMNS]** 和使用 ![V形向右](/help/assets//icons/ChevronRight.svg) 以将这些列添加到 **[!UICONTROL SELECTED COLUMNS]**.
 
-      1. 选择 ![选择框](../assets/icons/SelectBox.svg) 来自的一个或多个列 **[!UICONTROL SELECTED COLUMNS]** 和使用 ![左侧V形](../assets/icons/ChevronLeft.svg) 删除选定的列并将这些列返回到 **[!UICONTROL AVAILABLE COLUMNS]**.
+      1. 选择 ![选择框](/help/assets//icons/SelectBox.svg) 来自的一个或多个列 **[!UICONTROL SELECTED COLUMNS]** 和使用 ![左侧V形](/help/assets//icons/ChevronLeft.svg) 删除选定的列并将这些列返回到 **[!UICONTROL AVAILABLE COLUMNS]**.
 
       1. 从中选择列 **[!UICONTROL DEFAULT SORT]** 并在 **[!UICONTROL Ascending]** 或 **[!UICONTROL Descending]**.
 
@@ -134,4 +134,4 @@ Mix Modeler的协调服务将聚合和事件数据吸收到一致的数据视图
 
    1. 选择 **[!UICONTROL Submit]** 以提交列设置更改。 选择 **[!UICONTROL Close]** 取消您所做的任何更改。
 
-1. 如果有更多页面可用，请使用 ![向左箭头](../assets/icons/ChevronLeft.svg) 或 ![向右箭头](../assets/icons/ChevronRight.svg) 在 **[!UICONTROL Page _x _之_x_]** 以在页面之间移动。
+1. 如果有更多页面可用，请使用 ![向左箭头](/help/assets//icons/ChevronLeft.svg) 或 ![向右箭头](/help/assets//icons/ChevronRight.svg) 在 **[!UICONTROL Page _x _之_x_]** 以在页面之间移动。

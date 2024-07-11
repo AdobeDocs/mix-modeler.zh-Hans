@@ -3,7 +3,7 @@ title: 协调的字段
 description: 了解如何定义要用作协调Mix Modeler中数据一部分的字段。
 feature: Harmonized Data, Harmonized Fields
 exl-id: f051279a-1ae9-49bd-a946-abfc34c90413
-source-git-commit: fecb122f6e2e8ae532babd0e2964ad200174a032
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 8%
@@ -27,7 +27,7 @@ Mix Modeler中默认可用的全局协调字段包括：
 | 营销活动 | Campaign | 维度 | 字符串 |           |
 | 渠道 | 渠道 | 维度 | 字符串 |           |
 | channel_id | 渠道ID | 维度 | 字符串 |           |
-| channel_type_at_source | 源中的渠道类型 | 维度 | 字符串 |           |
+| channel_type_at_source | Source中的渠道类型 | 维度 | 字符串 |           |
 | 渠道 | 渠道 | 维度 | 字符串 |           |
 | 点击次数 | 点击次数 | 量度 | 数值 |           |
 | conversiontype | 转化类型 | 维度 | 字符串 |           |
@@ -43,7 +43,7 @@ Mix Modeler中默认可用的全局协调字段包括：
 | mediatype | 媒体类型 | 维度 | 字符串 |           |
 | net_sales | 销售净额 | 量度 | 货币 |           |
 | 订单 | 订购 | 量度 | 数值 |           |
-| 源类型 | 源类型 | 维度 | 字符串 |           |
+| 源类型 | Source类型 | 维度 | 字符串 |           |
 | 支出 | 支出 | 量度 | 货币 |           |
 | trafficsource | 流量源 | 维度 | 字符串 |           |
 
@@ -55,9 +55,9 @@ Mix Modeler中默认可用的全局协调字段包括：
 
 要在Mix Modeler界面中查看可用协调字段的表，请执行以下操作：
 
-1. 选择 ![数据搜索](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** 从左边栏开始。
+1. 选择 ![数据搜索](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** 从左边栏开始。
 
-1. 选择 **[!UICONTROL Fields]** 从顶部栏中。 您会看到协调字段的表。 如果有更多页面可用，请使用 ![向左箭头](../assets/icons/ChevronLeft.svg) 或 ![向右箭头](../assets/icons/ChevronRight.svg) 在 **[!UICONTROL Page _x _之_x_]** 在表的页面之间移动。
+1. 选择 **[!UICONTROL Fields]** 从顶部栏中。 您会看到协调字段的表。 如果有更多页面可用，请使用 ![向左箭头](/help/assets//icons/ChevronLeft.svg) 或 ![向右箭头](/help/assets//icons/ChevronRight.svg) 在 **[!UICONTROL Page _x _之_x_]** 在表的页面之间移动。
 
    表格列指定有关协调字段的详细信息
 
@@ -74,14 +74,14 @@ Mix Modeler中默认可用的全局协调字段包括：
 
    {style="table-layout:auto"}
 
-1. 要搜索特定的协调字段，请使用 ![Search](../assets/icons/Search.svg) **[!UICONTROL *搜索协调字段&#x200B;*]**.
+1. 要搜索特定的协调字段，请使用 ![Search](/help/assets//icons/Search.svg) **[!UICONTROL *搜索协调字段&#x200B;*]**.
 
 
 ### 添加协调字段
 
-为了添加一个统一的字段，请在 ![数据搜索](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Mix Modeler界面：
+为了添加一个统一的字段，请在 ![数据搜索](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Mix Modeler界面：
 
-1. 选择 ![添加](../assets/icons/AddCircle.svg) **[!UICONTROL Add field]**.
+1. 选择 ![添加](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add field]**.
 
 1. 在 **[!UICONTROL Create]** 对话框：
 
@@ -98,14 +98,14 @@ Mix Modeler中默认可用的全局协调字段包括：
 
    1. 选择 **[!UICONTROL Submit]** 添加协调字段。 选择 **[!UICONTROL Close]** 结束对话，但不添加协调字段。
 
-      ![创建字段](../assets/create-field.png)
+      ![创建字段](/help/assets//create-field.png)
 
 
 ### 编辑协调的字段
 
 您只能编辑之前创建的协调字段（所有者是客户）。 您无法编辑全局协调字段。
 
-要编辑协调的字段，请在 ![数据搜索](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Mix Modeler界面：
+要编辑协调的字段，请在 ![数据搜索](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Mix Modeler界面：
 
 1. 选择要编辑的协调字段。 例如：**[!UICONTROL Region]**。
 
@@ -113,17 +113,17 @@ Mix Modeler中默认可用的全局协调字段包括：
 
 1. 选择 **[!UICONTROL Submit]** 将更改应用于协调字段。
 
-   ![编辑字段](../assets/edit-field.png)
+   ![编辑字段](/help/assets//edit-field.png)
 
 ### 删除协调字段
 
 您只能删除之前创建的协调字段（所有者即客户）。 您不能删除全球协调字段。
 
-要删除协调字段，请在 ![数据搜索](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Mix Modeler界面：
+要删除协调字段，请在 ![数据搜索](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Mix Modeler界面：
 
 1. 例如，选择要删除的协调字段 **[!UICONTROL Region]**.
 
-1. 选择 ![删除](../assets/icons/Delete.svg) **[!UICONTROL Delete]** 从 **[!UICONTROL Edit harmonization values]** 左窗格。
+1. 选择 ![删除](/help/assets//icons/Delete.svg) **[!UICONTROL Delete]** 从 **[!UICONTROL Edit harmonization values]** 左窗格。
 
    >[!WARNING]
    >

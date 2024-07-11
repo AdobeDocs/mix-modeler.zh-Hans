@@ -3,7 +3,7 @@ title: 转化
 description: 了解如何创建转化，以便在Mix Modeler中协调数据时使用。
 feature: Harmonized Data, Conversions
 exl-id: a8559426-452a-43e8-9a60-0c0bc97d863c
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 要在Mix Modeler界面中查看可用转化的表格，请执行以下操作：
 
-1. 选择 ![数据搜索](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** 从左边栏开始。
+1. 选择 ![数据搜索](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** 从左边栏开始。
 
 1. 选择 **[!UICONTROL Conversions]** 从顶部栏中。 您会看到转化率表。
 
@@ -39,9 +39,9 @@ ht-degree: 1%
 
 ## 添加转化
 
-要添加转化，请在 ![数据搜索](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** 界面Mix Modeler：
+要添加转化，请在 ![数据搜索](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** 界面Mix Modeler：
 
-1. 选择 ![添加](../assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion]**.
+1. 选择 ![添加](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add a conversion]**.
 
 1. 在 **[!UICONTROL Create conversion]** 对话框：
 
@@ -51,7 +51,7 @@ ht-degree: 1%
 
       1. 从中选择值 **[!UICONTROL *选择协调……*]**例如 `Conversion types`.
 
-      1. 选择运算符的值 ![V形](../assets/icons/ChevronDown.svg)例如 **[!UICONTROL is]**.
+      1. 选择运算符的值 ![V形](/help/assets//icons/ChevronDown.svg)例如 **[!UICONTROL is]**.
 
       1. 从中选择值 **[!UICONTROL *选择值&#x200B;*]**或输入值，例如&#x200B;**[!UICONTROL Store]**.
 
@@ -61,7 +61,7 @@ ht-degree: 1%
 
    1. 要创建转换，请选择 **[!UICONTROL Create]**. 要取消转换的创建，请选择 **[!UICONTROL Cancel]**.
 
-      ![替换文本](../assets/create-conversion.png)
+      ![替换文本](/help/assets//create-conversion.png)
 
 1. 创建后，转化会被添加到转化表中。
 
@@ -70,14 +70,14 @@ ht-degree: 1%
 
 要查看转换，请执行以下操作：
 
-1. 选择 ![更多](../assets/icons/More.svg) 将鼠标悬停在表中的转化名称上时，出现此错误。
+1. 选择 ![更多](/help/assets//icons/More.svg) 将鼠标悬停在表中的转化名称上时，出现此错误。
 
-1. 选择 ![视图](../assets/icons/ViewDetail.svg) **视图**. 此时将显示一个对话框，其中显示了转换的详细信息。 请参阅 [添加转化](#add-a-conversion) 以了解更多信息。 选择 **[!UICONTROL Cancel]** 以关闭对话框。
+1. 选择 ![视图](/help/assets//icons/ViewDetail.svg) **视图**. 此时将显示一个对话框，其中显示了转换的详细信息。 请参阅 [添加转化](#add-a-conversion) 以了解更多信息。 选择 **[!UICONTROL Cancel]** 以关闭对话框。
 
 
 ## 删除转换
 
 要删除转换，请执行以下操作：
 
-1. 选择 ![删除](../assets/icons/Delete.svg) **删除** 将鼠标悬停在表中的转化名称上时，出现此错误。
+1. 选择 ![删除](/help/assets//icons/Delete.svg) **删除** 将鼠标悬停在表中的转化名称上时，出现此错误。
 1. 在 **[!UICONTROL Delete conversion]** 对话框确认对话框选择 **[!UICONTROL Delete]** 以永久删除转换。

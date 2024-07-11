@@ -4,7 +4,7 @@ description: 大致了解 Mix Modeler 的功能。
 short-description: 大致了解 Mix Modeler 的功能。
 feature: Plans, Harmonized Data, Models
 exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
-source-git-commit: 59869553c4a5856e897aded441520dd8938eb8c1
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 3%
@@ -35,7 +35,7 @@ Mix Modeler在战略和战术层面提供以下类型的优化和可操作的见
 
 AI/ML双向传输学习将营销组合建模(MMM)和多接触点归因(MTA)结果整合在一起，确保在无Cookie的世界中跨测量和规划获得一致的结果。
 
-![双向转移学习](../assets/birdirectional-transfer-learning.png){width="500" align="center"}
+![双向转移学习](/help/assets//birdirectional-transfer-learning.png){width="500" align="center"}
 
 
 ## 功能
