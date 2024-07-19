@@ -14,7 +14,7 @@ ht-degree: 6%
 
 ## 三数据材料 {#threedmaterial}
 
-![3D材料](/help/assets/icons/3DMaterial.svg)
+![3DMaterial](/help/assets/icons/3DMaterial.svg)
 
 ## ABC {#abc}
 
@@ -22,7 +22,7 @@ ht-degree: 6%
 
 ## AEMS屏幕 {#aemscreen}
 
-![AEMS屏幕](/help/assets/icons/AEMScreen.svg)
+![AEMScreen](/help/assets/icons/AEMScreen.svg)
 
 ## 操作 {#action}
 
@@ -34,7 +34,7 @@ ht-degree: 6%
 
 ## AdPrint {#adprint}
 
-![AdPrint](/help/assets/icons/AdPrint.svg)
+![广告打印](/help/assets/icons/AdPrint.svg)
 
 ## Add {#add}
 
@@ -42,11 +42,11 @@ ht-degree: 6%
 
 ## 添加圆 {#addcircle}
 
-![添加圆](/help/assets/icons/AddCircle.svg)
+![添加圆圈](/help/assets/icons/AddCircle.svg)
 
 ## AddTo {#addto}
 
-![AddTo](/help/assets/icons/AddTo.svg)
+![添加至](/help/assets/icons/AddTo.svg)
 
 ## AddToSelection {#addtoselection}
 
@@ -70,11 +70,11 @@ ht-degree: 6%
 
 ## 警报检查 {#alertcheck}
 
-![警报检查](/help/assets/icons/AlertCheck.svg)
+![AlertCheck](/help/assets/icons/AlertCheck.svg)
 
 ## AlertCycle {#alertcircle}
 
-![AlertCycle](/help/assets/icons/AlertCircle.svg)
+![警报圈](/help/assets/icons/AlertCircle.svg)
 
 ## AlertCircleFilled {#alertcirclefilled}
 
@@ -102,7 +102,7 @@ ht-degree: 6%
 
 ## 居中对齐 {#alignmiddle}
 
-![居中对齐](/help/assets/icons/AlignMiddle.svg)
+![AlignMiddle](/help/assets/icons/AlignMiddle.svg)
 
 ## 右对齐 {#alignright}
 
@@ -110,7 +110,7 @@ ht-degree: 6%
 
 ## 顶部对齐 {#aligntop}
 
-![顶部对齐](/help/assets/icons/AlignTop.svg)
+![靠上对齐](/help/assets/icons/AlignTop.svg)
 
 ## 游乐园 {#amusementpark}
 
@@ -122,7 +122,7 @@ ht-degree: 6%
 
 ## 锚点选择 {#anchorselect}
 
-![锚点选择](/help/assets/icons/AnchorSelect.svg)
+![AnchorSelect](/help/assets/icons/AnchorSelect.svg)
 
 ## 批注 {#annotate}
 
@@ -134,15 +134,15 @@ ht-degree: 6%
 
 ## 回答 {#answer}
 
-![回答](/help/assets/icons/Answer.svg)
+![答案](/help/assets/icons/Answer.svg)
 
 ## 答案收藏 {#answerfavorite}
 
-![答案收藏](/help/assets/icons/AnswerFavorite.svg)
+![应答收藏夹](/help/assets/icons/AnswerFavorite.svg)
 
 ## 应用程序 {#app}
 
-![应用程序](/help/assets/icons/App.svg)
+![应用](/help/assets/icons/App.svg)
 
 ## AppRefresh {#apprefresh}
 
@@ -150,11 +150,11 @@ ht-degree: 6%
 
 ## Apple文件 {#applefile}
 
-![Apple文件](/help/assets/icons/AppleFile.svg)
+![AppleFile](/help/assets/icons/AppleFile.svg)
 
 ## ApplicationDelivery {#applicationdelivery}
 
-![ApplicationDelivery](/help/assets/icons/ApplicationDelivery.svg)
+![应用程序交付](/help/assets/icons/ApplicationDelivery.svg)
 
 ## ApproveReject {#approvereject}
 
@@ -198,11 +198,11 @@ ht-degree: 6%
 
 ## 资源 {#asset}
 
-![资产](/help/assets/icons/Asset.svg)
+![资源](/help/assets/icons/Asset.svg)
 
 ## AssetCheck {#assetcheck}
 
-![AssetCheck](/help/assets/icons/AssetCheck.svg)
+![资产检查](/help/assets/icons/AssetCheck.svg)
 
 ## 已添加资产 {#assetsadded}
 
@@ -214,7 +214,7 @@ ht-degree: 6%
 
 ## 资产已过期 {#assetsexpired}
 
-![资产已过期](/help/assets/icons/AssetsExpired.svg)
+![已过期资产](/help/assets/icons/AssetsExpired.svg)
 
 ## AssetsLinkedPublished {#assetslinkedpublished}
 
@@ -234,7 +234,7 @@ ht-degree: 6%
 
 ## 在 {#at}
 
-![在](/help/assets/icons/At.svg)
+![At](/help/assets/icons/At.svg)
 
 ## 附加 {#attach}
 
@@ -242,7 +242,7 @@ ht-degree: 6%
 
 ## 附件排除 {#attachmentexclude}
 
-![附件排除](/help/assets/icons/AttachmentExclude.svg)
+![AttachmentExclude](/help/assets/icons/AttachmentExclude.svg)
 
 ## 属性 {#attribute}
 
@@ -262,7 +262,7 @@ ht-degree: 6%
 
 ## 后30秒 {#back30second}
 
-![后30秒](/help/assets/icons/Back30Second.svg)
+![后退30秒](/help/assets/icons/Back30Second.svg)
 
 ## BackAndroid {#backandroid}
 
@@ -278,11 +278,11 @@ ht-degree: 6%
 
 ## 烧杯共享 {#beakershare}
 
-![烧杯共享](/help/assets/icons/BeakerShare.svg)
+![BeakerShare](/help/assets/icons/BeakerShare.svg)
 
 ## 铃铛 {#bell}
 
-![铃铛](/help/assets/icons/Bell.svg)
+![铃](/help/assets/icons/Bell.svg)
 
 ## 竞价规则 {#bidrule}
 
@@ -290,11 +290,11 @@ ht-degree: 6%
 
 ## BidRuleAdd {#bidruleadd}
 
-![BidRuleAdd](/help/assets/icons/BidRuleAdd.svg)
+![竞价规则添加](/help/assets/icons/BidRuleAdd.svg)
 
 ## 鼓风机 {#blower}
 
-![鼓风机](/help/assets/icons/Blower.svg)
+![风扇](/help/assets/icons/Blower.svg)
 
 ## Blur {#blur}
 
@@ -326,7 +326,7 @@ ht-degree: 6%
 
 ## 布尔型 {#boolean}
 
-![布尔型](/help/assets/icons/Boolean.svg)
+![布尔值](/help/assets/icons/Boolean.svg)
 
 ## 边框 {#border}
 
@@ -334,7 +334,7 @@ ht-degree: 6%
 
 ## 盒子 {#box}
 
-![盒子](/help/assets/icons/Box.svg)
+![框](/help/assets/icons/Box.svg)
 
 ## BoxAdd {#boxadd}
 
@@ -342,7 +342,7 @@ ht-degree: 6%
 
 ## Boxexport {#boxexport}
 
-![Boxexport](/help/assets/icons/BoxExport.svg)
+![BoxExport](/help/assets/icons/BoxExport.svg)
 
 ## BoxImport {#boximport}
 
@@ -350,7 +350,7 @@ ht-degree: 6%
 
 ## 中括号 {#bracket}
 
-![中括号](/help/assets/icons/Bracket.svg)
+![括号](/help/assets/icons/Bracket.svg)
 
 ## 方括号 {#bracketssquare}
 
@@ -370,7 +370,7 @@ ht-degree: 6%
 
 ## 分支圆 {#branchcircle}
 
-![分支圆](/help/assets/icons/BranchCircle.svg)
+![BranchCircle](/help/assets/icons/BranchCircle.svg)
 
 ## 痕迹导航导航 {#breadcrumbnavigation}
 
@@ -378,11 +378,11 @@ ht-degree: 6%
 
 ## 细分 {#breakdown}
 
-![细分](/help/assets/icons/Breakdown.svg)
+![划分](/help/assets/icons/Breakdown.svg)
 
 ## 划分添加 {#breakdownadd}
 
-![划分添加](/help/assets/icons/BreakdownAdd.svg)
+![BreakdownAdd](/help/assets/icons/BreakdownAdd.svg)
 
 ## 公文包 {#briefcase}
 
@@ -426,7 +426,7 @@ ht-degree: 6%
 
 ## CalendarAdd {#calendaradd}
 
-![CalendarAdd](/help/assets/icons/CalendarAdd.svg)
+![日历添加](/help/assets/icons/CalendarAdd.svg)
 
 ## 日历已锁定 {#calendarlocked}
 
@@ -442,7 +442,7 @@ ht-degree: 6%
 
 ## 相机 {#camera}
 
-![相机](/help/assets/icons/Camera.svg)
+![摄像头](/help/assets/icons/Camera.svg)
 
 ## 相机翻转 {#cameraflip}
 
@@ -450,7 +450,7 @@ ht-degree: 6%
 
 ## CameraRefresh {#camerarefresh}
 
-![CameraRefresh](/help/assets/icons/CameraRefresh.svg)
+![相机刷新](/help/assets/icons/CameraRefresh.svg)
 
 ## Campaign {#campaign}
 
@@ -462,7 +462,7 @@ ht-degree: 6%
 
 ## CampaignClose {#campaignclose}
 
-![CampaignClose](/help/assets/icons/CampaignClose.svg)
+![促销活动关闭](/help/assets/icons/CampaignClose.svg)
 
 ## CampaignDelete {#campaigndelete}
 
@@ -486,15 +486,15 @@ ht-degree: 6%
 
 ## 汽车 {#car}
 
-![汽车](/help/assets/icons/Car.svg)
+![车](/help/assets/icons/Car.svg)
 
 ## 卡片 {#card}
 
-![卡片](/help/assets/icons/Card.svg)
+![卡](/help/assets/icons/Card.svg)
 
 ## 渠道 {#channel}
 
-![渠道](/help/assets/icons/Channel.svg)
+![频道](/help/assets/icons/Channel.svg)
 
 ## 聊天 {#chat}
 
@@ -502,7 +502,7 @@ ht-degree: 6%
 
 ## ChatAdd {#chatadd}
 
-![ChatAdd](/help/assets/icons/ChatAdd.svg)
+![聊天添加](/help/assets/icons/ChatAdd.svg)
 
 ## CheckPause {#checkpause}
 
@@ -518,15 +518,15 @@ ht-degree: 6%
 
 ## 复选标记圆轮廓 {#checkmarkcircleoutline}
 
-![复选标记圆轮廓](/help/assets/icons/CheckmarkCircleOutline.svg)
+![复选标记CircleOutline](/help/assets/icons/CheckmarkCircleOutline.svg)
 
 ## V形双左对齐 {#chevrondoubleleft}
 
-![V形双左对齐](/help/assets/icons/ChevronDoubleLeft.svg)
+![V形DoubleLeft](/help/assets/icons/ChevronDoubleLeft.svg)
 
 ## V形双右对齐 {#chevrondoubleright}
 
-![V形双右对齐](/help/assets/icons/ChevronDoubleRight.svg)
+![V形双Right](/help/assets/icons/ChevronDoubleRight.svg)
 
 ## V形向下 {#chevrondown}
 
@@ -538,7 +538,7 @@ ht-degree: 6%
 
 ## V形右对齐 {#chevronright}
 
-![V形右对齐](/help/assets/icons/ChevronRight.svg)
+![右V形](/help/assets/icons/ChevronRight.svg)
 
 ## V形向上 {#chevronup}
 
@@ -546,11 +546,11 @@ ht-degree: 6%
 
 ## V形上下 {#chevronupdown}
 
-![V形上下](/help/assets/icons/ChevronUpDown.svg)
+![V形向上](/help/assets/icons/ChevronUpDown.svg)
 
 ## 圆形 {#circle}
 
-![圆形](/help/assets/icons/Circle.svg)
+![圆](/help/assets/icons/Circle.svg)
 
 ## 经典网格视图 {#classicgridview}
 
@@ -562,11 +562,11 @@ ht-degree: 6%
 
 ## ClockCheck {#clockcheck}
 
-![ClockCheck](/help/assets/icons/ClockCheck.svg)
+![时钟检查](/help/assets/icons/ClockCheck.svg)
 
 ## 仿制图章 {#clonestamp}
 
-![仿制图章](/help/assets/icons/CloneStamp.svg)
+![CloneStamp](/help/assets/icons/CloneStamp.svg)
 
 ## 关闭 {#close}
 
@@ -578,7 +578,7 @@ ht-degree: 6%
 
 ## 封闭圆形 {#closecircle}
 
-![封闭圆形](/help/assets/icons/CloseCircle.svg)
+![闭合圆圈](/help/assets/icons/CloseCircle.svg)
 
 ## 云 {#cloud}
 
@@ -586,11 +586,11 @@ ht-degree: 6%
 
 ## CloudConnected {#clouddisconnected}
 
-![CloudConnected](/help/assets/icons/CloudDisconnected.svg)
+![CloudDisconnected](/help/assets/icons/CloudDisconnected.svg)
 
 ## CloudError {#clouderror}
 
-![CloudError](/help/assets/icons/CloudError.svg)
+![云错误](/help/assets/icons/CloudError.svg)
 
 ## 云大纲 {#cloudoutline}
 
@@ -618,7 +618,7 @@ ht-degree: 6%
 
 ## CollectionEdit {#collectionedit}
 
-![CollectionEdit](/help/assets/icons/CollectionEdit.svg)
+![收藏集编辑](/help/assets/icons/CollectionEdit.svg)
 
 ## CollectionExclude {#collectionexclude}
 
@@ -630,7 +630,7 @@ ht-degree: 6%
 
 ## ColorFill {#colorfill}
 
-![ColorFill](/help/assets/icons/ColorFill.svg)
+![颜色填充](/help/assets/icons/ColorFill.svg)
 
 ## 调色板 {#colorpalette}
 
@@ -638,7 +638,7 @@ ht-degree: 6%
 
 ## ColorWheel {#colorwheel}
 
-![ColorWheel](/help/assets/icons/ColorWheel.svg)
+![色轮](/help/assets/icons/ColorWheel.svg)
 
 ## 列设置 {#columnsetting}
 
@@ -650,15 +650,15 @@ ht-degree: 6%
 
 ## 列二B {#columntwob}
 
-![列二B](/help/assets/icons/ColumnTwoB.svg)
+![ColumnTwoB](/help/assets/icons/ColumnTwoB.svg)
 
 ## 列二C {#columntwoc}
 
-![列二C](/help/assets/icons/ColumnTwoC.svg)
+![ColumnTwoC](/help/assets/icons/ColumnTwoC.svg)
 
 ## 注释 {#comment}
 
-![注释](/help/assets/icons/Comment.svg)
+![评论](/help/assets/icons/Comment.svg)
 
 ## 比较 {#compare}
 
@@ -666,7 +666,7 @@ ht-degree: 6%
 
 ## 康帕 {#compas}
 
-![康帕](/help/assets/icons/Compas.svg)
+![兼容性](/help/assets/icons/Compas.svg)
 
 ## 条件 {#condition}
 
@@ -674,7 +674,7 @@ ht-degree: 6%
 
 ## 置信度4 {#confidencefour}
 
-![置信度4](/help/assets/icons/ConfidenceFour.svg)
+![置信度四](/help/assets/icons/ConfidenceFour.svg)
 
 ## ConfidenceOne {#confidenceone}
 
@@ -682,11 +682,11 @@ ht-degree: 6%
 
 ## ConfidenceThree {#confidencethree}
 
-![ConfidenceThree](/help/assets/icons/ConfidenceThree.svg)
+![置信度三](/help/assets/icons/ConfidenceThree.svg)
 
 ## ConfidenceTwo {#confidencetwo}
 
-![ConfidenceTwo](/help/assets/icons/ConfidenceTwo.svg)
+![置信度Two](/help/assets/icons/ConfidenceTwo.svg)
 
 ## 对比度 {#contrast}
 
@@ -698,7 +698,7 @@ ht-degree: 6%
 
 ## 复制 {#copy}
 
-![复制](/help/assets/icons/Copy.svg)
+![副本](/help/assets/icons/Copy.svg)
 
 ## 封面图像 {#coverimage}
 
@@ -742,19 +742,19 @@ ht-degree: 6%
 
 ## DataAdd {#dataadd}
 
-![DataAdd](/help/assets/icons/DataAdd.svg)
+![数据添加](/help/assets/icons/DataAdd.svg)
 
 ## 数据手册 {#databook}
 
-![数据手册](/help/assets/icons/DataBook.svg)
+![数据簿](/help/assets/icons/DataBook.svg)
 
 ## DataCheck {#datacheck}
 
-![DataCheck](/help/assets/icons/DataCheck.svg)
+![数据检查](/help/assets/icons/DataCheck.svg)
 
 ## DataCorrected {#datacorrelated}
 
-![DataCorrected](/help/assets/icons/DataCorrelated.svg)
+![数据相关](/help/assets/icons/DataCorrelated.svg)
 
 ## 数据下载 {#datadownload}
 
@@ -762,7 +762,7 @@ ht-degree: 6%
 
 ## DataEdit {#dataedit}
 
-![DataEdit](/help/assets/icons/DataEdit.svg)
+![数据编辑](/help/assets/icons/DataEdit.svg)
 
 ## 数据映射 {#datamapping}
 
@@ -770,11 +770,11 @@ ht-degree: 6%
 
 ## DataRefresh {#datarefresh}
 
-![DataRefresh](/help/assets/icons/DataRefresh.svg)
+![数据刷新](/help/assets/icons/DataRefresh.svg)
 
 ## DataRemove {#dataremove}
 
-![DataRemove](/help/assets/icons/DataRemove.svg)
+![数据移除](/help/assets/icons/DataRemove.svg)
 
 ## 数据设置 {#datasetting}
 
@@ -802,11 +802,11 @@ ht-degree: 6%
 
 ## 删除重复项 {#deduplication}
 
-![删除重复项](/help/assets/icons/Deduplication.svg)
+![重复数据删除](/help/assets/icons/Deduplication.svg)
 
 ## 委派 {#delegate}
 
-![委派](/help/assets/icons/Delegate.svg)
+![代理人](/help/assets/icons/Delegate.svg)
 
 ## Delete {#delete}
 
@@ -814,7 +814,7 @@ ht-degree: 6%
 
 ## DeleteOutline {#deleteoutline}
 
-![DeleteOutline](/help/assets/icons/DeleteOutline.svg)
+![删除大纲](/help/assets/icons/DeleteOutline.svg)
 
 ## 人口统计 {#demographic}
 
@@ -850,7 +850,7 @@ ht-degree: 6%
 
 ## DevicephoneRefresh {#devicephonerefresh}
 
-![DevicephoneRefresh](/help/assets/icons/DevicePhoneRefresh.svg)
+![DevicePhoneRefresh](/help/assets/icons/DevicePhoneRefresh.svg)
 
 ## 设备预览 {#devicepreview}
 
@@ -878,15 +878,15 @@ ht-degree: 6%
 
 ## DiscoverOutline {#discoveroutline}
 
-![DiscoverOutline](/help/assets/icons/DiscoverOutline.svg)
+![发现大纲](/help/assets/icons/DiscoverOutline.svg)
 
 ## Distributbottedge {#distributebottomedge}
 
-![Distributbottedge](/help/assets/icons/DistributeBottomEdge.svg)
+![DistributeBottomEdge](/help/assets/icons/DistributeBottomEdge.svg)
 
 ## 分布水平居中 {#distributehorizontalcenter}
 
-![分布水平居中](/help/assets/icons/DistributeHorizontalCenter.svg)
+![DistributeHorizontalCenter](/help/assets/icons/DistributeHorizontalCenter.svg)
 
 ## 水平分布 {#distributehorizontally}
 
@@ -914,7 +914,7 @@ ht-degree: 6%
 
 ## Distributedverticalcenter {#distributeverticalcenter}
 
-![Distributedverticalcenter](/help/assets/icons/DistributeVerticalCenter.svg)
+![DistributeVerticalCenter](/help/assets/icons/DistributeVerticalCenter.svg)
 
 ## 垂直分布 {#distributevertically}
 
@@ -926,7 +926,7 @@ ht-degree: 6%
 
 ## DividePath {#dividepath}
 
-![DividePath](/help/assets/icons/DividePath.svg)
+![除法路径](/help/assets/icons/DividePath.svg)
 
 ## 文档 {#document}
 
@@ -934,11 +934,11 @@ ht-degree: 6%
 
 ## 文档片段 {#documentfragment}
 
-![文档片段](/help/assets/icons/DocumentFragment.svg)
+![DocumentFragment](/help/assets/icons/DocumentFragment.svg)
 
 ## Documentfragmentgroup {#documentfragmentgroup}
 
-![Documentfragmentgroup](/help/assets/icons/DocumentFragmentGroup.svg)
+![DocumentFragmentGroup](/help/assets/icons/DocumentFragmentGroup.svg)
 
 ## 文档大纲 {#documentoutline}
 
@@ -946,11 +946,11 @@ ht-degree: 6%
 
 ## Documentrefresh {#documentrefresh}
 
-![Documentrefresh](/help/assets/icons/DocumentRefresh.svg)
+![DocumentRefresh](/help/assets/icons/DocumentRefresh.svg)
 
 ## 多利 {#dolly}
 
-![多利](/help/assets/icons/Dolly.svg)
+![推车](/help/assets/icons/Dolly.svg)
 
 ## 下载 {#download}
 
@@ -970,11 +970,11 @@ ht-degree: 6%
 
 ## 拖动手柄 {#draghandle}
 
-![拖动手柄](/help/assets/icons/DragHandle.svg)
+![DragHandle](/help/assets/icons/DragHandle.svg)
 
 ## Draw {#draw}
 
-![Draw](/help/assets/icons/Draw.svg)
+![绘图](/help/assets/icons/Draw.svg)
 
 ## 下拉列表 {#dropdown}
 
@@ -982,7 +982,7 @@ ht-degree: 6%
 
 ## 复制 {#duplicate}
 
-![复制](/help/assets/icons/Duplicate.svg)
+![重复](/help/assets/icons/Duplicate.svg)
 
 ## Edit {#edit}
 
@@ -990,7 +990,7 @@ ht-degree: 6%
 
 ## 编辑圆 {#editcircle}
 
-![编辑圆](/help/assets/icons/EditCircle.svg)
+![编辑圆圈](/help/assets/icons/EditCircle.svg)
 
 ## 编辑排除 {#editexclude}
 
@@ -998,7 +998,7 @@ ht-degree: 6%
 
 ## EditIn {#editin}
 
-![EditIn](/help/assets/icons/EditIn.svg)
+![编辑位置](/help/assets/icons/EditIn.svg)
 
 ## EditInLight {#editinlight}
 
@@ -1034,7 +1034,7 @@ ht-degree: 6%
 
 ## EmailExclude {#emailexclude}
 
-![EmailExclude](/help/assets/icons/EmailExclude.svg)
+![电子邮件排除](/help/assets/icons/EmailExclude.svg)
 
 ## EmailExcludeOutline {#emailexcludeoutline}
 
@@ -1042,7 +1042,7 @@ ht-degree: 6%
 
 ## EmailGear {#emailgear}
 
-![EmailGear](/help/assets/icons/EmailGear.svg)
+![电子邮件齿轮](/help/assets/icons/EmailGear.svg)
 
 ## EmailGearOutline {#emailgearoutline}
 
@@ -1058,7 +1058,7 @@ ht-degree: 6%
 
 ## EmailLightning {#emaillightning}
 
-![EmailLightning](/help/assets/icons/EmailLightning.svg)
+![电子邮件闪电](/help/assets/icons/EmailLightning.svg)
 
 ## 电子邮件通知 {#emailnotification}
 
@@ -1070,7 +1070,7 @@ ht-degree: 6%
 
 ## EmailRefresh {#emailrefresh}
 
-![EmailRefresh](/help/assets/icons/EmailRefresh.svg)
+![电子邮件刷新](/help/assets/icons/EmailRefresh.svg)
 
 ## 电子邮件计划 {#emailschedule}
 
@@ -1094,11 +1094,11 @@ ht-degree: 6%
 
 ## 活动 {#event}
 
-![事件](/help/assets/icons/Event.svg)
+![活动](/help/assets/icons/Event.svg)
 
 ## 事件排除 {#eventexclude}
 
-![事件排除](/help/assets/icons/EventExclude.svg)
+![EventExclude](/help/assets/icons/EventExclude.svg)
 
 ## 事件共享 {#eventshare}
 
@@ -1106,7 +1106,7 @@ ht-degree: 6%
 
 ## 排除重叠 {#excludeoverlap}
 
-![排除重叠](/help/assets/icons/ExcludeOverlap.svg)
+![ExcludeOverlap](/help/assets/icons/ExcludeOverlap.svg)
 
 ## 体验 {#experience}
 
@@ -1114,7 +1114,7 @@ ht-degree: 6%
 
 ## ExperienceAdd {#experienceadd}
 
-![ExperienceAdd](/help/assets/icons/ExperienceAdd.svg)
+![体验添加](/help/assets/icons/ExperienceAdd.svg)
 
 ## ExperienceAddTo {#experienceaddto}
 
@@ -1122,11 +1122,11 @@ ht-degree: 6%
 
 ## ExperienceExport {#experienceexport}
 
-![ExperienceExport](/help/assets/icons/ExperienceExport.svg)
+![体验导出](/help/assets/icons/ExperienceExport.svg)
 
 ## ExperienceImport {#experienceimport}
 
-![ExperienceImport](/help/assets/icons/ExperienceImport.svg)
+![体验导入](/help/assets/icons/ExperienceImport.svg)
 
 ## 导出 {#export}
 
@@ -1134,7 +1134,7 @@ ht-degree: 6%
 
 ## ExportOriginal {#exportoriginal}
 
-![ExportOriginal](/help/assets/icons/ExportOriginal.svg)
+![导出原始](/help/assets/icons/ExportOriginal.svg)
 
 ## 曝光 {#exposure}
 
@@ -1142,7 +1142,7 @@ ht-degree: 6%
 
 ## 扩展 {#extension}
 
-![扩展名](/help/assets/icons/Extension.svg)
+![扩展](/help/assets/icons/Extension.svg)
 
 ## 快速 {#fast}
 
@@ -1150,11 +1150,11 @@ ht-degree: 6%
 
 ## 快进 {#fastforward}
 
-![快进](/help/assets/icons/FastForward.svg)
+![快转](/help/assets/icons/FastForward.svg)
 
 ## FastForwardCycle {#fastforwardcircle}
 
-![FastForwardCycle](/help/assets/icons/FastForwardCircle.svg)
+![快进圈](/help/assets/icons/FastForwardCircle.svg)
 
 ## 功能 {#feature}
 
@@ -1166,7 +1166,7 @@ ht-degree: 6%
 
 ## FeedAdd {#feedadd}
 
-![FeedAdd](/help/assets/icons/FeedAdd.svg)
+![信息源添加](/help/assets/icons/FeedAdd.svg)
 
 ## 信息源管理 {#feedmanagement}
 
@@ -1186,7 +1186,7 @@ ht-degree: 6%
 
 ## FileCampaign {#filecampaign}
 
-![FileCampaign](/help/assets/icons/FileCampaign.svg)
+![文件营销活动](/help/assets/icons/FileCampaign.svg)
 
 ## 文件图表 {#filechart}
 
@@ -1194,7 +1194,7 @@ ht-degree: 6%
 
 ## 文件签出 {#filecheckedout}
 
-![文件签出](/help/assets/icons/FileCheckedOut.svg)
+![FileCheckedOut](/help/assets/icons/FileCheckedOut.svg)
 
 ## 文件代码 {#filecode}
 
@@ -1214,7 +1214,7 @@ ht-degree: 6%
 
 ## FileGear {#filegear}
 
-![FileGear](/help/assets/icons/FileGear.svg)
+![文件齿轮](/help/assets/icons/FileGear.svg)
 
 ## FileGlobe {#fileglobe}
 
@@ -1306,15 +1306,15 @@ ht-degree: 6%
 
 ## 筛选编辑 {#filteredit}
 
-![筛选编辑](/help/assets/icons/FilterEdit.svg)
+![筛选器编辑](/help/assets/icons/FilterEdit.svg)
 
 ## 过滤心 {#filterheart}
 
-![过滤心](/help/assets/icons/FilterHeart.svg)
+![筛选中心](/help/assets/icons/FilterHeart.svg)
 
 ## 筛选移除 {#filterremove}
 
-![筛选移除](/help/assets/icons/FilterRemove.svg)
+![筛选器移除](/help/assets/icons/FilterRemove.svg)
 
 ## 筛选星形 {#filterstar}
 
@@ -1322,7 +1322,7 @@ ht-degree: 6%
 
 ## FindAndReplace {#findandreplace}
 
-![FindAndReplace](/help/assets/icons/FindAndReplace.svg)
+![查找并替换](/help/assets/icons/FindAndReplace.svg)
 
 ## 标志 {#flag}
 
@@ -1330,7 +1330,7 @@ ht-degree: 6%
 
 ## FlagExclude {#flagexclude}
 
-![FlagExclude](/help/assets/icons/FlagExclude.svg)
+![标志排除](/help/assets/icons/FlagExclude.svg)
 
 ## FlashAuto {#flashauto}
 
@@ -1354,7 +1354,7 @@ ht-degree: 6%
 
 ## 手电筒打开 {#flashlighton}
 
-![手电筒打开](/help/assets/icons/FlashlightOn.svg)
+![手电筒On](/help/assets/icons/FlashlightOn.svg)
 
 ## 水平翻转 {#fliphorizontal}
 
@@ -1450,7 +1450,7 @@ ht-degree: 6%
 
 ## FullscreenExit {#fullscreenexit}
 
-![FullscreenExit](/help/assets/icons/FullScreenExit.svg)
+![FullScreenExit](/help/assets/icons/FullScreenExit.svg)
 
 ## 函数 {#function}
 
@@ -1470,7 +1470,7 @@ ht-degree: 6%
 
 ## 仪表3 {#gauge3}
 
-![仪表3](/help/assets/icons/Gauge3.svg)
+![量规3](/help/assets/icons/Gauge3.svg)
 
 ## 量规4 {#gauge4}
 
@@ -1506,7 +1506,7 @@ ht-degree: 6%
 
 ## 礼品 {#gift}
 
-![礼品](/help/assets/icons/Gift.svg)
+![礼物](/help/assets/icons/Gift.svg)
 
 ## 地球 {#globe}
 
@@ -1518,7 +1518,7 @@ ht-degree: 6%
 
 ## GlobeClock {#globeclock}
 
-![GlobeClock](/help/assets/icons/GlobeClock.svg)
+![地球时钟](/help/assets/icons/GlobeClock.svg)
 
 ## GlobeEnter {#globeenter}
 
@@ -1526,7 +1526,7 @@ ht-degree: 6%
 
 ## GlobeExit {#globeexit}
 
-![GlobeExit](/help/assets/icons/GlobeExit.svg)
+![地球退出](/help/assets/icons/GlobeExit.svg)
 
 ## 地球网格 {#globegrid}
 
@@ -1542,7 +1542,7 @@ ht-degree: 6%
 
 ## GlobeSearch {#globesearch}
 
-![GlobeSearch](/help/assets/icons/GlobeSearch.svg)
+![全局搜索](/help/assets/icons/GlobeSearch.svg)
 
 ## GlobeStrike {#globestrike}
 
@@ -1562,7 +1562,7 @@ ht-degree: 6%
 
 ## 图形区域 {#grapharea}
 
-![图形区域](/help/assets/icons/GraphArea.svg)
+![GraphArea](/help/assets/icons/GraphArea.svg)
 
 ## GraphAreaStacked {#graphareastacked}
 
@@ -1570,7 +1570,7 @@ ht-degree: 6%
 
 ## 图形条形图水平 {#graphbarhorizontal}
 
-![图形条形图水平](/help/assets/icons/GraphBarHorizontal.svg)
+![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg)
 
 ## GraphBarHorizontalAdd {#graphbarhorizontaladd}
 
@@ -1582,7 +1582,7 @@ ht-degree: 6%
 
 ## 垂直图形条形图 {#graphbarvertical}
 
-![垂直图形条形图](/help/assets/icons/GraphBarVertical.svg)
+![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg)
 
 ## GraphBarVerticalAdd {#graphbarverticaladd}
 
@@ -1594,7 +1594,7 @@ ht-degree: 6%
 
 ## GraphBulb {#graphbubble}
 
-![GraphBulb](/help/assets/icons/GraphBubble.svg)
+![图形气泡](/help/assets/icons/GraphBubble.svg)
 
 ## GraphBullet {#graphbullet}
 
@@ -1606,7 +1606,7 @@ ht-degree: 6%
 
 ## 图形圆环 {#graphdonut}
 
-![图形圆环](/help/assets/icons/GraphDonut.svg)
+![GraphDonut](/help/assets/icons/GraphDonut.svg)
 
 ## GraphDonutAdd {#graphdonutadd}
 
@@ -1618,7 +1618,7 @@ ht-degree: 6%
 
 ## 图形直方图 {#graphhistogram}
 
-![图形直方图](/help/assets/icons/GraphHistogram.svg)
+![GraphHistogram](/help/assets/icons/GraphHistogram.svg)
 
 ## GraphPathing {#graphpathing}
 
@@ -1638,7 +1638,7 @@ ht-degree: 6%
 
 ## Graphstream {#graphstream}
 
-![Graphstream](/help/assets/icons/GraphStream.svg)
+![GraphStream](/help/assets/icons/GraphStream.svg)
 
 ## GraphStreamRanking {#graphstreamranked}
 
@@ -1650,15 +1650,15 @@ ht-degree: 6%
 
 ## 图形环状层次图 {#graphsunburst}
 
-![图形环状层次图](/help/assets/icons/GraphSunburst.svg)
+![GraphSunburst](/help/assets/icons/GraphSunburst.svg)
 
 ## Graphtree {#graphtree}
 
-![Graphtree](/help/assets/icons/GraphTree.svg)
+![GraphTree](/help/assets/icons/GraphTree.svg)
 
 ## 图形趋势 {#graphtrend}
 
-![图形趋势](/help/assets/icons/GraphTrend.svg)
+![GraphTrend](/help/assets/icons/GraphTrend.svg)
 
 ## GraphTrendAdd {#graphtrendadd}
 
@@ -1682,27 +1682,27 @@ ht-degree: 6%
 
 ## 手形 {#hand}
 
-![手形](/help/assets/icons/Hand.svg)
+![手](/help/assets/icons/Hand.svg)
 
 ## 抓手0 {#hand0}
 
-![抓手0](/help/assets/icons/Hand0.svg)
+![手0](/help/assets/icons/Hand0.svg)
 
 ## Hand1 {#hand1}
 
-![Hand1](/help/assets/icons/Hand1.svg)
+![手1](/help/assets/icons/Hand1.svg)
 
 ## Hand2 {#hand2}
 
-![Hand2](/help/assets/icons/Hand2.svg)
+![手2](/help/assets/icons/Hand2.svg)
 
 ## Hand3 {#hand3}
 
-![Hand3](/help/assets/icons/Hand3.svg)
+![手3](/help/assets/icons/Hand3.svg)
 
 ## Hand4 {#hand4}
 
-![Hand4](/help/assets/icons/Hand4.svg)
+![手4](/help/assets/icons/Hand4.svg)
 
 ## 修复 {#heal}
 
@@ -1738,15 +1738,15 @@ ht-degree: 6%
 
 ## 热修复 {#hotfixe}
 
-![热修复](/help/assets/icons/HotFixe.svg)
+![热修复程序](/help/assets/icons/HotFixe.svg)
 
 ## 贝德酒店 {#hotelbed}
 
-![贝德酒店](/help/assets/icons/HotelBed.svg)
+![HotelBed](/help/assets/icons/HotelBed.svg)
 
 ## 标识服务 {#identityservice}
 
-![标识服务](/help/assets/icons/IdentityService.svg)
+![IdentityService](/help/assets/icons/IdentityService.svg)
 
 ## 图像 {#images}
 
@@ -1762,7 +1762,7 @@ ht-degree: 6%
 
 ## ImageAlbum {#imagealbum}
 
-![ImageAlbum](/help/assets/icons/ImageAlbum.svg)
+![图像相册](/help/assets/icons/ImageAlbum.svg)
 
 ## 图像自动模式 {#imageautomode}
 
@@ -1770,7 +1770,7 @@ ht-degree: 6%
 
 ## ImageCarousel {#imagecarousel}
 
-![ImageCarousel](/help/assets/icons/ImageCarousel.svg)
+![图像轮播](/help/assets/icons/ImageCarousel.svg)
 
 ## 图像检查 {#imagecheck}
 
@@ -1778,7 +1778,7 @@ ht-degree: 6%
 
 ## ImageCheckout {#imagecheckedout}
 
-![ImageCheckout](/help/assets/icons/ImageCheckedOut.svg)
+![ImageCheckedOut](/help/assets/icons/ImageCheckedOut.svg)
 
 ## 图像映射圆 {#imagemapcircle}
 
@@ -1794,7 +1794,7 @@ ht-degree: 6%
 
 ## ImageNext {#imagenext}
 
-![ImageNext](/help/assets/icons/ImageNext.svg)
+![图像下一步](/help/assets/icons/ImageNext.svg)
 
 ## 图像配置文件 {#imageprofile}
 
@@ -1830,7 +1830,7 @@ ht-degree: 6%
 
 ## 交集重叠 {#intersectoverlap}
 
-![交集重叠](/help/assets/icons/IntersectOverlap.svg)
+![交叉重叠](/help/assets/icons/IntersectOverlap.svg)
 
 ## InvertAdj {#invertadj}
 
@@ -1854,11 +1854,11 @@ ht-degree: 6%
 
 ## JourneyEvent {#journeyevent}
 
-![JourneyEvent](/help/assets/icons/JourneyEvent.svg)
+![历程事件](/help/assets/icons/JourneyEvent.svg)
 
 ## JourneyEvent2 {#journeyevent2}
 
-![JourneyEvent2](/help/assets/icons/JourneyEvent2.svg)
+![历程事件2](/help/assets/icons/JourneyEvent2.svg)
 
 ## 历程报告 {#journeyreport}
 
@@ -1910,11 +1910,11 @@ ht-degree: 6%
 
 ## 图层 {#layer}
 
-![图层](/help/assets/icons/Layer.svg)
+![层](/help/assets/icons/Layer.svg)
 
 ## 图层向后 {#layersbackward}
 
-![图层向后](/help/assets/icons/LayersBackward.svg)
+![层向后](/help/assets/icons/LayersBackward.svg)
 
 ## LayersBringToFront {#layersbringtofront}
 
@@ -1922,7 +1922,7 @@ ht-degree: 6%
 
 ## 层向前 {#layersforward}
 
-![层向前](/help/assets/icons/LayersForward.svg)
+![层转发](/help/assets/icons/LayersForward.svg)
 
 ## LayersSendToBack {#layerssendtoback}
 
@@ -1938,11 +1938,11 @@ ht-degree: 6%
 
 ## 浅色 {#light}
 
-![浅色](/help/assets/icons/Light.svg)
+![亮](/help/assets/icons/Light.svg)
 
 ## 折线图 {#line}
 
-![折线图](/help/assets/icons/Line.svg)
+![行](/help/assets/icons/Line.svg)
 
 ## 行高 {#lineheight}
 
@@ -1962,11 +1962,11 @@ ht-degree: 6%
 
 ## LinkGlobal {#linkglobe}
 
-![LinkGlobal](/help/assets/icons/LinkGlobe.svg)
+![链接全球](/help/assets/icons/LinkGlobe.svg)
 
 ## linknav {#linknav}
 
-![linknav](/help/assets/icons/LinkNav.svg)
+![LinkNav](/help/assets/icons/LinkNav.svg)
 
 ## LinkOff {#linkoff}
 
@@ -1974,7 +1974,7 @@ ht-degree: 6%
 
 ## 链接输出 {#linkout}
 
-![链接输出](/help/assets/icons/LinkOut.svg)
+![LinkOut](/help/assets/icons/LinkOut.svg)
 
 ## LinkOutLight {#linkoutlight}
 
@@ -1982,7 +1982,7 @@ ht-degree: 6%
 
 ## 链接页面 {#linkpage}
 
-![链接页面](/help/assets/icons/LinkPage.svg)
+![LinkPage](/help/assets/icons/LinkPage.svg)
 
 ## 链接用户 {#linkuser}
 
@@ -1994,7 +1994,7 @@ ht-degree: 6%
 
 ## locationbaseddate {#locationbaseddate}
 
-![locationbaseddate](/help/assets/icons/LocationBasedDate.svg)
+![LocationBasedDate](/help/assets/icons/LocationBasedDate.svg)
 
 ## LocationBasedEvent {#locationbasedevent}
 
@@ -2006,11 +2006,11 @@ ht-degree: 6%
 
 ## LockClosed {#lockclosed}
 
-![LockClosed](/help/assets/icons/LockClosed.svg)
+![锁定关闭](/help/assets/icons/LockClosed.svg)
 
 ## 锁定打开 {#lockopen}
 
-![锁定打开](/help/assets/icons/LockOpen.svg)
+![LockOpen](/help/assets/icons/LockOpen.svg)
 
 ## 注销 {#logout}
 
@@ -2022,7 +2022,7 @@ ht-degree: 6%
 
 ## Look {#look}
 
-![Look](/help/assets/icons/Look.svg)
+![查找](/help/assets/icons/Look.svg)
 
 ## 放大视图 {#loupeview}
 
@@ -2034,7 +2034,7 @@ ht-degree: 6%
 
 ## 魔棒 {#magicwand}
 
-![魔棒](/help/assets/icons/MagicWand.svg)
+![魔术棒](/help/assets/icons/MagicWand.svg)
 
 ## 放大 {#magnify}
 
@@ -2074,7 +2074,7 @@ ht-degree: 6%
 
 ## 衡量 {#measure}
 
-![衡量](/help/assets/icons/Measure.svg)
+![度量值](/help/assets/icons/Measure.svg)
 
 ## 菜单 {#menu}
 
@@ -2086,7 +2086,7 @@ ht-degree: 6%
 
 ## 合并图层 {#mergelayer}
 
-![合并图层](/help/assets/icons/MergeLayer.svg)
+![合并层](/help/assets/icons/MergeLayer.svg)
 
 ## Messenger {#messenger}
 
@@ -2098,7 +2098,7 @@ ht-degree: 6%
 
 ## MobileService {#mobileservice}
 
-![MobileService](/help/assets/icons/MobileService.svg)
+![移动服务](/help/assets/icons/MobileService.svg)
 
 ## ModernGridView {#moderngridview}
 
@@ -2106,7 +2106,7 @@ ht-degree: 6%
 
 ## 货币 {#money}
 
-![货币](/help/assets/icons/Money.svg)
+![钱](/help/assets/icons/Money.svg)
 
 ## 监控 {#monitoring}
 
@@ -2114,7 +2114,7 @@ ht-degree: 6%
 
 ## 月亮 {#moon}
 
-![月亮](/help/assets/icons/Moon.svg)
+![月](/help/assets/icons/Moon.svg)
 
 ## 更多 {#more}
 
@@ -2146,19 +2146,19 @@ ht-degree: 6%
 
 ## 左移 {#moveleftright}
 
-![左移](/help/assets/icons/MoveLeftRight.svg)
+![MoveLeftRight](/help/assets/icons/MoveLeftRight.svg)
 
 ## 移至 {#moveto}
 
-![移至](/help/assets/icons/MoveTo.svg)
+![移动到](/help/assets/icons/MoveTo.svg)
 
 ## MoveUpDown {#moveupdown}
 
-![MoveUpDown](/help/assets/icons/MoveUpDown.svg)
+![上移下移](/help/assets/icons/MoveUpDown.svg)
 
 ## MovieCamera {#moviecamera}
 
-![MovieCamera](/help/assets/icons/MovieCamera.svg)
+![电影摄像机](/help/assets/icons/MovieCamera.svg)
 
 ## 多种 {#multiple}
 
@@ -2166,19 +2166,19 @@ ht-degree: 6%
 
 ## Multipleadd {#multipleadd}
 
-![Multipleadd](/help/assets/icons/MultipleAdd.svg)
+![MultipleAdd](/help/assets/icons/MultipleAdd.svg)
 
 ## Multiplecheck {#multiplecheck}
 
-![Multiplecheck](/help/assets/icons/MultipleCheck.svg)
+![MultipleCheck](/help/assets/icons/MultipleCheck.svg)
 
 ## Multipleexclude {#multipleexclude}
 
-![Multipleexclude](/help/assets/icons/MultipleExclude.svg)
+![MultipleExclude](/help/assets/icons/MultipleExclude.svg)
 
 ## NamingOrder {#namingorder}
 
-![NamingOrder](/help/assets/icons/NamingOrder.svg)
+![命名顺序](/help/assets/icons/NamingOrder.svg)
 
 ## 新增 {#new}
 
@@ -2186,15 +2186,15 @@ ht-degree: 6%
 
 ## 新建项目 {#newitem}
 
-![新建项目](/help/assets/icons/NewItem.svg)
+![新项目](/help/assets/icons/NewItem.svg)
 
 ## 新建计划 {#newplan}
 
-![新建计划](/help/assets/icons/NewPlan.svg)
+![新计划](/help/assets/icons/NewPlan.svg)
 
 ## NewsAdd {#newsadd}
 
-![NewsAdd](/help/assets/icons/NewsAdd.svg)
+![新闻添加](/help/assets/icons/NewsAdd.svg)
 
 ## NoEdit {#noedit}
 
@@ -2230,7 +2230,7 @@ ht-degree: 6%
 
 ## Onair {#onair}
 
-![Onair](/help/assets/icons/OnAir.svg)
+![OnAir](/help/assets/icons/OnAir.svg)
 
 ## OpenIn {#openin}
 
@@ -2266,7 +2266,7 @@ ht-degree: 6%
 
 ## 下内边距 {#paddingbottom}
 
-![下内边距](/help/assets/icons/PaddingBottom.svg)
+![填充底部](/help/assets/icons/PaddingBottom.svg)
 
 ## 左内边距 {#paddingleft}
 
@@ -2278,11 +2278,11 @@ ht-degree: 6%
 
 ## 上内边距 {#paddingtop}
 
-![上内边距](/help/assets/icons/PaddingTop.svg)
+![填充顶端](/help/assets/icons/PaddingTop.svg)
 
 ## PageBreak {#pagebreak}
 
-![PageBreak](/help/assets/icons/PageBreak.svg)
+![分页符](/help/assets/icons/PageBreak.svg)
 
 ## PageExclude {#pageexclude}
 
@@ -2306,7 +2306,7 @@ ht-degree: 6%
 
 ## 页面排除 {#pagesexclude}
 
-![页面排除](/help/assets/icons/PagesExclude.svg)
+![页排除](/help/assets/icons/PagesExclude.svg)
 
 ## 平移 {#pan}
 
@@ -2334,7 +2334,7 @@ ht-degree: 6%
 
 ## 图案 {#pattern}
 
-![图案](/help/assets/icons/Pattern.svg)
+![模式](/help/assets/icons/Pattern.svg)
 
 ## 暂停 {#pause}
 
@@ -2342,7 +2342,7 @@ ht-degree: 6%
 
 ## 暂停圆形 {#pausecircle}
 
-![暂停圆形](/help/assets/icons/PauseCircle.svg)
+![PauseCircle](/help/assets/icons/PauseCircle.svg)
 
 ## 典当 {#pawn}
 
@@ -2350,7 +2350,7 @@ ht-degree: 6%
 
 ## 待处理 {#pending}
 
-![待处理](/help/assets/icons/Pending.svg)
+![挂起](/help/assets/icons/Pending.svg)
 
 ## 人员组 {#peoplegroup}
 
@@ -2358,7 +2358,7 @@ ht-degree: 6%
 
 ## PersonalizationField {#personalizationfield}
 
-![PersonalizationField](/help/assets/icons/PersonalizationField.svg)
+![个性化字段](/help/assets/icons/PersonalizationField.svg)
 
 ## 透视 {#perspective}
 
@@ -2370,11 +2370,11 @@ ht-degree: 6%
 
 ## 固定 {#pinon}
 
-![固定](/help/assets/icons/PinOn.svg)
+![PinOn](/help/assets/icons/PinOn.svg)
 
 ## 透视 {#pivot}
 
-![透视](/help/assets/icons/Pivot.svg)
+![数据透视](/help/assets/icons/Pivot.svg)
 
 ## 占位符 {#placeholder}
 
@@ -2382,7 +2382,7 @@ ht-degree: 6%
 
 ## PlatformDataMapping {#platformdatamapping}
 
-![PlatformDataMapping](/help/assets/icons/PlatformDataMapping.svg)
+![平台数据映射](/help/assets/icons/PlatformDataMapping.svg)
 
 ## 播放 {#play}
 
@@ -2406,7 +2406,7 @@ ht-degree: 6%
 
 ## 弹出窗口 {#popin}
 
-![弹出窗口](/help/assets/icons/PopIn.svg)
+![PopIn](/help/assets/icons/PopIn.svg)
 
 ## 纵向 {#portrait}
 
@@ -2434,7 +2434,7 @@ ht-degree: 6%
 
 ## ProjectAdd {#projectadd}
 
-![ProjectAdd](/help/assets/icons/ProjectAdd.svg)
+![项目添加](/help/assets/icons/ProjectAdd.svg)
 
 ## 项目编辑 {#projectedit}
 
@@ -2454,7 +2454,7 @@ ht-degree: 6%
 
 ## 属性复制 {#propertiescopy}
 
-![属性复制](/help/assets/icons/PropertiesCopy.svg)
+![属性副本](/help/assets/icons/PropertiesCopy.svg)
 
 ## PublishCheck {#publishcheck}
 
@@ -2462,19 +2462,19 @@ ht-degree: 6%
 
 ## Publishpending {#publishpending}
 
-![Publishpending](/help/assets/icons/PublishPending.svg)
+![PublishPending](/help/assets/icons/PublishPending.svg)
 
 ## Publishreject {#publishreject}
 
-![Publishreject](/help/assets/icons/PublishReject.svg)
+![PublishReject](/help/assets/icons/PublishReject.svg)
 
 ## Publishremove {#publishremove}
 
-![Publishremove](/help/assets/icons/PublishRemove.svg)
+![PublishRemove](/help/assets/icons/PublishRemove.svg)
 
 ## Publishschedule {#publishschedule}
 
-![Publishschedule](/help/assets/icons/PublishSchedule.svg)
+![发布计划](/help/assets/icons/PublishSchedule.svg)
 
 ## 推送通知 {#pushnotification}
 
@@ -2518,15 +2518,15 @@ ht-degree: 6%
 
 ## 滑轨右打开 {#railrightopen}
 
-![滑轨右打开](/help/assets/icons/RailRightOpen.svg)
+![RailRightOpen](/help/assets/icons/RailRightOpen.svg)
 
 ## 边栏顶部 {#railtop}
 
-![边栏顶部](/help/assets/icons/RailTop.svg)
+![RailTop](/help/assets/icons/RailTop.svg)
 
 ## 范围蒙版 {#rangemask}
 
-![范围蒙版](/help/assets/icons/RangeMask.svg)
+![RangeMask](/help/assets/icons/RangeMask.svg)
 
 ## RealTimeCustomerProfile {#realtimecustomerprofile}
 
@@ -2562,7 +2562,7 @@ ht-degree: 6%
 
 ## 删除圆形 {#removecircle}
 
-![删除圆形](/help/assets/icons/RemoveCircle.svg)
+![删除圆圈](/help/assets/icons/RemoveCircle.svg)
 
 ## 重命名 {#rename}
 
@@ -2602,7 +2602,7 @@ ht-degree: 6%
 
 ## 已解决的注释 {#resolvedcomment}
 
-![已解决的注释](/help/assets/icons/ResolvedComment.svg)
+![已解决的评论](/help/assets/icons/ResolvedComment.svg)
 
 ## 转推 {#retweet}
 
@@ -2626,7 +2626,7 @@ ht-degree: 6%
 
 ## 倒带Cycle {#rewindcircle}
 
-![倒带Cycle](/help/assets/icons/RewindCircle.svg)
+![倒带](/help/assets/icons/RewindCircle.svg)
 
 ## 功能区 {#ribbon}
 
@@ -2634,7 +2634,7 @@ ht-degree: 6%
 
 ## 旋转逆时针 {#rotateccw}
 
-![旋转逆时针](/help/assets/icons/RotateCCW.svg)
+![RotateCCW](/help/assets/icons/RotateCCW.svg)
 
 ## RotateCCWBold {#rotateccwbold}
 
@@ -2642,7 +2642,7 @@ ht-degree: 6%
 
 ## 旋转顺时针 {#rotatecw}
 
-![旋转顺时针](/help/assets/icons/RotateCW.svg)
+![RotateCW](/help/assets/icons/RotateCW.svg)
 
 ## RotateCWBold {#rotatecwbold}
 
@@ -2654,7 +2654,7 @@ ht-degree: 6%
 
 ## 旋转左大纲 {#rotateleftoutline}
 
-![旋转左大纲](/help/assets/icons/RotateLeftOutline.svg)
+![RotateLeftOutline](/help/assets/icons/RotateLeftOutline.svg)
 
 ## 向右旋转 {#rotateright}
 
@@ -2662,7 +2662,7 @@ ht-degree: 6%
 
 ## 旋转右轮廓 {#rotaterightoutline}
 
-![旋转右轮廓](/help/assets/icons/RotateRightOutline.svg)
+![RotateRightOutline](/help/assets/icons/RotateRightOutline.svg)
 
 ## SM {#sm}
 
@@ -2698,11 +2698,11 @@ ht-degree: 6%
 
 ## SaveFloppy {#savefloppy}
 
-![SaveFloppy](/help/assets/icons/SaveFloppy.svg)
+![保存软盘](/help/assets/icons/SaveFloppy.svg)
 
 ## SaveTo {#saveto}
 
-![SaveTo](/help/assets/icons/SaveTo.svg)
+![保存到](/help/assets/icons/SaveTo.svg)
 
 ## SaveToLight {#savetolight}
 
@@ -2722,11 +2722,11 @@ ht-degree: 6%
 
 ## 座席 {#seat}
 
-![座席](/help/assets/icons/Seat.svg)
+![名额](/help/assets/icons/Seat.svg)
 
 ## SeatAdd {#seatadd}
 
-![SeatAdd](/help/assets/icons/SeatAdd.svg)
+![名额添加](/help/assets/icons/SeatAdd.svg)
 
 ## 区段 {#segment}
 
@@ -2742,11 +2742,11 @@ ht-degree: 6%
 
 ## 选择添加 {#selectadd}
 
-![选择添加](/help/assets/icons/SelectAdd.svg)
+![SelectAdd](/help/assets/icons/SelectAdd.svg)
 
 ## 选择框 {#selectbox}
 
-![选择框](/help/assets/icons/SelectBox.svg)
+![SelectBox](/help/assets/icons/SelectBox.svg)
 
 ## SelectBoxAll {#selectboxall}
 
@@ -2758,11 +2758,11 @@ ht-degree: 6%
 
 ## 选择容器 {#selectcontainer}
 
-![选择容器](/help/assets/icons/SelectContainer.svg)
+![SelectContainer](/help/assets/icons/SelectContainer.svg)
 
 ## SelectGear {#selectgear}
 
-![SelectGear](/help/assets/icons/SelectGear.svg)
+![选择齿轮](/help/assets/icons/SelectGear.svg)
 
 ## SelectIntersect {#selectintersect}
 
@@ -2782,7 +2782,7 @@ ht-degree: 6%
 
 ## 选择移动 {#selectionmove}
 
-![选择移动](/help/assets/icons/SelectionMove.svg)
+![SelectionMove](/help/assets/icons/SelectionMove.svg)
 
 ## 发送 {#send}
 
@@ -2794,7 +2794,7 @@ ht-degree: 6%
 
 ## 情绪中性 {#sentimentneutral}
 
-![情绪中性](/help/assets/icons/SentimentNeutral.svg)
+![情绪中立](/help/assets/icons/SentimentNeutral.svg)
 
 ## 情绪积极 {#sentimentpositive}
 
@@ -2854,19 +2854,19 @@ ht-degree: 6%
 
 ## ShoppingCart {#shoppingcart}
 
-![ShoppingCart](/help/assets/icons/ShoppingCart.svg)
+![购物车](/help/assets/icons/ShoppingCart.svg)
 
 ## ShowAllLay {#showalllayer}
 
-![ShowAllLay](/help/assets/icons/ShowAllLayer.svg)
+![ShowAllLayer](/help/assets/icons/ShowAllLayer.svg)
 
 ## 显示菜单 {#showmenu}
 
-![显示菜单](/help/assets/icons/ShowMenu.svg)
+![ShowMenu](/help/assets/icons/ShowMenu.svg)
 
 ## ShowOneLay {#showonelayer}
 
-![ShowOneLay](/help/assets/icons/ShowOneLayer.svg)
+![ShowOneLayer](/help/assets/icons/ShowOneLayer.svg)
 
 ## 随机播放 {#shuffle}
 
@@ -2878,7 +2878,7 @@ ht-degree: 6%
 
 ## 慢速 {#slow}
 
-![慢速](/help/assets/icons/Slow.svg)
+![慢](/help/assets/icons/Slow.svg)
 
 ## 小型公司 {#smallcap}
 
@@ -2894,11 +2894,11 @@ ht-degree: 6%
 
 ## SortOrderdown {#sortorderdown}
 
-![SortOrderdown](/help/assets/icons/SortOrderDown.svg)
+![排序顺序](/help/assets/icons/SortOrderDown.svg)
 
 ## 排序上移 {#sortorderup}
 
-![排序上移](/help/assets/icons/SortOrderUp.svg)
+![排序顺序设置](/help/assets/icons/SortOrderUp.svg)
 
 ## 垃圾邮件 {#spam}
 
@@ -2914,7 +2914,7 @@ ht-degree: 6%
 
 ## SplitView {#splitview}
 
-![SplitView](/help/assets/icons/SplitView.svg)
+![拆分视图](/help/assets/icons/SplitView.svg)
 
 ## 污点修复 {#spotheal}
 
@@ -2926,19 +2926,19 @@ ht-degree: 6%
 
 ## Stage {#stage}
 
-![Stage](/help/assets/icons/Stage.svg)
+![阶段](/help/assets/icons/Stage.svg)
 
 ## 图章 {#stamp}
 
-![图章](/help/assets/icons/Stamp.svg)
+![戳](/help/assets/icons/Stamp.svg)
 
 ## 星形 {#star}
 
-![星形](/help/assets/icons/Star.svg)
+![颗星](/help/assets/icons/Star.svg)
 
 ## 星形轮廓 {#staroutline}
 
-![星形轮廓](/help/assets/icons/StarOutline.svg)
+![星形大纲](/help/assets/icons/StarOutline.svg)
 
 ## 星暴 {#starburst}
 
@@ -2946,19 +2946,19 @@ ht-degree: 6%
 
 ## 后退 {#stepbackward}
 
-![后退](/help/assets/icons/StepBackward.svg)
+![回退](/help/assets/icons/StepBackward.svg)
 
 ## 阶梯向后圆 {#stepbackwardcircle}
 
-![阶梯向后圆](/help/assets/icons/StepBackwardCircle.svg)
+![回退](/help/assets/icons/StepBackwardCircle.svg)
 
 ## 步进 {#stepforward}
 
-![步进](/help/assets/icons/StepForward.svg)
+![向前一步](/help/assets/icons/StepForward.svg)
 
 ## StepForwardCycle {#stepforwardcircle}
 
-![StepForwardCycle](/help/assets/icons/StepForwardCircle.svg)
+![向前移动圆圈](/help/assets/icons/StepForwardCircle.svg)
 
 ## 停止 {#stop}
 
@@ -2966,11 +2966,11 @@ ht-degree: 6%
 
 ## 停止圆形 {#stopcircle}
 
-![停止圆形](/help/assets/icons/StopCircle.svg)
+![停止循环](/help/assets/icons/StopCircle.svg)
 
 ## 秒表 {#stopwatch}
 
-![秒表](/help/assets/icons/Stopwatch.svg)
+![停止观看](/help/assets/icons/Stopwatch.svg)
 
 ## 拉直 {#straighten}
 
@@ -2978,7 +2978,7 @@ ht-degree: 6%
 
 ## 拉直轮廓 {#straightenoutline}
 
-![拉直轮廓](/help/assets/icons/StraightenOutline.svg)
+![拉直大纲](/help/assets/icons/StraightenOutline.svg)
 
 ## 描边宽度 {#strokewidth}
 
@@ -2990,7 +2990,7 @@ ht-degree: 6%
 
 ## Subtractbackpath {#subtractbackpath}
 
-![Subtractbackpath](/help/assets/icons/SubtractBackPath.svg)
+![SubtractBackPath](/help/assets/icons/SubtractBackPath.svg)
 
 ## 从所选内容减去 {#subtractfromselection}
 
@@ -2998,7 +2998,7 @@ ht-degree: 6%
 
 ## SubtractfrontPath {#subtractfrontpath}
 
-![SubtractfrontPath](/help/assets/icons/SubtractFrontPath.svg)
+![SubtractFrontPath](/help/assets/icons/SubtractFrontPath.svg)
 
 ## SuccessMetric {#successmetric}
 
@@ -3006,7 +3006,7 @@ ht-degree: 6%
 
 ## 总结 {#summarize}
 
-![总结](/help/assets/icons/Summarize.svg)
+![摘要](/help/assets/icons/Summarize.svg)
 
 ## 调查 {#survey}
 
@@ -3014,7 +3014,7 @@ ht-degree: 6%
 
 ## 切换 {#switch}
 
-![切换](/help/assets/icons/Switch.svg)
+![开关](/help/assets/icons/Switch.svg)
 
 ## 同步 {#sync}
 
@@ -3022,7 +3022,7 @@ ht-degree: 6%
 
 ## 同步移除 {#syncremove}
 
-![同步移除](/help/assets/icons/SyncRemove.svg)
+![SyncRemove](/help/assets/icons/SyncRemove.svg)
 
 ## 表 {#table}
 
@@ -3034,7 +3034,7 @@ ht-degree: 6%
 
 ## 表格和图表 {#tableandchart}
 
-![表格和图表](/help/assets/icons/TableAndChart.svg)
+![TableAndChart](/help/assets/icons/TableAndChart.svg)
 
 ## TableColumnAddLeft {#tablecolumnaddleft}
 
@@ -3062,7 +3062,7 @@ ht-degree: 6%
 
 ## 表格直方图 {#tablehistogram}
 
-![表格直方图](/help/assets/icons/TableHistogram.svg)
+![表直方图](/help/assets/icons/TableHistogram.svg)
 
 ## TableMergeCell {#tablemergecell}
 
@@ -3078,7 +3078,7 @@ ht-degree: 6%
 
 ## 表行合并 {#tablerowmerge}
 
-![表行合并](/help/assets/icons/TableRowMerge.svg)
+![TableRowMerge](/help/assets/icons/TableRowMerge.svg)
 
 ## TableRowRemoveCenter {#tablerowremovecenter}
 
@@ -3090,7 +3090,7 @@ ht-degree: 6%
 
 ## 表选择列 {#tableselectcolumn}
 
-![表选择列](/help/assets/icons/TableSelectColumn.svg)
+![TableSelectColumn](/help/assets/icons/TableSelectColumn.svg)
 
 ## TableSelectRow {#tableselectrow}
 
@@ -3106,7 +3106,7 @@ ht-degree: 6%
 
 ## 标记斜体 {#tagitalic}
 
-![标记斜体](/help/assets/icons/TagItalic.svg)
+![TagItalic](/help/assets/icons/TagItalic.svg)
 
 ## 标记下划线 {#tagunderline}
 
@@ -3118,7 +3118,7 @@ ht-degree: 6%
 
 ## 已定位 {#targeted}
 
-![已定位](/help/assets/icons/Targeted.svg)
+![目标](/help/assets/icons/Targeted.svg)
 
 ## 任务列表 {#tasklist}
 
@@ -3134,7 +3134,7 @@ ht-degree: 6%
 
 ## 测试AB {#testab}
 
-![测试AB](/help/assets/icons/TestAB.svg)
+![TestAB](/help/assets/icons/TestAB.svg)
 
 ## TestABEdit {#testabedit}
 
@@ -3150,7 +3150,7 @@ ht-degree: 6%
 
 ## TestProfile {#testprofile}
 
-![TestProfile](/help/assets/icons/TestProfile.svg)
+![测试配置文件](/help/assets/icons/TestProfile.svg)
 
 ## 文本 {#text}
 
@@ -3162,19 +3162,19 @@ ht-degree: 6%
 
 ## 文本居中对齐 {#textaligncenter}
 
-![文本居中对齐](/help/assets/icons/TextAlignCenter.svg)
+![TextAlignCenter](/help/assets/icons/TextAlignCenter.svg)
 
 ## 文本对齐对齐 {#textalignjustify}
 
-![文本对齐对齐](/help/assets/icons/TextAlignJustify.svg)
+![TextAlignJustify](/help/assets/icons/TextAlignJustify.svg)
 
 ## 文本左对齐 {#textalignleft}
 
-![文本左对齐](/help/assets/icons/TextAlignLeft.svg)
+![TextAlignLeft](/help/assets/icons/TextAlignLeft.svg)
 
 ## 文本右对齐 {#textalignright}
 
-![文本右对齐](/help/assets/icons/TextAlignRight.svg)
+![TextAlignRight](/help/assets/icons/TextAlignRight.svg)
 
 ## 文本基线偏移 {#textbaselineshift}
 
@@ -3190,7 +3190,7 @@ ht-degree: 6%
 
 ## 文本项目符号附加 {#textbulletedattach}
 
-![文本项目符号附加](/help/assets/icons/TextBulletedAttach.svg)
+![TextBulletedAttach](/help/assets/icons/TextBulletedAttach.svg)
 
 ## TextBulletedHierarchy {#textbulletedhierarchy}
 
@@ -3222,7 +3222,7 @@ ht-degree: 6%
 
 ## 文本缩进减少 {#textindentdecrease}
 
-![文本缩进减少](/help/assets/icons/TextIndentDecrease.svg)
+![TextIndentDecrease](/help/assets/icons/TextIndentDecrease.svg)
 
 ## TextIndentIncrease {#textindentincrease}
 
@@ -3282,7 +3282,7 @@ ht-degree: 6%
 
 ## 文本描边 {#textstroke}
 
-![文本描边](/help/assets/icons/TextStroke.svg)
+![文本笔触](/help/assets/icons/TextStroke.svg)
 
 ## 文本样式 {#textstyle}
 
@@ -3322,7 +3322,7 @@ ht-degree: 6%
 
 ## 训练 {#train}
 
-![训练](/help/assets/icons/Train.svg)
+![培训](/help/assets/icons/Train.svg)
 
 ## TransferToPlatform {#transfertoplatform}
 
@@ -3334,7 +3334,7 @@ ht-degree: 6%
 
 ## 陷印 {#trap}
 
-![陷印](/help/assets/icons/Trap.svg)
+![陷阱](/help/assets/icons/Trap.svg)
 
 ## 树折叠 {#treecollapse}
 
@@ -3342,7 +3342,7 @@ ht-degree: 6%
 
 ## 树折叠全部 {#treecollapseall}
 
-![树折叠全部](/help/assets/icons/TreeCollapseAll.svg)
+![TreeCollapseAll](/help/assets/icons/TreeCollapseAll.svg)
 
 ## 树扩展 {#treeexpand}
 
@@ -3382,7 +3382,7 @@ ht-degree: 6%
 
 ## 还原 {#undo}
 
-![还原](/help/assets/icons/Undo.svg)
+![撤消](/help/assets/icons/Undo.svg)
 
 ## 取消分组 {#ungroup}
 
@@ -3398,7 +3398,7 @@ ht-degree: 6%
 
 ## 未解决评论 {#unresolvedcomment}
 
-![未解决评论](/help/assets/icons/UnresolvedComment.svg)
+![UnresolvedComment](/help/assets/icons/UnresolvedComment.svg)
 
 ## UploadToCloud {#uploadtocloud}
 
@@ -3430,11 +3430,11 @@ ht-degree: 6%
 
 ## UserCheckout {#usercheckedout}
 
-![UserCheckout](/help/assets/icons/UserCheckedOut.svg)
+![UserCheckedOut](/help/assets/icons/UserCheckedOut.svg)
 
 ## 用户开发人员 {#userdeveloper}
 
-![用户开发人员](/help/assets/icons/UserDeveloper.svg)
+![UserDeveloper](/help/assets/icons/UserDeveloper.svg)
 
 ## 用户编辑 {#useredit}
 
@@ -3458,7 +3458,7 @@ ht-degree: 6%
 
 ## UsersAdd {#usersadd}
 
-![UsersAdd](/help/assets/icons/UsersAdd.svg)
+![用户添加](/help/assets/icons/UsersAdd.svg)
 
 ## 用户排除 {#usersexclude}
 
@@ -3466,7 +3466,7 @@ ht-degree: 6%
 
 ## UsersLock {#userslock}
 
-![UsersLock](/help/assets/icons/UsersLock.svg)
+![用户锁定](/help/assets/icons/UsersLock.svg)
 
 ## 用户共享 {#usersshare}
 
@@ -3486,15 +3486,15 @@ ht-degree: 6%
 
 ## VideoCheckout {#videocheckedout}
 
-![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg)
+![视频签出](/help/assets/icons/VideoCheckedOut.svg)
 
 ## VideoFilled {#videofilled}
 
-![VideoFilled](/help/assets/icons/VideoFilled.svg)
+![已填充视频](/help/assets/icons/VideoFilled.svg)
 
 ## 视频轮廓 {#videooutline}
 
-![视频轮廓](/help/assets/icons/VideoOutline.svg)
+![视频大纲](/help/assets/icons/VideoOutline.svg)
 
 ## ViewAllTag {#viewalltag}
 
@@ -3506,7 +3506,7 @@ ht-degree: 6%
 
 ## ViewCard {#viewcard}
 
-![ViewCard](/help/assets/icons/ViewCard.svg)
+![视图卡](/help/assets/icons/ViewCard.svg)
 
 ## ViewCardOneCol {#viewcardonecol}
 
@@ -3538,7 +3538,7 @@ ht-degree: 6%
 
 ## ViewSingle {#viewsingle}
 
-![ViewSingle](/help/assets/icons/ViewSingle.svg)
+![查看单个](/help/assets/icons/ViewSingle.svg)
 
 ## 视图栈栈 {#viewstack}
 
@@ -3566,7 +3566,7 @@ ht-degree: 6%
 
 ## 可见性关闭 {#visibilityoff}
 
-![可见性关闭](/help/assets/icons/VisibilityOff.svg)
+![VisibilityOff](/help/assets/icons/VisibilityOff.svg)
 
 ## 访问 {#visit}
 
@@ -3574,11 +3574,11 @@ ht-degree: 6%
 
 ## Visiteshare {#visitshare}
 
-![Visiteshare](/help/assets/icons/VisitShare.svg)
+![访问共享](/help/assets/icons/VisitShare.svg)
 
 ## 配音 {#voiceover}
 
-![配音](/help/assets/icons/VoiceOver.svg)
+![旁白](/help/assets/icons/VoiceOver.svg)
 
 ## 音量静音 {#volumemute}
 
@@ -3590,11 +3590,11 @@ ht-degree: 6%
 
 ## 第三卷 {#volumethree}
 
-![第三卷](/help/assets/icons/VolumeThree.svg)
+![卷三](/help/assets/icons/VolumeThree.svg)
 
 ## 第二卷 {#volumetwo}
 
-![第二卷](/help/assets/icons/VolumeTwo.svg)
+![卷二](/help/assets/icons/VolumeTwo.svg)
 
 ## 观看 {#watch}
 
@@ -3614,7 +3614,7 @@ ht-degree: 6%
 
 ## Workflowadd {#workflowadd}
 
-![Workflowadd](/help/assets/icons/WorkflowAdd.svg)
+![工作流添加](/help/assets/icons/WorkflowAdd.svg)
 
 ## 扳手 {#wrench}
 

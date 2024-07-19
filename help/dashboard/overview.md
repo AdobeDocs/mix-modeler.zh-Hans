@@ -15,7 +15,7 @@ ht-degree: 1%
 
 Mix Modeler中的概述仪表板允许您通过各种可配置的小组件概述您的协调数据和计划。
 
-要访问概述，请选择 ![主页](/help/assets//icons/Home.svg) **[!UICONTROL Overview]** 从Mix Modeler界面的左边栏中。
+要访问概述，请从Mix Modeler界面的左边栏中选择![主页](/help/assets//icons/Home.svg) **[!UICONTROL Overview]**。
 
 从此处，您可以获取有关以下内容的更多详细信息：
 

@@ -35,7 +35,7 @@ Mix Modeler在战略和战术层面提供以下类型的优化和可操作的见
 
 AI/ML双向传输学习将营销组合建模(MMM)和多接触点归因(MTA)结果整合在一起，确保在无Cookie的世界中跨测量和规划获得一致的结果。
 
-![双向转移学习](/help/assets//birdirectional-transfer-learning.png){width="500" align="center"}
+![双向传输学习](/help/assets//birdirectional-transfer-learning.png){width="500" align="center"}
 
 
 ## 功能
@@ -46,14 +46,14 @@ Mix Modeler提供以下功能：
 |---|---|
 | **衡量增量性能** | 了解业务目标或战术活动目标之间的递增ROI和营销影响。 |
 | **跨MMM和MTA统一结果** | 通过转移学习将营销组合建模(MMM)和多接触点归因(MTA)模型相结合，做出更有信心的决策。 |
-| **以最佳方式分配预算** | 根据营销支出和对目标的影响确定最佳预算分配。 |
+| **优化分配预算** | 根据营销支出和对目标的影响确定最佳预算分配。 |
 | **创建和比较预算方案** | 制定多个预算计划并比较其影响，以便为您的业务做出最佳决策。 |
 
 {style="table-layout:auto"}
 
 >[!MORELIKETHIS]
 >
->[了解Mix Modeler工作流程](workflow.md)
+>[了解Mix Modeler工作流](workflow.md)
 
 
 ### 营销组合建模(MMM)
@@ -93,6 +93,6 @@ Mix Modeler的多接触点归因支持两种类别的分数：
 * 完整漏斗事件级归因：了解营销在整个客户历程中的影响。 例如，免费帐户注册以实现付费转化和其他。
 * 伙伴评价：根据归因结果评价机构和伙伴的有效性。
 
-请参阅 [模型分析 — 归因](../models/insights.md#attribution) 了解如何在Mix Modeler中访问多点接触归因分析。
+请参阅[模型分析 — 归因](../models/insights.md#attribution)，了解如何访问Mix Modeler中的多接触点归因分析。
 
 

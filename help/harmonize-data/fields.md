@@ -55,9 +55,9 @@ Mix Modeler中默认可用的全局协调字段包括：
 
 要在Mix Modeler界面中查看可用协调字段的表，请执行以下操作：
 
-1. 选择 ![数据搜索](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** 从左边栏开始。
+1. 从左边栏中选择![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]**。
 
-1. 选择 **[!UICONTROL Fields]** 从顶部栏中。 您会看到协调字段的表。 如果有更多页面可用，请使用 ![向左箭头](/help/assets//icons/ChevronLeft.svg) 或 ![向右箭头](/help/assets//icons/ChevronRight.svg) 在 **[!UICONTROL Page _x _之_x_]** 在表的页面之间移动。
+1. 从顶部栏中选择&#x200B;**[!UICONTROL Fields]**。 您会看到协调字段的表。 如果有更多页面可用，请使用&#x200B;_x _]**的**[!UICONTROL Page _x_&#x200B;上的![向左箭头](/help/assets//icons/ChevronLeft.svg)或![向右箭头](/help/assets//icons/ChevronRight.svg)在表的页面之间移动。
 
    表格列指定有关协调字段的详细信息
 
@@ -65,38 +65,38 @@ Mix Modeler中默认可用的全局协调字段包括：
    | ---------------------- | ----------|
    | 字段名称 | 协调字段的名称。 |
    | 显示名称 | 协调字段的显示名称。 此显示名称在定义数据集规则、营销接触点和转化定义时使用。 |
-   | 类别 | 指定协调的数据字段是否为 [!UICONTROL Dimension]， a [!UICONTROL Metric] 或 [!UICONTROL Derived]. 派生类别是使用基于量度的公式定义的协调字段。 |
+   | 类别 | 指定协调的数据字段是[!UICONTROL Dimension]、[!UICONTROL Metric]还是[!UICONTROL Derived]。 派生类别是使用基于量度的公式定义的协调字段。 |
    | 数据类型 | 指定数据类型([!UICONTROL Number]， [!UICONTROL String]， [!UICONTROL Currency]， [!UICONTROL Date time])。 |
    | 创建日期 | 创建协调字段的日期和时间。 |
-   | 所有者 | 指示协调字段是否为默认字段([!UICONTROL Global])，或由您定义([!UICONTROL Client])。 |
+   | 所有者 | 指示协调字段是默认字段([!UICONTROL Global])，还是由您定义的([!UICONTROL Client])。 |
    | 上次修改日期 | 上次修改协调字段的数据和时间。 |
    | 公式 | 指定基于派生类别的协调字段的公式。 |
 
    {style="table-layout:auto"}
 
-1. 要搜索特定的协调字段，请使用 ![Search](/help/assets//icons/Search.svg) **[!UICONTROL *搜索协调字段&#x200B;*]**.
+1. 要搜索特定的协调字段，请使用![搜索](/help/assets//icons/Search.svg) **[!UICONTROL *搜索协调字段&#x200B;*]**。
 
 
 ### 添加协调字段
 
-为了添加一个统一的字段，请在 ![数据搜索](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Mix Modeler界面：
+要添加协调字段，请在Mix Modeler的![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]**&#x200B;界面中：
 
-1. 选择 ![添加](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add field]**.
+1. 选择![添加](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add field]**。
 
-1. 在 **[!UICONTROL Create]** 对话框：
+1. 在&#x200B;**[!UICONTROL Create]**&#x200B;对话框中：
 
-   1. 输入 **[!UICONTROL Field name]**&#x200B;例如 `region`.
-   1. 输入 **[!UICONTROL Display name]**&#x200B;例如 `Region`.
-   1. 选择 **[!UICONTROL Category]**： **[!UICONTROL Dimension]**， **[!UICONTROL Metric]** 或 **[!UICONTROL Derived]**.
+   1. 输入&#x200B;**[!UICONTROL Field name]**，例如`region`。
+   1. 输入&#x200B;**[!UICONTROL Display name]**，例如`Region`。
+   1. 选择&#x200B;**[!UICONTROL Category]**： **[!UICONTROL Dimension]**、**[!UICONTROL Metric]**&#x200B;或&#x200B;**[!UICONTROL Derived]**。
 
-      当您选择时 **[!UICONTROL Derived]**，指定 **[!UICONTROL Formula]**. 要构建有效的算术表达式，请组合以下项中的一个或多个量度： **[!UICONTROL Insert Metric]** 与一个或多个操作员 **[!UICONTROL + - * / ( )]** . 例如，`[orders]/[impressions]`
+      选择&#x200B;**[!UICONTROL Derived]**&#x200B;时，请指定&#x200B;**[!UICONTROL Formula]**。 要生成有效的算术表达式，请将&#x200B;**[!UICONTROL Insert Metric]**&#x200B;中的一个或多个量度与一个或多个运算符&#x200B;**[!UICONTROL + - * / ( )]**&#x200B;组合。 例如，`[orders]/[impressions]`
 
-   1. 选择 **[!UICONTROL Data type]**.
+   1. 选择&#x200B;**[!UICONTROL Data type]**。
 
-      - **[!UICONTROL String]** 或 **[!UICONTROL Date time]**，当选择的类别为Dimension时。
-      - **[!UICONTROL Number]** 或 **[!UICONTROL Currency]** 当选择的类别为“量度”或“派生”时。
+      - 当选择的类别Dimension时，**[!UICONTROL String]**&#x200B;或&#x200B;**[!UICONTROL Date time]**。
+      - 当选择的类别为量度或派生类别时，**[!UICONTROL Number]**&#x200B;或&#x200B;**[!UICONTROL Currency]**。
 
-   1. 选择 **[!UICONTROL Submit]** 添加协调字段。 选择 **[!UICONTROL Close]** 结束对话，但不添加协调字段。
+   1. 选择&#x200B;**[!UICONTROL Submit]**&#x200B;以添加协调字段。 选择&#x200B;**[!UICONTROL Close]**&#x200B;关闭对话框而不添加协调字段。
 
       ![创建字段](/help/assets//create-field.png)
 
@@ -105,13 +105,13 @@ Mix Modeler中默认可用的全局协调字段包括：
 
 您只能编辑之前创建的协调字段（所有者是客户）。 您无法编辑全局协调字段。
 
-要编辑协调的字段，请在 ![数据搜索](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Mix Modeler界面：
+要编辑协调的字段，请在Mix Modeler的![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]**&#x200B;界面中：
 
 1. 选择要编辑的协调字段。 例如：**[!UICONTROL Region]**。
 
-1. 在 **[!UICONTROL Edit harmonization values]** 窗格，修改值 **[!UICONTROL Display name]**， **[!UICONTROL Category]**、和 **[!UICONTROL Data type]**. 请参阅 [添加协调字段](#add-a-harmonized-field) 以了解更多信息。
+1. 在&#x200B;**[!UICONTROL Edit harmonization values]**&#x200B;窗格中，修改&#x200B;**[!UICONTROL Display name]**、**[!UICONTROL Category]**&#x200B;和&#x200B;**[!UICONTROL Data type]**&#x200B;的值。 有关详细信息，请参阅[添加协调字段](#add-a-harmonized-field)。
 
-1. 选择 **[!UICONTROL Submit]** 将更改应用于协调字段。
+1. 选择&#x200B;**[!UICONTROL Submit]**&#x200B;以将更改应用于协调字段。
 
    ![编辑字段](/help/assets//edit-field.png)
 
@@ -119,11 +119,11 @@ Mix Modeler中默认可用的全局协调字段包括：
 
 您只能删除之前创建的协调字段（所有者即客户）。 您不能删除全球协调字段。
 
-要删除协调字段，请在 ![数据搜索](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Mix Modeler界面：
+要删除协调字段，请在Mix Modeler的![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]**&#x200B;界面中：
 
-1. 例如，选择要删除的协调字段 **[!UICONTROL Region]**.
+1. 选择要删除的协调字段，例如&#x200B;**[!UICONTROL Region]**。
 
-1. 选择 ![删除](/help/assets//icons/Delete.svg) **[!UICONTROL Delete]** 从 **[!UICONTROL Edit harmonization values]** 左窗格。
+1. 从&#x200B;**[!UICONTROL Edit harmonization values]**&#x200B;左窗格中选择![删除](/help/assets//icons/Delete.svg) **[!UICONTROL Delete]**。
 
    >[!WARNING]
    >

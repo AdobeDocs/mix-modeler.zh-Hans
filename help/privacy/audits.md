@@ -16,9 +16,9 @@ ht-degree: 6%
 
 要检查审核日志，请在Mix Modeler界面中：
 
-1. 选择 ![任务列表](/help/assets/icons/TaskList.svg) **[!UICONTROL Audits]** 从 **[!UICONTROL PRIVACY]**.
+1. 从&#x200B;**[!UICONTROL PRIVACY]**&#x200B;中选择![任务列表](/help/assets/icons/TaskList.svg) **[!UICONTROL Audits]**。
 
-1. 在 **[!UICONTROL Audits]**，您可以找到 **[!UICONTROL Activity log]**. 活动日志显示以下Mix Modeler类别、操作和状态的条目。
+1. 在&#x200B;**[!UICONTROL Audits]**&#x200B;中，您可以找到&#x200B;**[!UICONTROL Activity log]**。 活动日志显示以下Mix Modeler类别、操作和状态的条目。
 
    | 类别 | 操作 | 状态 |
    |---|---|---|
@@ -51,9 +51,9 @@ ht-degree: 6%
 
    ![Mix Modeler审核](/help/assets/mix-modeler-audit.png)
 
-1. 筛选依据 **[!UICONTROL Category]**， **[!UICONTROL Action]**， **[!UICONTROL Request ID]**， **[!UICONTROL User]**， **[!UICONTROL Status]** 或 **[!UICONTROL Date]** 范围，选择 ![筛选](/help/assets/icons/Filter.svg).
+1. 要筛选&#x200B;**[!UICONTROL Category]**、**[!UICONTROL Action]**、**[!UICONTROL Request ID]**、**[!UICONTROL User]**、**[!UICONTROL Status]**&#x200B;或&#x200B;**[!UICONTROL Date]**&#x200B;范围，请选择![筛选器](/help/assets/icons/Filter.svg)。
 
-1. 要修改活动日志中显示的列，请选择 ![列](/help/assets/icons/ColumnSetting.svg) 和 **[!UICONTROL Customize table]** 对话框选择要显示的列。 选择 **[!UICONTROL Apply]** 要应用所选内容， **[!UICONTROL Cancel]** 以取消选择。
+1. 要修改活动日志中显示的列，请选择![列](/help/assets/icons/ColumnSetting.svg)，然后在&#x200B;**[!UICONTROL Customize table]**&#x200B;对话框中选择要显示的列。 选择&#x200B;**[!UICONTROL Apply]**&#x200B;以应用选择，**[!UICONTROL Cancel]**&#x200B;以取消选择。
 
-1. 要下载审核日志，请选择 ![下载](/help/assets/icons/Download.svg) **[!UICONTROL Download log]**. 在 **[!UICONTROL Download log]** 对话框选择 **[!UICONTROL CSV]** 或 **[!UICONTROL JSON]** 作为格式，然后选择 **[!UICONTROL Download]**.
+1. 要下载审核日志，请选择![下载](/help/assets/icons/Download.svg) **[!UICONTROL Download log]**。 在&#x200B;**[!UICONTROL Download log]**&#x200B;对话框中，选择&#x200B;**[!UICONTROL CSV]**&#x200B;或&#x200B;**[!UICONTROL JSON]**&#x200B;作为格式并选择&#x200B;**[!UICONTROL Download]**。
 

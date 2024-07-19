@@ -19,7 +19,7 @@ Mix Modeler可与事件级数据、来自不同封闭花园的oe汇总营销成�
 例如：
 
 * 使用Adobe Analytics源连接器收集并转换为符合Adobe Analytics架构的默认或自定义版本的数据集，或者，
-* 使用Experience PlatformWeb SDK、Mobile SDK或边缘网络服务器API收集的数据，用于收集Web、移动设备或任何其他类型设备上的客户交互。
+* 使用Experience PlatformWeb SDK、Mobile SDK或Edge Network服务器API收集的数据，用于收集Web、移动设备或任何其他类型设备上的客户交互。
 * 聚集或摘要来自封闭式花园(如Facebook、YouTube)、流量源或离线广告数据的数据，
 * 包含对模型构建有用的内部或外部因素的非营销聚合或摘要数据。
 

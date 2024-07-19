@@ -16,9 +16,9 @@ ht-degree: 3%
 
 1. 转到Mix Modeler界面。
 
-1. 选择 ![架构](/help/assets//icons/Schemas.svg) **[!UICONTROL Schemas]**，下 **[!UICONTROL SETUP]**.
+1. 选择&#x200B;**[!UICONTROL SETUP]**&#x200B;下的![架构](/help/assets//icons/Schemas.svg) **[!UICONTROL Schemas]**。
 
-请参阅 [架构UI概述](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en) 以了解更多信息。
+有关详细信息，请参阅[架构UI概述](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en)。
 
 ## 汇总或汇总数据
 
@@ -36,7 +36,7 @@ ht-degree: 3%
 >
 >架构定义必须至少包含一个数字字段（使用Integer、Double、Boolean或其他数字类型），才能支持摄取数据所需的量度。
 
-使用 **[!DNL XDM Summary Metrics]** 基类可以很简单，如 **[!DNL ExternalFactorSummarySchema]** 下。
+使用&#x200B;**[!DNL XDM Summary Metrics]**&#x200B;基类的架构可以很简单，如下面的&#x200B;**[!DNL ExternalFactorSummarySchema]**&#x200B;所示。
 
 ![外部因素架构](/help/assets//external-factors-schema.png)
 
@@ -46,33 +46,33 @@ ht-degree: 3%
 
   | 时间戳 | date_type | 因子 | 值 |
   |---|---|---|--:|
-  | 2020-11-28T00:00:00.000赫 | 周 | competier_index | 289.8 |
-  | 2020-12-05T00:00:00.000赫 | 周 | competier_index | 291.2 |
-  | 2020-12-12T00:00:00.000赫 | 周 | competier_index | 280.07 |
+  | 2020-11-28T00:00:00.000Z | 周 | competier_index | 289.8 |
+  | 2020-12-05T00:00:00.000Z | 周 | competier_index | 291.2 |
+  | 2020-12-12T00:00:00.000Z | 周 | competier_index | 280.07 |
   | ... | ... | ... | ... |
 
 - 公共假日数据
 
   | 时间戳 | date_type | 因子 | 值 |
   |---|---|---|--:|
-  | 2020-11-28T00:00:00.000赫 | 周 | all_holidays_flag | 0.0 |
-  | 2020-12-05T00:00:00.000赫 | 周 | all_holidays_flag | 0.0 |
-  | 2020-12-12T00:00:00.000赫 | 周 | all_holidays_flag | 0.0 |
-  | 2020-12-19T00:00:00.000赫 | 周 | all_holidays_flag | 0.0 |
-  | 2020-12-26T00:00:00.000赫 | 周 | all_holidays_flag | 1.0 |
+  | 2020-11-28T00:00:00.000Z | 周 | all_holidays_flag | 0.0 |
+  | 2020-12-05T00:00:00.000Z | 周 | all_holidays_flag | 0.0 |
+  | 2020-12-12T00:00:00.000Z | 周 | all_holidays_flag | 0.0 |
+  | 2020-12-19T00:00:00.000Z | 周 | all_holidays_flag | 0.0 |
+  | 2020-12-26T00:00:00.000Z | 周 | all_holidays_flag | 1.0 |
   | ... | ... | ... | ... |
 
 
-有关更全面的示例，请参见下文 **[!DNL LumaPaidMarketingSchema]** 使用 **[!DNL XDM Summary Metrics]** 作为基类。 架构使用专用字段组（带颜色注释）进行量度(**[!DNL AMMMetrics]**)，尺寸(**[!DNL AMMDimensions]**)，以及其他特定于客户的信息(**[!DNL CustomerSpecific]**)。
+有关使用&#x200B;**[!DNL XDM Summary Metrics]**&#x200B;作为基类的&#x200B;**[!DNL LumaPaidMarketingSchema]**&#x200B;的更全面的示例，请参见下文。 架构使用专用字段组（带颜色注释）用于指标(**[!DNL AMMMetrics]**)、维度(**[!DNL AMMDimensions]**)和其他特定于客户的信息(**[!DNL CustomerSpecific]**)。
 
-![概要架构](/help/assets//summary-schema.png)
+![摘要架构](/help/assets//summary-schema.png)
 
 鉴于配置文件提取的异步性质，在从外部源收集聚合或摘要数据时，建议使用外部Source系统审核详细信息字段组作为架构的一部分。 此字段组为外部源定义一组审核属性。
 
 
 ## 支持的数据类型
 
-目前，Mix Modeler支持Experience Platform数据类型的子集。 以下基本数据类型（字段），如中所述 [模式组合基础](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type)支持：
+目前，Mix Modeler支持Experience Platform数据类型的子集。 支持架构组合[基础](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type)中提到的以下基本数据类型（字段）：
 
 - 字符串
 - 整数

@@ -14,9 +14,9 @@ ht-degree: 1%
 
 要在“Mix Modeler计划”界面中比较计划，请执行以下操作：
 
-* 选择 ![比较](/help/assets//icons/Compare.svg) **[!UICONTROL Compare Plans]**. 在比较计划中，为每个计划选择一个计划 **[!UICONTROL _选择计划_]**.
+* 选择![比较](/help/assets//icons/Compare.svg) **[!UICONTROL Compare Plans]**。 在比较计划中，为每个&#x200B;**[!UICONTROL _选择一个计划_]**。
 
-* 或者，您可以从“计划”表格中选择两个计划，然后从活动栏中选择 ![比较](/help/assets//icons/Compare.svg) **[!UICONTROL Compare]**.
+* 或者，您可以从“计划”表中选择两个计划，然后从操作栏中选择![比较](/help/assets//icons/Compare.svg) **[!UICONTROL Compare]**。
 
 “比较计划”界面显示有关以下项的信息和小部件：
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 * Date range
 * 模型
 * 总预算
-* 渠道预算： **[!UICONTROL AI automated]** 或 **[!UICONTROL Custom + AI]**
+* 渠道预算：**[!UICONTROL AI automated]**&#x200B;或&#x200B;**[!UICONTROL Custom + AI]**
 * 计划支出
 * 预测的投资回报率(ROI)或CPA（每项操作的成本）
 * ROI（投资回报率）或CPA（每次操作的成本）细目
@@ -40,4 +40,4 @@ ht-degree: 1%
 
 您可以将鼠标悬停在每个小组件中的单个图表元素上，以查看包含更多详细信息的弹出框。
 
-选择 **[!UICONTROL Close]** 以返回至计划概览。
+选择&#x200B;**[!UICONTROL Close]**&#x200B;以返回计划概述。

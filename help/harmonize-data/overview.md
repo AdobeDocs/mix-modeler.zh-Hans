@@ -104,34 +104,34 @@ Mix Modeler的协调服务将聚合和事件数据吸收到一致的数据视图
 
 ## 设置统一数据
 
-构建协调的数据集，如简化的数据集 [示例](#an-example-of-harmonized-data)，您必须执行以下步骤：
+要像在简化的[示例](#an-example-of-harmonized-data)中一样构建协调的数据集，您必须执行以下步骤：
 
-1. 定义其他 [协调字段](fields.md) 您想在现有的全球统一字段之外使用的其他字段。
-1. 设置 [数据集规则](dataset-rules.md) 将聚合或体验事件数据集中的字段映射到协调的字段。
-1. 定义 [营销接触点](marketing-touchpoints.md) 使用您定义的标准字段和其他协调字段。
-1. 定义 [转化](conversions.md) 使用您定义的标准字段和其他协调字段。
+1. 定义要在现有的全球统一字段之外使用的其他[统一字段](fields.md)。
+1. 设置[数据集规则](dataset-rules.md)以将聚合或体验事件数据集的字段映射到协调的字段。
+1. 使用您定义的标准和附加协调字段定义[营销接触点](marketing-touchpoints.md)。
+1. 使用您定义的标准和附加协调字段定义[转化](conversions.md)。
 
 
 ## 查看协调的数据
 
 要查看您的协调数据，请在Mix Modeler界面中执行以下操作：
 
-1. 选择 ![数据搜索](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** 从左边栏开始。
+1. 从左边栏中选择![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]**。
 
-1. 选择 **[!UICONTROL Harmonized Data]** 从顶部栏中。 系统将根据您定义的字段、数据集规则、营销接触点和转化显示协调数据的简述。
+1. 从顶部栏中选择&#x200B;**[!UICONTROL Harmonized Data]**。 系统将根据您定义的字段、数据集规则、营销接触点和转化显示协调数据的简述。
 
-   1. 要重新定义协调数据重算所依据的期间，请输入日期范围 **[!UICONTROL Date range]** 或使用 ![日历](/help/assets//icons/Calendar.svg) 以选择数据范围。
+   1. 要重新定义重新提取协调数据所依据的期间，请输入&#x200B;**[!UICONTROL Date range]**&#x200B;的日期范围或使用![日历](/help/assets//icons/Calendar.svg)选择数据范围。
 
-   1. 要修改“协调”数据表中显示的协调字段列，请使用 ![设置](/help/assets//icons/Setting.svg) 以打开 **[!UICONTROL Column settings]** 对话框。
+   1. 要修改“协调”数据表中显示的协调字段列，请使用![设置](/help/assets//icons/Setting.svg)打开&#x200B;**[!UICONTROL Column settings]**&#x200B;对话框。
 
-      1. 选择 ![选择框](/help/assets//icons/SelectBox.svg) 来自的一个或多个列 **[!UICONTROL AVAILABLE COLUMNS]** 和使用 ![V形向右](/help/assets//icons/ChevronRight.svg) 以将这些列添加到 **[!UICONTROL SELECTED COLUMNS]**.
+      1. 从&#x200B;**[!UICONTROL AVAILABLE COLUMNS]**&#x200B;中选择![SelectBox](/help/assets//icons/SelectBox.svg)一个或多个列，并使用![右V形](/help/assets//icons/ChevronRight.svg)将这些列添加到&#x200B;**[!UICONTROL SELECTED COLUMNS]**。
 
-      1. 选择 ![选择框](/help/assets//icons/SelectBox.svg) 来自的一个或多个列 **[!UICONTROL SELECTED COLUMNS]** 和使用 ![左侧V形](/help/assets//icons/ChevronLeft.svg) 删除选定的列并将这些列返回到 **[!UICONTROL AVAILABLE COLUMNS]**.
+      1. 从&#x200B;**[!UICONTROL SELECTED COLUMNS]**&#x200B;中选择![SelectBox](/help/assets//icons/SelectBox.svg)一个或多个列，并使用![左V形](/help/assets//icons/ChevronLeft.svg)删除所选列并将这些列返回给&#x200B;**[!UICONTROL AVAILABLE COLUMNS]**。
 
-      1. 从中选择列 **[!UICONTROL DEFAULT SORT]** 并在 **[!UICONTROL Ascending]** 或 **[!UICONTROL Descending]**.
+      1. 从&#x200B;**[!UICONTROL DEFAULT SORT]**&#x200B;中选择一列并在&#x200B;**[!UICONTROL Ascending]**&#x200B;或&#x200B;**[!UICONTROL Descending]**&#x200B;之间切换。
 
-      1. 要更改列的显示顺序，可以将列移入 **[!UICONTROL SELECTED COLUMNS]** 通过拖放来上下移动。
+      1. 要更改列的显示顺序，您可以通过拖放来上下移动&#x200B;**[!UICONTROL SELECTED COLUMNS]**&#x200B;中的列。
 
-   1. 选择 **[!UICONTROL Submit]** 以提交列设置更改。 选择 **[!UICONTROL Close]** 取消您所做的任何更改。
+   1. 选择&#x200B;**[!UICONTROL Submit]**&#x200B;以提交列设置更改。 选择&#x200B;**[!UICONTROL Close]**&#x200B;以取消所做的任何更改。
 
-1. 如果有更多页面可用，请使用 ![向左箭头](/help/assets//icons/ChevronLeft.svg) 或 ![向右箭头](/help/assets//icons/ChevronRight.svg) 在 **[!UICONTROL Page _x _之_x_]** 以在页面之间移动。
+1. 如果有更多页面可用，请使用&#x200B;_x _]**的**[!UICONTROL Page _x_&#x200B;上的![向左箭头](/help/assets//icons/ChevronLeft.svg)或![向右箭头](/help/assets//icons/ChevronRight.svg)在页面之间移动。

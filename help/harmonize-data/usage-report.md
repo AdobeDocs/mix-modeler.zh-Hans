@@ -16,12 +16,12 @@ ht-degree: 0%
 
 要查看贵机构统一数据的使用情况报告，请执行以下操作：
 
-1. 选择 ![数据搜索](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** 从左边栏开始。
+1. 从左边栏中选择![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]**。
 
-1. 选择 **[!UICONTROL Usage report]** 从顶部栏中。
+1. 从顶部栏中选择&#x200B;**[!UICONTROL Usage report]**。
 
 使用情况报表显示：
 
-* 此表格列出了 **[!UICONTROL # of Models]** 使用统一数据的客户。
+* 列出了使用协调数据的&#x200B;**[!UICONTROL # of Models]**&#x200B;的表。
 
-* 此表格列出了 **[!UICONTROL # of Conversions (last 5 years)]** 他们使用了统一的数据。 要选择表的粒度，请选择 **[!UICONTROL Year]** 或 **[!UICONTROL Month]** 从 **[!UICONTROL View by selection]**.
+* 列出了使用协调数据的&#x200B;**[!UICONTROL # of Conversions (last 5 years)]**&#x200B;的表。 要选择表的粒度，请从&#x200B;**[!UICONTROL View by selection]**&#x200B;中选择&#x200B;**[!UICONTROL Year]**&#x200B;或&#x200B;**[!UICONTROL Month]**。

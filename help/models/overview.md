@@ -35,13 +35,13 @@ Mix Modeler模型是一种机器学习模型，用于根据营销人员的投资
 
 ## 创建模型
 
-要创建模型，请使用选择时提供的Mix Modeler逐步引导模型配置流程 **[!UICONTROL Open model canvas]**. 请参阅 [创建模型](create.md) 以了解更多详细信息。
+要创建模型，请使用选择&#x200B;**[!UICONTROL Open model canvas]**&#x200B;时提供的Mix Modeler逐步引导模型配置流程。 有关详细信息，请参阅[创建模型](create.md)。
 
 ## 管理模型
 
 要查看当前模型的表，请在Mix Modeler界面中：
 
-1. 选择 ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** 从左边栏开始。
+1. 从左边栏中选择![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]**。
 
 1. 您会看到当前模型的表。
 
@@ -54,18 +54,18 @@ Mix Modeler模型是一种机器学习模型，用于根据营销人员的投资
    | 转化事件 | 您为模型选择的转换。 |
    | 运行频率 | 训练模型的运行频率。 |
    | 上次运行 | 模型上次训练的日期和时间。 |
-   | 状态 | 模型上次运行的状态。 <br/><span style="color:green">●</span> 成功<br/><span style="color:orange">●</span> 培训问题<br/> <span style="color:orange">●</span> 正在等待训练 <br/><span style="color:red">●</span> 失败 <br/><span style="color:gray">●</span> _（当最后一次运行正在进行时） |
+   | 状态 | 模型上次运行的状态。 <br/><span style="color:green">●</span>成功<br/><span style="color:orange">●</span>培训问题<br/> <span style="color:orange">●</span>正在等待训练<br/><span style="color:red">●</span>失败<br/><span style="color:gray">●</span> _ （当上次运行正在进行时） |
 
    {style="table-layout:auto"}
 
-1. 要更改为列表显示的列，请选择 ![列设置](/help/assets//icons/ColumnSetting.svg) 并打开列 ![Check](/help/assets//icons/Checkmark.svg) 或关闭。
+1. 若要更改为列表显示的列，请选择![列设置](/help/assets//icons/ColumnSetting.svg)并打开![检查](/help/assets//icons/Checkmark.svg)或关闭列。
 
 
 ### 查看模型的详细信息
 
 要查看模型的更多详细信息，请执行以下操作：
 
-1. 选择 ![信息](/help/assets//icons/Info.svg) ，以便模型显示包含详细信息的弹出窗口。
+1. 为模型选择![信息](/help/assets//icons/Info.svg)以显示包含详细信息的弹出窗口。
 
 
 
@@ -73,11 +73,11 @@ Mix Modeler模型是一种机器学习模型，用于根据营销人员的投资
 
 要查看模型的分析，请在Mix Modeler界面中：
 
-1. 选择 ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** 从左边栏开始。
+1. 从左边栏中选择![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]**。
 
-1. 选择模型名称 **[!UICONTROL Last run status]** 之 <span style="color:green">●</span> **[!UICONTROL Success]** 从 **[!UICONTROL Models]** 表格。 模型分析仅适用于已成功训练的模型。
+1. 选择&#x200B;**[!UICONTROL Last run status]**&#x200B;为<span style="color:green">●</span>的模型的名称 **[!UICONTROL Models]**&#x200B;表中的&#x200B;**[!UICONTROL Success]**。 模型分析仅适用于已成功训练的模型。
 
-1. 从上下文菜单中，选择 **[!UICONTROL Model Insights]**. 您将被重定向到 [模型分析](insights.md).
+1. 从上下文菜单中选择&#x200B;**[!UICONTROL Model Insights]**。 您被重定向到[模型分析](insights.md)。
 
 
 ### 重新得分
@@ -85,11 +85,11 @@ Mix Modeler模型是一种机器学习模型，用于根据营销人员的投资
 
 要重新对模型计分，请在Mix Modeler界面中：
 
-1. 选择 ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** 从左边栏开始。
+1. 从左边栏中选择![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]**。
 
-1. 选择模型名称 **[!UICONTROL Last run status]** 之 <span style="color:green">●</span> **[!UICONTROL Success]** 从 **[!UICONTROL Models]** 表格。 只有经过成功训练的模型才能重新计分。
+1. 选择&#x200B;**[!UICONTROL Last run status]**&#x200B;为<span style="color:green">●</span>的模型的名称 **[!UICONTROL Models]**&#x200B;表中的&#x200B;**[!UICONTROL Success]**。 只有经过成功训练的模型才能重新计分。
 
-1. 从上下文菜单中，选择 **[!UICONTROL Re-score]**. 显示模型的更新状态可能需要几分钟的时间。
+1. 从上下文菜单中选择&#x200B;**[!UICONTROL Re-score]**。 显示模型的更新状态可能需要几分钟的时间。
 
 
 ### 删除模型
@@ -98,7 +98,7 @@ Mix Modeler模型是一种机器学习模型，用于根据营销人员的投资
 
 1. 选择要删除的模型的名称。
 
-1. 从上下文菜单中，选择 **[!UICONTROL Delete]** 以删除模型。
+1. 从上下文菜单中，选择&#x200B;**[!UICONTROL Delete]**&#x200B;以删除模型。
 
    >[!WARNING]
    >

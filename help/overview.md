@@ -13,7 +13,7 @@ ht-degree: 18%
 
 # Adobe Mix Modeler指南
 
-本技术文档指南为Adobe提供自助帮助 **Mix Modeler**. Mix Modeler是一种Adobe Experience Cloud应用程序，可跨所有渠道（付费、免费和拥有）测量营销活动并全面优化规划。 Mix Modeler基于Adobe Experience Platform构建并由Adobe Sensei提供支持。
+本技术文档指南为Adobe **Mix Modeler**&#x200B;提供自助帮助。 Mix Modeler是一种Adobe Experience Cloud应用程序，可跨所有渠道（付费、免费和拥有）测量营销活动并全面优化规划。 Mix Modeler基于Adobe Experience Platform构建并由Adobe Sensei提供支持。
 
 ## 从基础知识开始
 
@@ -25,16 +25,16 @@ ht-degree: 18%
     </td>
     <td>
     <a href="/help/ingest-data/overview.md"><img src="assets/data-ingestion-mm.png"></a>
-    <div><strong>引入数据</strong><br/>了解如何将事件和汇总或汇总数据摄取到Mix Modeler。</div>
+    <div><strong>摄取数据</strong><br/>了解如何摄取事件并汇总或汇总数据到Mix Modeler中。</div>
     </td>
     <td>
     <a href="/help/harmonize-data/overview.md"><img src="assets/plan-mm.png"/></a>
-    <div><strong>协调数据</strong><br/>了解如何将聚合和事件数据同化到一致的数据视图中。 
+    <div><strong>协调数据</strong><br/>了解如何将聚合和事件数据同化为一致的数据视图。 
     </div>
     </td>
     <td>
     <a href="/help/models/overview.md"><img src="assets/models-mm.png"></a>
-    <div><strong>模型和计划</strong><br/>训练您的模型并为其打分，并将这些见解用于您的营销计划。</div>
+    <div><strong>模型和计划</strong><br/>训练您的模型并为其评分，并将见解用于您的营销计划。</div>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -52,15 +52,15 @@ ht-degree: 18%
   <tr style="border: 0;">
     <td>
       <img src="assets/Data.svg" width="35px"><br/>
-      <strong>引入数据</strong><br/><a href="/help/ingest-data/overview.md">概述</a> - <a href="/help/ingest-data/schemas.md">架构</a> - <a href="/help/ingest-data/datasets.md">数据集</a> 
+      <strong>正在引入数据</strong><br/><a href="/help/ingest-data/overview.md">概述</a> - <a href="/help/ingest-data/schemas.md">架构</a> - <a href="/help/ingest-data/datasets.md">数据集</a> 
     </td>
     <td>
       <img src="assets/DataCheck.svg" width="35px"><br/>
-      <strong>协调数据</strong><br/><a href="/help/harmonize-data/overview.md">概述</a> - <a href="/help/harmonize-data/fields.md">字段</a>  - <a href="/help/harmonize-data/dataset-rules.md">数据集规则</a> - <a href="/help/harmonize-data/marketing-touchpoints.md">营销接触点</a> - <a href="/help/harmonize-data/conversions.md">转化</a> - <a href="/help/harmonize-data/usage-report.md">使用情况报表</a>  
+      <strong>协调数据</strong><br/><a href="/help/harmonize-data/overview.md">概述</a> - <a href="/help/harmonize-data/fields.md">字段</a> - <a href="/help/harmonize-data/dataset-rules.md">数据集规则</a> - <a href="/help/harmonize-data/marketing-touchpoints.md">营销接触点</a> - <a href="/help/harmonize-data/conversions.md">转化</a> - <a href="/help/harmonize-data/usage-report.md">使用情况报告</a>  
     </td>
     <td>
       <img src="assets/FileGear.svg" width="35px"><br/>
-      <strong>模型</strong><br/><a href="/help/models/overview.md">概述</a> - <a href="/help/models/create.md">创建模型</a> - <a href="/help/models/insights.md">模型洞察</a> - <a href="/help/models/scoring-data.md">评分数据</a>
+      <strong>模型</strong><br/><a href="/help/models/overview.md">概述</a> - <a href="/help/models/create.md">创建模型</a> - <a href="/help/models/insights.md">模型分析</a> - <a href="/help/models/scoring-data.md">评分数据</a>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -70,11 +70,11 @@ ht-degree: 18%
     </td>
     <td>
       <img src="assets/Dashboard.svg" width="35px"><br/>
-      <strong>概述</strong><br/><a href="/help/dashboard/overview.md">架构</a> - <a href="/help/dashboard/harmonized-data.md">协调的数据</a> - <a href="/help/dashboard/plans.md">计划</a>
+      <strong>概述</strong><br/><a href="/help/dashboard/overview.md">架构</a> - <a href="/help/dashboard/harmonized-data.md">协调数据</a> - <a href="/help/dashboard/plans.md">计划</a>
     </td>
         <td>
       <img src="assets/Learn.svg" width="35px"><br/>
-      <strong>Tutorials</strong><br/><a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/overview.html?lang=en">概述</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/use-cases.html?lang=en">用例</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-workflow.html?lang=en">用户工作流</a>  - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-interface-tour.html?lang=en">用户界面导览</a>
+      <strong>Tutorials</strong><br/><a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/overview.html?lang=en">概述</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/use-cases.html?lang=en">用例</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-workflow.html?lang=en">用户工作流程</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-interface-tour.html?lang=en">用户界面导览</a>
     </td>
   </tr>
 </table>
