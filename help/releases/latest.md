@@ -4,10 +4,10 @@ description: 最新 Mix Modeler 发行说明
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 23c83cd3576951eb5f8d64bd98f8a5b9e57286a5
+source-git-commit: 7793d32d2b2cb8ede80df9d8e3ea4df5c92d26aa
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 9%
+source-wordcount: '431'
+ht-degree: 8%
 
 ---
 
@@ -15,7 +15,18 @@ ht-degree: 9%
 
 **上次更新**：2024年5月29日。
 
-这些发行说明涵盖最新版本的Mix Modeler。 Mix Modeler发布在持续交付模型上运行，该模型允许大约每月一次的发布频率。 因此，这些发行说明将会相应更新，因此请定期检查。
+这些发行说明涵盖最新版本的Mix Modeler。 Mix Modeler发布在持续交付模型上运行，该模型允许大约每月一次的发布。 因此，这些发行说明将会相应更新，因此请定期检查。
+
+## 2024 年 8 月
+
+| 功能 | 描述 | 正式发布 |
+|---|---|---|
+| **[!UICONTROL Ad-hoc training and scoring]** | 您可以从模型界面启动模型[重新训练](/help/models/overview.md#re-train)、[得分（对于新的营销数据）或重新得分](/help/models/overview.md#score-or-re-score)。 | 2024年8月13日 |
+| **[!UICONTROL Policy enforcement]** | Experience Platform策略在配置数据集规则以及修改用于Mix Modeler的底层数据的标签时强制执行。 有关详细信息，请参阅[策略](../data-governance/policies.md)。 | 2024年8月13日 |
+| **数据卫生** | 删除源数据时遵循数据卫生规则。 请参阅[删除源数据集](../harmonize-data/dataset-rules.md#delete-a-source-dataset) | 2024年8月13日 |
+| **因子贡献分析** | 在[!UICONTROL Model insights]中，[[!UICONTROL Factors]](/help/models/insights.md#factors)选项卡提供外部因素相关的见解。 | 2024年8月13日 |
+| **边际响应曲线** | 模型分析中的[边际响应曲线](/help/models/insights.md#model-insights-1)构件现在会根据所选数据范围内的变化更新曲线和相应的值。 此外，这个小组件显示了边际盈亏平衡点和递减收益点。 | 2024年8月20日 |
+
 
 ## 2024 年 6 月
 

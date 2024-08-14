@@ -3,16 +3,16 @@ title: 模型
 description: 了解如何在Mix Modeler中配置和使用模型。
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: d5d9ec6b7b1222b3da9dcecaf3fa1cf2b2198881
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '716'
 ht-degree: 0%
 
 ---
 
 # 模型
 
-Mix Modeler中的模型功能允许您配置、训练特定于您的业务目标并受AI驱动的多触点归因和营销组合建模之间的传输学习支持的AI/ML模型，并对其评分。
+Mix Modeler中的模型功能允许您配置、训练特定于业务目标的AI/ML模型并对其评分。 训练和评分支持在多触点归因和营销组合建模之间进行AI驱动的转移学习。
 
 这些模型基于您在Mix Modeler应用工作流程中创建的统一数据。
 
@@ -20,16 +20,16 @@ Mix Modeler模型是一种机器学习模型，用于根据营销人员的投资
 
 模型需要：
 
-* 一次转换，
-* 一个或多个营销接触点（渠道），包括摘要级别的数据、营销接触点数据（事件数据）或两者，
-* 可配置的回看窗口用于
+* 一次转换。
+* 一个或多个营销接触点（渠道）由摘要级别的数据、营销接触点数据（事件数据）或两者组成。
+* 可配置的回顾时间范围。
 * 可配置的培训窗口。
 
 模型可以选择包括：
 
-* 外部因素，
-* 内部因素，
-* 所谓的“先验分布”（概率分布表示数据在先或在观测该数据之前所具有的知识或不确定性），其按渠道对先前转化进行索引，
+* 外部因素。
+* 内部因素。
+* 预先了解来自其他来源的营销贡献，例如以往的利益相关者经验、增量测试、其他模型。
 * 支出份额，在营销数据稀疏时使用相对支出份额作为代理。
 
 
@@ -54,51 +54,96 @@ Mix Modeler模型是一种机器学习模型，用于根据营销人员的投资
    | 转化事件 | 您为模型选择的转换。 |
    | 运行频率 | 训练模型的运行频率。 |
    | 上次运行 | 模型上次训练的日期和时间。 |
-   | 状态 | 模型上次运行的状态。 <br/><span style="color:green">●</span>成功<br/><span style="color:orange">●</span>培训问题<br/> <span style="color:orange">●</span>正在等待训练<br/><span style="color:red">●</span>失败<br/><span style="color:gray">●</span> _ （当上次运行正在进行时） |
+   | 状态 | 模型上次运行的状态。 <br/>![StatusGreen](/help/assets/icons/StatusGreen.svg)成功<br/>![StatusOrange](/help/assets/icons/StatusOrange.svg)培训问题<br/> ![StatusOrange](/help/assets/icons/StatusOrange.svg)正在等待训练<br/>![StatusRed](/help/assets/icons/StatusRed.svg)失败<br/>![StatusGreen](/help/assets/icons/StatusGray.svg) _ （上次运行正在进行时） |
 
    {style="table-layout:auto"}
 
 1. 若要更改为列表显示的列，请选择![列设置](/help/assets//icons/ColumnSetting.svg)并打开![检查](/help/assets//icons/Checkmark.svg)或关闭列。
 
+您可以对特定模型执行以下操作。
 
-### 查看模型的详细信息
+### 查看详细信息
 
 要查看模型的更多详细信息，请执行以下操作：
+
+1. 从左边栏中选择![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]**。
 
 1. 为模型选择![信息](/help/assets//icons/Info.svg)以显示包含详细信息的弹出窗口。
 
 
 
+### 复制
+
+您可以快速复制模型。
+
+1. 从左边栏中选择![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]**。
+
+1. 为模型选择![更多](/help/assets/icons/More.svg)，然后从上下文菜单中选择&#x200B;**[!UICONTROL Duplicate]**。
+
+
 ### 模型洞察
 
-要查看模型的分析，请在Mix Modeler界面中：
+模型洞察功能仅适用于已成功训练和评分的模型。 要查看模型的见解，请执行以下操作：
 
 1. 从左边栏中选择![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]**。
 
-1. 选择&#x200B;**[!UICONTROL Last run status]**&#x200B;为<span style="color:green">●</span>的模型的名称 **[!UICONTROL Models]**&#x200B;表中的&#x200B;**[!UICONTROL Success]**。 模型分析仅适用于已成功训练的模型。
+1. 选择模型名称。
 
-1. 从上下文菜单中选择&#x200B;**[!UICONTROL Model Insights]**。 您被重定向到[模型分析](insights.md)。
-
-
-### 重新得分
+您被重定向到[模型分析](insights.md)。
 
 
-要重新对模型计分，请在Mix Modeler界面中：
+### 重新培训
+
+重新训练模型仅适用于训练成功的模型。 要重新训练模型，请执行以下操作：
 
 1. 从左边栏中选择![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]**。
 
-1. 选择&#x200B;**[!UICONTROL Last run status]**&#x200B;为<span style="color:green">●</span>的模型的名称 **[!UICONTROL Models]**&#x200B;表中的&#x200B;**[!UICONTROL Success]**。 只有经过成功训练的模型才能重新计分。
+1. 为模型选择![更多](/help/assets/icons/More.svg)，然后从上下文菜单中选择&#x200B;**[!UICONTROL Train]**。 或者，从蓝色操作栏中选择![DataRefresh](/help/assets/icons/DataRefresh.svg) **[!UICONTROL Train]**。
 
-1. 从上下文菜单中选择&#x200B;**[!UICONTROL Re-score]**。 显示模型的更新状态可能需要几分钟的时间。
+   在&#x200B;**[!UICONTROL Train model]**&#x200B;对话框中，选择选项以：
+
+   * **[!UICONTROL Train model with last 2 years of marketing data]**，或
+   * **[!UICONTROL Train model using specific date range of data]**。
+指定日期范围。 您可以使用![日历](/help/assets/icons/Calendar.svg)选择日期范围。 您必须选择至少一年的数据范围。
+
+   ![重新训练模型](../assets/re-train-model.png)
+
+1. 选择&#x200B;**[!UICONTROL Train]**&#x200B;以重新训练模型。
+
+
+### 得分或重新得分
+
+
+您可以根据新的营销数据对模型递增评分，或针对特定日期范围对模型重新评分。 要对模型评分或重新评分，请执行以下操作：
+
+1. 从左边栏中选择![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]**。
+
+1. 为模型选择![更多](/help/assets/icons/More.svg)，然后从上下文菜单中选择&#x200B;**[!UICONTROL Score]**。 或者，从蓝色操作栏中选择![DataRefresh](/help/assets/icons/DataRefresh.svg) **[!UICONTROL Score]**。
+
+   在&#x200B;**[!UICONTROL Score marketing data]**&#x200B;对话框中，选择选项以：
+
+   * **[!UICONTROL Score new marketing data from *mm/dd/yyyy *]**，使用新的营销数据对模型进行增量评分，或
+   * **[!UICONTROL Score specific date range of marketing data]**以针对特定日期范围重新评分。
+指定日期范围。 您可以使用![日历](/help/assets/icons/Calendar.svg)选择日期范围。
+
+   ![重新训练模型](../assets/re-score-model.png)
+
+1. 选择&#x200B;**[!UICONTROL Score]**。 使用特定数据范围对模型重新评分时，您会看到&#x200B;**[!UICONTROL Existing model is replaced]**&#x200B;对话框，提示您确认使用选定日期范围的新得分替换模型。 选择&#x200B;**[!UICONTROL Replace model]**&#x200B;以确认。
 
 
 ### 删除模型
 
 要删除模型，请执行以下操作：
 
-1. 选择要删除的模型的名称。
+1. 从左边栏中选择![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]**。
 
-1. 从上下文菜单中，选择&#x200B;**[!UICONTROL Delete]**&#x200B;以删除模型。
+1. 为模型选择![更多](/help/assets/icons/More.svg)，然后从上下文菜单中选择&#x200B;**[!UICONTROL Delete]**。 或者，从蓝色操作栏中选择![删除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**。
+
+要删除多个模型，请执行以下操作：
+
+1. 选择多个模型。
+
+1. 从蓝色操作栏中，选择![删除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;以删除模型。
 
    >[!WARNING]
    >

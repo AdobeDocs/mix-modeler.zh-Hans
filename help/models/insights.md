@@ -3,9 +3,9 @@ title: 模型分析
 description: 了解如何获取有关模型的详细信息，如Mix Modeler中的历史概述、模型见解和模型质量。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 6897f27520705f54d3f23018903a52536083b339
 workflow-type: tm+mt
-source-wordcount: '1159'
+source-wordcount: '1222'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ![模型分析选项卡栏](/help/assets//model-insights-tabbar.png)
 
-您看到指定模型的上次刷新时间，并使用四个选项卡显示小组件：[模型分析](#model-insights)、[归因](#attribution)、[诊断](#diagnostics)和[历史概述](#historical-overview)。
+您会看到指定模型上次刷新的时间，并使用四个选项卡显示小组件：[模型分析](#model-insights)、[归因](#attribution)、[因素](#factors)、[诊断](#diagnostics)和[历史概述](#historical-overview)。
 
 您可以更改每个选项卡上的小组件所基于的日期段。 输入日期期间或选择![日历](/help/assets//icons/Calendar.svg)以选择日期期间。
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 * 营销绩效摘要。
 
-* 边际响应曲线。
+* 边际响应曲线。  曲线及相应的值均根据所选的数据范围进行计算。 此外，这个小组件显示了边际盈亏平衡点以及收益递减点。
   <br/>从&#x200B;**[!UICONTROL Channel]**&#x200B;下拉列表中选择一个渠道以更新特定渠道的小部件。
 
 ![模型 — 模型分析](/help/assets//model-insights-insights.png)
@@ -141,6 +141,15 @@ Mix Modeler多点接触归因粒度事件分数与总体Mix Modeler分数和ROI�
 * 对于每个渠道，归因模型贡献百分比和
 * 这些渠道归因模型贡献百分比的总和。
 
+## **[!UICONTROL Factors]**
+
+“因子”选项卡显示外部因子相关的见解。
+
+![因素](/help/assets/factors.png)
+
+要下载包含该表数据的CSV文件，请选择![下载](/help/assets//icons/Download.svg)。
+
+如果没有可用数据，您会看到一条消息![TableAndChart](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]**。
 
 ## [!UICONTROL Diagnostics]
 

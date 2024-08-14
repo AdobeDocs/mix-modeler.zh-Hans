@@ -3,9 +3,9 @@ title: 数据集规则
 description: 了解如何定义要用作协调Mix Modeler中数据一部分的数据集规则。
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: a924eb080866595af3639c4976716e69ef5e7a20
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1313'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ ht-degree: 0%
 
          1. 要删除案例或条件，请在相应的容器中选择![关闭](/help/assets//icons/Close.svg)。
 
-         1. 要选择任意或所有条件是否应应用于案例，请选择&#x200B;**[!UICONTROL Any of]**&#x200B;或&#x200B;**[!UICONTROL All of]**。
+         1. 要选择是应该将任何条件还是所有条件应用于案例，请选择&#x200B;**[!UICONTROL Any of]**&#x200B;或&#x200B;**[!UICONTROL All of]**。
 
          1. 要设置案例的结果值，请在&#x200B;**[!UICONTROL Then]**&#x200B;处输入值。
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 
 ## 同步数据
 
-要在协调的数据与汇总数据集和/或事件数据集之间同步数据，请遵循数据集规则中的所有逻辑：
+要在协调的数据与汇总数据集和/或事件数据集之间同步数据，同时在数据集规则中应用逻辑，请执行以下操作：
 
 1. 选择 **[!UICONTROL Sync data]**。
 
@@ -159,7 +159,7 @@ ht-degree: 0%
 
    ![数据合并首选项](/help/assets//data-merge-preferences.png)
 
-   * 选择&#x200B;**[!UICONTROL Default metric preference]**。 在协调期间，如果多个数据源更新了给定渠道的量度字段，则会应用选定的默认量度首选项。 首选项应用于沙盒级别，除非针对基于特定量度的首选项被覆盖。 您可以选择介于&#x200B;**[!UICONTROL Summary data]**、**[!UICONTROL Event data]**&#x200B;和&#x200B;**[!UICONTROL Sum of summmary and event data]**&#x200B;之间。
+   * 选择&#x200B;**[!UICONTROL Default metric preference]**。 在协调期间，如果多个数据源更新了给定渠道的量度字段，则会应用选定的默认量度首选项。 首选项应用于沙盒级别，除非针对基于特定量度的首选项被覆盖。 您可以选择介于&#x200B;**[!UICONTROL Summary data]**、**[!UICONTROL Event data]**&#x200B;和&#x200B;**[!UICONTROL Sum of summary and event data]**&#x200B;之间。
 
    * 要添加基于特定量度的首选项，请执行以下操作：
 
@@ -181,11 +181,13 @@ ht-degree: 0%
 
 1. 选择&#x200B;**[!UICONTROL Save]**&#x200B;以保存数据合并首选项。 数据重新同步已启动。 <br/>选择要取消的&#x200B;**[!UICONTROL Cancel]**。
 
+## 删除源数据集
 
-## 字段级访问控制
+当您删除协调数据中使用的源数据集时，该源数据集上的基础条目将从[[!UICONTROL Harmonized data]](/help/harmonize-data/overview.md)中删除。 但是，已删除源数据集的数据集规则仍保留在数据集规则配置列表中，其图标为![DataRemove](/help/assets/icons/DataRemove.svg)，表示已删除源数据集。 要获取更多详细信息，请执行以下操作：
 
-为协调的数据集配置数据集规则时，在字段级别强制实施Experience Platform的[基于属性的访问控制](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview)。 当标签附加到架构字段并启用拒绝您访问该字段的活动策略时，字段会受到限制。 因此：
+* 从上下文菜单中选择![更多](/help/assets/icons/More.svg)和![预览](/help/assets/icons/Preview.svg) **[!UICONTROL View]**。
+**[!UICONTROL Dataset rule mapping - Fields]**&#x200B;对话框显示有关已删除的源数据集的信息以及数据集规则配置中使用的字段。
 
-* 在创建数据集规则时，您看不到为您限制的架构字段，
-* 您无法查看或编辑受限制的一个或多个架构字段的映射。 在编辑或查看包含此类受限字段的数据集规则时，您会看到以下屏幕。
-  ![不允许执行操作](/help/assets//action-not-permitted.png)
+当您返回&#x200B;**[!UICONTROL Dataset rules]**&#x200B;配置时，您会看到一个对话框，说明一个或多个源数据集已删除。 协调后的数据会在下一次临时或计划同步时受到影响。 查看数据集规则配置。
+
+在下次特定同步或计划同步时，在不删除源数据的情况下更新协调数据。 但是，您仍会看到警告对话框，提示您根据已删除的源数据集删除数据集规则。 此警报允许用户查看和评估已删除数据集中受影响的字段。 并确定对在任何模型中可能使用的营销接触点或转化的影响。 查看并减轻此影响后，您应该从数据集规则配置列表中删除数据集规则。
