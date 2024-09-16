@@ -3,7 +3,7 @@ title: 营销接触点
 description: 了解如何创建营销接触点，以将其用作Mix Modeler中协调数据的一部分。
 feature: Harmonized Data, Marketing Touch Points
 exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 0%
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 要在Mix Modeler界面中查看可用的营销接触点表，请执行以下操作：
 
-1. 从左边栏中选择![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]**。
+1. 从左边栏中选择![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]**。
 
-1. 从顶部栏中选择&#x200B;**[!UICONTROL Marketing touchpoint]**。 您会看到营销接触点表。 如果有更多页面可用，请使用&#x200B;_x _]**的**[!UICONTROL Page _x_&#x200B;上的![向左箭头](/help/assets//icons/ChevronLeft.svg)或![向右箭头](/help/assets//icons/ChevronRight.svg)在表的页面之间移动。
+1. 从顶部栏中选择&#x200B;**[!UICONTROL Marketing touchpoint]**。 您会看到营销接触点表。 如果有更多页面可用，请使用&#x200B;_x _]**的**[!UICONTROL Page _x_&#x200B;上的![向左箭头](/help/assets/icons/ChevronLeft.svg)或![向右箭头](/help/assets/icons/ChevronRight.svg)在表的页面之间移动。
 
 表列指定有关营销接触点的详细信息：
 
@@ -39,9 +39,9 @@ ht-degree: 0%
 
 ## 添加营销接触点
 
-要添加营销接触点，请在Mix Modeler的![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Marketing touchpoint]**&#x200B;界面中：
+要添加营销接触点，请在Mix Modeler的![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Marketing touchpoint]**&#x200B;界面中：
 
-1. 选择![添加](/help/assets//icons/AddCircle.svg)添加营销接触点。
+1. 选择![添加](/help/assets/icons/AddCircle.svg)添加营销接触点。
 
 1. 在&#x200B;**[!UICONTROL Marketing touchpoint]**&#x200B;对话框中。
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
       1. 从&#x200B;**[!UICONTROL *选择协调的&#x200B;*]**中选择一个值，例如&#x200B;**[!UICONTROL Brand]**。
 
-      1. 为运算符![V形](/help/assets//icons/ChevronDown.svg)选择一个值，例如&#x200B;**[!UICONTROL is]**。
+      1. 为运算符![V形](/help/assets/icons/ChevronDown.svg)选择一个值，例如&#x200B;**[!UICONTROL is]**。
 
       1. 从&#x200B;**[!UICONTROL *中选择值&#x200B;*]**或输入值，例如&#x200B;**[!DNL Luma]**。
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
    1. 从&#x200B;**[!UICONTROL Touchpoint spend]**&#x200B;中选择协调字段，例如&#x200B;**[!UICONTROL Cost]**。
 
-      ![营销接触点](/help/assets//create-touchpoint.png)
+      ![营销接触点](/help/assets/create-touchpoint.png)
 
    1. 要创建营销接触点，请选择&#x200B;**[!UICONTROL Create]**。 要取消创建营销接触点，请选择&#x200B;**[!UICONTROL Cancel]** 。
 
@@ -70,15 +70,15 @@ ht-degree: 0%
 
 要查看营销接触点，请执行以下操作：
 
-1. 将鼠标悬停在表中的营销接触点名称上时，选择![更多](/help/assets//icons/More.svg)。
+1. 将鼠标悬停在表中的营销接触点名称上时，选择![更多](/help/assets/icons/More.svg)。
 
-1. 选择![视图](/help/assets//icons/ViewDetail.svg) **视图**。 此时一个对话框会显示营销接触点的详细信息。 有关详细信息，请参阅[添加营销接触点](#add-a-marketing-touchpoint)。 选择&#x200B;**[!UICONTROL Cancel]**&#x200B;关闭对话框。
+1. 选择![视图](/help/assets/icons/ViewDetail.svg) **视图**。 此时一个对话框会显示营销接触点的详细信息。 有关详细信息，请参阅[添加营销接触点](#add-a-marketing-touchpoint)。 选择&#x200B;**[!UICONTROL Cancel]**&#x200B;关闭对话框。
 
 
 ## 删除营销接触点
 
 要删除营销接触点，请执行以下操作：
 
-1. 将鼠标悬停在表中的营销接触点名称上时，选择![删除](/help/assets//icons/Delete.svg) **删除**。
+1. 将鼠标悬停在表中的营销接触点名称上时，选择![删除](/help/assets/icons/Delete.svg) **删除**。
 1. 在&#x200B;**[!UICONTROL Delete touchpoint]**&#x200B;对话框确认对话框中，选择&#x200B;**[!UICONTROL Delete]**&#x200B;以永久删除营销接触点。
 

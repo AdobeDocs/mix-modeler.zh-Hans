@@ -3,20 +3,20 @@ title: 模型
 description: 了解如何在Mix Modeler中配置和使用模型。
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: d5d9ec6b7b1222b3da9dcecaf3fa1cf2b2198881
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '805'
 ht-degree: 0%
 
 ---
 
 # 模型
 
-Mix Modeler中的模型功能允许您配置、训练特定于业务目标的AI/ML模型并对其评分。 训练和评分支持在多触点归因和营销组合建模之间进行AI驱动的转移学习。
+Mix Modeler中的模型功能允许您配置、训练特定于业务目标的模型并对模型进行评分。 训练和评分支持在多触点归因和营销组合建模之间进行AI驱动的转移学习。
 
 这些模型基于您在Mix Modeler应用工作流程中创建的统一数据。
 
-Mix Modeler模型是一种机器学习模型，用于根据营销人员的投资来测量和/或预测指定的结果。 营销接触点和摘要级别的数据可用作输入。 Mix Modeler允许您根据不同的变量集、维度和结果（如收入、销量、商机）创建模型的变体。
+Mix Modeler模型是一种机器学习模型，用于根据营销人员的投资来测量和预测指定的结果。 营销接触点和摘要级别的数据可用作输入。 Mix Modeler允许您根据不同的变量集、维度和结果（如收入、销量、商机）创建模型的变体。
 
 模型需要：
 
@@ -41,7 +41,7 @@ Mix Modeler模型是一种机器学习模型，用于根据营销人员的投资
 
 要查看当前模型的表，请在Mix Modeler界面中：
 
-1. 从左边栏中选择![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]**。
+1. 从左边栏中选择![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**。
 
 1. 您会看到当前模型的表。
 
@@ -58,7 +58,7 @@ Mix Modeler模型是一种机器学习模型，用于根据营销人员的投资
 
    {style="table-layout:auto"}
 
-1. 若要更改为列表显示的列，请选择![列设置](/help/assets//icons/ColumnSetting.svg)并打开![检查](/help/assets//icons/Checkmark.svg)或关闭列。
+1. 若要更改为列表显示的列，请选择![列设置](/help/assets/icons/ColumnSetting.svg)并打开![检查](/help/assets/icons/Checkmark.svg)或关闭列。
 
 您可以对特定模型执行以下操作。
 
@@ -66,9 +66,9 @@ Mix Modeler模型是一种机器学习模型，用于根据营销人员的投资
 
 要查看模型的更多详细信息，请执行以下操作：
 
-1. 从左边栏中选择![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]**。
+1. 从左边栏中选择![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**。
 
-1. 为模型选择![信息](/help/assets//icons/Info.svg)以显示包含详细信息的弹出窗口。
+1. 为模型选择![信息](/help/assets/icons/Info.svg)以显示包含详细信息的弹出窗口。
 
 
 
@@ -76,16 +76,18 @@ Mix Modeler模型是一种机器学习模型，用于根据营销人员的投资
 
 您可以快速复制模型。
 
-1. 从左边栏中选择![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]**。
+1. 从左边栏中选择![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**。
 
 1. 为模型选择![更多](/help/assets/icons/More.svg)，然后从上下文菜单中选择&#x200B;**[!UICONTROL Duplicate]**。
 
 
 ### 模型洞察
 
-模型洞察功能仅适用于已成功训练和评分的模型。 要查看模型的见解，请执行以下操作：
+模型洞察功能仅适用于已成功训练和评分的模型。
 
-1. 从左边栏中选择![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]**。
+要查看模型的见解，请执行以下操作：
+
+1. 从左边栏中选择![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**。
 
 1. 选择模型名称。
 
@@ -94,9 +96,16 @@ Mix Modeler模型是一种机器学习模型，用于根据营销人员的投资
 
 ### 重新培训
 
-重新训练模型仅适用于训练成功的模型。 要重新训练模型，请执行以下操作：
 
-1. 从左边栏中选择![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]**。
+重新训练模型仅适用于训练成功的模型。
+
+在执行以下操作时，请考虑重新训练模型：
+
+* 包括新的增量营销和因子数据。 例如，在上一季度，市场动态发生了变化或者您的营销数据分发发生了显着变化。
+
+要重新训练模型，请执行以下操作：
+
+1. 从左边栏中选择![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**。
 
 1. 为模型选择![更多](/help/assets/icons/More.svg)，然后从上下文菜单中选择&#x200B;**[!UICONTROL Train]**。 或者，从蓝色操作栏中选择![DataRefresh](/help/assets/icons/DataRefresh.svg) **[!UICONTROL Train]**。
 
@@ -114,9 +123,16 @@ Mix Modeler模型是一种机器学习模型，用于根据营销人员的投资
 ### 得分或重新得分
 
 
-您可以根据新的营销数据对模型递增评分，或针对特定日期范围对模型重新评分。 要对模型评分或重新评分，请执行以下操作：
+您可以根据新的营销数据对模型递增评分，或针对特定日期范围对模型重新评分。
 
-1. 从左边栏中选择![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]**。
+当想要执行以下操作时，请考虑为模型重新评分：
+
+* 更正不正确的营销数据。 例如，您在模型的训练和评分中包含的最近付费搜索数据漏掉了一周的数据。
+* 使用新的增量营销数据，该数据可通过您配置作为协调数据一部分的数据集的更新获取。
+
+要对模型评分或重新评分，请执行以下操作：
+
+1. 从左边栏中选择![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**。
 
 1. 为模型选择![更多](/help/assets/icons/More.svg)，然后从上下文菜单中选择&#x200B;**[!UICONTROL Score]**。 或者，从蓝色操作栏中选择![DataRefresh](/help/assets/icons/DataRefresh.svg) **[!UICONTROL Score]**。
 
@@ -135,7 +151,7 @@ Mix Modeler模型是一种机器学习模型，用于根据营销人员的投资
 
 要删除模型，请执行以下操作：
 
-1. 从左边栏中选择![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]**。
+1. 从左边栏中选择![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**。
 
 1. 为模型选择![更多](/help/assets/icons/More.svg)，然后从上下文菜单中选择&#x200B;**[!UICONTROL Delete]**。 或者，从蓝色操作栏中选择![删除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**。
 

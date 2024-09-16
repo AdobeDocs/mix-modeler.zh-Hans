@@ -3,7 +3,7 @@ title: 数据集规则
 description: 了解如何定义要用作协调Mix Modeler中数据一部分的数据集规则。
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: a924eb080866595af3639c4976716e69ef5e7a20
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '1313'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 要查看可用数据集规则的表，请在Mix Modeler界面中：
 
-1. 从左边栏中选择![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]**。
+1. 从左边栏中选择![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]**。
 
 1. 从顶部栏中选择&#x200B;**[!UICONTROL Dataset rules]**。 您会看到数据集规则的表。
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 | ---------------------- | ----------|
 | 数据集 | 数据集的名称。 |
 | 来源 | 数据集的来源： Adobe Analytics、体验事件、摘要（汇总）或使用者体验事件。 |
-| 模式 | 数据集符合的架构。 您可以在![架构](/help/assets//icons/Schemas.svg) [架构](../ingest-data/schemas.md)的架构编辑器中，快速选择架构名称以在新选项卡中打开架构。 |
+| 模式 | 数据集符合的架构。 您可以在![架构](/help/assets/icons/Schemas.svg) [架构](../ingest-data/schemas.md)的架构编辑器中，快速选择架构名称以在新选项卡中打开架构。 |
 | 粒度 | 数据集中的数据粒度。 可能的值包括“每日”、“每周”、“每月”或“每年”。 |
 | 一周开始 | 指定将一周中的哪一天视为特定数据集的新周的开始。 |
 | 状态 | 字段的状态： <p><span style="color:gray">●</span>草稿或 <p><span style="color:green">●</span>活动 |
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 ### 创建数据集规则
 
-要创建数据集规则，请在Mix Modeler的![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]**&#x200B;界面中，在&#x200B;**[!UICONTROL Dataset rules configuration]**&#x200B;向导中选择&#x200B;**[!UICONTROL Create a dataset rule]**。
+要创建数据集规则，请在Mix Modeler的![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]**&#x200B;界面中，在&#x200B;**[!UICONTROL Dataset rules configuration]**&#x200B;向导中选择&#x200B;**[!UICONTROL Create a dataset rule]**。
 
 在&#x200B;**[!UICONTROL Create]**&#x200B;屏幕中，
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
    1. 为规则的所有字段完成映射后，选择&#x200B;**[!UICONTROL Save as draft]**&#x200B;以保存规则的草稿版本，或选择&#x200B;**[!UICONTROL Save]**&#x200B;以保存并激活规则。 选择&#x200B;**[!UICONTROL Cancel]**&#x200B;取消规则配置。
 
-      ![创建数据集规则](/help/assets//dataset-create-summary.png)
+      ![创建数据集规则](/help/assets/dataset-create-summary.png)
 
 1. 当您在&#x200B;**[!UICONTROL Map to harmonized fields]**&#x200B;下面的框中选择了事件类别数据集(**[!UICONTROL Experience Events]**、**[!UICONTROL Adobe Analytics]**、**[!UICONTROL Consumer Experience Events]**)时：
 
@@ -84,9 +84,9 @@ ht-degree: 0%
 
          1. 要显式设置值，可定义一个或多个情况，其中包含一个或多个条件。 每个条件都可以检查特定的&#x200B;**[!UICONTROL *AEP数据集字段&#x200B;*]**，无论它是&#x200B;**[!UICONTROL Exists]**还是&#x200B;**[!UICONTROL Not Exists]**，或者它是&#x200B;**[!UICONTROL Contains]**、**[!UICONTROL Not Contains]**、**[!UICONTROL Equals]**、**[!UICONTROL Not Equals]**、**[!UICONTROL Starts With]**还是&#x200B;**[!UICONTROL Ends With]**在**[!UICONTROL *&#x200B;处输入的值输入值&#x200B;*]**。
 
-         1. 要添加另一个案例，请选择![添加](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add case]**；要添加另一个条件，请选择![添加](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add condition]**。
+         1. 要添加另一个案例，请选择![添加](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**；要添加另一个条件，请选择![添加](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**。
 
-         1. 要删除案例或条件，请在相应的容器中选择![关闭](/help/assets//icons/Close.svg)。
+         1. 要删除案例或条件，请在相应的容器中选择![关闭](/help/assets/icons/Close.svg)。
 
          1. 要选择是应该将任何条件还是所有条件应用于案例，请选择&#x200B;**[!UICONTROL Any of]**&#x200B;或&#x200B;**[!UICONTROL All of]**。
 
@@ -101,27 +101,27 @@ ht-degree: 0%
          * **[!UICONTROL marketing.campaignName]**&#x200B;为`_black_friday`或`BlackFriday`时的`Black Friday`。
          * 到所有其它情况下的&#x200B;**[!UICONTROL marketing.campaignName]**&#x200B;的值。
 
-        ![数据集规则事件](/help/assets//dataset-create-event.png)
+        ![数据集规则事件](/help/assets/dataset-create-event.png)
 
-1. 选择![添加](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add field]**&#x200B;以定义其他字段。
+1. 选择![添加](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add field]**&#x200B;以定义其他字段。
 
 完成后，选择&#x200B;**[!UICONTROL Save as draft]**&#x200B;以保存规则的草稿版本，或选择&#x200B;**[!UICONTROL Save]**&#x200B;以保存并激活规则。 选择&#x200B;**[!UICONTROL Cancel]**&#x200B;取消规则配置。
 
 
 ### 编辑数据集规则
 
-要编辑数据集规则，请在Mix Modeler的![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]**&#x200B;界面中：
+要编辑数据集规则，请在Mix Modeler的![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]**&#x200B;界面中：
 
-1. 在&#x200B;**[!UICONTROL Dataset]**&#x200B;列中为要编辑的数据集规则选择![更多](/help/assets//icons/More.svg)。
-1. 从上下文菜单中，选择![编辑](/help/assets//icons/Edit.svg) **[!UICONTROL Edit]**&#x200B;以开始编辑数据集规则。 有关详细信息，请参阅[创建数据集规则](#create-a-dataset-rule)。
+1. 在&#x200B;**[!UICONTROL Dataset]**&#x200B;列中为要编辑的数据集规则选择![更多](/help/assets/icons/More.svg)。
+1. 从上下文菜单中，选择![编辑](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]**&#x200B;以开始编辑数据集规则。 有关详细信息，请参阅[创建数据集规则](#create-a-dataset-rule)。
 
 
 ### 删除数据集规则
 
-要删除数据集规则，请在Mix Modeler的![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]**&#x200B;界面中：
+要删除数据集规则，请在Mix Modeler的![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]**&#x200B;界面中：
 
-1. 在&#x200B;**[!UICONTROL Dataset]**&#x200B;列中为要删除的数据集规则选择![更多](/help/assets//icons/More.svg)。
-1. 从上下文菜单中，选择![删除](/help/assets//icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;以删除数据集规则。 系统会提示您进行确认。 选择&#x200B;**[!UICONTROL Delete]**&#x200B;以永久删除选定的数据集规则。
+1. 在&#x200B;**[!UICONTROL Dataset]**&#x200B;列中为要删除的数据集规则选择![更多](/help/assets/icons/More.svg)。
+1. 从上下文菜单中，选择![删除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;以删除数据集规则。 系统会提示您进行确认。 选择&#x200B;**[!UICONTROL Delete]**&#x200B;以永久删除选定的数据集规则。
 
 
 ## 同步数据
@@ -137,7 +137,7 @@ ht-degree: 0%
 
 1. 要根据定义的数据集规则在数据集中的协调数据和数据之间启动同步，请选择&#x200B;**[!UICONTROL Sync]**。 要取消同步，请选择&#x200B;**[!UICONTROL Cancel]**。
 
-   ![同步数据](/help/assets//sync-data.png)
+   ![同步数据](/help/assets/sync-data.png)
 
 
 ## 数据合并首选项
@@ -153,31 +153,31 @@ ht-degree: 0%
 
 要确保准确的模型预测，您可以定义数据合并首选项：
 
-1. 选择![数据合并首选项](/help/assets//icons/Merge.svg) [!BADGE 测试版]。
+1. 选择![数据合并首选项](/help/assets/icons/Merge.svg) [!BADGE 测试版]。
 
 1. 在&#x200B;**[!UICONTROL Data merge preferences]** [!BADGE 测试版]中{type=Informative}
 
-   ![数据合并首选项](/help/assets//data-merge-preferences.png)
+   ![数据合并首选项](/help/assets/data-merge-preferences.png)
 
    * 选择&#x200B;**[!UICONTROL Default metric preference]**。 在协调期间，如果多个数据源更新了给定渠道的量度字段，则会应用选定的默认量度首选项。 首选项应用于沙盒级别，除非针对基于特定量度的首选项被覆盖。 您可以选择介于&#x200B;**[!UICONTROL Summary data]**、**[!UICONTROL Event data]**&#x200B;和&#x200B;**[!UICONTROL Sum of summary and event data]**&#x200B;之间。
 
    * 要添加基于特定量度的首选项，请执行以下操作：
 
-      1. 选择![加](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add a metric]**。
+      1. 选择![加](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]**。
          1. 从&#x200B;**[!UICONTROL *量度选择&#x200B;*]**列表中选择一个量度。
          1. 选择&#x200B;**[!UICONTROL CHANNELS]**&#x200B;或&#x200B;**[!UICONTROL CONVERSION TYPES]**。 从列表中选择&#x200B;**[!UICONTROL All]**&#x200B;或特定的渠道或转化类型。
          1. 选择&#x200B;**[!UICONTROL Summary]**&#x200B;或&#x200B;**[!UICONTROL Event]**&#x200B;以指定在合并数据时汇总数据或事件数据是否优先于量度（以及所有或选定的渠道）。
 
          要添加一个或多个其他渠道或转化类型，请执行以下操作：
 
-         1. 选择![加号](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add a channel]**&#x200B;或![加号](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add a conversion type]**。
+         1. 选择![加号](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a channel]**&#x200B;或![加号](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion type]**。
          1. 选择 **[!UICONTROL Summary]** 或 **[!UICONTROL Event]**。
 
-         要删除渠道或转换类型，请选择![交叉](/help/assets//icons/Close.svg)。
+         要删除渠道或转换类型，请选择![交叉](/help/assets/icons/Close.svg)。
 
       1. 要添加基于首选项的更具体的量度，请重复上一步骤。
 
-   * 要删除基于现有的特定量度的首选项，请选择![删除](/help/assets//icons/Delete.svg)。
+   * 要删除基于现有的特定量度的首选项，请选择![删除](/help/assets/icons/Delete.svg)。
 
 1. 选择&#x200B;**[!UICONTROL Save]**&#x200B;以保存数据合并首选项。 数据重新同步已启动。 <br/>选择要取消的&#x200B;**[!UICONTROL Cancel]**。
 

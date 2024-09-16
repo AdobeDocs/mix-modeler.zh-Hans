@@ -5,7 +5,7 @@ feature: Harmonized Data
 hide: true
 hidefromtoc: true
 exl-id: 6c32f978-8a3e-4878-bb6b-550f1750d6b7
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 要查看贵机构统一数据的使用情况报告，请执行以下操作：
 
-1. 从左边栏中选择![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]**。
+1. 从左边栏中选择![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]**。
 
 1. 从顶部栏中选择&#x200B;**[!UICONTROL Usage report]**。
 

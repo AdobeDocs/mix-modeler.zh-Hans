@@ -2,7 +2,8 @@
 title: 访问控制
 description: 了解如何在Mix Modeler中配置访问控制。
 feature: Administration
-source-git-commit: 6776a91563f120db1341adef923aab4b0f582c9d
+exl-id: c9ec97d9-b9a2-41f5-8626-1cf967d5d7fe
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 1%
@@ -31,5 +32,4 @@ Mix Modeler的访问控制是通过[Adobe Admin Console](https://adminconsole.ad
 
 * 在创建数据集规则时，您看不到为您限制的架构字段，
 * 您无法查看或编辑受限制的一个或多个架构字段的映射。 在编辑或查看包含此类受限字段的数据集规则时，您会看到以下屏幕。
-  ![不允许执行操作](/help/assets//action-not-permitted.png)
-
+  ![不允许执行操作](/help/assets/action-not-permitted.png)

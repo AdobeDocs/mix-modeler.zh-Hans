@@ -3,7 +3,7 @@ title: 协调数据
 description: 了解如何在Mix Modeler中协调数据。
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 7%
@@ -116,17 +116,17 @@ Mix Modeler的协调服务将聚合和事件数据吸收到一致的数据视图
 
 要查看您的协调数据，请在Mix Modeler界面中执行以下操作：
 
-1. 从左边栏中选择![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]**。
+1. 从左边栏中选择![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]**。
 
 1. 从顶部栏中选择&#x200B;**[!UICONTROL Harmonized Data]**。 系统将根据您定义的字段、数据集规则、营销接触点和转化显示协调数据的简述。
 
-   1. 要重新定义重新提取协调数据所依据的期间，请输入&#x200B;**[!UICONTROL Date range]**&#x200B;的日期范围或使用![日历](/help/assets//icons/Calendar.svg)选择数据范围。
+   1. 要重新定义重新提取协调数据所依据的期间，请输入&#x200B;**[!UICONTROL Date range]**&#x200B;的日期范围或使用![日历](/help/assets/icons/Calendar.svg)选择数据范围。
 
-   1. 要修改“协调”数据表中显示的协调字段列，请使用![设置](/help/assets//icons/Setting.svg)打开&#x200B;**[!UICONTROL Column settings]**&#x200B;对话框。
+   1. 要修改“协调”数据表中显示的协调字段列，请使用![设置](/help/assets/icons/Setting.svg)打开&#x200B;**[!UICONTROL Column settings]**&#x200B;对话框。
 
-      1. 从&#x200B;**[!UICONTROL AVAILABLE COLUMNS]**&#x200B;中选择![SelectBox](/help/assets//icons/SelectBox.svg)一个或多个列，并使用![右V形](/help/assets//icons/ChevronRight.svg)将这些列添加到&#x200B;**[!UICONTROL SELECTED COLUMNS]**。
+      1. 从&#x200B;**[!UICONTROL AVAILABLE COLUMNS]**&#x200B;中选择![SelectBox](/help/assets/icons/SelectBox.svg)一个或多个列，并使用![右V形](/help/assets/icons/ChevronRight.svg)将这些列添加到&#x200B;**[!UICONTROL SELECTED COLUMNS]**。
 
-      1. 从&#x200B;**[!UICONTROL SELECTED COLUMNS]**&#x200B;中选择![SelectBox](/help/assets//icons/SelectBox.svg)一个或多个列，并使用![左V形](/help/assets//icons/ChevronLeft.svg)删除所选列并将这些列返回给&#x200B;**[!UICONTROL AVAILABLE COLUMNS]**。
+      1. 从&#x200B;**[!UICONTROL SELECTED COLUMNS]**&#x200B;中选择![SelectBox](/help/assets/icons/SelectBox.svg)一个或多个列，并使用![左V形](/help/assets/icons/ChevronLeft.svg)删除所选列并将这些列返回给&#x200B;**[!UICONTROL AVAILABLE COLUMNS]**。
 
       1. 从&#x200B;**[!UICONTROL DEFAULT SORT]**&#x200B;中选择一列并在&#x200B;**[!UICONTROL Ascending]**&#x200B;或&#x200B;**[!UICONTROL Descending]**&#x200B;之间切换。
 
@@ -134,4 +134,4 @@ Mix Modeler的协调服务将聚合和事件数据吸收到一致的数据视图
 
    1. 选择&#x200B;**[!UICONTROL Submit]**&#x200B;以提交列设置更改。 选择&#x200B;**[!UICONTROL Close]**&#x200B;以取消所做的任何更改。
 
-1. 如果有更多页面可用，请使用&#x200B;_x _]**的**[!UICONTROL Page _x_&#x200B;上的![向左箭头](/help/assets//icons/ChevronLeft.svg)或![向右箭头](/help/assets//icons/ChevronRight.svg)在页面之间移动。
+1. 如果有更多页面可用，请使用&#x200B;_x _]**的**[!UICONTROL Page _x_&#x200B;上的![向左箭头](/help/assets/icons/ChevronLeft.svg)或![向右箭头](/help/assets/icons/ChevronRight.svg)在页面之间移动。

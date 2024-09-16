@@ -3,7 +3,7 @@ title: 协调的字段
 description: 了解如何定义要用作协调Mix Modeler中数据一部分的字段。
 feature: Harmonized Data, Harmonized Fields
 exl-id: f051279a-1ae9-49bd-a946-abfc34c90413
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 8%
@@ -55,9 +55,9 @@ Mix Modeler中默认可用的全局协调字段包括：
 
 要在Mix Modeler界面中查看可用协调字段的表，请执行以下操作：
 
-1. 从左边栏中选择![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]**。
+1. 从左边栏中选择![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]**。
 
-1. 从顶部栏中选择&#x200B;**[!UICONTROL Fields]**。 您会看到协调字段的表。 如果有更多页面可用，请使用&#x200B;_x _]**的**[!UICONTROL Page _x_&#x200B;上的![向左箭头](/help/assets//icons/ChevronLeft.svg)或![向右箭头](/help/assets//icons/ChevronRight.svg)在表的页面之间移动。
+1. 从顶部栏中选择&#x200B;**[!UICONTROL Fields]**。 您会看到协调字段的表。 如果有更多页面可用，请使用&#x200B;_x _]**的**[!UICONTROL Page _x_&#x200B;上的![向左箭头](/help/assets/icons/ChevronLeft.svg)或![向右箭头](/help/assets/icons/ChevronRight.svg)在表的页面之间移动。
 
    表格列指定有关协调字段的详细信息
 
@@ -74,14 +74,14 @@ Mix Modeler中默认可用的全局协调字段包括：
 
    {style="table-layout:auto"}
 
-1. 要搜索特定的协调字段，请使用![搜索](/help/assets//icons/Search.svg) **[!UICONTROL *搜索协调字段&#x200B;*]**。
+1. 要搜索特定的协调字段，请使用![搜索](/help/assets/icons/Search.svg) **[!UICONTROL *搜索协调字段&#x200B;*]**。
 
 
 ### 添加协调字段
 
-要添加协调字段，请在Mix Modeler的![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]**&#x200B;界面中：
+要添加协调字段，请在Mix Modeler的![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]**&#x200B;界面中：
 
-1. 选择![添加](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add field]**。
+1. 选择![添加](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add field]**。
 
 1. 在&#x200B;**[!UICONTROL Create]**&#x200B;对话框中：
 
@@ -98,14 +98,14 @@ Mix Modeler中默认可用的全局协调字段包括：
 
    1. 选择&#x200B;**[!UICONTROL Submit]**&#x200B;以添加协调字段。 选择&#x200B;**[!UICONTROL Close]**&#x200B;关闭对话框而不添加协调字段。
 
-      ![创建字段](/help/assets//create-field.png)
+      ![创建字段](/help/assets/create-field.png)
 
 
 ### 编辑协调的字段
 
 您只能编辑之前创建的协调字段（所有者是客户）。 您无法编辑全局协调字段。
 
-要编辑协调的字段，请在Mix Modeler的![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]**&#x200B;界面中：
+要编辑协调的字段，请在Mix Modeler的![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]**&#x200B;界面中：
 
 1. 选择要编辑的协调字段。 例如：**[!UICONTROL Region]**。
 
@@ -113,17 +113,17 @@ Mix Modeler中默认可用的全局协调字段包括：
 
 1. 选择&#x200B;**[!UICONTROL Submit]**&#x200B;以将更改应用于协调字段。
 
-   ![编辑字段](/help/assets//edit-field.png)
+   ![编辑字段](/help/assets/edit-field.png)
 
 ### 删除协调字段
 
 您只能删除之前创建的协调字段（所有者即客户）。 您不能删除全球协调字段。
 
-要删除协调字段，请在Mix Modeler的![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]**&#x200B;界面中：
+要删除协调字段，请在Mix Modeler的![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]**&#x200B;界面中：
 
 1. 选择要删除的协调字段，例如&#x200B;**[!UICONTROL Region]**。
 
-1. 从&#x200B;**[!UICONTROL Edit harmonization values]**&#x200B;左窗格中选择![删除](/help/assets//icons/Delete.svg) **[!UICONTROL Delete]**。
+1. 从&#x200B;**[!UICONTROL Edit harmonization values]**&#x200B;左窗格中选择![删除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**。
 
    >[!WARNING]
    >
