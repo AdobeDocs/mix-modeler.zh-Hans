@@ -3,7 +3,7 @@ title: 引入数据
 description: 了解如何将数据摄取到Mix Modeler。
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: ff120c9b1dea81a5dc998cbda008fa913504970e
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 8%
@@ -12,7 +12,7 @@ ht-degree: 8%
 
 # 引入数据
 
-Mix Modeler可与事件级数据、来自不同封闭花园的oe汇总营销成果数据以及来自任何其他来源（如离线广告、内部因素或外部因素）的汇总或汇总数据配合使用。
+Mix Modeler可使用事件级数据、来自不同封闭花园的汇总或汇总营销工作数据，以及来自任何其他来源（如离线广告、内部因素或外部因素）的汇总或汇总数据。
 
 客户可以将摄取到Experience Platform中的任何类型的数据用作数据集，此类数据基于将XDM ExperienceEvent或XDM摘要量度用作基类的架构。
 
