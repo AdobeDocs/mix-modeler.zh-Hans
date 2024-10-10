@@ -3,9 +3,9 @@ title: 模型分析
 description: 了解如何获取有关模型的详细信息，如Mix Modeler中的历史概述、模型见解和模型质量。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 72f122f1cdf7252dae9e93e5ea133e8cc76564dc
+source-git-commit: af315f4566c34c1961130d61ce2804b98d859b24
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1354'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 * 要以Microsoft® Excel格式下载完整的模型分析数据，请选择![下载](/help/assets/icons/Download.svg) **[!UICONTROL Download data]**。
 
 
-### 按日期和基本媒体列出的贡献
+### 按日期和基本媒体列出的贡献。
 
 栈叠的图表按顺序排列：底部为基数，中间为非支出渠道，顶部为支出渠道。
 
@@ -45,11 +45,11 @@ ht-degree: 0%
 
 圆环图可视化图表显示按渠道划分的贡献分布。
 
-### 营销绩效摘要
+### 营销绩效摘要。
 
 按渠道显示ROI绩效的水平条形图。
 
-### 边际响应曲线
+### 边际响应曲线。
 
 折线图可可视化并比较营销渠道投资产生的边际回报。  并找出盈亏平衡点，即递增回报低于递增支出。 因此，此可视化图表可帮助您了解营销投资何时开始变得不那么有影响力。
 
@@ -60,31 +60,17 @@ ht-degree: 0%
 * 从&#x200B;**[!UICONTROL Channel]**&#x200B;下拉菜单中选择一个渠道以更新特定渠道的可视化图表。
 
 
-### 接触点细分
-
-接触点细分表每周显示所有渠道或选定渠道的接触点细分。
-
-![接触点细分](../assets/touchpoint-breakdown.png)
-
-以下列可用：
-
-| 列 | 描述 |
-|---|---|
-| **[!UICONTROL Date range]** | 要报告的周。 |
-| **[!UICONTROL Touchpoint]** | 特定的接触点渠道。 |
-| **[!UICONTROL ROI]** | (**[!UICONTROL Revenue]** - **[!UICONTROL Spend]**) / **[!UICONTROL Spend]**&#x200B;的百分比。 |
-| **[!UICONTROL Revenue]** | 日期范围的收入。 |
-| **[!UICONTROL CPA]** | **[!UICONTROL Spend]** / **[!UICONTROL Conversions]**。 |
-| **[!UICONTROL Conversions]** | 日期范围的转化。 |
-| **[!UICONTROL Spend]** | 数据范围的支出。 |
-
-要选择特定渠道或所有渠道，请从&#x200B;**[!UICONTROL View]**&#x200B;下拉菜单中选择。
-
-要下载接触点划分表的内容，请选择![下载](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**。
 
 ## [!UICONTROL Attribution]
 
-使用[!UICONTROL Attribution]选项卡，您可以了解具有事件级别数据的接触点和营销活动的有效性。 支持以下归因模型：
+>[!NOTE]
+>
+>“归因”选项卡仅适用于启用MTA的模型。
+
+
+使用[!UICONTROL Attribution]选项卡，您可以了解具有事件级别数据的接触点和营销活动的有效性。  请参阅[创建模型](create.md)。
+
+支持以下归因模型：
 
 * 根据Mix Modeler中选定的模型：
    * 算法 — 影响输出
