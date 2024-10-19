@@ -3,9 +3,9 @@ title: 模型分析
 description: 了解如何获取有关模型的详细信息，如Mix Modeler中的历史概述、模型见解和模型质量。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: af315f4566c34c1961130d61ce2804b98d859b24
+source-git-commit: f549f7d4d4f5c702e3ef28bceeaccc46922f7c40
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1436'
 ht-degree: 0%
 
 ---
@@ -59,6 +59,28 @@ ht-degree: 0%
 
 * 从&#x200B;**[!UICONTROL Channel]**&#x200B;下拉菜单中选择一个渠道以更新特定渠道的可视化图表。
 
+
+### 接触点细分
+
+接触点细分表每周显示所有渠道或选定渠道的接触点细分。
+
+![接触点细分](../assets/touchpoint-breakdown.png)
+
+以下列可用：
+
+| 列 | 描述 |
+|---|---|
+| **[!UICONTROL Date range]** | 要报告的周。 |
+| **[!UICONTROL Touchpoint]** | 特定的接触点渠道。 |
+| **[!UICONTROL ROI]** | (**[!UICONTROL Revenue]** - **[!UICONTROL Spend]**) / **[!UICONTROL Spend]**&#x200B;的百分比。 |
+| **[!UICONTROL Revenue]** | 日期范围的收入。 |
+| **[!UICONTROL CPA]** | **[!UICONTROL Spend]** / **[!UICONTROL Conversions]**。 |
+| **[!UICONTROL Conversions]** | 日期范围的转化。 |
+| **[!UICONTROL Spend]** | 数据范围的支出。 |
+
+要选择特定渠道或所有渠道，请从&#x200B;**[!UICONTROL View]**&#x200B;下拉菜单中选择。
+
+要下载接触点划分表的内容，请选择![下载](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**。
 
 
 ## [!UICONTROL Attribution]
