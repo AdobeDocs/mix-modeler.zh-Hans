@@ -3,9 +3,9 @@ title: 模型分析
 description: 了解如何获取有关模型的详细信息，如Mix Modeler中的历史概述、模型见解和模型质量。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: f549f7d4d4f5c702e3ef28bceeaccc46922f7c40
+source-git-commit: d4a500de13272f0b07827a0df4a386d3d757403b
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1539'
 ht-degree: 0%
 
 ---
@@ -253,3 +253,27 @@ Mix Modeler多点接触归因粒度事件分数与总体Mix Modeler分数和ROI�
   您可以为此可视化图表选择要显示的替代基于卷的渠道。 从&#x200B;**[!UICONTROL Channels]**&#x200B;中选择一个渠道。
 
 ![模型 — 历史概述](/help/assets/model-insights-historical-overview.png)
+
+## **[!UICONTROL Edit]**
+
+您可以编辑模型的名称、描述以及训练和评分计划。
+
+1. 选择![编辑](/help/assets/icons/Edit.svg)编辑
+
+1. 在&#x200B;**[!UICONTROL Edit model]**&#x200B;对话框中：
+
+   * 输入新的&#x200B;**[!UICONTROL Name]**&#x200B;和&#x200B;**[!UICONTROL Description]**。
+
+   * 要启用计划，请启用&#x200B;**[!UICONTROL Status]**。 您只能为经过训练和评分的模型启用计划。
+
+      1. 选择&#x200B;**[!UICONTROL Scoring frequency]**：
+
+         * **[!UICONTROL Daily]**：输入有效时间（例如`05:22 pm`）或使用![时钟](/help/assets/icons/Clock.svg)。
+         * **[!UICONTROL Weekly]**：选择一周中的某一天并输入有效时间（例如`05:22 pm`）或使用![时钟](/help/assets/icons/Clock.svg)。
+         * **[!UICONTROL Monthly]**：从“在每次运行时运行”下拉菜单中选择一个月中的某一天，并输入有效时间（例如`05:22 pm`）或使用![时钟](/help/assets/icons/Clock.svg)。
+
+      1. 从下拉菜单中选择&#x200B;**[!UICONTROL Training frequency]**： **[!UICONTROL Monthly]**、**[!UICONTROL Quarterly]**、**[!UICONTROL Yearly]**&#x200B;或&#x200B;**[!UICONTROL None]**。
+
+     ![编辑模型](../assets/model-edit.png)
+
+1. 选择 **[!UICONTROL Save]**。
