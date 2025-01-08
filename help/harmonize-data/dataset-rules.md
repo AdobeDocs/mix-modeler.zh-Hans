@@ -3,9 +3,9 @@ title: 数据集规则
 description: 了解如何定义要用作协调Mix Modeler中数据一部分的数据集规则。
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: a8590d604f79268bc8d1f012f2c19271a3b38668
 workflow-type: tm+mt
-source-wordcount: '1313'
+source-wordcount: '1407'
 ht-degree: 0%
 
 ---
@@ -146,12 +146,27 @@ ht-degree: 0%
 >
 >[!BADGE 测试版]{type=Informative}
 
-数据合并首选项有助于在合并来自汇总的数据和事件数据源的数据时解决冲突。 用例包括：
+为了确保准确的模型预测，您可以定义数据合并首选项。 此功能使用户能够解决合并摘要级别数据和事件级别数据后的任何冲突。
+
+您可以配置要在更新发生冲突时应用的默认量度首选项。 此默认量度可以是以下三个选项之一：
+
+* **[!UICONTROL Summary data]**
+* **[!UICONTROL Sum of summary and event data]**
+* **[!UICONTROL Event data]**
+
+在协调期间，当多个数据源尝试更新给定渠道的量度字段时，将应用用户配置的默认首选项。 此首选项应用于沙盒级别，除非被另外配置的特定基于量度的首选项覆盖。
+
+在&#x200B;**[!UICONTROL Metric based preferences]**&#x200B;下，用户可以配置给定量度的特定源（**[!UICONTROL Summary]**&#x200B;或&#x200B;**[!UICONTROL Event]**）以及该量度的相应转化类型。
+
+典型用例包括：
 
 * 在多个数据集中测量和报告相同的广告量度，或
 * 某些数据集中的量度测量可能不完整，而另一个数据集可能是特定量度的超集，从而导致重复计数。
 
-要确保准确的模型预测，您可以定义数据合并首选项：
+### 配置
+
+要配置数据合并首选项，请执行以下操作：
+
 
 1. 选择![数据合并首选项](/help/assets/icons/Merge.svg) [!BADGE 测试版]。
 
