@@ -3,7 +3,7 @@ title: 营销接触点
 description: 了解如何创建营销接触点，以将其用作Mix Modeler中协调数据的一部分。
 feature: Harmonized Data, Marketing Touch Points
 exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
-source-git-commit: 665b344dfa94275d71e0ecf198d9bb9b73ea584b
+source-git-commit: 935b179e31d1b677a8c83b1566c02b7aaa617e8d
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 0%
@@ -35,7 +35,6 @@ ht-degree: 0%
 | 已创建 | 创建营销接触点的日期和时间。 |
 | 上次修改时间 | 上次修改营销接触点的日期和时间。 |
 
-{style="table-layout:auto"}
 
 ## 添加营销接触点
 
