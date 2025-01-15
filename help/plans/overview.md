@@ -3,7 +3,7 @@ title: 计划
 description: 了解如何在Mix Modeler中查看、选择和操作计划。
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 0475c584b3963d02d9dd72f0dccf692d558463db
+source-git-commit: a4fdfa97e9d548533a22b1b667cf336f37b83395
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 0%
@@ -101,7 +101,7 @@ Mix Modeler中的计划允许您按业务部门和渠道分配预算。 计划�
 
 1. 从左边栏中选择![](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]**。
 1. 为计划选择![更多](/help/assets/icons/More.svg)，然后从上下文菜单中选择&#x200B;**[!UICONTROL Delete]**。 或者，从蓝色操作栏中选择![删除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**。
-1. 在&#x200B;**[!UICONTROL Delete moplandel]**&#x200B;确认对话框中选择&#x200B;**[!UICONTROL Delete]**&#x200B;以删除计划。 选择要取消的&#x200B;**[!UICONTROL Cancel]**。
+1. 在&#x200B;**[!UICONTROL Delete plan]**&#x200B;确认对话框中选择&#x200B;**[!UICONTROL Delete]**&#x200B;以删除计划。 选择要取消的&#x200B;**[!UICONTROL Cancel]**。
 
 要删除多个计划，请执行以下操作：
 
