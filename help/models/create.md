@@ -3,9 +3,9 @@ title: 创建模型
 description: 了解如何在Mix Modeler中创建模型。
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: ab3b5b4177fff324d50463210724ef95db18e67f
+source-git-commit: 16aec67b3e0562ff766f81b8036c724fa03bba17
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '900'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,7 @@ ht-degree: 0%
 
    * 要删除符合条件的数据填充容器，请在容器中选择![更多](/help/assets/icons/More.svg)，然后从上下文菜单中选择&#x200B;**[!UICONTROL Remove marketing touchpoint]**。
 
+   * 在容器之间选择&#x200B;**And**&#x200B;和&#x200B;**Or**，以便为符合条件的数据群体构建更复杂的定义。
 
 
 1. 要将包含外部因素的数据集添加到模型，请在&#x200B;**[!UICONTROL External factors dataset]**&#x200B;部分中使用一个或多个容器。 外部因素的一个例子是标普指数。
