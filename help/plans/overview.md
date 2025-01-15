@@ -3,9 +3,9 @@ title: 计划
 description: 了解如何在Mix Modeler中查看、选择和操作计划。
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 6331bdfcbc792c03f9cc129daa4e591c2b46a8f1
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -47,9 +47,13 @@ Mix Modeler中的计划允许您按业务部门和渠道分配预算。 计划�
    | 预算 | 计划的总预算。 |
    | 预测退货 | 计划的预测返回 |
    | 预测的ROI | 计划的预测ROI。 |
+   | 预测的转化 | 计划的预测转化 |
+   | 预测的CPA | 计划的预测CPA |
    | 状态 | 计划的状态： <p><span style="color:red">●</span>失败， <p><span style="color:blue">●</span>正在处理，或 <p><span style="color:green">●</span>完成。 |
 
    {style="table-layout:auto"}
+
+   您可以使用![ColumnSetting](/help/assets/icons/ColumnSetting.svg)来选择要显示在表格中的![复选标记](/help/assets/icons/Checkmark.svg)列。
 
 1. 使用![搜索](/help/assets/icons/Search.svg)在表中搜索并筛选一个或多个特定计划。
 

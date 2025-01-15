@@ -3,7 +3,7 @@ title: 创建计划
 description: 了解如何在Mix Modeler中创建计划。
 feature: Plans
 exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 6331bdfcbc792c03f9cc129daa4e591c2b46a8f1
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 在Mix Modeler中，您可以使用计划画布创建计划。 在计划画布中，您可以设置计划的详细信息和预算，以及要用于计划的基础模型。 指定详细信息、预算和模型后，您可以继续使用人工智能推荐的计划或编辑按渠道划分的支出。
 
-要创建计划，请在Mix Modeler的![PLan](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]**&#x200B;界面中选择&#x200B;**[!UICONTROL Open plan canvas]**。
+要创建计划，请在Mix Modeler的![PLan](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]**&#x200B;界面中选择&#x200B;**[!UICONTROL Create plan]**。
 
 1. 在“计划创建”屏幕中：
 
