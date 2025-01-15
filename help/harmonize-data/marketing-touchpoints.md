@@ -3,9 +3,9 @@ title: 营销接触点
 description: 了解如何创建营销接触点，以将其用作Mix Modeler中协调数据的一部分。
 feature: Harmonized Data, Marketing Touch Points
 exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 665b344dfa94275d71e0ecf198d9bb9b73ea584b
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -66,14 +66,29 @@ ht-degree: 0%
 1. 创建后，接触点将添加到营销接触点表中。
 
 
-## 查看营销接触点
+## 查看详细信息
 
-要查看营销接触点，请执行以下操作：
+要查看营销接触点的详细信息，请执行以下操作：
 
 1. 将鼠标悬停在表中的营销接触点名称上时，选择![更多](/help/assets/icons/More.svg)。
 
 1. 选择![视图](/help/assets/icons/ViewDetail.svg) **视图**。 此时一个对话框会显示营销接触点的详细信息。 有关详细信息，请参阅[添加营销接触点](#add-a-marketing-touchpoint)。 选择&#x200B;**[!UICONTROL Cancel]**&#x200B;关闭对话框。
 
+
+## 查看报告
+
+要查看营销接触点报表，请执行以下操作：
+
+1. 将鼠标悬停在表中的营销接触点名称上时，选择![更多](/help/assets/icons/More.svg)。
+
+1. 选择![GraphTrend](/help/assets/icons/GraphTrend.svg) **查看报告**。 对话框会显示营销接触点的报告。
+
+   ![营销接触点视图报告](../assets/marketingtouchpoint-view-report.png)
+
+   * 要更改报告的粒度，请从&#x200B;**[!UICONTROL Weekly]**&#x200B;下拉菜单中选择一个值。
+   * 若要更改要报告的期间，请输入开始和结束日期，或使用![日历](/help/assets/icons/Calendar.svg)在日历弹出窗口中定义期间。
+
+1. 选择&#x200B;**[!UICONTROL Close]**&#x200B;关闭对话框。
 
 ## 删除营销接触点
 
