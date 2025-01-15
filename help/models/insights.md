@@ -3,9 +3,9 @@ title: 模型分析
 description: 了解如何获取有关模型的详细信息，如Mix Modeler中的历史概述、模型见解和模型质量。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: d4a500de13272f0b07827a0df4a386d3d757403b
+source-git-commit: fccdd908bbe6b5a2cf9182fc61cb4bbe392f92ec
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1553'
 ht-degree: 0%
 
 ---
@@ -186,14 +186,17 @@ Mix Modeler多点接触归因粒度事件分数与总体Mix Modeler分数和ROI�
 * 对于每个渠道，归因模型贡献百分比和
 * 这些渠道归因模型贡献百分比的总和。
 
-## **[!UICONTROL Factors]**
+## **[!UICONTROL Factors]** [!BADGE 测试版]
 
-“因子”选项卡显示外部因子相关的见解。
+因子[!BADGE beta]选项卡显示外部因子相关见解。
 
 ![因素](/help/assets/factors.png)
 
 此可视化图表可帮助您了解各种内部和外部因素对转化基线的增量影响。 例如，经济条件或促销活动。
 
+使用&#x200B;**[!UICONTROL Factors]**&#x200B;下拉菜单选择要显示的因子。
+
+<!-- need to update the image when we do have a proper example -->
 
 要下载包含该表数据的CSV文件，请选择![下载](/help/assets/icons/Download.svg)。
 
@@ -205,7 +208,7 @@ Mix Modeler多点接触归因粒度事件分数与总体Mix Modeler分数和ROI�
 
 * [!UICONTROL Model Assessment]可视化图表，可按实际转化与预测转化或残差转化进行划分。
 
-  要划分可视化图表，请从&#x200B;**[!UICONTROL Breakdown]**&#x200B;列表中选择&#x200B;**[!UICONTROL Actual vs. Predicted]**&#x200B;或&#x200B;**[!UICONTROL Residuals]**。
+要划分可视化图表，请从&#x200B;**[!UICONTROL Breakdown]**&#x200B;列表中选择&#x200B;**[!UICONTROL Actual vs. Predicted]**&#x200B;或&#x200B;**[!UICONTROL Residuals]**。
 
 * [!UICONTROL Model fitting metrics]表，显示每个转化量度的以下列：
 
@@ -223,11 +226,11 @@ Mix Modeler多点接触归因粒度事件分数与总体Mix Modeler分数和ROI�
 
       * RMSE（均方根误差）：显示平均误差，根据误差的平方进行加权。
 
-  要下载包含该表数据的CSV文件，请选择![下载](/help/assets/icons/Download.svg)。
+要下载包含该表数据的CSV文件，请选择![下载](/help/assets/icons/Download.svg)。
 
 * [!UICONTROL Touchpoint effectiveness]表，表示Attribution AI算法模型的结果。 此表的数据仅为特定时间段生成。 选择&#x200B;**[!UICONTROL As of *xx/xx/xx， xx：xx TZ *]**![信息](/help/assets/icons/InfoOutline.svg)以了解更多详细信息。
 
-  该可视化图表按降序显示每个接触点的[!UICONTROL Efficiency measure] ![降序](/help/assets/icons/SortOrderDown.svg)：
+该可视化图表按降序显示每个接触点的[!UICONTROL Efficiency measure] ![降序](/help/assets/icons/SortOrderDown.svg)：
 
    * [!UICONTROL Paths touched]：可视化实现转化的路径百分比和未实现转化的路径百分比。 对于接触点，当归因转化率较高时，您会看到更多归因转化。 此比率将导致转化的路径百分比与&#x200B;*不会*&#x200B;导致转化的路径百分比进行比较。
    * [!UICONTROL Efficiency measure]：由算法归因模型生成，效率度量指示接触点对转化的相对重要性，与接触点数量无关。 效率在1到5的刻度上测量。 请注意，接触点数量越大并不能保证效率测量值越高。
@@ -246,11 +249,11 @@ Mix Modeler多点接触归因粒度事件分数与总体Mix Modeler分数和ROI�
 
 * 接触点支出。
 
-  您可以为此可视化图表选择要显示的替代基于支出的渠道。 从&#x200B;**[!UICONTROL Channels]**&#x200B;中选择一个渠道。
+您可以为此可视化图表选择要显示的替代基于支出的渠道。 从&#x200B;**[!UICONTROL Channels]**&#x200B;中选择一个渠道。
 
 * 接触点数量。
 
-  您可以为此可视化图表选择要显示的替代基于卷的渠道。 从&#x200B;**[!UICONTROL Channels]**&#x200B;中选择一个渠道。
+您可以为此可视化图表选择要显示的替代基于卷的渠道。 从&#x200B;**[!UICONTROL Channels]**&#x200B;中选择一个渠道。
 
 ![模型 — 历史概述](/help/assets/model-insights-historical-overview.png)
 
