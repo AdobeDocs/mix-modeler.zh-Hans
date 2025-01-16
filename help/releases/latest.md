@@ -4,7 +4,7 @@ description: 最新 Mix Modeler 发行说明
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 0d6afcf18d7dcf909ae2c22ffa588c425a7148d3
+source-git-commit: 37c452ec2f8d984e9ba32da484532c26cdc9e891
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 7%
@@ -25,4 +25,5 @@ ht-degree: 7%
 | **查看报告** | 您可以查看有关您定义为协调数据一部分的[转化](/help/harmonize-data/conversions.md#view-report)或[营销接触点](/help/harmonize-data/marketing-touchpoints.md#view-report)的报告。 | 2025年1月15日 |
 | **删除确认** | 系统会提示您确认删除[计划](/help/plans/overview.md#delete-plans)或[模型](/help/models/overview.md#delete-models)。 | 2025年1月15日 |
 | **因素UI改进** | 您可以选择要在模型分析中显示的[因子](/help/models/insights.md#factors-beta)。 | 2025年1月15日 |
+
 
