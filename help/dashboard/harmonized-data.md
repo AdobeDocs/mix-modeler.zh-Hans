@@ -1,18 +1,18 @@
 ---
-title: 协调的数据概述仪表板
+title: 协调的数据仪表板
 description: 了解如何在Mix Modeler中使用协调的数据概述仪表板。
 feature: Dashboard, Harmonized Data
 exl-id: fbb01613-d648-4db1-a782-a7720b7a03ad
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
 
-# 统一的数据概述
+# 协调的数据
 
-Mix Modeler概述中的“协调数据”选项卡提供了对协调数据的洞察，您配置该数据作为所摄取数据和协调数据设置的一部分使用。
+Mix Modeler![主页](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x200B;中的&#x200B;**[!UICONTROL Harmonized data]**&#x200B;选项卡提供对您配置的协调数据的见解，这些协调数据将用作所摄取数据和协调数据设置的一部分。
 
 此概述显示了四个KPI状态卡可视化图表（顶行）和六个其他可配置可视化图表。
 

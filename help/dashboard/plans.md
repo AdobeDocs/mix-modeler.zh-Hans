@@ -1,23 +1,23 @@
 ---
-title: 计划概述
+title: 计划
 description: 了解如何在Mix Modeler中使用计划概述。
 feature: Dashboard, Plans, Models
 exl-id: 930fc1d5-8e28-4610-af7b-c4ec91f86a8a
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 0bdb80fb19118ab4e15c36c1a43e2d4f0c528041
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
 
-# 计划概述
+# 计划
 
 >[!NOTE]
 >
->[!BADGE Alpha]{type=Informative}
+>[!BADGE Alpha]{type=Informative}Mix Modeler![主页](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x200B;中的&#x200B;**[!UICONTROL Plans]**&#x200B;选项卡是Alpha功能，其功能可能会发生更改。 该功能仅对有限数量的客户可用。
 
 
-Mix Modeler概述中的“计划”选项卡显示[!UICONTROL Budget]、[!UICONTROL Revenue]、[!UICONTROL ROI]和[!UICONTROL KPI]的可视化图表。
+Mix Modeler![主页](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x200B;中的&#x200B;**[!UICONTROL Plans]**&#x200B;选项卡显示[!UICONTROL Budget]、[!UICONTROL Revenue]、[!UICONTROL ROI]和[!UICONTROL KPI]的可视化图表。
 
 为可视化图表显示的数据由以下因素决定：
 

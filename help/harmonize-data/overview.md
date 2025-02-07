@@ -1,16 +1,16 @@
 ---
-title: 协调数据
+title: 协调数据集概述
 description: 了解如何在Mix Modeler中协调数据。
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '895'
 ht-degree: 7%
 
 ---
 
-# 协调数据
+# 协调数据集概述
 
 根据数据源的不同，Mix Modeler中的数据具有不同的性质。 数据可以是：
 
@@ -67,9 +67,9 @@ Mix Modeler的协调服务将聚合和事件数据吸收到一致的数据视图
 
 **数据集4**
 
-客户提供的示例体验事件数据集（Web SDK事件）。
+客户提供的示例体验事件数据集(Web SDK事件)。
 
-| 时间戳 | 标识命名空间 | 身份ID | 渠道 | 点击次数 |
+| 时间戳 | 身份标识命名空间 | 身份ID | 渠道 | 点击次数 |
 |--- |--- |--- |--- |---:|
 | 01-01-2022 00:01:01.000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | CSE | 1 |
 | 01-01-2022 00:01:01.000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | CSE | 1 |

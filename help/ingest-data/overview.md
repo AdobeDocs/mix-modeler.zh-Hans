@@ -1,16 +1,16 @@
 ---
-title: 引入数据
+title: 摄取数据概述
 description: 了解如何将数据摄取到Mix Modeler。
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: 2402874518001c1ae78de6a64a06a9fefa1bbc27
+source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '465'
 ht-degree: 8%
 
 ---
 
-# 引入数据
+# 摄取数据概述
 
 Mix Modeler可使用事件级数据、来自不同封闭花园的汇总或汇总营销工作数据，以及来自任何其他来源（如离线广告、内部因素或外部因素）的汇总或汇总数据。
 
@@ -19,7 +19,7 @@ Mix Modeler可使用事件级数据、来自不同封闭花园的汇总或汇总
 例如：
 
 * 使用Adobe Analytics源连接器收集并转换为符合Adobe Analytics架构的默认或自定义版本的数据集，或者，
-* 使用Experience PlatformWeb SDK、Mobile SDK或Edge Network服务器API收集的数据，用于收集Web、移动设备或任何其他类型设备上的客户交互。
+* 使用Experience PlatformWeb SDK、Mobile SDK或Edge Network服务器API收集的数据，用于收集Web、移动设备或任何其他类型的设备上的客户交互。
 * 聚集或摘要来自封闭式花园(如Facebook、YouTube)、流量源或离线广告数据的数据，
 * 包含对模型构建有用的内部或外部因素的非营销聚合或摘要数据。
 

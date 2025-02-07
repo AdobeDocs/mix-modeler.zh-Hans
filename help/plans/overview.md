@@ -1,16 +1,16 @@
 ---
-title: 计划
+title: 计划概述
 description: 了解如何在Mix Modeler中查看、选择和操作计划。
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 935b179e31d1b677a8c83b1566c02b7aaa617e8d
+source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 0%
+source-wordcount: '481'
+ht-degree: 1%
 
 ---
 
-# 计划
+# 计划概述
 
 Mix Modeler中的计划允许您按业务部门和渠道分配预算。 计划功能与根据您的统一数据经过培训的模型的结果相集成。
 
@@ -28,6 +28,10 @@ Mix Modeler中的计划允许您按业务部门和渠道分配预算。 计划�
 - 多个航班日期，每个航班都有目标预算，
 - 按渠道和投放日期列出的最小和最大预算限制。
 
+
+## 构建计划
+
+要构建计划，请使用Mix Modeler计划创建向导。 有关更多详细信息，请参阅[生成计划](build.md)。
 
 ## 管理计划
 
@@ -57,50 +61,39 @@ Mix Modeler中的计划允许您按业务部门和渠道分配预算。 计划�
 
 1. 使用![搜索](/help/assets/icons/Search.svg)在表中搜索并筛选一个或多个特定计划。
 
-## 创建计划
+### 计划洞察
 
-要创建计划，请使用Mix Modeler计划创建向导。 有关更多详细信息，请参阅[创建计划](create.md)。
+要查看计划的分析并编辑计划，请执行以下操作：
 
+1. 从左边栏中选择![PLan](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]**。
 
-## 编辑计划
+1. 选择计划名称。
 
-要编辑计划，请从表中选择计划的名称。 有关详细信息，请参阅[编辑计划](edit.md)。
+您被重定向到[计划分析](insights.md)。
 
-
-## 选择并对计划执行操作
-
-您可以选择一个或多个计划，这会显示“计划”操作栏。 通过操作栏，您可以删除、比较或复制计划。
-
-要删除“计划”表中的所有选择，请在操作栏中选择![关闭](/help/assets/icons/Close.svg)
-
-![计划操作栏](/help/assets/plans-action-bar.png)
 
 ### 复制计划
 
 要复制计划，请执行以下操作：
 
-1. 从表中选择单个计划。
-1. 从操作栏中选择![复制](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]**。 新计划（其名称由原始计划的名称附加到&#x200B;**[!UICONTROL (Copy)]**&#x200B;组成）将添加到表的顶部。
+- 为计划选择![更多](/help/assets/icons/More.svg)。 从上下文菜单中选择&#x200B;**[!UICONTROL Duplicate]**。
+- 或者，在表![SelectBox](/help/assets/icons/SelectBox.svg)中选择一个计划，然后从蓝色操作栏中选择![复制](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]**。
 
-或者：
-
-1. 为表中的计划选择![更多](/help/assets/icons/More.svg)。
-1. 从上下文菜单中选择&#x200B;**[!UICONTROL Duplicate]**。 新计划（其名称由原始计划的名称附加到&#x200B;**[!UICONTROL (Copy)]**&#x200B;组成）将添加到表的顶部。
+新计划（其名称由原始计划的名称附加到&#x200B;**[!UICONTROL (Copy)]**&#x200B;组成）将添加到表的顶部。
 
 ### 比较计划
 
 要比较计划，请执行以下操作：
 
 1. 从表中选择两个计划。
-1. 从操作栏中选择![比较](/help/assets/icons/Compare.svg) **[!UICONTROL Compare]**。 您看到&#x200B;**[!UICONTROL Compare plans]** UI。
+1. 从蓝色操作栏中选择![比较](/help/assets/icons/Compare.svg) **[!UICONTROL Compare]**。 您看到&#x200B;**[!UICONTROL Compare plans]** UI。
 
 
 ### 删除计划
 
 要删除计划，请执行以下操作：
 
-1. 从左边栏中选择![](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]**。
-1. 为计划选择![更多](/help/assets/icons/More.svg)，然后从上下文菜单中选择&#x200B;**[!UICONTROL Delete]**。 或者，从蓝色操作栏中选择![删除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**。
+1. 为计划选择![更多](/help/assets/icons/More.svg)。 从上下文菜单中选择&#x200B;**[!UICONTROL Delete]**。 <br/>或者，在表![SelectBox](/help/assets/icons/SelectBox.svg)中选择计划，然后从蓝色操作栏中选择![删除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**。
 1. 在&#x200B;**[!UICONTROL Delete plan]**&#x200B;确认对话框中选择&#x200B;**[!UICONTROL Delete]**&#x200B;以删除计划。 选择要取消的&#x200B;**[!UICONTROL Cancel]**。
 
 要删除多个计划，请执行以下操作：

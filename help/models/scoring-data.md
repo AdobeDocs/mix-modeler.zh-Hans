@@ -1,16 +1,16 @@
 ---
-title: 评分数据
+title: 美国评分数据
 description: 了解如何保留Mix Modeler中的模型评分数据。
 feature: Models
 exl-id: 2f2c3d20-7b14-41cc-a11a-03e8ad9e5d7a
-source-git-commit: b6045176e82b97f848113f4e0ffbbb995c48b3d4
+source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '677'
 ht-degree: 6%
 
 ---
 
-# 评分数据
+# 使用评分数据
 
 在对模型评分的过程中，评分数据会保留在Experience Platform的数据集内。 如果您在模型创建期间启用了多接触点归因，则Experience Platform的数据集中会保留更多的事件得分数据。
 

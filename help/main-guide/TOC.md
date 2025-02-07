@@ -2,10 +2,10 @@
 user-guide-title: Mix Modeler 指南
 breadcrumb-title: Mix Modeler 指南
 user-guide-description: 了解如何使用 Mix Modeler。
-source-git-commit: 0d6afcf18d7dcf909ae2c22ffa588c425a7148d3
+source-git-commit: 25eb18443d0bdecdb02c026aec363271618441f5
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 46%
+source-wordcount: '85'
+ht-degree: 45%
 
 ---
 
@@ -18,24 +18,24 @@ ht-degree: 46%
    + [什么是Mix Modeler？](/help/get-started/about.md)
    + [应用程序工作流](/help/get-started/workflow.md)
 
-+ 仪表板{#dashboard}
-   + [概述](/help/dashboard/overview.md)
++ 主页{#dashboard}
+   + [主页概述](/help/dashboard/overview.md)
    + [协调的数据](/help/dashboard/harmonized-data.md)
    + [计划](/help/dashboard/plans.md)
 
 + 模型{#models}
    + [概述](/help/models/overview.md)
-   + [创建模型](/help/models/create.md)
+   + [构建模型](/help/models/build.md)
    + [模型洞察](/help/models/insights.md)
-   + [评分数据](/help/models/scoring-data.md)
+   + [使用评分数据](/help/models/scoring-data.md)
 
 + 计划{#plans}
    + [概述](/help/plans/overview.md)
-   + [创建计划](/help/plans/create.md)
-   + [编辑计划](/help/plans/edit.md)
+   + [构建计划](/help/plans/build.md)
+   + [计划洞察](/help/plans/insights.md)
    + [比较计划](/help/plans/compare.md)
 
-+ 协调数据{#harmonize-data}
++ 协调数据集{#harmonize-data}
    + [概述](/help/harmonize-data/overview.md)
    + [字段](/help/harmonize-data/fields.md)
    + [数据集规则](/help/harmonize-data/dataset-rules.md)

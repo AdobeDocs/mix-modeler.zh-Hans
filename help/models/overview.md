@@ -1,16 +1,16 @@
 ---
-title: 模型
-description: 了解如何在Mix Modeler中配置和使用模型。
+title: 模型概述
+description: 了解如何在Mix Modeler中构建和使用模型。
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 935b179e31d1b677a8c83b1566c02b7aaa617e8d
+source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
 workflow-type: tm+mt
 source-wordcount: '942'
 ht-degree: 0%
 
 ---
 
-# 模型
+# 模型概述
 
 Mix Modeler中的模型功能允许您配置、训练特定于业务目标的模型并对模型进行评分。 训练和评分支持在多触点归因和营销组合建模之间进行AI驱动的转移学习。
 
@@ -33,9 +33,9 @@ Mix Modeler模型是一种机器学习模型，用于根据营销人员的投资
 * 支出份额，在营销数据稀疏时使用相对支出份额作为代理。
 
 
-## 创建模型
+## 构建模型
 
-要创建模型，请使用选择&#x200B;**[!UICONTROL Open model canvas]**&#x200B;时提供的Mix Modeler逐步引导模型配置流程。 有关详细信息，请参阅[创建模型](create.md)。
+要构建模型，请使用选择&#x200B;**[!UICONTROL Open model canvas]**&#x200B;时提供的Mix Modeler逐步引导模型配置流程。 有关更多详细信息，请参阅[构建模型](build.md)。
 
 ## 管理模型
 
