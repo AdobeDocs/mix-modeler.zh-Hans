@@ -3,21 +3,31 @@ title: 协调数据集概述
 description: 了解如何在Mix Modeler中协调数据。
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
+source-git-commit: beee5fe52188f133b71ed3ef53e40c3aea06ab9c
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 7%
+source-wordcount: '966'
+ht-degree: 6%
 
 ---
 
 # 协调数据集概述
 
-根据数据源的不同，Mix Modeler中的数据具有不同的性质。 数据可以是：
+Mix Modeler中的数据性质因数据源而异。 数据可以是：
 
 * 聚合或摘要数据，例如从围墙花园数据源收集的数据，或通过运行广告牌营销活动、事件或物理广告营销活动收集的离线广告数据（如支出），
-* 事件数据，例如来自第一方数据源的事件数据。 此事件数据可以是通过Adobe Analytics源连接器从Adobe Analytics收集的数据，也可以是通过Experience PlatformWeb或移动SDK或Edge NetworkAPI收集的数据，或使用源连接器摄取的数据。
+* 事件数据，例如来自第一方数据源的事件数据。 此事件数据可以是通过Adobe Analytics源连接器从Adobe Analytics收集的数据，也可以是通过Experience Platform Web或Mobile SDK或Edge Network API收集的数据，或使用源连接器引入的数据。
 
-Mix Modeler的协调服务将聚合和事件数据吸收到一致的数据视图中。 此数据视图与内部和外部因素数据相结合，是Mix Modeler中模型的来源。 该服务在不同数据集上使用最高的粒度。 例如，如果一个数据集的粒度为每月，而其余数据集的粒度为每周和每日，则协调服务使用每月粒度创建一个数据视图。
+Mix Modeler的协调服务将聚合和事件数据吸收到一致的数据视图中。 此数据视图与[内部和外部因素数据](#factors)相结合，是Mix Modeler中模型的源。 该服务在不同数据集上使用最高的粒度。 例如，如果一个数据集的粒度为每月，而其余数据集的粒度为每周和每日，则协调服务使用每月粒度创建一个数据视图。
+
+## 因素
+
+因素对于模型构建至关重要，您想要了解哪些因素会对业务产生整体影响。 因素可能与营销数据无关。
+
+* 内部因素特定于您的组织，可能会影响您的转化。 例如，您的销售季节、促销活动等。
+
+* 外部因素是组织无法控制的因素，但仍会影响您实现的转化。 例如CPI、标普500等。
+
+
 
 ## 统一数据的示例
 
@@ -39,14 +49,14 @@ Mix Modeler的协调服务将聚合和事件数据吸收到一致的数据视图
 
 **数据集2**
 
-包含Facebook中的营销工作数据集，其聚合数据的粒度设置为每周。
+包含来自Facebook的营销工作数据集，其聚合数据的粒度设置为每周。
 
 | 日期 | 日期类型 | 渠道 | Campaign | 地域 | 点击次数 | 支出 |
 |--- |:---:|--- |---|---|---:|---:|
-| 01-01-2022 | 周 | facebook | FB_Fall_01 | US | 8000 | 100 |
-| 01-08-2022 | 周 | facebook | FB_Fall_02 | US | 1000 | 10 |
-| 01-08-2022 | 周 | facebook | FB_Fall_01 | US | 7000 | 100 |
-| 01-16-2022 | 周 | facebook | FB_Summer_01 | CA | 10000 | 80 |
+| 01-01-2022 | 周 | Facebook | FB_Fall_01 | US | 8000 | 100 |
+| 01-08-2022 | 周 | Facebook | FB_Fall_02 | US | 1000 | 10 |
+| 01-08-2022 | 周 | Facebook | FB_Fall_01 | US | 7000 | 100 |
+| 01-16-2022 | 周 | Facebook | FB_Summer_01 | CA | 10000 | 80 |
 
 {style="table-layout:auto"}
 
@@ -88,10 +98,10 @@ Mix Modeler的协调服务将聚合和事件数据吸收到一致的数据视图
 | 12-27-2021 | 周 | YouTube | Y_Fall_02 | BrandX | US | 空 | 11000 | 110 | 空 |
 | 01-03-2022 | 周 | YouTube | Y_Fall_01 | BrandY | CA | 空 | 10000 | 100 | 空 |
 | 01-03-2022 | 周 | YouTube | Y_Summer_01 | 空 | CA | 空 | 9000 | 80 | 空 |
-| 01-01-2022 | 周 | facebook | FB_Fall_01 | 空 | US | 空 | 8000 | 100 | 空 |
-| 01-08-2022 | 周 | facebook | FB_Fall_02 | 空 | US | 空 | 1000 | 10 | 空 |
-| 01-08-2022 | 周 | facebook | FB_Fall_01 | 空 | US | 空 | 7000 | 100 | 空 |
-| 01-16-2022 | 周 | facebook | FB_Summer_01 | 空 | CA | 空 | 10000 | 80 | 空 |
+| 01-01-2022 | 周 | Facebook | FB_Fall_01 | 空 | US | 空 | 8000 | 100 | 空 |
+| 01-08-2022 | 周 | Facebook | FB_Fall_02 | 空 | US | 空 | 1000 | 10 | 空 |
+| 01-08-2022 | 周 | Facebook | FB_Fall_01 | 空 | US | 空 | 7000 | 100 | 空 |
+| 01-16-2022 | 周 | Facebook | FB_Summer_01 | 空 | CA | 空 | 10000 | 80 | 空 |
 | 12-27-2021 | 周 | 空 | 空 | 空 | US | 时尚 | 空 | 空 | 200 |
 | 01-03-2022 | 周 | 空 | 空 | 空 | US | 时尚 | 空 | 空 | 10 |
 | 01-03-2022 | 周 | 空 | 空 | 空 | US | 珠宝 | 空 | 空 | 1100 |

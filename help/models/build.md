@@ -3,9 +3,9 @@ title: 构建模型
 description: 了解如何在Mix Modeler中构建模型。
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
+source-git-commit: 3b6b127bfaf79cee99a869b21ff0c1a911b3ad6c
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ ht-degree: 0%
 
       1. 从&#x200B;**[!UICONTROL Dataset]**&#x200B;下拉菜单中选择一个数据集。 您可以选择![数据](/help/assets/icons/Data.svg)来管理数据集。 有关详细信息，请参阅[数据集](../ingest-data/datasets.md)。
 
-      1. 从&#x200B;**[!UICONTROL Impact on conversion]**&#x200B;下拉菜单中选择一个选项： **[!UICONTROL Auto select]**、**[!UICONTROL Positive]**&#x200B;或&#x200B;**[!UICONTROL Negative]**。
+      1. 从&#x200B;**[!UICONTROL Impact on conversion]**&#x200B;下拉菜单中选择一个选项： **[!UICONTROL Auto select]**、**[!UICONTROL Positive]**&#x200B;或&#x200B;**[!UICONTROL Negative]**。 默认选项为&#x200B;**[!UICONTROL Auto select]**，允许模型确定影响。 您可以覆盖默认值。
 
    * 要添加额外的外部因子数据集容器，请选择![添加](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add external factor]**。
 

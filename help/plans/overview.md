@@ -3,9 +3,9 @@ title: 计划概述
 description: 了解如何在Mix Modeler中查看、选择和操作计划。
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
+source-git-commit: 3b6b127bfaf79cee99a869b21ff0c1a911b3ad6c
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '510'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,8 @@ Mix Modeler中的计划允许您按业务部门和渠道分配预算。 计划�
 - 多个航班日期，每个航班都有目标预算，
 - 按渠道和投放日期列出的最小和最大预算限制。
 
+如果您用于计划的模型根据新数据进行了评分，则需要创建新计划以考虑重新评分的数据。
+
 
 ## 构建计划
 
@@ -35,7 +37,7 @@ Mix Modeler中的计划允许您按业务部门和渠道分配预算。 计划�
 
 ## 管理计划
 
-要查看当前计划的表，请在Mix Modeler界面中：
+要查看当前计划的表格，请在Mix Modeler界面中执行以下操作：
 
 1. 从左边栏中选择![](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]**。
 
