@@ -3,9 +3,9 @@ title: 模型洞察
 description: 了解如何获取有关模型的详细信息，如Mix Modeler中的历史概述、模型见解和模型质量。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 25eb18443d0bdecdb02c026aec363271618441f5
+source-git-commit: 0ee212a626986e4c721d0e58f2528d0ca1a9fdbf
 workflow-type: tm+mt
-source-wordcount: '1552'
+source-wordcount: '1549'
 ht-degree: 0%
 
 ---
@@ -82,19 +82,34 @@ ht-degree: 0%
 
 要下载接触点划分表的内容，请选择![下载](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**。
 
+## **[!UICONTROL Factors]** [!BADGE 测试版]
+
+因子[!BADGE beta]选项卡显示外部因子相关见解。
+
+![因素](/help/assets/factors.png)
+
+此可视化图表可帮助您了解各种内部和外部因素对转化基线的增量影响。 例如，经济条件或促销活动。
+
+使用&#x200B;**[!UICONTROL Factors]**&#x200B;下拉菜单选择要显示的因子。
+
+<!-- need to update the image when we do have a proper example -->
+
+要下载包含该表数据的CSV文件，请选择![下载](/help/assets/icons/Download.svg)。
+
+如果没有可用数据，您会看到一条消息![TableAndChart](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]**。
 
 ## [!UICONTROL Attribution]
 
 >[!NOTE]
 >
->“归因”选项卡仅适用于启用MTA的模型。
+“归因”选项卡仅适用于启用MTA的模型。
 
 
 使用[!UICONTROL Attribution]选项卡，您可以了解具有事件级别数据的接触点和营销活动的有效性。  请参阅[构建模型](build.md)。
 
 支持以下归因模型：
 
-* 根据Mix Modeler中选定的模型：
+* 基于Mix Modeler中选择的模型：
    * 算法 — 影响输出
    * 算法 — 增量
 * 基于规则：
@@ -104,13 +119,13 @@ ht-degree: 0%
    * 线性
    * Ushape
 
-有关Mix Modeler中的多点触控归因功能的介绍，请参阅[多点触控归因](../get-started/about.md#multi-touch-attribution)。
+有关Mix Modeler中的多点接触归因功能的介绍，请参阅[多点接触归因](../get-started/about.md#multi-touch-attribution)。
 
 从&#x200B;**[!UICONTROL Attribution Model]**&#x200B;下拉菜单中选择一个或多个归因模型。 选定的归因模型适用于归因选项卡中的所有可视化图表。
 
 ![归因](/help/assets/model-insights-attribution.png)
 
-Mix Modeler多点接触归因粒度事件分数与总体Mix Modeler分数和ROI相匹配。 这些得分也可作为Experience Platform中的数据集使用。
+Mix Modeler多点接触归因粒度事件得分与总体Mix Modeler得分和ROI相符。 这些得分也可作为Experience Platform中的数据集使用。
 
 归因选项卡包含以下可视化图表：
 
@@ -132,15 +147,15 @@ Mix Modeler多点接触归因粒度事件分数与总体Mix Modeler分数和ROI�
 
 [!UICONTROL Breakdown]可视化图表按渠道或接触点划分每个所选归因模型的转化。 此可视化图表有助于确定每个渠道或接触点的有效性。
 
-要选择划分类型，请从![更多](/help/assets/icons/More.svg)中选择&#x200B;**[!UICONTROL Breakdown by channel]**&#x200B;或&#x200B;**[!UICONTROL Breakdown by touchpoint]**。
+要选择划分类型，请执行以下操作： select 来自![更多](/help/assets/icons/More.svg)的&#x200B;**[!UICONTROL Breakdown by channel]**&#x200B;或&#x200B;**[!UICONTROL Breakdown by touchpoint]**。
 
 要查看详细信息，请将鼠标悬停在任何图表元素上。
 
 ### [!UICONTROL Top campaigns]
 
-热门促销活动可视化图表显示排名最前的促销活动列表，其中包含“促销活动名称”、“渠道”、“媒体类型”和“增量转化”列。 此可视化图表有助于让您的团队了解特定渠道的特定营销活动的有效性，并深入了解您应该进一步投资哪些营销活动。
+热门促销活动可视化图表显示排名最前的促销活动列表，其中包含促销活动名称、渠道、媒体类型列 and 增量转化。 此可视化图表有助于让您的团队了解特定渠道的特定营销活动的有效性，并深入了解您应该进一步投资哪些营销活动。
 
-要按“渠道”、“媒体类型”或“增量转化”的升↑或降序↓序对表进行排序，请选择列标题并切换排序。
+要按频道、媒体类型的升↑或降序对表↓行排序，请执行以下操作 or 增量转化，选择列标题并切换排序。
 
 要在单独的对话框中展开表，请从![更多](/help/assets/icons/More.svg)中选择&#x200B;**[!UICONTROL Expand]**。
 
@@ -151,7 +166,7 @@ Mix Modeler多点接触归因粒度事件分数与总体Mix Modeler分数和ROI�
 * 首次触点转化
 * 最近联系转化
 
-  您可以选择每个附加的列标题，以按升序或降序对表进行排序。
+您可以选择每个附加的列标题，以按升序或降序对表进行排序。
 
 要关闭展开的“热门促销活动”对话框，请选择&#x200B;**[!UICONTROL Close]**。
 
@@ -162,7 +177,7 @@ Mix Modeler多点接触归因粒度事件分数与总体Mix Modeler分数和ROI�
 
 >[!NOTE]
 >
->归因模型在所有接触点和位置的贡献百分比之和应等于100。
+归因模型在所有接触点和位置的贡献百分比之和应等于100。
 
 
 职位[!UICONTROL Starter]、[!UICONTROL Player]和[!UICONTROL Closer]的定义如下：
@@ -186,21 +201,6 @@ Mix Modeler多点接触归因粒度事件分数与总体Mix Modeler分数和ROI�
 * 对于每个渠道，归因模型贡献百分比和
 * 这些渠道归因模型贡献百分比的总和。
 
-## **[!UICONTROL Factors]** [!BADGE 测试版]
-
-因子[!BADGE beta]选项卡显示外部因子相关见解。
-
-![因素](/help/assets/factors.png)
-
-此可视化图表可帮助您了解各种内部和外部因素对转化基线的增量影响。 例如，经济条件或促销活动。
-
-使用&#x200B;**[!UICONTROL Factors]**&#x200B;下拉菜单选择要显示的因子。
-
-<!-- need to update the image when we do have a proper example -->
-
-要下载包含该表数据的CSV文件，请选择![下载](/help/assets/icons/Download.svg)。
-
-如果没有可用数据，您会看到一条消息![TableAndChart](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]**。
 
 ## [!UICONTROL Diagnostics]
 
@@ -228,7 +228,7 @@ Mix Modeler多点接触归因粒度事件分数与总体Mix Modeler分数和ROI�
 
 要下载包含该表数据的CSV文件，请选择![下载](/help/assets/icons/Download.svg)。
 
-* [!UICONTROL Touchpoint effectiveness]表，表示Attribution AI算法模型的结果。 此表的数据仅为特定时间段生成。 选择&#x200B;**[!UICONTROL As of *xx/xx/xx， xx：xx TZ *]**![信息](/help/assets/icons/InfoOutline.svg)以了解更多详细信息。
+* [!UICONTROL Touchpoint effectiveness]表，表示归因人工智能算法模型的结果。 此表的数据仅为特定时间段生成。 选择&#x200B;**[!UICONTROL As of *xx/xx/xx， xx：xx TZ *]**![信息](/help/assets/icons/InfoOutline.svg)以了解更多详细信息。
 
 该可视化图表按降序显示每个接触点的[!UICONTROL Efficiency measure] ![降序](/help/assets/icons/SortOrderDown.svg)：
 
