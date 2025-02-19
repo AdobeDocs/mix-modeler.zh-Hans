@@ -3,9 +3,9 @@ title: 模型概述
 description: 了解如何在Mix Modeler中构建和使用模型。
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
+source-git-commit: 39ea5ed145678d6ac7e5263b38255e725e488f8d
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '1090'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 Mix Modeler中的模型功能允许您配置、训练特定于业务目标的模型并对模型进行评分。 训练和评分支持在多触点归因和营销组合建模之间进行AI驱动的转移学习。
 
-这些模型基于您在Mix Modeler应用工作流程中创建的统一数据。
+这些模型基于您在Mix Modeler应用程序工作流程中创建的协调数据。
 
-Mix Modeler模型是一种机器学习模型，用于根据营销人员的投资来测量和预测指定的结果。 营销接触点和摘要级别的数据可用作输入。 Mix Modeler允许您根据不同的变量集、维度和结果（如收入、销量、商机）创建模型的变体。
+Mix Modeler中的模型是一种机器学习模型，用于根据营销人员的投资来衡量和预测指定的结果。 营销接触点和摘要级别的数据可用作输入。 Mix Modeler允许您根据不同的变量集、维度和结果（如收入、销量和商机）创建模型的变体。
 
 模型需要：
 
@@ -35,11 +35,11 @@ Mix Modeler模型是一种机器学习模型，用于根据营销人员的投资
 
 ## 构建模型
 
-要构建模型，请使用选择&#x200B;**[!UICONTROL Open model canvas]**&#x200B;时提供的Mix Modeler逐步引导模型配置流程。 有关更多详细信息，请参阅[构建模型](build.md)。
+要构建模型，请使用选择&#x200B;**[!UICONTROL Open model canvas]**&#x200B;时可用的Mix Modeler分步引导式模型配置流程。 有关更多详细信息，请参阅[构建模型](build.md)。
 
 ## 管理模型
 
-要查看当前模型的表，请在Mix Modeler界面中：
+要查看当前模型的表格，请在Mix Modeler界面中执行以下操作：
 
 1. 从左边栏中选择![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**。
 
@@ -54,9 +54,33 @@ Mix Modeler模型是一种机器学习模型，用于根据营销人员的投资
    | 转化事件 | 您为模型选择的转换。 |
    | 运行频率 | 训练模型的运行频率。 |
    | 上次运行 | 模型上次训练的日期和时间。 |
-   | 状态 | 模型上次运行的状态。 <br/>![StatusGreen](/help/assets/icons/StatusGreen.svg)成功<br/>![StatusOrange](/help/assets/icons/StatusOrange.svg)培训问题<br/> ![StatusOrange](/help/assets/icons/StatusOrange.svg)正在等待训练<br/>![StatusRed](/help/assets/icons/StatusRed.svg)失败<br/>![StatusGreen](/help/assets/icons/StatusGray.svg) _ （上次运行正在进行时） |
+   | 状态 | 模型的状态。 |
 
    {style="table-layout:auto"}
+
+   模型的报告状态取决于模型在其生命周期中的位置。 例如，模型是否创建、（重新）训练成功与否或（重新）评分成功与否。
+
+   在下表中：
+
+   * ![复选标记](/help/assets/icons/Checkmark.svg) — 表示在模型生命周期中成功执行了某个步骤。
+   * ![时钟](/help/assets/icons/Clock.svg) — 表示模型生命周期中某个步骤的当前正在执行。
+   * ![Close](/help/assets/icons/Close.svg) — 表示模型生命周期中的步骤执行失败。
+
+   | 状态 | 创建 | 训练 | 得分 | 重新培训 | 重新得分 |
+   |---|:---:|:---:|:---:|:---:|:---:|
+   | 进行中 | ![复选标记](/help/assets/icons/Checkmark.svg) | | | | |
+   | 进行中 | ![复选标记](/help/assets/icons/Checkmark.svg) | ![时钟](/help/assets/icons/Clock.svg) | | | |
+   | 进行中 | ![复选标记](/help/assets/icons/Checkmark.svg) | ![复选标记](/help/assets/icons/Checkmark.svg) | ![时钟](/help/assets/icons/Clock.svg) | | |
+   | 进行中 | ![复选标记](/help/assets/icons/Checkmark.svg) | ![复选标记](/help/assets/icons/Checkmark.svg) | ![复选标记](/help/assets/icons/Checkmark.svg) | ![时钟](/help/assets/icons/Clock.svg) | |
+   | 进行中 | ![复选标记](/help/assets/icons/Checkmark.svg) | ![复选标记](/help/assets/icons/Checkmark.svg) | ![复选标记](/help/assets/icons/Checkmark.svg) | ![复选标记](/help/assets/icons/Checkmark.svg) | ![时钟](/help/assets/icons/Clock.svg) |
+   | 训练失败 | ![复选标记](/help/assets/icons/Checkmark.svg) | ![关闭](/help/assets/icons/Close.svg) | | | |
+   | 训练失败 | ![复选标记](/help/assets/icons/Checkmark.svg) | ![复选标记](/help/assets/icons/Checkmark.svg) | ![复选标记](/help/assets/icons/Checkmark.svg) | ![关闭](/help/assets/icons/Close.svg) | |
+   | 培训成功 | ![复选标记](/help/assets/icons/Checkmark.svg) | ![复选标记](/help/assets/icons/Checkmark.svg) | | | |
+   | 培训成功 | ![复选标记](/help/assets/icons/Checkmark.svg) | ![复选标记](/help/assets/icons/Checkmark.svg) | ![复选标记](/help/assets/icons/Checkmark.svg) | ![复选标记](/help/assets/icons/Checkmark.svg) | |
+   | 评分失败 | ![复选标记](/help/assets/icons/Checkmark.svg) | ![复选标记](/help/assets/icons/Checkmark.svg) | ![关闭](/help/assets/icons/Close.svg) | | |
+   | 评分失败 | ![复选标记](/help/assets/icons/Checkmark.svg) | ![复选标记](/help/assets/icons/Checkmark.svg) | ![复选标记](/help/assets/icons/Checkmark.svg) | ![复选标记](/help/assets/icons/Checkmark.svg) | ![关闭](/help/assets/icons/Close.svg) |
+   | 评分成功 | ![复选标记](/help/assets/icons/Checkmark.svg) | ![复选标记](/help/assets/icons/Checkmark.svg) | ![复选标记](/help/assets/icons/Checkmark.svg) | | |
+   | 评分成功 | ![复选标记](/help/assets/icons/Checkmark.svg) | ![复选标记](/help/assets/icons/Checkmark.svg) | ![复选标记](/help/assets/icons/Checkmark.svg) | ![复选标记](/help/assets/icons/Checkmark.svg) | ![复选标记](/help/assets/icons/Checkmark.svg) |
 
 1. 若要更改为列表显示的列，请选择![列设置](/help/assets/icons/ColumnSetting.svg)并打开![检查](/help/assets/icons/Checkmark.svg)或关闭列。
 
@@ -92,6 +116,7 @@ Mix Modeler模型是一种机器学习模型，用于根据营销人员的投资
 
 1. 为模型选择![更多](/help/assets/icons/More.svg)，然后从上下文菜单中选择&#x200B;**[!UICONTROL Duplicate]**。
 
+您将被重定向到创建新模型的步骤，其中提议的名称由附加了&#x200B;**[!UICONTROL (Copy)](_n_)**&#x200B;的原始模型名称组成。
 
 ### Edit
 
