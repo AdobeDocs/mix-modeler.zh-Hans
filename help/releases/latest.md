@@ -4,7 +4,7 @@ description: 最新 Mix Modeler 发行说明
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 622e61b2e354bd428d6c084f29bfec9666c1a09d
+source-git-commit: 96d56adc0a24a45797fd8a837b405a3f5329c886
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 2%
@@ -26,7 +26,7 @@ ht-degree: 2%
 | **删除确认** | 系统会提示您确认删除[计划](/help/plans/overview.md#delete-plans)或[模型](/help/models/overview.md#delete-models)。 | 2025年1月15日 | 2025年2月18日 |
 | **因素UI改进** | 您可以选择要在模型分析中显示的[因子](/help/models/insights.md#factors-beta)。 | 2025年1月15日 | 2025年2月18日 |
 | **错误处理** | 便于用户使用的错误消息以及改进的用户体验，在数据协调和计划中出现错误情景。 | 2025年2月18日 | 2025年2月18日 |
-| **模型状态** | 在整个模型生命周期中重新定义[模型状态](/help/models/overview.md#manage-models)。 | 2025年2月18日 | t.b.d. |
+| **模型状态** | 在整个模型生命周期中重新定义[模型状态](/help/models/overview.md#manage-models)。 | 2025年2月18日 | 2025年2月18日 |
 
 
 ## 发布策略
