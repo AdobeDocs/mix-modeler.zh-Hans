@@ -3,7 +3,7 @@ title: 计划概述
 description: 了解如何在Mix Modeler中查看、选择和操作计划。
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 8e1c748f3e4e267038dcac5bce82f90157e88c32
+source-git-commit: df0faeb2682381ec8d13d594d52c0b7cf22a679d
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 Mix Modeler中的计划允许您按业务部门和渠道分配预算。 计划功能与根据您的统一数据经过培训的模型的结果相集成。
 
-计划概述了企业打算在给定时间范围内为提供通用KPI（例如订单、收入）而在营销相关项目上花费的任意投资（例如预算）。 计划可包括来自付费广告、赞助网络内容和活动等渠道的开支。
+计划列出一家企业打算在给定时间范围内为提供通用KPI（例如订单、收入）而在营销相关项目上花费的可自由支配投资（例如预算）。 计划可包括来自付费广告、赞助网络内容和活动等渠道的开支。
 
 计划要求：
 
