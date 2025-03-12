@@ -3,9 +3,9 @@ title: 模型概述
 description: 了解如何在Mix Modeler中构建和使用模型。
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 4a154ec4c81cb6b2361a05440c56b7946f748d8c
+source-git-commit: f4333d3686d3173452f4e8ca43ccf07c269f4365
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: '1174'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Mix Modeler中的模型是一种机器学习模型，用于根据营销人员的
 * 预先了解来自其他来源的营销贡献，例如以往的利益相关者经验、增量测试、其他模型。
 * 支出份额，在营销数据稀疏时使用相对支出份额作为代理。
 
-首次创建模型时，创建操作会立即启动训练和评分过程。 在初始培训和评分运行完成后，模型见解将可供审查。 随后可重新训练模型。 此外，可能会向模型添加数据，这需要您手动为模型重新评分。 随着新的调查结果和信息的出现以及需要进行的调整，重新培训和重新评分是一个反复的过程，需要得到一个最适合您的业务目标的模型。
+首次创建模型时，创建操作会立即启动训练和评分过程。 在初始培训和评分运行完成后，模型见解可供审阅。 随后可重新训练模型。 此外，可能会向模型添加数据，这需要您手动为模型重新评分。 随着新的调查结果和信息的出现以及需要进行的调整，重新培训和重新评分是一个反复的过程，需要得到一个最适合您的业务目标的模型。
 
 
 ## 构建模型
@@ -83,6 +83,8 @@ Mix Modeler中的模型是一种机器学习模型，用于根据营销人员的
    | 评分失败 | ![复选标记](/help/assets/icons/Checkmark.svg) | ![复选标记](/help/assets/icons/Checkmark.svg) | ![复选标记](/help/assets/icons/Checkmark.svg) | ![复选标记](/help/assets/icons/Checkmark.svg) | ![关闭](/help/assets/icons/Close.svg) |
    | 评分成功 | ![复选标记](/help/assets/icons/Checkmark.svg) | ![复选标记](/help/assets/icons/Checkmark.svg) | ![复选标记](/help/assets/icons/Checkmark.svg) | | |
    | 评分成功 | ![复选标记](/help/assets/icons/Checkmark.svg) | ![复选标记](/help/assets/icons/Checkmark.svg) | ![复选标记](/help/assets/icons/Checkmark.svg) | ![复选标记](/help/assets/icons/Checkmark.svg) | ![复选标记](/help/assets/icons/Checkmark.svg) |
+
+   {style="table-layout:fixed"}
 
 1. 若要更改为列表显示的列，请选择![列设置](/help/assets/icons/ColumnSetting.svg)并打开![检查](/help/assets/icons/Checkmark.svg)或关闭列。
 

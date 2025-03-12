@@ -1,11 +1,11 @@
 ---
 title: 计划洞察
-description: 了解如何查看计划的见解并在Mix Modeler中编辑计划。
+description: 了解如何在Mix Modeler中查看计划的见解并编辑计划。
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
+source-git-commit: fbed53a1c394d6d110db6a8a181ca815056377de
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 
 - [!UICONTROL Forecasted paid channel ROI]可视化图表
 - [!UICONTROL Forecasted revenue]可视化图表
+- [!UICONTROL Forecasted conversion]可视化图表
+- [!UICONTROL Marginal channel return]可视化图表
 - 计划的[!UICONTROL Data range breakdown]表，显示列
 
    - 渠道
@@ -28,11 +30,45 @@ ht-degree: 0%
    - 转化目标
    - 支出
 
-![计划概览](/help/assets/overview-plan.png)
+要关闭该界面，请选择&#x200B;**[!UICONTROL Close]**。
 
-1. 选择&#x200B;**[!UICONTROL Close]**&#x200B;以返回到Plans界面。
+若要更改查看计划ROI的方式，请在&#x200B;**[!UICONTROL View ROI]**&#x200B;中选择&#x200B;**[!UICONTROL X]**&#x200B;或&#x200B;**[!UICONTROL  %]**。
 
-1. 选择&#x200B;**[!UICONTROL X]**&#x200B;或&#x200B;**[!UICONTROL  %]**&#x200B;如何&#x200B;**[!UICONTROL View ROI]**。
+## 预测的付费渠道支出和ROI
+
+此可视化图表根据模型、日期范围和预算，显示付费渠道上预测支出和投资回报的散点图。
+
+![预测的付费渠道支出和ROI可视化图表](../assets/overview-plan-forecasted-paid-channel-send-roi.png)
+
+
+## 预测收入
+
+此条形图可视化图表根据模型、日期范围和预算显示渠道的预测收入。
+
+![预测收入可视化图表](../assets/overview-plan-forecasted-revenue.png)
+
+
+## 预测的转化
+
+此条形图可视化图表根据模型、日期范围和预算显示渠道的预测转化。
+
+![预测转化可视化图表](../assets/overview-plan-forecasted-conversions.png)
+
+
+## 边际渠道回报
+
+此折线图可视化图表显示所选渠道的边际返回曲线，其中包含&#x200B;**[!UICONTROL Marginal break-even]**&#x200B;和&#x200B;**[!UICONTROL Return point]**&#x200B;的指标。 此可视化图表可帮助您了解渠道支出如何从达到边际盈亏平衡点开始，以及您是否有空间增加渠道支出还是应该减少渠道支出以提高渠道支出效率。
+
+![边际渠道回报可视化](../assets/overview-plan-marginal-channel-return.png)
+
+要为可视化图表选择特定渠道，请从&#x200B;**[!UICONTROL View]**&#x200B;下拉菜单中选择一个渠道。
+
+
+## 日期范围细分
+
+[!UICONTROL Date range breakdown]表显示[!UICONTROL ROI]、[!UICONTROL Revenue]、[!UICONTROL CPA]、[!UICONTROL Conversions]和[!UICONTROL Spend]的每通道详细的粒度数据。
+
+![日期范围划分表](../assets/overview-plan-date-range-breakdown.png)
 
 1. 要下载包含日期范围划分数据的CSV文件，请选择![下载](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**。 从上下文菜单中：
 
@@ -42,6 +78,9 @@ ht-degree: 0%
    详细数据是按周划分键的细粒度数据。 摘要数据由模型提供的日期范围作为数据键。
 
 1. 要查看按渠道类别划分的日期范围细分，请从&#x200B;**[!UICONTROL View]**&#x200B;选项中选择&#x200B;**[!UICONTROL All channels]**、**[!UICONTROL Paid channels]**&#x200B;或&#x200B;**[!UICONTROL Non-paid channels]**。
+
+
+## 编辑计划
 
 1. 要编辑计划，请选择![编辑](/help/assets/icons/Edit.svg) **[!UICONTROL Edit plan]**：
 
