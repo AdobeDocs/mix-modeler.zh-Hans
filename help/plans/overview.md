@@ -3,10 +3,10 @@ title: 计划概述
 description: 了解如何在Mix Modeler中查看、选择和操作计划。
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: df0faeb2682381ec8d13d594d52c0b7cf22a679d
+source-git-commit: c62cba4dc7c703cf33859a925369383d45ad0606
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 1%
+source-wordcount: '635'
+ht-degree: 0%
 
 ---
 
@@ -34,6 +34,7 @@ Mix Modeler中的计划允许您按业务部门和渠道分配预算。 计划�
 ## 构建计划
 
 要构建计划，请使用Mix Modeler计划创建向导。 有关更多详细信息，请参阅[生成计划](build.md)。
+
 
 ## 管理计划
 
@@ -81,7 +82,15 @@ Mix Modeler中的计划允许您按业务部门和渠道分配预算。 计划�
 - 为计划选择![更多](/help/assets/icons/More.svg)。 从上下文菜单中选择&#x200B;**[!UICONTROL Duplicate]**。
 - 或者，在表![SelectBox](/help/assets/icons/SelectBox.svg)中选择一个计划，然后从蓝色操作栏中选择![复制](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]**。
 
-新计划的名称由附加了&#x200B;**[!UICONTROL (Copy)](_n_)**&#x200B;的原始计划的名称组成，该名称将添加到表的顶部。
+已创建一个新计划，其名称由原始计划的名称附加上&#x200B;**[!UICONTROL (Copy)](_n_)**&#x200B;组成。 系统会自动将您重定向到[计划创建](build.md)，以便为复制的计划提供更新的详细信息。
+
+- 原始计划中的详细信息（如描述、预算等）将复制过来。
+- 原始计划中的预算约束将复制到新创建的计划中。
+- 您可以选择另一个模型作为复制计划的基础。
+   - 对于已复制计划中存在，但在新选择的模型中不存在的接触点或渠道，将从计划中移除这些接触点或渠道的任何约束。
+   - 对于复制计划中不存在但新选择的模型中存在的接触点或渠道，约束将设置为最小值`0`和符合计划飞行范围预算的最大值。
+
+
 
 ### 比较计划
 

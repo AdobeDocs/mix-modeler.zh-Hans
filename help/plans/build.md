@@ -3,9 +3,9 @@ title: 构建计划
 description: 了解如何在Mix Modeler中构建计划。
 feature: Plans
 exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
-source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
+source-git-commit: d05eccef370598ce64363ca6ae20886b0e5dccd0
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,12 @@ ht-degree: 0%
 
 要创建计划，请在Mix Modeler的![PLan](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]**&#x200B;界面中选择&#x200B;**[!UICONTROL Create plan]**。
 
-1. 在“计划创建”屏幕中：
+1. 在&#x200B;**[!UICONTROL Plan creation]**&#x200B;屏幕中：
 
-   1. 在&#x200B;**[!UICONTROL Setup]**&#x200B;部分中
+   1. 在&#x200B;**[!UICONTROL Setup]**&#x200B;部分中：
 
       1. 输入&#x200B;**[!UICONTROL Plan name]**，例如`Demo plan`。 输入&#x200B;**[!UICONTROL Description]**，例如`Demo plan for Luma company`。
-      1. 从&#x200B;**[!UICONTROL _中选择&#x200B;**[!UICONTROL Model]**选择一个选项……_.]**。
+      1. 从&#x200B;**[!UICONTROL _中选择&#x200B;**[!UICONTROL Model]**选择一个选项……_.]**
       1. 您可以选择![LinkOut](/help/assets/icons/LinkOut.svg) **[!UICONTROL Create model]**&#x200B;直接从计划创建中创建模型。 这将在您的浏览器中打开一个新选项卡，并显示[模型](../models/overview.md)界面。
 
          ![计划设置](/help/assets/plan-setup.png)
