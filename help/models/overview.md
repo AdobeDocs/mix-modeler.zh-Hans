@@ -3,7 +3,7 @@ title: 模型概述
 description: 了解如何在Mix Modeler中构建和使用模型。
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: f4333d3686d3173452f4e8ca43ccf07c269f4365
+source-git-commit: 85f9b42a775006cd3566447b2bb9d0a806fa3e73
 workflow-type: tm+mt
 source-wordcount: '1174'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Mix Modeler中的模型是一种机器学习模型，用于根据营销人员的
 * 预先了解来自其他来源的营销贡献，例如以往的利益相关者经验、增量测试、其他模型。
 * 支出份额，在营销数据稀疏时使用相对支出份额作为代理。
 
-首次创建模型时，创建操作会立即启动训练和评分过程。 在初始培训和评分运行完成后，模型见解可供审阅。 随后可重新训练模型。 此外，可能会向模型添加数据，这需要您手动为模型重新评分。 随着新的调查结果和信息的出现以及需要进行的调整，重新培训和重新评分是一个反复的过程，需要得到一个最适合您的业务目标的模型。
+首次创建模型时，创建操作会立即启动训练和评分过程。 在初始培训和评分运行完成后，模型见解可供审阅。 随后可重新训练模型。 此外，还可以向模型添加数据，这需要您手动重新核心模型。 随着新的调查结果和信息的出现以及需要进行的调整，重新培训和重新评分是一个反复的过程，需要得到一个最适合您的业务目标的模型。
 
 
 ## 构建模型
@@ -68,7 +68,7 @@ Mix Modeler中的模型是一种机器学习模型，用于根据营销人员的
    * ![时钟](/help/assets/icons/Clock.svg) — 表示模型生命周期中某个步骤的当前正在执行。
    * ![Close](/help/assets/icons/Close.svg) — 表示模型生命周期中的步骤执行失败。
 
-   | 状态 | 创建 | 训练 | 得分 | 重新培训 | 重新得分 |
+   | 状态 | 创建 | 训练 | 得分 | 重新培训 | Rescore |
    |---|:---:|:---:|:---:|:---:|:---:|
    | 进行中 | ![复选标记](/help/assets/icons/Checkmark.svg) | | | | |
    | 进行中 | ![复选标记](/help/assets/icons/Checkmark.svg) | ![时钟](/help/assets/icons/Clock.svg) | | | |
@@ -152,10 +152,9 @@ Mix Modeler中的模型是一种机器学习模型，用于根据营销人员的
 
 ### 重新培训
 
-
 重新训练模型仅适用于训练成功的模型。
 
-在执行以下操作时，请考虑重新训练模型：
+当想要执行以下操作时，请考虑重新训练模型：
 
 * 包括新的增量营销和因子数据。 例如，在上一季度，市场动态发生了变化或者您的营销数据分发发生了显着变化。
 
@@ -171,22 +170,22 @@ Mix Modeler中的模型是一种机器学习模型，用于根据营销人员的
    * **[!UICONTROL Train model using specific date range of data]**。
 指定日期范围。 您可以使用![日历](/help/assets/icons/Calendar.svg)选择日期范围。 您必须选择至少一年的数据范围。
 
-   ![重新训练模型](../assets/re-train-model.png)
+   ![重新训练模型](../assets/retrain-model.png)
 
 1. 选择&#x200B;**[!UICONTROL Train]**&#x200B;以重新训练模型。
 
 
-### 得分或重新得分
+### 得分或recore
 
 
-您可以根据新的营销数据对模型递增评分，或针对特定日期范围对模型重新评分。
+您可以根据新的营销数据对模型递增计分，或针对特定日期范围对模型重新计分。
 
-当想要执行以下操作时，请考虑为模型重新评分：
+在执行以下操作时，请考虑重新核心模型：
 
 * 更正不正确的营销数据。 例如，您在模型的训练和评分中包含的最近付费搜索数据漏掉了一周的数据。
 * 使用新的增量营销数据，该数据可通过您配置作为协调数据一部分的数据集的更新获取。
 
-要对模型评分或重新评分，请执行以下操作：
+要对模型评分或重新排序，请执行以下操作：
 
 1. 从左边栏中选择![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**。
 
@@ -195,10 +194,10 @@ Mix Modeler中的模型是一种机器学习模型，用于根据营销人员的
    在&#x200B;**[!UICONTROL Score marketing data]**&#x200B;对话框中，选择选项以：
 
    * **[!UICONTROL Score new marketing data from *mm/dd/yyyy *]**，使用新的营销数据对模型进行增量评分，或
-   * **[!UICONTROL Score specific date range of marketing data]**以针对特定日期范围重新评分。
+   * **[!UICONTROL Score specific date range of marketing data]**以重新核在特定日期范围内。
 指定日期范围。 您可以使用![日历](/help/assets/icons/Calendar.svg)选择日期范围。
 
-   ![重新训练模型](../assets/re-score-model.png)
+   ![重新核心模型](../assets/rescore-model.png)
 
 1. 选择&#x200B;**[!UICONTROL Score]**。 使用特定数据范围对模型重新评分时，您会看到&#x200B;**[!UICONTROL Existing model is replaced]**&#x200B;对话框，提示您确认使用选定日期范围的新得分替换模型。 选择&#x200B;**[!UICONTROL Replace model]**&#x200B;以确认。
 
