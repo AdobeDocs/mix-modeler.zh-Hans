@@ -3,9 +3,9 @@ title: 构建模型
 description: 了解如何在Mix Modeler中构建模型。
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 3b6b127bfaf79cee99a869b21ff0c1a911b3ad6c
+source-git-commit: b08a24856e28a1377728bc2c511f6ea483cbd0fd
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
@@ -131,7 +131,15 @@ ht-degree: 0%
 
 1. 在&#x200B;**[!UICONTROL Spend share]**&#x200B;部分中：
 
-   * 要在营销数据稀疏时使用历史营销投资比率通知模型，请激活&#x200B;**[!UICONTROL Allow spend share]**。
+   * 要在营销数据稀疏时使用历史营销投资比率通知模型，请激活&#x200B;**[!UICONTROL Allow spend share]**。 建议使用此设置，尤其是在以下情况下：
+      * 渠道没有足够的观察次数（例如，消费频率低、展示次数或点击次数少）。
+      * 您正在对数据可能稀疏的尖峰但常规且潜在的高消费媒体（如某些品牌的电视节目）建模。
+
+     >[!NOTE]
+     >
+     >对于一次性投资（例如超级碗广告），考虑将该数据作为一个因素纳入，而不是依赖支出份额。
+     >
+
 
 1. 在&#x200B;**[!UICONTROL MTA enabled]**&#x200B;部分中：
 
