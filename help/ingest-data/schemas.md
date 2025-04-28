@@ -3,16 +3,16 @@ title: 架构
 description: 了解如何管理将数据摄取到Mix Modeler所需的架构。
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: b0306ad6fad8966822ed14c67f159a4aefb4e3f8
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '378'
 ht-degree: 3%
 
 ---
 
 # 架构
 
-要管理架构，请支持要在Experience Platform摄取并在Mix Modeler中使用的数据：
+要管理架构，请支持您要在Experience Platform中摄取并在Mix Modeler中使用的数据：
 
 1. 转到Mix Modeler界面。
 
@@ -22,11 +22,11 @@ ht-degree: 3%
 
 ## 汇总或汇总数据
 
-强烈建议使用XDM摘要量度类作为任何要摄取到Experience Platform并在Mix Modeler中使用的聚合或摘要数据的架构基础。
+强烈建议使用XDM摘要量度类作为架构的基础，该架构支持您要在Experience Platform中摄取并在Mix Modeler中使用的任何聚合或摘要数据。
 
 将XDM摘要量度类用于：
 
-- 围墙花园数据，例如来自Facebook或YouTube的数据。
+- 围墙花园数据，例如来自脸书或YouTube的数据。
 
 - 外部因素数据，如SPX（S&amp;P 500股价指数）、天气数据、
 
@@ -83,3 +83,8 @@ ht-degree: 3%
 - 字节
 - 日期
 - 日期时间
+
+
+>[!MORELIKETHIS]
+>
+>- [架构](schemas.md)

@@ -3,9 +3,9 @@ title: 数据集
 description: 了解如何管理将数据摄取到Mix Modeler所需的数据集。
 feature: Datasets
 exl-id: 788de24d-9021-48f8-87ab-09252b91276a
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 857641f6c1db749f79056ce2a2ea35fc4d3e3a3c
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '55'
 ht-degree: 5%
 
 ---
@@ -22,5 +22,5 @@ ht-degree: 5%
 
 >[!MORELIKETHIS]
 >
->* [摄取数据](overview.md)
+>* [摄取数据](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home)
 >* [架构](schemas.md)

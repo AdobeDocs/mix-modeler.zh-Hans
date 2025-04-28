@@ -3,32 +3,32 @@ title: 摄取数据概述
 description: 了解如何将数据摄取到Mix Modeler。
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
+source-git-commit: 857641f6c1db749f79056ce2a2ea35fc4d3e3a3c
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 8%
+source-wordcount: '520'
+ht-degree: 7%
 
 ---
 
 # 摄取数据概述
 
-Mix Modeler可使用事件级数据、来自不同封闭花园的汇总或汇总营销工作数据，以及来自任何其他来源（如离线广告、内部因素或外部因素）的汇总或汇总数据。
+Mix Modeler可处理事件级数据、来自各个封闭花园的汇总或汇总营销工作数据，以及来自任何其他来源（如离线广告、内部因素或外部因素）的汇总或汇总数据。
 
 客户可以将摄取到Experience Platform中的任何类型的数据用作数据集，此类数据基于将XDM ExperienceEvent或XDM摘要量度用作基类的架构。
 
 例如：
 
 * 使用Adobe Analytics源连接器收集并转换为符合Adobe Analytics架构的默认或自定义版本的数据集，或者，
-* 使用Experience PlatformWeb SDK、Mobile SDK或Edge Network服务器API收集的数据，用于收集Web、移动设备或任何其他类型的设备上的客户交互。
-* 聚集或摘要来自封闭式花园(如Facebook、YouTube)、流量源或离线广告数据的数据，
+* 使用Experience Platform Web SDK、Mobile SDK或Edge Network Server API收集的数据，用于收集Web、移动设备或任何其他类型设备上的客户交互。
+* 聚集或汇总来自封闭式花园(如Facebook、YouTube)、流量源或离线广告数据的数据，
 * 包含对模型构建有用的内部或外部因素的非营销聚合或摘要数据。
 
-您可以使用Experience Platform支持的任何类型的机制来从其他来源摄取体验事件级的数据、汇总营销工作数据和数据。 例如Experience PlatformSDK、API、源连接器以及流式摄取和批量摄取。
+您可以使用Experience Platform支持的任何类型的机制，从其他来源摄取体验事件级别的汇总营销工作数据和数据。 例如Experience Platform SDK、API、源连接器以及流式摄取和批量摄取。
 
 
 ## 准则
 
-要将数据摄取到Experience Platform中以用于Mix Modeler，请遵循以下准则：
+要将数据摄取到Experience Platform以与Mix Modeler一起使用，请遵循以下准则：
 
 * 添加到数据集的增量数据不应有任何重叠。
 * 来自单个源的所有数据都应具有相同的粒度。
@@ -38,7 +38,7 @@ Mix Modeler可使用事件级数据、来自不同封闭花园的汇总或汇总
 
 ## 示例
 
-在下面查找一些通常用于Mix Modeler的数据示例，这些示例超出了更标准的体验事件数据。
+在下面查找除了更标准的体验事件数据之外通常在Mix Modeler中使用的一些数据示例。
 
 +++ 汇总营销工作数据
 
@@ -80,7 +80,17 @@ Mix Modeler可使用事件级数据、来自不同封闭花园的汇总或汇总
 
 +++
 
-要在Mix Modeler中处理数据，您需要在数据集中收集数据，并在Experience Platform中根据架构建模。 通过Mix Modeler界面可轻松访问Experience Platform架构和数据集UI。
+要在Mix Modeler中处理数据，您需要在数据集中收集数据，并按照Experience Platform中的架构建模。 通过Mix Modeler界面，可以轻松访问Experience Platform架构和数据集UI。
+
+
+## 验证
+
+要验证您的数据在Mix Modeler中是否正确可用，您可以执行以下操作：
+
+* 在[概述](/help/overview.md)中使用可视化图表。
+* 下载并检查来自协调数据集中的[协调数据](/help/harmonize-data/overview.md)的数据。
+
+若要验证您的数据是否在Experience Platform中正确摄取，您可以[使用Experience Platform查询服务](https://experienceleague.adobe.com/en/docs/experience-platform/query/home)编写和执行SQL查询。
 
 
 >[!MORELIKETHIS]

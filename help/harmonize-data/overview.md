@@ -3,9 +3,9 @@ title: 协调数据集概述
 description: 了解如何在Mix Modeler中协调数据。
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: beee5fe52188f133b71ed3ef53e40c3aea06ab9c
+source-git-commit: 857641f6c1db749f79056ce2a2ea35fc4d3e3a3c
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '1013'
 ht-degree: 6%
 
 ---
@@ -128,7 +128,7 @@ Mix Modeler的协调服务将聚合和事件数据吸收到一致的数据视图
 
 1. 从左边栏中选择![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]**。
 
-1. 从顶部栏中选择&#x200B;**[!UICONTROL Harmonized Data]**。 系统将根据您定义的字段、数据集规则、营销接触点和转化显示协调数据的简述。
+1. 从顶部栏中选择&#x200B;**[!UICONTROL Harmonized data]**。 系统将根据您定义的字段、数据集规则、营销接触点和转化显示协调数据的简述。
 
    1. 要重新定义重新提取协调数据所依据的期间，请输入&#x200B;**[!UICONTROL Date range]**&#x200B;的日期范围或使用![日历](/help/assets/icons/Calendar.svg)选择数据范围。
 
@@ -145,3 +145,13 @@ Mix Modeler的协调服务将聚合和事件数据吸收到一致的数据视图
    1. 选择&#x200B;**[!UICONTROL Submit]**&#x200B;以提交列设置更改。 选择&#x200B;**[!UICONTROL Close]**&#x200B;以取消所做的任何更改。
 
 1. 如果有更多页面可用，请使用&#x200B;_x _]**的**[!UICONTROL Page _x_&#x200B;上的![向左箭头](/help/assets/icons/ChevronLeft.svg)或![向右箭头](/help/assets/icons/ChevronRight.svg)在页面之间移动。
+
+1. 您可以选择下载协调的数据。
+
+   1. 选择![下载](/help/assets/icons/Download.svg) [!BADGE 测试版]。
+   1. 在弹出窗口中，选择![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Create]**。
+   1. 输入&#x200B;**[!UICONTROL Report name]**，例如`Test Report`。
+   1. 选择![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Report]**。
+
+   标题基于您提供的报表名称以及当前日期和时间（例如`Test Report_2025_04_23_9-5-18.csv`）的CSV报表将下载到您的默认下载文件夹。
+
