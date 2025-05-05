@@ -18,7 +18,7 @@ Experience Platform数据管理让您能够控制和理解数据通过Experience
 
 在Experience Platform使用的数据集上创建的数据使用标签和策略会相应地显示在Mix Modeler中。 例如，在删除作为协调数据中的数据集规则一部分的数据集时，这些标签会阻止或警告用户。 或者隐藏在创建数据集规则时为用户限制的架构字段。
 
-通过数据管理集成，您可以更高效地管理法规遵从性。 组织中的数据管理员可以设置策略来限制使用。 因此，您可以使用符合数据管理员定义的策略的数据。 阅读有关[标签和策略](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-governance)的文档以了解更多信息。
+通过数据管理集成，您可以更高效地管理法规遵从性。 组织中的数据管理员可以设置策略来限制使用。 因此，您可以使用符合数据管理员定义的策略的数据。 阅读有关[标签和策略](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-dataviews/data-governance)的文档以了解更多信息。
 
 以下数据治理功能可用：
 

@@ -90,7 +90,7 @@ Mix Modeler可处理事件级数据、来自各个封闭花园的汇总或汇总
 * 在[概述](/help/overview.md)中使用可视化图表。
 * 下载并检查来自协调数据集中的[协调数据](/help/harmonize-data/overview.md)的数据。
 
-若要验证您的数据是否在Experience Platform中正确摄取，您可以[使用Experience Platform查询服务](https://experienceleague.adobe.com/en/docs/experience-platform/query/home)编写和执行SQL查询。
+若要验证您的数据是否在Experience Platform中正确摄取，您可以[使用Experience Platform查询服务](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/query/home)编写和执行SQL查询。
 
 
 >[!MORELIKETHIS]

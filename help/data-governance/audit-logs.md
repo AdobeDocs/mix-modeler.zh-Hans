@@ -67,4 +67,4 @@ If you are subject to the Health Insurance Portability and Accountability Act (H
 
 为您的组织启用该功能后，系统会在活动发生时自动收集审核日志。 您无需手动启用审核日志收集。
 
-要查看和导出审核日志，您必须已被授予审核日志访问访问控制权限。 要了解如何管理Mix Modeler功能的各个权限，请参阅[访问控制文档](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)。
+要查看和导出审核日志，您必须已被授予审核日志访问访问控制权限。 要了解如何管理Mix Modeler功能的各个权限，请参阅[访问控制文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/home)。
