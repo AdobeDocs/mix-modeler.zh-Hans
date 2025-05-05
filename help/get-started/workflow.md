@@ -14,7 +14,7 @@ ht-degree: 1%
 
 请观看本视频，了解Mix Modeler中的用户工作流简介。
 
->[!VIDEO](https://video.tv.adobe.com/v/3424854/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3440216/?learn=on&captions=chi_hans)
 
 
 Mix Modeler中的典型工作流包含以下活动：
