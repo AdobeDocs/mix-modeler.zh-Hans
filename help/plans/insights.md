@@ -32,7 +32,7 @@ ht-degree: 0%
 
 要关闭该界面，请选择&#x200B;**[!UICONTROL Close]**。
 
-若要更改查看计划ROI的方式，请在&#x200B;**[!UICONTROL View ROI]**&#x200B;中选择&#x200B;**[!UICONTROL X]**&#x200B;或&#x200B;**[!UICONTROL  %]**。
+若要更改查看计划ROI的方式，请在&#x200B;**[!UICONTROL View ROI]**&#x200B;中选择&#x200B;**[!UICONTROL X]**&#x200B;或&#x200B;**[!UICONTROL &#x200B; %]**。
 
 ## 预测的付费渠道支出和ROI
 
