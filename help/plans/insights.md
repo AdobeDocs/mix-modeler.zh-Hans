@@ -3,9 +3,9 @@ title: 计划洞察
 description: 了解如何在Mix Modeler中查看计划的见解并编辑计划。
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: 3545a7045478108db4d9f6bb87df679bfede5a45
+source-git-commit: 1d017960409e5433ac6b4950a5cf7a5b3174840a
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 要关闭该界面，请选择&#x200B;**[!UICONTROL Close]**。
 
-若要更改查看计划ROI的方式，请在&#x200B;**[!UICONTROL View ROI]**&#x200B;中选择&#x200B;**[!UICONTROL X]**&#x200B;或&#x200B;**[!UICONTROL &#x200B; %]**。
+若要更改查看计划ROI的方式，请在&#x200B;**[!UICONTROL View ROI]**&#x200B;中选择&#x200B;**[!UICONTROL X]**&#x200B;或&#x200B;**[!UICONTROL  %]**。
 
 ## 预测的付费渠道支出和ROI
 
@@ -84,13 +84,27 @@ ht-degree: 0%
 
 1. 要编辑计划，请选择![编辑](/help/assets/icons/Edit.svg) **[!UICONTROL Edit plan]**：
 
-   1. 在&#x200B;**[!UICONTROL Spend selection]**&#x200B;部分中，对于每个预算日期范围，使用![V形](/help/assets/icons/ChevronRight.svg)打开该数据范围的渠道分配视图。
+   在&#x200B;**[!UICONTROL Spend selection]**&#x200B;部分中，对于每个预算日期范围，使用![V形](/help/assets/icons/ChevronRight.svg)打开该数据范围的渠道分配视图。
+
+   如果您想要使用过去的营销支出数据和见解，则可以使用历史引用数据。 您应将历史引用数据考虑在内：
+
+   - 通过突出显示高性能渠道和性能不佳的渠道来改进预算分配。
+   - 支持趋势分析。
+   - 在配置计划时，确定有效策略并避免错误。
+
+   如果选择历史参考期，则需调整以前的支出模式首选项，Mix Modeler的计划功能可生成符合您期望的计划。 这些计划最终应增强利益相关者的信心，确保营销计划是战略性的、高效的，并且这些计划以经验证的绩效数据和业务需求为基础。
+
+   ![花费选择](/help/assets/plan-spend-selection.png)
+
+   1. 选择 **[!UICONTROL Spend pattern]**。
+
+      - 默认情况下，这是&#x200B;**[!UICONTROL Automatic]**。
+      - 选择&#x200B;**[!UICONTROL Historical reference]**&#x200B;并输入&#x200B;**[!UICONTROL Start date]**&#x200B;以引用Mix Modeler已可用的以往营销支出数据。 **[!UICONTROL End date]**&#x200B;是根据所选的数据范围自动确定的。 建议的开始日期是第一个可用的过去营销支出数据。 为了表示您选择了不存在的历史参考期，您会看到![AlertRed](/help/assets/icons/AlertRed.svg)。
+
 
    1. 要修改每个渠道的预算，请修改&#x200B;**[!UICONTROL Min]**&#x200B;和&#x200B;**[!UICONTROL Max]**&#x200B;的值或使用滑块。
 
    1. 要在货币或百分比输入之间切换，请为&#x200B;**[!UICONTROL View spend by]**&#x200B;选择&#x200B;**[!UICONTROL $]**&#x200B;或&#x200B;**[!UICONTROL %]**。
-
-      ![花费选择](/help/assets/spend-selection.png)
 
    1. 要编辑计划的详细信息，请选择&#x200B;**[!UICONTROL Edit details]**：
 

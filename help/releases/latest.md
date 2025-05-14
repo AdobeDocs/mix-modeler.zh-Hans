@@ -4,18 +4,26 @@ description: 最新 Mix Modeler 发行说明
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 9b400aeac26a3b02a8dfaf1faad435e0d3ac6cd8
+source-git-commit: 58f8745a224407cfb8ce3912bde9f0f85b5d8b46
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '433'
 ht-degree: 3%
 
 ---
 
 # 当前的Mix Modeler发行说明
 
-**上次更新时间**：2025年2月。
+**上次更新**：2025年5月14日。
 
 以下发行说明涵盖最新版本的Mix Modeler。 Mix Modeler版本在持续交付模型上运行，该模型允许大约每月一次的发布。 因此，这些发行说明将会相应更新，因此请定期检查。
+
+
+## 2025年5月至6月
+
+| 功能 | 描述 | [转出开始](#release-strategy) | [正式发布](#release-strategy) |
+|---|---|---|---|
+| **支出模式配置** | 现在，当您构建计划时，在定义每个预算日期范围的支出模式时，可以选择使用[历史引用](/help/plans/build.md)数据（如过去的营销支出数据和见解）。 | 2025年5月14日 | 2025年5月14日 |
+| **高级计划配置** | 您可以为计划定义[高级配置](/help/plans/build.md)，例如每次转换的平均收入和渠道成本。 | 2025年5月14日 | 2025年5月14日 |
 
 ## 2025年3月至4月
 
@@ -29,7 +37,7 @@ ht-degree: 3%
 
 | 功能 | 描述 | [转出开始](#release-strategy) | [正式发布](#release-strategy) |
 |---|---|---|---|
-| **嵌套条件** | 在模型[&#128279;](/help/models/build.md#configure)的配置中定义符合条件的数据群体时，可以使用AND和OR创建嵌套条件。 | 2025年1月15日 | 2025年2月18日 |
+| **嵌套条件** | 在模型](/help/models/build.md#configure)的[配置中定义符合条件的数据群体时，可以使用AND和OR创建嵌套条件。 | 2025年1月15日 | 2025年2月18日 |
 | **查看报告** | 您可以查看有关您定义为协调数据一部分的[转化](/help/harmonize-data/conversions.md#view-report)或[营销接触点](/help/harmonize-data/marketing-touchpoints.md#view-report)的报告。 | 2025年1月15日 | 2025年2月18日 |
 | **删除确认** | 系统会提示您确认删除[计划](/help/plans/overview.md#delete-plans)或[模型](/help/models/overview.md#delete-models)。 | 2025年1月15日 | 2025年2月18日 |
 | **因素UI改进** | 您可以选择要在模型分析中显示的[因子](/help/models/insights.md#factors-beta)。 | 2025年1月15日 | 2025年2月18日 |
