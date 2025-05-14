@@ -3,9 +3,9 @@ title: 构建计划
 description: 了解如何在Mix Modeler中构建计划。
 feature: Plans
 exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
-source-git-commit: d05eccef370598ce64363ca6ae20886b0e5dccd0
+source-git-commit: 3545a7045478108db4d9f6bb87df679bfede5a45
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,13 @@ ht-degree: 0%
 
 要创建计划，请在Mix Modeler的![PLan](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]**&#x200B;界面中选择&#x200B;**[!UICONTROL Create plan]**。
 
+
 1. 在&#x200B;**[!UICONTROL Plan creation]**&#x200B;屏幕中：
 
    1. 在&#x200B;**[!UICONTROL Setup]**&#x200B;部分中：
 
       1. 输入&#x200B;**[!UICONTROL Plan name]**，例如`Demo plan`。 输入&#x200B;**[!UICONTROL Description]**，例如`Demo plan for Luma company`。
-      1. 从&#x200B;**[!UICONTROL _中选择&#x200B;**&#x200B;[!UICONTROL Model]&#x200B;**选择一个选项……_.]**
+      1. 从&#x200B;**[!UICONTROL _中选择&#x200B;**[!UICONTROL Model]**选择一个选项……_.]**
       1. 您可以选择![LinkOut](/help/assets/icons/LinkOut.svg) **[!UICONTROL Create model]**&#x200B;直接从计划创建中创建模型。 这将在您的浏览器中打开一个新选项卡，并显示[模型](../models/overview.md)界面。
 
          ![计划设置](/help/assets/plan-setup.png)
@@ -49,12 +50,12 @@ ht-degree: 0%
 
    ![计划完成](/help/assets/plan-done-required-fields.png)
 
-   * 选择 <img src="/help/assets/icons/NewPlan.svg" width="25" /> **[!UICONTROL Create plan now]**（如果要生成具有预测的ROI的AI推荐计划）。
+   * 如果要生成具有预测的ROI的AI推荐计划，请选择![NewPlan](../assets/icons/NewPlan.svg) **[!UICONTROL Create plan now]**。
 
      选择&#x200B;**[!UICONTROL OK]**。 您的计划已创建。
 
 
-   * 如果您要在创建具有预测的ROI的计划之前编辑渠道预算，请选择![TableEdit](/help/assets/icons/TableEdit.svg) **[!UICONTROL Edit channel budgets first]**。
+   * 如果您要在创建具有预测的ROI的计划之前编辑渠道预算并定义高级配置，请选择![TableEdit](/help/assets/icons/TableEdit.svg) **[!UICONTROL Edit channel budgets first]**。
 
      选择&#x200B;**[!UICONTROL OK]**，这样您就可以在下一步的&#x200B;**[!UICONTROL Spend selection]**&#x200B;中定义渠道支出。
 
@@ -68,6 +69,46 @@ ht-degree: 0%
 
       ![花费选择](/help/assets/plan-spend-selection.png)
 
+   1. 选择 **[!UICONTROL Next]**。
+
+
+1. 在&#x200B;**[!UICONTROL Advanced configurations]**&#x200B;部分中，您可以输入可选的高级配置。
+
+   ![计划摘要](../assets/plan-advanced-configurations.png)
+
+   * 汇总您的计划名称、模型、日期范围和总预算。
+
+   * 默认情况下，Mix Modeler会使用最新的历史季节性数据自动计算每次转换的平均收入。 在&#x200B;**[!UICONTROL Average Revenue per conversion]**&#x200B;中，您可以定义每次转换的特定平均收入。
+
+      1. 对于预算中的每个日期范围：
+
+         1. 从&#x200B;**[!UICONTROL Date range]**&#x200B;下拉菜单中选择一个日期范围。
+         1. 输入&#x200B;**[!UICONTROL Average revenue]**&#x200B;值。
+
+      1. 选择![AddCircle](/help/assets/icons/AddCircle.svg)添加每个转化单位的自定义平均收入以添加日期范围。
+      1. 选择![RemoveCircle](/help/assets/icons/RemoveCircle.svg)以删除日期范围。
+
+     >[!NOTE]
+     >
+     >如果您的模型不包括历史收入数据，则必须为为预算指定的每个日期范围定义每次转换的平均收入。
+     >
+
+   * 默认情况下，Mix Modeler会使用最新的历史季节性数据自动计算渠道成本。 在&#x200B;**[!UICONTROL Channel costs]**&#x200B;中，您可以定义自定义渠道成本。
+
+      1. 对于模型中的每个渠道，定义自定义渠道成本。
+
+         1. 从&#x200B;**[!UICONTROL Channel]**&#x200B;下拉菜单中选择一个渠道。
+         1. 对于预算中的每个日期范围：
+            1. 从&#x200B;**[!UICONTROL Date range]**&#x200B;下拉菜单中选择一个日期范围。
+            1. 输入&#x200B;**[!UICONTROL Average revenue]**&#x200B;值。
+         1. 选择![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add custom average revenue per conversion unit]**&#x200B;以添加日期范围。
+         1. 选择![RemoveCircle](/help/assets/icons/RemoveCircle.svg)以删除日期范围。
+
+      1. 选择![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add custom channel cost]**&#x200B;以添加频道。
+      1. 选择![CrossSize400](/help/assets/icons/CrossSize400.svg)以删除自定义渠道。
+
+
    1. 完成后，选择&#x200B;**[!UICONTROL Create]**。
 
    1. 在&#x200B;**[!UICONTROL Create plan]**&#x200B;对话框中，选择&#x200B;**[!UICONTROL Create plan]**&#x200B;以创建您的计划。 选择&#x200B;**[!UICONTROL Cancel]**&#x200B;以取消计划的创建。 将显示&#x200B;**[!UICONTROL No work is saved]**&#x200B;对话框以确认。
+
