@@ -1,7 +1,7 @@
 ---
 title: Mix Modeler概述
-description: 大致了解 Mix Modeler 的功能。
-short-description: 大致了解 Mix Modeler 的功能。
+description: 了解 Mix Modeler 的功能和能力概述。
+short-description: 了解 Mix Modeler 的功能和能力概述。
 feature: Plans, Harmonized Data, Models
 exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
 source-git-commit: 325bc55076467a8cab5a884ea5137249913d2350
