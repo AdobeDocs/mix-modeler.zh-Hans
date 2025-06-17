@@ -3,10 +3,10 @@ title: 协调数据集概述
 description: 了解如何在Mix Modeler中协调数据。
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 857641f6c1db749f79056ce2a2ea35fc4d3e3a3c
+source-git-commit: 80fbb8aea3e66342a7887f1660af0f4bf05ffcdb
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 6%
+source-wordcount: '1192'
+ht-degree: 5%
 
 ---
 
@@ -144,7 +144,7 @@ Mix Modeler的协调服务将聚合和事件数据吸收到一致的数据视图
 
    1. 选择&#x200B;**[!UICONTROL Submit]**&#x200B;以提交列设置更改。 选择&#x200B;**[!UICONTROL Close]**&#x200B;以取消所做的任何更改。
 
-1. 如果有更多页面可用，请使用&#x200B;_x _&#x200B;**的**&#x200B;Page _x_&#x200B;上的![向左箭头](/help/assets/icons/ChevronLeft.svg)或![向右箭头](/help/assets/icons/ChevronRight.svg)在页面之间移动。
+1. 如果有更多页面可用，请使用&#x200B;_x _]**的**[!UICONTROL Page _x_&#x200B;上的![向左箭头](/help/assets/icons/ChevronLeft.svg)或![向右箭头](/help/assets/icons/ChevronRight.svg)在页面之间移动。
 
 1. 您可以选择下载协调的数据。
 
@@ -154,4 +154,28 @@ Mix Modeler的协调服务将聚合和事件数据吸收到一致的数据视图
    1. 选择![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Report]**。
 
    标题基于您提供的报表名称以及当前日期和时间（例如`Test Report_2025_04_23_9-5-18.csv`）的CSV报表将下载到您的默认下载文件夹。
+
+
+## 最佳实践
+
+当您构建协调的数据集时，请应用以下最佳实践。
+
+### 架构
+
+* 避免数据类型不匹配。 当摄取数据集的记录中字段的数据类型不符合基础架构中为该字段配置的数据类型时，会发生不匹配情况。
+* 避免架构类型不正确。 当您尝试使用与特定类型的数据的架构不匹配的数据集来摄取该数据时，会出现不正确的架构类型。 例如，您尝试使用外部因子数据集摄取摘要数据。
+
+### 数据映射
+
+* 确保您已经为每个事件数据集正确设置了身份。
+
+### 数据质量
+
+* 确保对需要加盖时间戳的数据集中的所有记录使用一致的日期格式和时间格式。
+* 确保对汇总或汇总数据集中的记录使用相同的粒度（日或周）。
+
+### 计算数据
+
+* 避免在数据集中出现重复行。
+* 确保您上传的每个数据集都特定于唯一的渠道和转化类型。 跨多个数据集的重复接触点或转化会影响模型输出和质量。
 
