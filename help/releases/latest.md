@@ -38,7 +38,7 @@ ht-degree: 3%
 
 | 功能 | 描述 | [转出开始](#release-strategy) | [正式发布](#release-strategy) |
 |---|---|---|---|
-| **嵌套条件** | 在模型](/help/models/build.md#configure)的[配置中定义符合条件的数据群体时，可以使用AND和OR创建嵌套条件。 | 2025年1月15日 | 2025年2月18日 |
+| **嵌套条件** | 在模型[&#128279;](/help/models/build.md#configure)的配置中定义符合条件的数据群体时，可以使用AND和OR创建嵌套条件。 | 2025年1月15日 | 2025年2月18日 |
 | **查看报告** | 您可以查看有关您定义为协调数据一部分的[转化](/help/harmonize-data/conversions.md#view-report)或[营销接触点](/help/harmonize-data/marketing-touchpoints.md#view-report)的报告。 | 2025年1月15日 | 2025年2月18日 |
 | **删除确认** | 系统会提示您确认删除[计划](/help/plans/overview.md#delete-plans)或[模型](/help/models/overview.md#delete-models)。 | 2025年1月15日 | 2025年2月18日 |
 | **因素UI改进** | 您可以选择要在模型分析中显示的[因子](/help/models/insights.md#factors-beta)。 | 2025年1月15日 | 2025年2月18日 |

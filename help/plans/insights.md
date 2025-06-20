@@ -30,7 +30,7 @@ ht-degree: 0%
 - [[!UICONTROL Forecasted revenue]可视化图表](#forecasted-revenue)
 - [[!UICONTROL Forecasted conversion]可视化图表](#forecasted-conversions)
 - [[!UICONTROL Marginal channel return]可视化图表](#marginal-channel-return)
-- 计划](#date-range-breakdown)的[[!UICONTROL Data range breakdown]表，显示列
+- 计划[&#128279;](#date-range-breakdown)的[!UICONTROL Data range breakdown]表，显示列
 
    - 渠道
    - ROI
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 要关闭该界面，请选择&#x200B;**[!UICONTROL Close]**。
 
-若要更改查看计划ROI的方式，请在&#x200B;**[!UICONTROL View ROI]**&#x200B;中选择&#x200B;**[!UICONTROL X]**&#x200B;或&#x200B;**[!UICONTROL  %]**。
+若要更改查看计划ROI的方式，请在&#x200B;**[!UICONTROL View ROI]**&#x200B;中选择&#x200B;**[!UICONTROL X]**&#x200B;或&#x200B;**[!UICONTROL &#x200B; %]**。
 
 ## 预测的付费渠道支出和ROI
 
@@ -120,7 +120,7 @@ ht-degree: 0%
       1. 在&#x200B;**[!UICONTROL Setup]**&#x200B;部分中：
 
          1. 输入&#x200B;**[!UICONTROL Plan name]**，例如`Demo plan`。 输入&#x200B;**[!UICONTROL Description]**，例如`Demo plan for Luma company`。
-         1. 从&#x200B;**[!UICONTROL _中选择&#x200B;**[!UICONTROL Model]**选择一个选项……_.]**
+         1. 从&#x200B;**[!UICONTROL _中选择&#x200B;**&#x200B;[!UICONTROL Model]&#x200B;**选择一个选项……_.]**
 
             ![计划设置](/help/assets/plan-setup.png)
 
@@ -152,7 +152,7 @@ ht-degree: 0%
                1. 从&#x200B;**[!UICONTROL Select target metric]**&#x200B;下拉菜单中选择一个目标量度。 您可以选择介于&#x200B;**[!UICONTROL Conversion]**、**[!UICONTROL CPA]**、**[!UICONTROL Revenue]**&#x200B;或&#x200B;**[!UICONTROL ROI]**&#x200B;之间。
                1. 从&#x200B;**[!UICONTROL Select model]**&#x200B;下拉菜单中选择模型。
             1. 通过键入日期或使用![日历](/help/assets/icons/Calendar.svg)选择日期范围来指定日期范围。
-            1. 输入所选目标度量的值。 例如，**[!UICONTROL Conversion]**&#x200B;的数字、**[!UICONTROL ROI]**&#x200B;的百分比或&#x200B;**[!UICONTROL CPA]**&#x200B;和&#x200B;**[!UICONTROL Revenue]**的货币值。
+            1. 输入所选目标度量的值。 例如，**[!UICONTROL Conversion]**&#x200B;的数字、**[!UICONTROL ROI]**&#x200B;的百分比或&#x200B;**[!UICONTROL CPA]**&#x200B;和&#x200B;**[!UICONTROL Revenue]**&#x200B;的货币值。
 要添加其他日期范围（每个日期范围都有其目标指标），请选择![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**。
 要删除日期范围和关联的目标量度，请选择![关闭](/help/assets/icons/Close.svg)。
             1. 要定义要限制计划的可选最大预算，请执行以下操作：
