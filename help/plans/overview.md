@@ -3,9 +3,9 @@ title: 计划概述
 description: 了解如何在Mix Modeler中查看、选择和操作计划。
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 09b0868cc6f631188b2609b1da81d1a6b6f0aa9f
+source-git-commit: f0871834ec665c907caf0af3edeeed4fb2549a58
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -52,6 +52,7 @@ Mix Modeler中的计划允许您按业务部门和渠道分配预算。 计划�
    | 模型 | 用作计划基础的模型。 |
    | Date range | 计划的完整日期范围。 |
    | 预算 | 计划的总预算。 |
+   | 计划目标 | 为基于目标的计划定义的目标量度。 |
    | 预测退货 | 计划的[预测返回](/help/main-guide/glossary.md) |
    | 预测的ROI | 计划的[预测ROI](/help/main-guide/glossary.md)。 |
    | 预测的转化 | 计划的[预测转化](/help/main-guide/glossary.md) |
@@ -82,7 +83,7 @@ Mix Modeler中的计划允许您按业务部门和渠道分配预算。 计划�
 - 为计划选择![更多](/help/assets/icons/More.svg)。 从上下文菜单中选择&#x200B;**[!UICONTROL Duplicate]**。
 - 或者，在表![SelectBox](/help/assets/icons/SelectBox.svg)中选择一个计划，然后从蓝色操作栏中选择![复制](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]**。
 
-已创建一个新计划，其名称由原始计划的名称附加上&#x200B;**[!UICONTROL (Copy)] (_n_)**&#x200B;组成。 系统会自动将您重定向到[计划创建](build.md)，以便为复制的计划提供更新的详细信息。
+已创建一个新计划，其名称由原始计划的名称附加上&#x200B;**[!UICONTROL (Copy)](_n_)**&#x200B;组成。 系统会自动将您重定向到[计划创建](build.md)，以便为复制的计划提供更新的详细信息。
 
 - 原始计划中的详细信息（如描述、预算等）将复制过来。
 - 原始计划中的预算约束将复制到新创建的计划中。
@@ -113,6 +114,6 @@ Mix Modeler中的计划允许您按业务部门和渠道分配预算。 计划�
 
 1. 选择多个计划。
 1. 从蓝色操作栏中，选择![删除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;以删除计划。
-1. 在&#x200B;**[!UICONTROL Delete *x *计划]**&#x200B;确认对话框中选择&#x200B;**[!UICONTROL Delete]**&#x200B;以删除计划。 选择要取消的&#x200B;**[!UICONTROL Cancel]**。
+1. 在&#x200B;**[!UICONTROL Delete *x *计划]**确认对话框中选择&#x200B;**[!UICONTROL Delete]**以删除计划。 选择要取消的&#x200B;**[!UICONTROL Cancel]**。
 
 

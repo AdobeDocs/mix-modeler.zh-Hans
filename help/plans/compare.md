@@ -3,16 +3,16 @@ title: 比较计划
 description: 了解如何在Mix Modeler中比较计划。
 feature: Plans
 exl-id: 40f6ade5-77eb-4ef7-ba60-4a2d2fcf1a60
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: f0871834ec665c907caf0af3edeeed4fb2549a58
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 1%
+source-wordcount: '136'
+ht-degree: 0%
 
 ---
 
 # 比较计划
 
-要在“Mix Modeler计划”界面中比较计划，请执行以下操作：
+要在Mix Modeler“计划”界面中比较计划，请执行以下操作：
 
 * 选择![比较](/help/assets/icons/Compare.svg) **[!UICONTROL Compare Plans]**。 在比较计划中，为每个&#x200B;**[!UICONTROL _选择一个计划_]**。
 
@@ -20,15 +20,15 @@ ht-degree: 1%
 
 “比较计划”界面显示有关以下项的信息和可视化图表：
 
-* 计划
-* Date range
-* 模型
-* 总预算
-* 渠道预算：**[!UICONTROL AI automated]**&#x200B;或&#x200B;**[!UICONTROL Custom + AI]**
-* 计划支出
-* 预测的投资回报率(ROI)或CPA（每项操作的成本）
-* ROI（投资回报率）或CPA（每次操作的成本）细目
-* 预测退货
+* **[!UICONTROL Plan]**&#x200B;的问题。如果计划是基于目标的计划，您将看到显示目标状态的徽章。
+* **[!UICONTROL Date range]**
+* **[!UICONTROL Model]**
+* **[!UICONTROL Total budget]**
+* **[!UICONTROL Channel budgeting]**： **[!UICONTROL AI automated]**&#x200B;或&#x200B;**[!UICONTROL Custom + AI]**
+* **[!UICONTROL Planned spend]**
+* **[!UICONTROL Forecasted ROI]** （投资回报率）或&#x200B;**[!UICONTROL CPA]** （每个操作的成本）
+* **[!UICONTROL ROI]** （投资回报率）或&#x200B;**[!UICONTROL CPA]** （每个操作的成本）细分
+* **[!UICONTROL Forecasted return]**
 
 其中：
 

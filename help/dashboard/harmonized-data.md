@@ -1,9 +1,9 @@
 ---
 title: 协调的数据仪表板
-description: 了解如何在Mix Modeler中使用协调的数据概述仪表板。
+description: 了解如何使用Mix Modeler中的协调数据概述仪表板。
 feature: Dashboard, Harmonized Data
 exl-id: fbb01613-d648-4db1-a782-a7720b7a03ad
-source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
+source-git-commit: 9776b79cfc4a8eaebecd4bce85cfc9d85329c910
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 协调的数据
 
-Mix Modeler![主页](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x200B;中的&#x200B;**[!UICONTROL Harmonized data]**&#x200B;选项卡提供对您配置的协调数据的见解，这些协调数据将用作所摄取数据和协调数据设置的一部分。
+Mix Modeler ![主页](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x200B;中的&#x200B;**[!UICONTROL Harmonized data]**&#x200B;选项卡对您配置为用作所摄取数据和协调数据设置一部分的协调数据提供见解。
 
 此概述显示了四个KPI状态卡可视化图表（顶行）和六个其他可配置可视化图表。
 
@@ -22,7 +22,7 @@ Mix Modeler![主页](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x20
 
 您可以使用![筛选器](/help/assets/icons/Filter.svg) **[!UICONTROL Category Filters]**&#x200B;窗格筛选所有可视化图表显示的数据。
 
-为每个类别（**[!UICONTROL Brands]**、**[!UICONTROL Campaigns]**、**[!UICONTROL Cannels Type]**、**[!UICONTROL Conversion types]**、**[!UICONTROL Datasets]**、**[!UICONTROL Media types]**、**[!UICONTROL Source types]**&#x200B;和&#x200B;**[!UICONTROL Traffic Source]**）选择一个或多个筛选器。
+为每个类别（**[!UICONTROL Brands]**、**[!UICONTROL Campaigns]**、**[!UICONTROL Channels Type]**、**[!UICONTROL Conversion types]**、**[!UICONTROL Datasets]**、**[!UICONTROL Media types]**、**[!UICONTROL Source types]**&#x200B;和&#x200B;**[!UICONTROL Traffic Source]**）选择一个或多个筛选器。
 
 选定的筛选器显示在&#x200B;**[!UICONTROL FILTERING BY:]**&#x200B;处的可视化图表顶部。
 
