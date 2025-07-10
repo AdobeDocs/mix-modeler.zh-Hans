@@ -3,9 +3,9 @@ title: 模型洞察
 description: 了解如何获取有关模型的详细信息，如Mix Modeler中的历史概述、模型见解和模型质量。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: d7386eb44b01fa42c2f0c501e09472af4458c4b1
+source-git-commit: e5fa52cee1725ddfe4d75c50857a1e5ef4daf5b2
 workflow-type: tm+mt
-source-wordcount: '2040'
+source-wordcount: '2255'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,15 @@ ht-degree: 0%
 
 1. 从上下文菜单中选择&#x200B;**[!UICONTROL Model Insights]**。
 
-![模型分析选项卡栏](/help/assets/model-insights-tabbar.png)
 
-您会看到指定模型上次刷新的时间，并使用四个选项卡显示可视化图表：[模型分析](#model-insights)、[归因](#attribution)、[因素](#factors)、[诊断](#diagnostics)和[历史概述](#historical-overview)。
+
+可以使用以下选项卡：
+
+* [模型洞察](#model-insights)
+* [因素](#factors-beta) [!BADGE 测试版]
+* [归因](#attribution)（仅适用于启用MTA的模型）
+* [诊断](#diagnostics)
+* [历史概述](#historical-overview)。
 
 您可以更改每个选项卡上的可视化图表所基于的日期段。 输入日期期间或选择![日历](/help/assets/icons/Calendar.svg)以选择日期期间。
 
@@ -36,7 +42,7 @@ ht-degree: 0%
 
 {{release-limited-testing-section}}
 
-如果在模型上检测到模型漂移，您将看到&#x200B;**[!UICONTROL Model drift detected]**&#x200B;对话框，其中包含稍后提醒或立即[**[!UICONTROL Retrain]**](overview.md#retrain)模型的选项。 如果选择&#x200B;**[!UICONTROL Remind me later]**，则会在第二天或下次登录时提醒您。
+如果在模型上检测到模型漂移，您会看到&#x200B;**[!UICONTROL Model drift detected]**&#x200B;对话框，其中包含稍后提醒或立即[**[!UICONTROL Retrain]**](overview.md#retrain)模型的选项。 如果选择&#x200B;**[!UICONTROL Remind me later]**，则会在第二天或下次登录时提醒您。
 
 ![检测到模型漂移对话框](/help/assets/model-drift-dialog.png)
 
@@ -57,9 +63,9 @@ ht-degree: 0%
 
 此栈叠图形可视化图表的顺序如下：
 
-* 底部的。
-* 非支出渠道居于中间。
-* 将渠道置顶。
+* 底部显示基座。
+* 非支出渠道显示在中间。
+* 支出渠道显示在顶部。
 
 此可视化图表表示在某个日期范围内按基础、支出渠道和非支出渠道实现的贡献比例。 此可视化图表有助于展示增量功能。 基本信息表示在没有任何营销的情况下会发生什么，非支出渠道加上支出渠道（在基本信息的基础上）归因于营销影响。 简言之，非支出加支出等于营销工作的增量影响，可视化图表可让您轻松了解insight营销产生的价值。
 
@@ -84,7 +90,7 @@ ht-degree: 0%
 
 ### 接触点细分
 
-接触点细分表以每周为基数显示所有或选定渠道的每周接触点细分，显示与每个渠道关联的关键量度。 该表允许在更精细的渠道级别轻松进行比较、趋势识别和性能跟踪。 此表明确补充了[按日期和基本媒体列出的贡献](#contribution-by-date-and-base-media)可视化图表和[按渠道列出的贡献](#contribution-by-channel)可视化图表。
+接触点细分表以周为单位显示所有或选定渠道的每周接触点细分，显示与每个渠道关联的关键量度。 该表允许在更精细的渠道级别轻松进行比较、趋势识别和性能跟踪。 此表明确补充了[按日期和基本媒体列出的贡献](#contribution-by-date-and-base-media)可视化图表和[按渠道列出的贡献](#contribution-by-channel)可视化图表。
 
 ![接触点细分](../assets/touchpoint-breakdown.png)
 
@@ -161,7 +167,7 @@ Mix Modeler多点接触归因粒度事件得分与总体Mix Modeler得分和ROI�
 
 [!UICONTROL Daily trends]、[!UICONTROL Weekly trends]或[!UICONTROL Monthly trends]可视化图表显示选定归因模型的每日、每周或每月转化趋势。
 
-要选择句点，请从![更多](/help/assets/icons/More.svg)中选择&#x200B;**[!UICONTROL Daily trends]**、**[!UICONTROL Weekly trends]**&#x200B;或&#x200B;**[!UICONTROL Monthly trends]**。
+要选择句点，请从&#x200B;**[!UICONTROL Daily trends]**&#x200B;更多&#x200B;**[!UICONTROL Weekly trends]**&#x200B;中选择&#x200B;**[!UICONTROL Monthly trends]**、![或](/help/assets/icons/More.svg)。
 
 要查看详细信息，请将鼠标悬停在特定归因模型的数据行上以显示一个弹出窗口，其中显示该数据的转化总数。
 
@@ -169,7 +175,7 @@ Mix Modeler多点接触归因粒度事件得分与总体Mix Modeler得分和ROI�
 
 [!UICONTROL Breakdown]可视化图表按渠道或接触点划分每个所选归因模型的转化。 此可视化图表有助于确定每个渠道或接触点的有效性。
 
-要选择划分类型，请从![更多](/help/assets/icons/More.svg)中选择&#x200B;**[!UICONTROL Breakdown by channel]**&#x200B;或&#x200B;**[!UICONTROL Breakdown by touchpoint]**。
+要选择划分类型，请从&#x200B;**[!UICONTROL Breakdown by channel]**&#x200B;更多&#x200B;**[!UICONTROL Breakdown by touchpoint]**&#x200B;中选择![或](/help/assets/icons/More.svg)。
 
 要查看详细信息，请将鼠标悬停在任何图表元素上。
 
@@ -179,7 +185,7 @@ Mix Modeler多点接触归因粒度事件得分与总体Mix Modeler得分和ROI�
 
 要按“渠道”、“媒体类型”或“增量转化”的升↑或降序↓序对表进行排序，请选择列标题并切换排序。
 
-要在单独的对话框中展开表，请从![更多](/help/assets/icons/More.svg)中选择&#x200B;**[!UICONTROL Expand]**。
+要在单独的对话框中展开表，请从&#x200B;**[!UICONTROL Expand]**&#x200B;更多![中选择](/help/assets/icons/More.svg)。
 
 展开的“热门促销活动”对话框显示的表格及其添加列
 
@@ -228,37 +234,51 @@ Mix Modeler多点接触归因粒度事件得分与总体Mix Modeler得分和ROI�
 
 “诊断”选项卡显示以下各项的可视化图表：
 
-* [!UICONTROL Model Assessment]可视化图表，可按实际转化与预测转化或残差转化进行划分。
+* **[!UICONTROL Model Assessment]**&#x200B;可视化图表，包括：
 
-  要划分可视化图表，请从&#x200B;**[!UICONTROL Breakdown]**&#x200B;列表中选择&#x200B;**[!UICONTROL Actual vs. Predicted]**&#x200B;或&#x200B;**[!UICONTROL Residuals]**。
+  ![模型评估](../assets/model-assessment.png)
 
-* [!UICONTROL Model fitting metrics]表，显示每个转化量度的以下列：
+   * 可按实际转化与预测转化或残差转化进行细分的图表。
+要划分可视化图表，请从**[!UICONTROL Breakdown]**&#x200B;列表中选择以下选项之一。
 
-   * 实际转化
+      * **[!UICONTROL Actual vs Predicted]**：此选项将实际值与模型预测进行比较。 理想情况下，预测值应与实际值紧密一致，但会有一些偏差。 较大或系统的偏差或模式可能表示缺少的关系和数据或潜在的偏差。
 
-   * 模型化转化
+      * **[!UICONTROL Residuals]**：此选项显示实际值和预测值之间的差异。 一个性能良好的模型具有随机分布的残差，没有清晰的模式或增加的传播。 结构化的趋势或不断扩大的残差可能表明缺少关系和数据，或存在差异问题。
 
-   * 剩余转化（实际转化与模型转化之间的差异）
+   * 显示每个转化量度的以下列的表：
 
-   * 模型质量得分值：
-
-      * R2（R平方），它表明数据拟合回归模型（拟合优度）的程度。
-
-      * MAPE（平均绝对误差百分比），最常用于测量预测准确度的KPI之一，它以实际值的百分比表示预测误差。
-
-      * RMSE（均方根误差）：显示平均误差，根据误差的平方进行加权。
+      * **[!UICONTROL Actual Conversion]**
+      * **[!UICONTROL Predicted Conversion]**
+      * **[!UICONTROL Residual Conversion]**
+      * **[!UICONTROL R<sup>2</sup>]**，一个分数，它表明数据与回归模型的拟合程度（拟合程度）。
+      * **[!UICONTROL MAPE]** （平均绝对百分比误差），这是最常用于测量预测准确度的KPI之一，它以实际值的百分比表示预测误差。
+      * **[!UICONTROL RMSE]** （均方根误差）：显示平均误差，根据误差的平方进行加权。
 
   要下载包含该表数据的CSV文件，请选择![下载](/help/assets/icons/Download.svg)。
 
-* [!UICONTROL Touchpoint effectiveness]表，表示归因人工智能算法模型的结果。 此表的数据仅为特定时间段生成。 选择&#x200B;**[!UICONTROL As of *xx/xx/xx， xx：xx TZ *]**![信息](/help/assets/icons/InfoOutline.svg)以了解更多详细信息。
+* 针对每个转化量度显示的&#x200B;**[!UICONTROL Model training fit metrics]**&#x200B;表：
+
+  ![模型训练适合量度表](../assets/model-training-fit-metrics.png)
+
+   * **[!UICONTROL Training R<sup>2</sup>]**：指示模型预测解释的实际值中差异的比例，从0到1。
+   * **[!UICONTROL Training sMAPE]** （对称平均绝对百分比错误）：测量训练数据的平均百分比错误。 值越低表示精度越高。
+   * **[!UICONTROL Training RMSE]** （均方根错误）：测量训练数据的平均百分比错误。 惩罚比MAPE更大的错误。 RMSE越低表明预测准确度越高，但对离群值比较敏感。
+   * **[!UICONTROL Out-of-sample sMAPE]**：评估不可见数据的百分比错误，平衡预测过多和预测不足。 有助于评估泛化性。 目前，Mix Modeler使用上一季度培训数据作为维持集来评估百分比错误。
+   * **[!UICONTROL Out-of-sample RMSE]**：评估不可见数据的百分比错误，平衡预测过多和预测不足。 帮助评估泛化性。 目前，Mix Modeler使用上一季度培训数据作为维持集来评估百分比错误。 RMSE比MAPE更严重地惩罚错误。
+
+
+* **[!UICONTROL Touchpoint effectiveness]**&#x200B;表，表示归因人工智能算法模型的结果。
+
+  ![接触点有效性表](../assets/touchpoint-effectiveness.png)
+
+  此表的数据仅为特定时间段生成。 选择&#x200B;**[!UICONTROL As of *xx/xx/xx， xx：xx TZ *]**![信息](/help/assets/icons/InfoOutline.svg)以了解更多详细信息。
 
   该可视化图表按降序显示每个接触点的[!UICONTROL Efficiency measure] ![降序](/help/assets/icons/SortOrderDown.svg)：
 
-   * [!UICONTROL Paths touched]：可视化实现转化的路径百分比和未实现转化的路径百分比。 对于接触点，当归因转化率较高时，您会看到更多归因转化。 此比率将导致转化的路径百分比与&#x200B;*不会*&#x200B;导致转化的路径百分比进行比较。
-   * [!UICONTROL Efficiency measure]：由算法归因模型生成，效率度量指示接触点对转化的相对重要性，与接触点数量无关。 效率在1到5的刻度上测量。 请注意，接触点数量越大并不能保证效率测量值越高。
-   * [!UICONTROL Total volume]：用户接触接触点的总次数。 该数字包括出现在实现转化的路径上的接触点以及导致转化的路径&#x200B;*而非*。
+   * **[!UICONTROL Paths touched]**：可视化实现转化的路径百分比和未实现转化的路径百分比。 对于接触点，当归因转化率较高时，您会看到更多归因转化。 此比率将导致转化的路径百分比与&#x200B;*不会*&#x200B;导致转化的路径百分比进行比较。
+   * **[!UICONTROL Efficiency measure]**：由算法归因模型生成，效率度量指示接触点对转化的相对重要性，与接触点数量无关。 效率在1到5的刻度上测量。 请注意，接触点数量越大并不能保证效率测量值越高。
+   * **[!UICONTROL Total volume]**：用户接触接触点的总次数。 该数字包括出现在实现转化的路径上的接触点以及导致转化的路径&#x200B;*而非*。
 
-![诊断](/help/assets/model-insights-diagnostics.png)
 
 ### 模型漂移检测
 
