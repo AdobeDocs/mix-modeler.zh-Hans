@@ -54,11 +54,11 @@ ht-degree: 0%
 
    1. 定义&#x200B;**[!UICONTROL Touchpoint rule]**。
 
-      1. 从&#x200B;**[!UICONTROL *选择协调的&#x200B;*]**&#x200B;中选择一个值，例如&#x200B;**[!UICONTROL Brand]**。
+      1. 从&#x200B;**[!UICONTROL *选择协调的&#x200B;*]**中选择一个值，例如&#x200B;**[!UICONTROL Brand]**。
 
       1. 为运算符![V形](/help/assets/icons/ChevronDown.svg)选择一个值，例如&#x200B;**[!UICONTROL is]**。
 
-      1. 从&#x200B;**[!UICONTROL *中选择值&#x200B;*]**&#x200B;或输入值，例如&#x200B;**[!DNL Luma]**。
+      1. 从&#x200B;**[!UICONTROL *中选择值&#x200B;*]**或输入值，例如&#x200B;**[!DNL Luma]**。
 
    1. 从&#x200B;**[!UICONTROL Touchpoint volume]**&#x200B;中选择协调字段，例如&#x200B;**[!UICONTROL Impressions]**。
 
