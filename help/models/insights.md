@@ -3,9 +3,9 @@ title: 模型洞察
 description: 了解如何获取有关模型的详细信息，如Mix Modeler中的历史概述、模型见解和模型质量。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: e5fa52cee1725ddfe4d75c50857a1e5ef4daf5b2
+source-git-commit: b3e52a34f26574961823c08859f17e2e6f1fdcd3
 workflow-type: tm+mt
-source-wordcount: '2255'
+source-wordcount: '2333'
 ht-degree: 0%
 
 ---
@@ -230,16 +230,37 @@ Mix Modeler多点接触归因粒度事件得分与总体Mix Modeler得分和ROI�
 * 这些渠道归因模型贡献百分比的总和。
 
 
-## [!UICONTROL Diagnostics]
+## [!UICONTROL Diagnostics] {#diagnostics}
 
-“诊断”选项卡显示以下各项的可视化图表：
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_modelassessment"
+>title="模型评估图"
+>abstract="模型评估可视化按实际转化与预测转化或残差转化进行划分。"
+>additional-url="https://experienceleague.adobe.com/en/docs/mix-modeler/using/overview" text="Mix Modeler概述"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&amp;enablevpops" text="Mix Modeler演示"
+
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_pathstouched"
+>title="接触的路径"
+>abstract="接触路径是指每个接触点实现转化的路径百分比和未实现转化的路径百分比。"
+
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_modeldateinfo"
+>title="模型日期截止日期"
+>abstract="此表的数据仅为特定时间段生成。  **[!UICONTROL As of]**&#x200B;日期表示生成数据的时间，且以startDate到endDate的数据为基础。"
+
+
+**[!UICONTROL Diagnostics]**&#x200B;选项卡显示以下各项的可视化图表：
 
 * **[!UICONTROL Model Assessment]**&#x200B;可视化图表，包括：
 
   ![模型评估](../assets/model-assessment.png)
 
    * 可按实际转化与预测转化或残差转化进行细分的图表。
-要划分可视化图表，请从&#x200B;**[!UICONTROL Breakdown]**&#x200B;列表中选择以下选项之一。
+要划分可视化图表，请从**[!UICONTROL Breakdown]**&#x200B;列表中选择以下选项之一。
 
       * **[!UICONTROL Actual vs Predicted]**：此选项将实际值与模型预测进行比较。 理想情况下，预测值应与实际值紧密一致，但会有一些偏差。 较大或系统的偏差或模式可能表示缺少的关系和数据或潜在的偏差。
 
@@ -271,7 +292,7 @@ Mix Modeler多点接触归因粒度事件得分与总体Mix Modeler得分和ROI�
 
   ![接触点有效性表](../assets/touchpoint-effectiveness.png)
 
-  此表的数据仅为特定时间段生成。 选择&#x200B;**[!UICONTROL As of *xx/xx/xx， xx：xx TZ *]**![信息](/help/assets/icons/InfoOutline.svg)以了解更多详细信息。
+  此表的数据仅为特定时间段生成。 选择&#x200B;**[!UICONTROL As of *xx/xx/xx， xx:xx TZ *]**![信息](/help/assets/icons/InfoOutline.svg)以了解更多详细信息。
 
   该可视化图表按降序显示每个接触点的[!UICONTROL Efficiency measure] ![降序](/help/assets/icons/SortOrderDown.svg)：
 

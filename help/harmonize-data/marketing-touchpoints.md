@@ -1,16 +1,22 @@
 ---
 title: 营销接触点
-description: 了解如何创建营销接触点，以将其用作Mix Modeler中协调数据的一部分。
+description: 了解如何在Mix Modeler中创建营销接触点，以将其用作协调数据的一部分。
 feature: Harmonized Data, Marketing Touch Points
 exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
-source-git-commit: 935b179e31d1b677a8c83b1566c02b7aaa617e8d
+source-git-commit: b3e52a34f26574961823c08859f17e2e6f1fdcd3
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
 
-# 营销接触点
+# 营销接触点 {#marketing-touchpoints}
+
+>[!CONTEXTUALHELP]
+>id="harmonizeddata_marketingtouchpoint"
+>title="营销接触点"
+>abstract="营销接触点是收件人、个人和/或Cookie级别的营销事件，用于评估营销投资对数值或基于收入的转化的影响。"
+
 
 营销接触点是收件人、个人和/或Cookie级别的营销事件，用于评估营销投资对数值或基于收入的转化的影响。
 
@@ -22,7 +28,7 @@ ht-degree: 0%
 
 1. 从左边栏中选择![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]**。
 
-1. 从顶部栏中选择&#x200B;**[!UICONTROL Marketing touchpoint]**。 您会看到营销接触点表。 如果有更多页面可用，请使用&#x200B;_x _&#x200B;**的**&#x200B;Page _x_&#x200B;上的![向左箭头](/help/assets/icons/ChevronLeft.svg)或![向右箭头](/help/assets/icons/ChevronRight.svg)在表的页面之间移动。
+1. 从顶部栏中选择&#x200B;**[!UICONTROL Marketing touchpoint]**。 您会看到营销接触点表。 如果有更多页面可用，请使用![x](/help/assets/icons/ChevronLeft.svg)的![x](/help/assets/icons/ChevronRight.svg)上的&#x200B;**[!UICONTROL Page _向左箭头&#x200B;_或_向右箭头_]**&#x200B;在表的页面之间移动。
 
 表列指定有关营销接触点的详细信息：
 
@@ -48,11 +54,11 @@ ht-degree: 0%
 
    1. 定义&#x200B;**[!UICONTROL Touchpoint rule]**。
 
-      1. 从&#x200B;**[!UICONTROL *选择协调的&#x200B;*]**&#x200B;中选择一个值，例如&#x200B;**[!UICONTROL Brand]**。
+      1. 从&#x200B;**[!UICONTROL *选择协调的&#x200B;*]**中选择一个值，例如&#x200B;**[!UICONTROL Brand]**。
 
       1. 为运算符![V形](/help/assets/icons/ChevronDown.svg)选择一个值，例如&#x200B;**[!UICONTROL is]**。
 
-      1. 从&#x200B;**[!UICONTROL *中选择值&#x200B;*]**&#x200B;或输入值，例如&#x200B;**[!DNL Luma]**。
+      1. 从&#x200B;**[!UICONTROL *中选择值&#x200B;*]**或输入值，例如&#x200B;**[!DNL Luma]**。
 
    1. 从&#x200B;**[!UICONTROL Touchpoint volume]**&#x200B;中选择协调字段，例如&#x200B;**[!UICONTROL Impressions]**。
 
