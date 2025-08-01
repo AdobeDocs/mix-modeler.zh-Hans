@@ -1,18 +1,18 @@
 ---
 title: 数据集规则
-description: 了解如何定义要用作协调Mix Modeler中数据一部分的数据集规则。
+description: 了解如何在Mix Modeler中定义要用作协调数据一部分的数据集规则。
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: a8590d604f79268bc8d1f012f2c19271a3b38668
+source-git-commit: 6fb23f4c970b7491730342a6a5a03f4e04c26bd1
 workflow-type: tm+mt
-source-wordcount: '1407'
+source-wordcount: '1421'
 ht-degree: 0%
 
 ---
 
 # 数据集规则
 
-数据集规则可帮助您将协调的字段与您在Mix Modeler中引入的数据中的字段进行映射。
+数据集规则可帮助您将协调的字段与您在Mix Modeler中摄取的数据中的字段进行映射。
 
 * 对于在Adobe Experience Platform中摄取的聚合数据，可将一个或多个可用数据集字段映射到相应的协调字段。
 * 对于事件数据，您可以直接或使用条件将一个或多个协调的字段单独映射到数据集中的字段。
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 管理数据集规则
 
-要查看可用数据集规则的表，请在Mix Modeler界面中：
+要查看可用数据集规则的表，请在Mix Modeler界面中执行以下操作：
 
 1. 从左边栏中选择![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]**。
 
@@ -32,17 +32,17 @@ ht-degree: 0%
 | ---------------------- | ----------|
 | 数据集 | 数据集的名称。 |
 | 来源 | 数据集的来源： Adobe Analytics、体验事件、摘要（汇总）或使用者体验事件。 |
-| 模式 | 数据集符合的架构。 您可以在![架构](/help/assets/icons/Schemas.svg) [架构](../ingest-data/schemas.md)的架构编辑器中，快速选择架构名称以在新选项卡中打开架构。 |
+| 架构 | 数据集符合的架构。 您可以在![架构](/help/assets/icons/Schemas.svg) [架构](../ingest-data/schemas.md)的架构编辑器中，快速选择架构名称以在新选项卡中打开架构。 |
 | 粒度 | 数据集中的数据粒度。 可能的值包括“每日”、“每周”、“每月”或“每年”。 |
 | 一周开始 | 指定将一周中的哪一天视为特定数据集的新周的开始。 |
-| 状态 | 字段的状态： <p><span style="color:gray">●</span>草稿或 <p><span style="color:green">●</span>活动 |
+| 状态 | 字段的状态： <p><span style="color:gray">●</span>草稿或 <p><span style="color:green">●</span>处于活动状态 |
 | 上次修改时间 | 上次修改数据集规则的数据和时间。 |
 
 {style="table-layout:auto"}
 
 ### 创建数据集规则
 
-要创建数据集规则，请在Mix Modeler的![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]**&#x200B;界面中，在&#x200B;**[!UICONTROL Dataset rules configuration]**&#x200B;向导中选择&#x200B;**[!UICONTROL Create a dataset rule]**。
+要创建数据集规则，请在Mix Modeler的![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]**&#x200B;界面中，在&#x200B;**[!UICONTROL Create a dataset rule]**&#x200B;向导中选择&#x200B;**[!UICONTROL Dataset rules configuration]**。
 
 在&#x200B;**[!UICONTROL Create]**&#x200B;屏幕中，
 
@@ -50,39 +50,27 @@ ht-degree: 0%
 
 1. 为&#x200B;**[!UICONTROL Start of the week]**&#x200B;选择日期。
 
-1. 为&#x200B;**[!UICONTROL Granularity]**&#x200B;选择&#x200B;**[!UICONTROL Daily]**、**[!UICONTROL Weekly]**、**[!UICONTROL Monthly]**&#x200B;或&#x200B;**[!UICONTROL Yearly]**。
+1. 为&#x200B;**[!UICONTROL Daily]**&#x200B;选择&#x200B;**[!UICONTROL Weekly]**、**[!UICONTROL Monthly]**、**[!UICONTROL Yearly]**&#x200B;或&#x200B;**[!UICONTROL Granularity]**。
 
-1. 选择&#x200B;**[!UICONTROL Summary]**&#x200B;类别的数据集后：
-
-   1. 要定义数据集的数据是聚合还是替换现有数据，请为&#x200B;**[!UICONTROL Data restatement is by]**&#x200B;选择&#x200B;**[!UICONTROL Aggregation]**&#x200B;或&#x200B;**[!UICONTROL Replacement]**。
-
-   1. 将&#x200B;**[!UICONTROL Available dataset fields]**&#x200B;中的每一个映射到&#x200B;**[!UICONTROL Map to harmonized fields]**&#x200B;中对应的&#x200B;**[!UICONTROL Standard harmonized fields]**。 如果不想将数据集字段映射到协调字段，请明确选择&#x200B;**[!UICONTROL -- None --]**。
-
-   1. 如果您需要新的协调字段，但无法从列表中获得，请选择&#x200B;**[!UICONTROL Create New]**&#x200B;以创建新的协调字段。 您看到[添加新的协调字段](fields.md#add-a-harmonized-field)中概述的对话框。
-
-   1. 为规则的所有字段完成映射后，选择&#x200B;**[!UICONTROL Save as draft]**&#x200B;以保存规则的草稿版本，或选择&#x200B;**[!UICONTROL Save]**&#x200B;以保存并激活规则。 选择&#x200B;**[!UICONTROL Cancel]**&#x200B;取消规则配置。
-
-      ![创建数据集规则](/help/assets/dataset-create-summary.png)
-
-1. 当您在&#x200B;**[!UICONTROL Map to harmonized fields]**&#x200B;下面的框中选择了事件类别数据集(**[!UICONTROL Experience Events]**、**[!UICONTROL Adobe Analytics]**、**[!UICONTROL Consumer Experience Events]**)时：
+1. 在&#x200B;**[!UICONTROL Map to harmonized fields]**&#x200B;部分中：
 
    1. 从&#x200B;**[!UICONTROL Standard harmonized field]**&#x200B;中选择协调字段。
 
    1. 当所选协调字段为指标类型时：
 
-      1. 从&#x200B;**[!UICONTROL Mapping type]**&#x200B;中选择&#x200B;**[!UICONTROL Count]**&#x200B;或&#x200B;**[!UICONTROL Sum]**。
+      1. 从&#x200B;**[!UICONTROL Count]**&#x200B;中选择&#x200B;**[!UICONTROL Sum]**&#x200B;或&#x200B;**[!UICONTROL Mapping type]**。
 
       1. 选择您希望协调字段默认映射到的&#x200B;**[!UICONTROL *AEP数据集字段&#x200B;*]**。
 
    1. 当所选字段属于维度类型时：
 
-      1. 从&#x200B;**[!UICONTROL Mapping type]**&#x200B;中选择&#x200B;**[!UICONTROL Map Into]**&#x200B;或&#x200B;**[!UICONTROL Case]**。
+      1. 从&#x200B;**[!UICONTROL Map Into]**&#x200B;中选择&#x200B;**[!UICONTROL Case]**&#x200B;或&#x200B;**[!UICONTROL Mapping type]**。
 
-      1. 选择&#x200B;**[!UICONTROL Map Into]**&#x200B;后，选择&#x200B;**[!UICONTROL Field]**&#x200B;和&#x200B;**[!UICONTROL *AEP数据集字段&#x200B;*]**&#x200B;或&#x200B;**[!UICONTROL Value]**&#x200B;以及默认值，以默认将协调字段映射到数据集字段或输入的值。
+      1. 选择&#x200B;**[!UICONTROL Map Into]**&#x200B;后，请选择&#x200B;**[!UICONTROL Field]**&#x200B;和&#x200B;**[!UICONTROL *AEP数据集字段&#x200B;*]**或&#x200B;**[!UICONTROL Value]**以及默认值，以便默认情况下将协调字段映射到数据集字段或输入的值。
 
-      1. 当您选择&#x200B;**[!UICONTROL Case]**&#x200B;时，请选择&#x200B;**[!UICONTROL Field]**&#x200B;和&#x200B;**[!UICONTROL *AEP数据集字段&#x200B;*]**&#x200B;或&#x200B;**[!UICONTROL Value]**&#x200B;以及默认值，以便默认情况下将协调字段映射到数据集字段或输入的值。
+      1. 当您选择&#x200B;**[!UICONTROL Case]**&#x200B;时，请选择&#x200B;**[!UICONTROL Field]**&#x200B;和&#x200B;**[!UICONTROL *AEP数据集字段&#x200B;*]**或&#x200B;**[!UICONTROL Value]**以及默认值，以便默认情况下将协调字段映射到数据集字段或输入的值。
 
-         1. 要显式设置值，可定义一个或多个情况，其中包含一个或多个条件。 每个条件都可以检查特定的&#x200B;**[!UICONTROL *AEP数据集字段&#x200B;*]**，无论它是&#x200B;**[!UICONTROL Exists]**&#x200B;还是&#x200B;**[!UICONTROL Not Exists]**，或者它是&#x200B;**[!UICONTROL Contains]**、**[!UICONTROL Not Contains]**、**[!UICONTROL Equals]**、**[!UICONTROL Not Equals]**、**[!UICONTROL Starts With]**&#x200B;还是&#x200B;**[!UICONTROL Ends With]**&#x200B;在&#x200B;**[!UICONTROL *&#x200B;处输入的值输入值&#x200B;*]**。
+         1. 要显式设置值，可定义一个或多个情况，其中包含一个或多个条件。 每个条件都可以检查特定的&#x200B;**[!UICONTROL *AEP数据集字段&#x200B;*]**，无论它是&#x200B;**[!UICONTROL Exists]**还是&#x200B;**[!UICONTROL Not Exists]**，或者它是&#x200B;**[!UICONTROL Contains]**、**[!UICONTROL Not Contains]**、**[!UICONTROL Equals]**、**[!UICONTROL Not Equals]**、**[!UICONTROL Starts With]**还是&#x200B;**[!UICONTROL Ends With]**在**[!UICONTROL *&#x200B;处输入的值输入值&#x200B;*]**。
 
          1. 要添加另一个案例，请选择![添加](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**；要添加另一个条件，请选择![添加](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**。
 
@@ -94,25 +82,40 @@ ht-degree: 0%
 
       以下示例
 
-      * 使用&#x200B;**[!UICONTROL Map Into]** **[!UICONTROL Mapping type]**&#x200B;将&#x200B;**[!UICONTROL Channel Type At Source]**&#x200B;协调字段映射到&#x200B;**[!DNL Luma Transactions]**&#x200B;数据集中的&#x200B;**[!UICONTROL channel_type]**&#x200B;字段。
+      * 使用&#x200B;**[!UICONTROL Map Into]** **[!UICONTROL Mapping type]**&#x200B;将&#x200B;**[!UICONTROL Channel Type At Source]**&#x200B;协调字段映射到&#x200B;**[!UICONTROL channel_type]**&#x200B;数据集中的&#x200B;**[!DNL Luma Transactions]**&#x200B;字段。
 
-      * 使用&#x200B;**[!UICONTROL Case]** **[!UICONTROL Mapping type]**&#x200B;有条件地将&#x200B;**[!DNL Luma Transactions]**&#x200B;数据集中&#x200B;**[!UICONTROL marketing.campaignName]**&#x200B;字段的值映射到&#x200B;**[!UICONTROL Campaign]**&#x200B;协调字段。 Campaign协调字段设置为：
+      * 使用&#x200B;**[!UICONTROL Case]** **[!UICONTROL Mapping type]**&#x200B;有条件地将&#x200B;**[!UICONTROL marketing.campaignName]**&#x200B;数据集中&#x200B;**[!DNL Luma Transactions]**&#x200B;字段的值映射到&#x200B;**[!UICONTROL Campaign]**&#x200B;协调字段。 Campaign协调字段设置为：
 
-         * **[!UICONTROL marketing.campaignName]**&#x200B;为`_black_friday`或`BlackFriday`时的`Black Friday`。
+         * `Black Friday`为&#x200B;**[!UICONTROL marketing.campaignName]**&#x200B;或`_black_friday`时的`BlackFriday`。
          * 到所有其它情况下的&#x200B;**[!UICONTROL marketing.campaignName]**&#x200B;的值。
 
         ![数据集规则事件](/help/assets/dataset-create-event.png)
 
+      当您从摘要数据集中映射标准协调字段时，Mix Modeler会尝试推导相应的Experience Platform数据集字段。 成功后：
+
+      * 如果字段为维度类型，则选择&#x200B;**[!UICONTROL Map into]**&#x200B;作为&#x200B;**[!UICONTROL Mapping type]**。
+      * 如果字段为量度类型，则选择&#x200B;**[!UICONTROL Sum]**&#x200B;作为&#x200B;**[!UICONTROL Mapping type]**。
+      * 已选择&#x200B;**[!UICONTROL Field]**&#x200B;作为&#x200B;**[!UICONTROL Default]**&#x200B;映射类型。
+      * 将自动为&#x200B;*Experience Platform数据集字段*&#x200B;插入相应的AEP数据集字段。
+
+      如果任何建议值不正确或不支持您的特定用例，则可以更改这些值。
+
 1. 选择![添加](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add field]**&#x200B;以定义其他字段。
 
 完成后，选择&#x200B;**[!UICONTROL Save as draft]**&#x200B;以保存规则的草稿版本，或选择&#x200B;**[!UICONTROL Save]**&#x200B;以保存并激活规则。 选择&#x200B;**[!UICONTROL Cancel]**&#x200B;取消规则配置。
+
+>[!NOTE]
+>
+>摘要数据集规则的专用&#x200B;**[!UICONTROL Map to harmonized fields]**&#x200B;体验已弃用。 现在，所有数据集都使用相同的通用&#x200B;**[!UICONTROL Map to harmonized fields]**&#x200B;体验。 对于已使用已弃用的&#x200B;**[!UICONTROL Map to harmonized fields]**&#x200B;体验为其定义了规则的摘要数据集，您可能希望根据通用&#x200B;**[!UICONTROL Map to harmonized field]**&#x200B;体验验证这些规则。
+>
+
 
 
 ### 编辑数据集规则
 
 要编辑数据集规则，请在Mix Modeler的![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]**&#x200B;界面中：
 
-1. 在&#x200B;**[!UICONTROL Dataset]**&#x200B;列中为要编辑的数据集规则选择![更多](/help/assets/icons/More.svg)。
+1. 在![列中为要编辑的数据集规则选择](/help/assets/icons/More.svg)更多&#x200B;**[!UICONTROL Dataset]**。
 1. 从上下文菜单中，选择![编辑](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]**&#x200B;以开始编辑数据集规则。 有关详细信息，请参阅[创建数据集规则](#create-a-dataset-rule)。
 
 
@@ -120,8 +123,9 @@ ht-degree: 0%
 
 要删除数据集规则，请在Mix Modeler的![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]**&#x200B;界面中：
 
-1. 在&#x200B;**[!UICONTROL Dataset]**&#x200B;列中为要删除的数据集规则选择![更多](/help/assets/icons/More.svg)。
+1. 在![列中为要删除的数据集规则选择](/help/assets/icons/More.svg)更多&#x200B;**[!UICONTROL Dataset]**。
 1. 从上下文菜单中，选择![删除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;以删除数据集规则。 系统会提示您进行确认。 选择&#x200B;**[!UICONTROL Delete]**&#x200B;以永久删除选定的数据集规则。
+
 
 
 ## 同步数据
@@ -144,7 +148,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!BADGE 测试版]{type=Informative}
+>[!BADGE 测试版]{type=Informative}数据合并首选项是测试版功能，其功能可能会发生更改。
 
 为了确保准确的模型预测，您可以定义数据合并首选项。 此功能使用户能够解决合并摘要级别数据和事件级别数据后的任何冲突。
 
@@ -170,7 +174,7 @@ ht-degree: 0%
 
 1. 选择![数据合并首选项](/help/assets/icons/Merge.svg) [!BADGE 测试版]。
 
-1. 在&#x200B;**[!UICONTROL Data merge preferences]** [!BADGE 测试版]中{type=Informative}
+1. 在&#x200B;**[!UICONTROL Data merge preferences]** [!BADGE 测试版]{type=Informative}对话框中：
 
    ![数据合并首选项](/help/assets/data-merge-preferences.png)
 
@@ -179,7 +183,7 @@ ht-degree: 0%
    * 要添加基于特定量度的首选项，请执行以下操作：
 
       1. 选择![加](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]**。
-         1. 从&#x200B;**[!UICONTROL *量度选择&#x200B;*]**&#x200B;列表中选择一个量度。
+         1. 从&#x200B;**[!UICONTROL *量度选择&#x200B;*]**列表中选择一个量度。
          1. 选择&#x200B;**[!UICONTROL CHANNELS]**&#x200B;或&#x200B;**[!UICONTROL CONVERSION TYPES]**。 从列表中选择&#x200B;**[!UICONTROL All]**&#x200B;或特定的渠道或转化类型。
          1. 选择&#x200B;**[!UICONTROL Summary]**&#x200B;或&#x200B;**[!UICONTROL Event]**&#x200B;以指定在合并数据时汇总数据或事件数据是否优先于量度（以及所有或选定的渠道）。
 
