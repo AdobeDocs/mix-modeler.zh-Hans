@@ -1,24 +1,24 @@
 ---
-title: 营销接触点
+title: 市场营销接触点
 description: 了解如何在Mix Modeler中创建营销接触点，以将其用作协调数据的一部分。
 feature: Harmonized Data, Marketing Touch Points
 exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
 source-git-commit: b3e52a34f26574961823c08859f17e2e6f1fdcd3
 workflow-type: tm+mt
 source-wordcount: '473'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
-# 营销接触点 {#marketing-touchpoints}
+# 市场营销接触点 {#marketing-touchpoints}
 
 >[!CONTEXTUALHELP]
 >id="harmonizeddata_marketingtouchpoint"
->title="营销接触点"
->abstract="营销接触点是收件人、个人和/或Cookie级别的营销事件，用于评估营销投资对数值或基于收入的转化的影响。"
+>title="市场营销接触点"
+>abstract="市场营销接触点是接收者、个人和/或 cookie 级别的市场营销事件，用于评估营销投资对基于数字或基于收入的转化率的影响。"
 
 
-营销接触点是收件人、个人和/或Cookie级别的营销事件，用于评估营销投资对数值或基于收入的转化的影响。
+市场营销接触点是接收者、个人和/或 cookie 级别的市场营销事件，用于评估营销投资对基于数字或基于收入的转化率的影响。
 
 您可以定义营销接触点来帮助您进行归因分析。
 
@@ -54,11 +54,11 @@ ht-degree: 0%
 
    1. 定义&#x200B;**[!UICONTROL Touchpoint rule]**。
 
-      1. 从&#x200B;**[!UICONTROL *选择协调的&#x200B;*]**&#x200B;中选择一个值，例如&#x200B;**[!UICONTROL Brand]**。
+      1. 从&#x200B;**[!UICONTROL *选择协调的&#x200B;*]**中选择一个值，例如&#x200B;**[!UICONTROL Brand]**。
 
       1. 为运算符![V形](/help/assets/icons/ChevronDown.svg)选择一个值，例如&#x200B;**[!UICONTROL is]**。
 
-      1. 从&#x200B;**[!UICONTROL *中选择值&#x200B;*]**&#x200B;或输入值，例如&#x200B;**[!DNL Luma]**。
+      1. 从&#x200B;**[!UICONTROL *中选择值&#x200B;*]**或输入值，例如&#x200B;**[!DNL Luma]**。
 
    1. 从&#x200B;**[!UICONTROL Touchpoint volume]**&#x200B;中选择协调字段，例如&#x200B;**[!UICONTROL Impressions]**。
 

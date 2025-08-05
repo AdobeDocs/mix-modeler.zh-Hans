@@ -6,7 +6,7 @@ exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
 source-git-commit: b3e52a34f26574961823c08859f17e2e6f1fdcd3
 workflow-type: tm+mt
 source-wordcount: '2333'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -236,21 +236,21 @@ Mix Modeler多点接触归因粒度事件得分与总体Mix Modeler得分和ROI�
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_modelassessment"
 >title="模型评估图"
->abstract="模型评估可视化按实际转化与预测转化或残差转化进行划分。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/mix-modeler/using/overview" text="Mix Modeler概述"
->additional-url="https://video.tv.adobe.com/v/3440804/?learn=on&enablevpops&captions=chi_hans" text="Mix Modeler演示"
+>abstract="模型评估显示了细分为实际转化率与预测或残差转化率的对比。"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/mix-modeler/using/overview" text="Mix Modeler 概述"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&amp;enablevpops" text="Mix Modeler 演示"
 
 
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_pathstouched"
 >title="接触的路径"
->abstract="接触路径是指每个接触点实现转化的路径百分比和未实现转化的路径百分比。"
+>abstract="接触的路径是指每个接触点上实现了转化的路径百分比与未实现转化的路径百分比。"
 
 
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_modeldateinfo"
->title="模型日期截止日期"
->abstract="此表的数据仅为特定时间段生成。  **[!UICONTROL As of]**&#x200B;日期表示生成数据的时间，且以startDate到endDate的数据为基础。"
+>title="模型日期截至"
+>abstract="此表的数据仅为特定时间段生成。**[!UICONTROL As of]**&#x200B;日期表示生成数据的时间，且以startDate到endDate的数据为基础。"
 
 
 **[!UICONTROL Diagnostics]**&#x200B;选项卡显示以下各项的可视化图表：
@@ -260,7 +260,7 @@ Mix Modeler多点接触归因粒度事件得分与总体Mix Modeler得分和ROI�
   ![模型评估](../assets/model-assessment.png)
 
    * 可按实际转化与预测转化或残差转化进行细分的图表。
-要划分可视化图表，请从&#x200B;**[!UICONTROL Breakdown]**&#x200B;列表中选择以下选项之一。
+要划分可视化图表，请从**[!UICONTROL Breakdown]**&#x200B;列表中选择以下选项之一。
 
       * **[!UICONTROL Actual vs Predicted]**：此选项将实际值与模型预测进行比较。 理想情况下，预测值应与实际值紧密一致，但会有一些偏差。 较大或系统的偏差或模式可能表示缺少的关系和数据或潜在的偏差。
 
