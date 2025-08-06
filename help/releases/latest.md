@@ -4,18 +4,26 @@ description: 最新 Mix Modeler 发行说明
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 498f50e4d1568e58d0ac2833022822340a5f6337
+source-git-commit: d22bb8c9526821c28c9a59967e1be399957d3051
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 3%
+source-wordcount: '518'
+ht-degree: 4%
 
 ---
 
 # 当前的Mix Modeler发行说明
 
-**上次更新**：2025年5月14日。
+**上次更新日期**：2025年8月6日。
 
 以下发行说明涵盖最新版本的Mix Modeler。 Mix Modeler版本在持续交付模型上运行，该模型允许大约每月一次的发布。 因此，这些发行说明将会相应更新，因此请定期检查。
+
+
+
+## 2025 年 7 月 - 8 月
+
+| 功能 | 描述 | [转出开始](#release-strategy) | [正式发布](#release-strategy) |
+|---|---|---|---|
+| **协调更新** | 现在，所有数据集规则都使用类似的[通用映射到协调字段体验](/help/harmonize-data/dataset-rules.md)，无论数据集类型如何。 当您从摘要数据集中映射标准协调字段时，Mix Modeler会尝试自动推导相应的Experience Platform数据集字段。 | 2025年7月29日 | 2025年7月29日 |
 
 
 ## 2025年5月至6月
@@ -38,7 +46,7 @@ ht-degree: 3%
 
 | 功能 | 描述 | [转出开始](#release-strategy) | [正式发布](#release-strategy) |
 |---|---|---|---|
-| **嵌套条件** | 在模型[&#128279;](/help/models/build.md#configure)的配置中定义符合条件的数据群体时，可以使用AND和OR创建嵌套条件。 | 2025年1月15日 | 2025年2月18日 |
+| **嵌套条件** | 在模型[的](/help/models/build.md#configure)配置中定义符合条件的数据群体时，可以使用AND和OR创建嵌套条件。 | 2025年1月15日 | 2025年2月18日 |
 | **查看报告** | 您可以查看有关您定义为协调数据一部分的[转化](/help/harmonize-data/conversions.md#view-report)或[营销接触点](/help/harmonize-data/marketing-touchpoints.md#view-report)的报告。 | 2025年1月15日 | 2025年2月18日 |
 | **删除确认** | 系统会提示您确认删除[计划](/help/plans/overview.md#delete-plans)或[模型](/help/models/overview.md#delete-models)。 | 2025年1月15日 | 2025年2月18日 |
 | **因素UI改进** | 您可以选择要在模型分析中显示的[因子](/help/models/insights.md#factors-beta)。 | 2025年1月15日 | 2025年2月18日 |
