@@ -4,7 +4,7 @@ description: 最新 Mix Modeler 发行说明
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: d22bb8c9526821c28c9a59967e1be399957d3051
+source-git-commit: be13e5c45603963b994b751c589901238e09d2dc
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 4%
@@ -56,7 +56,7 @@ ht-degree: 4%
 
 ## 发布策略
 
-[!UICONTROL Mixx Modeler]使用功能标志（也称为“切换”）控制新功能的可见性，从而允许在完全发布之前进行受控规模测试。 此发布策略包括以下阶段：
+[!UICONTROL Mix Modeler]使用功能标志（也称为“切换”）控制新功能的可见性，从而允许在完全发布之前进行受控规模测试。 此发布策略包括以下阶段：
 
 * **有限测试**：从Adobe内部用户的测试开始的分阶段发布。 然后，它提供给一小部分客户使用，以确保该功能满足客户的需求和期望。
 
