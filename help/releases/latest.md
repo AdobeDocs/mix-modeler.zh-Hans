@@ -4,16 +4,16 @@ description: 最新 Mix Modeler 发行说明
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: be13e5c45603963b994b751c589901238e09d2dc
+source-git-commit: 1bd08eb1f5e803c7405d11d371127d3db8f309c4
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '536'
 ht-degree: 4%
 
 ---
 
 # 当前的Mix Modeler发行说明
 
-**上次更新日期**：2025年8月6日。
+**上次更新日期**：2025年8月20日。
 
 以下发行说明涵盖最新版本的Mix Modeler。 Mix Modeler版本在持续交付模型上运行，该模型允许大约每月一次的发布。 因此，这些发行说明将会相应更新，因此请定期检查。
 
@@ -23,6 +23,7 @@ ht-degree: 4%
 
 | 功能 | 描述 | [转出开始](#release-strategy) | [正式发布](#release-strategy) |
 |---|---|---|---|
+| **[!UICONTROL Compare plans update]** | [比较计划](/help/plans/compare.md) UI现在可显示付费营销的其他详细信息：投资回报率(ROI)或CPA，以及收入。 | 2025年8月20日 | 2025年8月20日 |
 | **协调更新** | 现在，所有数据集规则都使用类似的[通用映射到协调字段体验](/help/harmonize-data/dataset-rules.md)，无论数据集类型如何。 当您从摘要数据集中映射标准协调字段时，Mix Modeler会尝试自动推导相应的Experience Platform数据集字段。 | 2025年7月29日 | 2025年7月29日 |
 
 
