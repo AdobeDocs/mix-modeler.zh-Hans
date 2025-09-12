@@ -58,7 +58,7 @@ ht-degree: 0%
             1. 从&#x200B;**[!UICONTROL Select target metric]**&#x200B;下拉菜单中选择一个目标量度。 您可以选择介于&#x200B;**[!UICONTROL Conversion]**、**[!UICONTROL CPA]**、**[!UICONTROL Revenue]**&#x200B;或&#x200B;**[!UICONTROL ROI]**&#x200B;之间。
             1. 从&#x200B;**[!UICONTROL Select model]**&#x200B;下拉菜单中选择模型。
          1. 通过键入日期或使用![日历](/help/assets/icons/Calendar.svg)选择日期范围来指定日期范围。
-         1. 输入所选目标度量的值。 例如，**[!UICONTROL Total Conversions]**&#x200B;的数字、**[!UICONTROL Paid Marketing ROI]**&#x200B;的百分比或&#x200B;**[!UICONTROL Paid Marketing CPA]**&#x200B;和&#x200B;**[!UICONTROL Total Revenue]**的货币值。
+         1. 输入所选目标度量的值。 例如，**[!UICONTROL Total Conversions]**&#x200B;的数字、**[!UICONTROL Paid Marketing ROI]**&#x200B;的百分比或&#x200B;**[!UICONTROL Paid Marketing CPA]**&#x200B;和&#x200B;**[!UICONTROL Total Revenue]**&#x200B;的货币值。
 要添加其他日期范围（每个日期范围都有其目标指标），请选择![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**。
 要删除日期范围和关联的目标量度，请选择![关闭](/help/assets/icons/Close.svg)。
          1. 要定义要限制计划的可选最大预算，请执行以下操作：
