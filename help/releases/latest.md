@@ -4,19 +4,27 @@ description: 最新 Mix Modeler 发行说明
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 1bd08eb1f5e803c7405d11d371127d3db8f309c4
+source-git-commit: 9ac6acec2faa57a771386fc9df9cce655d711f3a
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '669'
 ht-degree: 4%
 
 ---
 
 # 当前的Mix Modeler发行说明
 
-**上次更新日期**：2025年8月20日。
+**上次更新日期**：2025年9月12日。
 
 以下发行说明涵盖最新版本的Mix Modeler。 Mix Modeler版本在持续交付模型上运行，该模型允许大约每月一次的发布。 因此，这些发行说明将会相应更新，因此请定期检查。
 
+
+## 9 月 2025 日
+
+| 功能 | 描述 | [转出开始](#release-strategy) | [正式发布](#release-strategy) |
+|---|---|---|---|
+| **[!UICONTROL Dataset mapping validations]** | 向Experience Platform数据集映射中添加了针对协调字段的验证。 | 2025年9月9日 | 2025年9月9日 |
+| **[!UICONTROL Context menu on links to model and plans]** | 启用指向模型和计划的链接的浏览器上下文菜单。 您现在可以使用该浏览器上下文菜单在新标签或窗口中打开特定计划或模型。 | 2025年9月9日 | 2025年9月9日 |
+| **修复** | 修复了以下票证： <ul><li>AMM-3101：修复了为规则创建不正确的映射： `event_date`作为字段名称而非`timestamp`传递。</li><li>AMM-3092：修复了无法更改基于重复预算的计划的渠道最大限制值。</li><li>AM3130：修复了模型的详细信息弹出窗口中错误的&#x200B;**[!UICONTROL Run frequency]**&#x200B;信息。</li><li>AMM3158：在&#x200B;**[!UICONTROL Select target metric]**&#x200B;计划创建&#x200B;**[!UICONTROL Optimize]**&#x200B;接口的[窗格中更新了](/help/plans/build.md)选项的标签。</li><li>AMM 3176：修复了无法在[的](/help/models/insights.md#breakdown)选项卡中查看&#x200B;**[!UICONTROL Attribution]**&#x200B;按渠道&#x200B;**[!UICONTROL Model Insights]**&#x200B;划分可视化图表的问题。</li></ul> | 2025年9月9日 | 2025年9月9日 |
 
 
 ## 2025 年 7 月 - 8 月
