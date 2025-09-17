@@ -3,9 +3,9 @@ title: 比较计划
 description: 了解如何在Mix Modeler中比较计划。
 feature: Plans
 exl-id: 40f6ade5-77eb-4ef7-ba60-4a2d2fcf1a60
-source-git-commit: 4564c35bd8be69a586dc5a6c91ecd0db1e3298d6
+source-git-commit: 05d9ccc11c8b4e1a5b537bba66dd4e4b162c1fcb
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ ht-degree: 0%
 
 * ROI被定义为（递增收入 — 支出）/支出。
 * CPA被定义为支出/增量转化。
+* 预测渠道定义为包括基本渠道和非支出渠道。
+* 付费营销仅定义为特定于付费营销渠道。
 
 
 ![比较计划](/help/assets/compare-plans.png)
