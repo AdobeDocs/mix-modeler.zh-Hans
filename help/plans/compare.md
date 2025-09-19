@@ -3,9 +3,9 @@ title: 比较计划
 description: 了解如何在Mix Modeler中比较计划。
 feature: Plans
 exl-id: 40f6ade5-77eb-4ef7-ba60-4a2d2fcf1a60
-source-git-commit: 05d9ccc11c8b4e1a5b537bba66dd4e4b162c1fcb
+source-git-commit: c66d4bd23aa6cf8e0be5bac179072ae562a97770
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,11 @@ ht-degree: 0%
 * **[!UICONTROL Channel budgeting]**： **[!UICONTROL AI automated]**&#x200B;或&#x200B;**[!UICONTROL Custom + AI]**
 * **[!UICONTROL Planned spend]**
 * **[!UICONTROL Forecasted ROI]** （投资回报率）或&#x200B;**[!UICONTROL CPA]** （每个操作的成本）
+   * 预测的ROI是计划的整体ROI（包括来自基本和非支出渠道的增量收入）。
+   * 预计的注册会计师是计划的总体注册会计师行业。
 * **[!UICONTROL Paid marketing ROI]** （投资回报率）或&#x200B;**[!UICONTROL CPA]** （每个操作的成本）
+   * 付费营销ROI是指计划中仅付费渠道的ROI。
+   * 付费营销CPA是计划中仅付费渠道的CPA。
 * **[!UICONTROL ROI]** （投资回报率）或&#x200B;**[!UICONTROL CPA]** （每个操作的成本） **[!UICONTROL breakdown]**
 * **[!UICONTROL Forecasted return]**
 * **[!UICONTROL Paid marketing revenue]**
@@ -36,8 +40,6 @@ ht-degree: 0%
 
 * ROI被定义为（递增收入 — 支出）/支出。
 * CPA被定义为支出/增量转化。
-* 预测渠道定义为包括基本渠道和非支出渠道。
-* 付费营销仅定义为特定于付费营销渠道。
 
 
 ![比较计划](/help/assets/compare-plans.png)
