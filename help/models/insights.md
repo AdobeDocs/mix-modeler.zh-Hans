@@ -238,7 +238,7 @@ Mix Modeler多点接触归因粒度事件得分与总体Mix Modeler得分和ROI�
 >title="模型评估图"
 >abstract="模型评估显示了细分为实际转化率与预测或残差转化率的对比。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/mix-modeler/using/overview" text="Mix Modeler 概述"
->additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Mix Modeler 演示"
+>additional-url="https://video.tv.adobe.com/v/3440804/?captions=chi_hans&learn=on&enablevpops" text="Mix Modeler 演示"
 
 
 >[!CONTEXTUALHELP]
