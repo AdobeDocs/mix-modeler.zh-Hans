@@ -30,7 +30,7 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-本文记录了![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics**&#x200B;中的归因面板。<br/>查看本文的[CustomerJourneyAnalytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution)![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg)版本的&#x200B;**归因面板**。
+本文记录了![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics**&#x200B;中的归因面板。<br/>查看本文的[CustomerJourneyAnalytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/panels/attribution)![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg)版本的&#x200B;**归因面板**。
 
 >[!ENDSHADEBOX]
 
