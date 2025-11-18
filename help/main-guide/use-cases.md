@@ -3,10 +3,10 @@ title: Mix Modeler用例
 description: Mix Modeler用例。
 feature: Schemas, Datasets, Conversions, Harmonized Data, Marketing Touch Points, Models, Plans
 exl-id: cc82abec-d0ce-44bf-ad7e-fc379a394185
-source-git-commit: c0bae17b21322cafb50370dcd787bb86b8e3e471
+source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
 workflow-type: tm+mt
 source-wordcount: '625'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -34,7 +34,7 @@ Mix Modeler支持以下主要用例。
 
 | 步骤 | 详细信息 |
 |---|---|
-| 摄取 | 识别数据源并将其摄取到常用架构下。 <br/>将Adobe Analytics或Customer Journey Analytics中的现有投资应用到快速跟踪部署。 |
+| 摄取 | 识别数据源并将其摄取到常用架构下。 <br/>将Adobe Analytics或Customer Journey Analytics中的现有投资应用到快速通道部署。 |
 | 配置 | 使用AI-as-a-Service框架为特定业务目标配置灵活的模型<br/>通过双向传输学习自动确保接触点和摘要级别之间的一致性。 |
 | 分析 | 清楚地了解整体营销和单个渠道/子渠道的ROI。<br/>清楚地了解哪些接触点最能推动增量转化。 |
 
@@ -155,7 +155,7 @@ Successful implementation of this use can have the following impact:
 |---|---|
 | 模型 | 配置和训练AI/ML模型，以获得一致的MTA接触点分数和MMM聚合结果。 |
 | 分析 | 将增量接触点得分导出到Customer Journey Analytics或外部BI工具中。<br/>执行粒度分析，并使用接触点得分构建高级仪表板。 |
-| 操作 | 使用Real-time Customer Data Platform为热门消费者区段创建和激活回顾链接。<br/>根据客户细分制定数据驱动型营销策略，以供未来活动使用。 |
+| 操作 | 使用Real-Time Customer Data Platform为热门消费者区段创建和激活回顾链接。<br/>根据客户细分制定数据驱动型营销策略，以供未来活动使用。 |
 
 {style="table-layout:auto"}
 

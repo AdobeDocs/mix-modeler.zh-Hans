@@ -3,7 +3,7 @@ title: 摄取数据概述
 description: 了解如何将数据摄取到Mix Modeler。
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: f86454dd262a0a11a20d58e380b5d2b7c90fd2b9
+source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 7%
@@ -23,7 +23,7 @@ Mix Modeler可处理来自不同封闭花园的事件级数据、汇总或汇总
 * 汇总或摘要来自封闭花园的数据(如Facebook、YouTube)、流量源或离线广告数据。
 * 包含对模型构建有用的内部或外部因素的非营销聚合或摘要数据。
 
-您可以使用Experience Platform支持的任何类型的机制，从其他来源摄取体验事件级别的汇总营销工作数据和数据。 例如Experience Platform SDK、API、源连接器以及流式摄取和批量摄取。 要了解有关在Experience Platform中引入数据以用于Adobe Mix Modeler的更多信息，请参阅[数据引入概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ingestion/home)。
+您可以使用Experience Platform支持的任何类型的机制，从其他来源摄取体验事件级别的汇总营销工作数据和数据。 例如Experience Platform SDK、API、源连接器以及流式摄取和批量摄取。 要了解有关在Experience Platform中引入数据以用于Adobe Mix Modeler的更多信息，请参阅[数据引入概述](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home)。
 
 ## 准则
 
@@ -89,7 +89,7 @@ Mix Modeler可处理来自不同封闭花园的事件级数据、汇总或汇总
 * 在[概述](/help/overview.md)中使用可视化。
 * 下载并检查来自协调数据集中的[协调数据](/help/harmonize-data/overview.md)的数据。
 
-若要验证您的数据是否在Experience Platform中正确摄取，您可以[使用Experience Platform查询服务](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/query/home)编写和执行SQL查询。
+若要验证您的数据是否在Experience Platform中正确摄取，您可以[使用Experience Platform查询服务](https://experienceleague.adobe.com/en/docs/experience-platform/query/home)编写和执行SQL查询。
 
 
 >[!MORELIKETHIS]

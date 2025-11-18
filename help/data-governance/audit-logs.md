@@ -3,7 +3,7 @@ title: 审核日志
 description: 了解如何从Mix Modeler访问审核日志。
 feature: Administration
 exl-id: aa65aac5-bea4-43ff-b0d0-9e8a6a97d3ca
-source-git-commit: 85f9b42a775006cd3566447b2bb9d0a806fa3e73
+source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 5%
@@ -22,7 +22,7 @@ If you are subject to the Health Insurance Portability and Accountability Act (H
 
 要在Mix Modeler界面中检查审核日志，请执行以下操作：
 
-1. 从&#x200B;**[!UICONTROL PRIVACY]**&#x200B;中选择![任务列表](/help/assets/icons/TaskList.svg) **[!UICONTROL Audits]**。
+1. 从![中选择](/help/assets/icons/TaskList.svg)任务列表&#x200B;**[!UICONTROL Audits]** **[!UICONTROL PRIVACY]**。
 
 1. 在&#x200B;**[!UICONTROL Audits]**&#x200B;中，您可以找到&#x200B;**[!UICONTROL Activity log]**。 活动日志显示以下Mix Modeler类别、操作和状态的条目。
 
@@ -67,4 +67,4 @@ If you are subject to the Health Insurance Portability and Accountability Act (H
 
 为您的组织启用该功能后，系统会在活动发生时自动收集审核日志。 您无需手动启用审核日志收集。
 
-要查看和导出审核日志，您必须已被授予审核日志访问访问控制权限。 要了解如何管理Mix Modeler功能的各个权限，请参阅[访问控制文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/home)。
+要查看和导出审核日志，您必须已被授予审核日志访问访问控制权限。 要了解如何管理Mix Modeler功能的各个权限，请参阅[访问控制文档](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)。

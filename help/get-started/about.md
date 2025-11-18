@@ -1,17 +1,17 @@
 ---
-title: Mix Modeler概述
+title: Mix Modeler 概述
 description: 了解 Mix Modeler 的功能和能力概述。
 short-description: 了解 Mix Modeler 的功能和能力概述。
 feature: Plans, Harmonized Data, Models
 exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
-source-git-commit: 325bc55076467a8cab5a884ea5137249913d2350
+source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
 workflow-type: tm+mt
 source-wordcount: '745'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
-# Mix Modeler概述
+# Mix Modeler 概述
 
 Mix Modeler由Adobe Sensei提供支持，允许营销人员跨所有渠道（付费、免费和拥有）衡量促销活动并全面优化规划。 其统一的方法体系在营销接触点和聚合级别都进行递增式测量，同时确保完全一致的结果。
 
@@ -86,7 +86,7 @@ Mix Modeler的多接触点归因支持两种类别的分数：
 
 * 营销活动预算分配：为跨营销渠道的预算分配决策提供信息。
 * 活动优化：在每个渠道中，了解哪些活动、创意和关键字更适合哪些SKU或Geo。 通过这种了解，您可以了解每个渠道，以便营销团队能够优化其策略。
-* 完整漏斗事件级归因：了解营销在整个客户历程中的影响。 例如，免费帐户注册以实现付费转化和其他。
+* 完整funnel事件级归因：了解营销在整个客户历程中的影响。 例如，免费帐户注册以实现付费转化和其他。
 * 伙伴评价：根据归因结果评价机构和伙伴的有效性。
 
 有关如何访问Mix Modeler中的多接触点归因分析，请参阅[模型分析 — 归因](../models/insights.md#attribution)。
