@@ -4,7 +4,7 @@ description: 最新 Mix Modeler 发行说明
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
+source-git-commit: 8b9f8b6b007f78e9c98e71be56bea48d335fb3c3
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 4%
@@ -26,7 +26,6 @@ ht-degree: 4%
 | **[!UICONTROL Context menu on links to model and plans]** | 启用指向模型和计划的链接的浏览器上下文菜单。 您现在可以使用该浏览器上下文菜单在新标签或窗口中打开特定计划或模型。 | 2025年9月9日 | 2025年9月9日 |
 | **修复** | 修复了以下票证： <ul><li>AMM-3101：修复了为规则创建不正确的映射： `event_date`作为字段名称而非`timestamp`传递。</li><li>AMM-3092：修复了无法更改基于重复预算的计划的渠道最大限制值。</li><li>AM3130：修复了模型的详细信息弹出窗口中错误的&#x200B;**[!UICONTROL Run frequency]**&#x200B;信息。</li><li>AMM3158：在&#x200B;**[!UICONTROL Select target metric]**&#x200B;计划创建&#x200B;**[!UICONTROL Optimize]**&#x200B;接口的[窗格中更新了](/help/plans/build.md)选项的标签。</li><li>AMM 3176：修复了无法在[的](/help/models/insights.md#breakdown)选项卡中查看&#x200B;**[!UICONTROL Attribution]**&#x200B;按渠道&#x200B;**[!UICONTROL Model Insights]**&#x200B;划分可视化图表的问题。</li></ul> | 2025年9月9日 | 2025年9月9日 |
 | **修复** | 修复了以下票证： <ul><li>AMM-3174：在没有现有计划可用时改进了体验。</li><li>AMM-3216：增强了对自定义日期范围的验证。</li><li>AMM-3240：固定运行模型频率显示。</ul> | 2025 年 9 月 23 日 | 2025 年 9 月 23 日 |
-
 
 ## 2025 年 7 月 - 8 月
 
