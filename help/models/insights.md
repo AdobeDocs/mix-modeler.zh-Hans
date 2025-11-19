@@ -3,9 +3,9 @@ title: 模型洞察
 description: 了解如何获取有关模型的详细信息，如Mix Modeler中的历史概述、模型见解和模型质量。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
+source-git-commit: bff18fa3d2bb5b5879dca4ab5bdce261e35b2b70
 workflow-type: tm+mt
-source-wordcount: '2332'
+source-wordcount: '2488'
 ht-degree: 2%
 
 ---
@@ -31,6 +31,7 @@ ht-degree: 2%
 可以使用以下选项卡：
 
 * [模型洞察](#model-insights)
+* [渠道协同](#channel-synergy)
 * [因素](#factors-beta) [!BADGE 测试版]
 * [归因](#attribution)（仅适用于启用MTA的模型）
 * [诊断](#diagnostics)
@@ -109,6 +110,25 @@ ht-degree: 2%
 要选择特定渠道或所有渠道，请从&#x200B;**[!UICONTROL View]**&#x200B;下拉菜单中选择。
 
 要下载接触点划分表的内容，请选择![下载](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**。
+
+
+## 渠道协同
+
+在&#x200B;**[!UICONTROL Channel synergy]**&#x200B;选项卡中，**[!UICONTROL Channel synergies]**&#x200B;可视化图表可帮助您识别营销渠道如何交互以创建乘性效果，而不只是单个渠道的贡献。
+
+热图矩阵提供支出渠道对之间协同值的视觉表示。 此矩阵可帮助营销人员了解渠道如何交互以提高性能。 对于每个模型，协同值都从0到10进行了标准化。 这些值量化了&#x200B;*下一美元协同效应*，该协同效应估计了两个渠道在各自收到当前级别的一美元额外支出时如何有效地协同工作。
+
+这一新美元框架提供了相对协同强度的现实衡量标准，因为该框架考虑到培训数据中的实际支出条件，从而能够作出更明智的优化决策。
+
+![计划渠道协同效应](/help/assets/model-channel-synergies.png)
+
+要下载表示矩阵的CSV文件，请选择![下载](/help/assets/icons/Download.svg) **[!UICONTROL Download]**。
+
+>[!NOTE]
+>
+>如果现有模型的&#x200B;**[!UICONTROL Channel synergy]**&#x200B;选项卡不可见，请确保重新训练模型以启用功能和可视化。
+
+
 
 ## **[!UICONTROL Factors]** [!BADGE 测试版]
 
@@ -238,7 +258,7 @@ Mix Modeler多点接触归因粒度事件得分与总体Mix Modeler得分和ROI�
 >title="模型评估图"
 >abstract="模型评估显示了细分为实际转化率与预测或残差转化率的对比。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/mix-modeler/using/overview" text="Mix Modeler 概述"
->additional-url="https://video.tv.adobe.com/v/3440804/?captions=chi_hans&learn=on&enablevpops" text="Mix Modeler 演示"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Mix Modeler 演示"
 
 
 >[!CONTEXTUALHELP]
@@ -255,12 +275,12 @@ Mix Modeler多点接触归因粒度事件得分与总体Mix Modeler得分和ROI�
 
 **[!UICONTROL Diagnostics]**&#x200B;选项卡显示以下各项的可视化图表：
 
-* **[!UICONTROL Model Assessment]**&#x200B;可视化图表，包括：
+* **[!UICONTROL Model Assessment]**&#x200B;可视化图表包括：
 
   ![模型评估](../assets/model-assessment.png)
 
    * 可按实际转化与预测转化或残差转化进行细分的图表。
-要划分可视化图表，请从&#x200B;**[!UICONTROL Breakdown]**&#x200B;列表中选择以下选项之一。
+要划分可视化图表，请从**[!UICONTROL Breakdown]**&#x200B;列表中选择以下选项之一。
 
       * **[!UICONTROL Actual vs Predicted]**：此选项将实际值与模型预测进行比较。 理想情况下，预测值应与实际值紧密一致，但会有一些偏差。 较大或系统的偏差或模式可能表示缺少的关系和数据或潜在的偏差。
 
@@ -277,7 +297,7 @@ Mix Modeler多点接触归因粒度事件得分与总体Mix Modeler得分和ROI�
 
   要下载包含该表数据的CSV文件，请选择![下载](/help/assets/icons/Download.svg)。
 
-* 针对每个转化量度显示的&#x200B;**[!UICONTROL Model training fit metrics]**&#x200B;表：
+* 为每个转化量度显示的&#x200B;**[!UICONTROL Model training fit metrics]**&#x200B;表：
 
   ![模型训练适合量度表](../assets/model-training-fit-metrics.png)
 
