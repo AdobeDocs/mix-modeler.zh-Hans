@@ -3,7 +3,7 @@ title: 计划的绩效
 description: 了解如何在Mix Modeler中使用性能来规划概述。
 feature: Dashboard, Plans, Models
 exl-id: 930fc1d5-8e28-4610-af7b-c4ec91f86a8a
-source-git-commit: 7834a0c4a5fd18902b73e7c307f61847bee05bc0
+source-git-commit: 89def3d6f5a1415d8f7a91b05d68d70ca881bdf4
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Mix Modeler **[!UICONTROL Performance to pan]**&#x200B;主页[!BADGE  ]{type=Informative}中的![ ](/help/assets/icons/Home.svg)Beta **[!UICONTROL Overview]**&#x200B;选项卡是测试版功能，其功能可能会发生更改。 该功能仅对有限数量的客户可用。
+>Mix Modeler **[!UICONTROL Performance to plan]**&#x200B;主页[!BADGE  ]{type=Informative}中的![ ](/help/assets/icons/Home.svg)Beta **[!UICONTROL Overview]**&#x200B;选项卡是测试版功能，其功能可能会发生更改。 该功能仅对有限数量的客户可用。
 
 Mix Modeler **[!UICONTROL Plans]**&#x200B;主页[!BADGE  ]{type=Informative}中的![ ](/help/assets/icons/Home.svg)Beta **[!UICONTROL Overview]**&#x200B;选项卡提供了一个跟踪仪表板，用于监视营销针对计划的执行情况。 您可以通过状态卡和可视化图表跟踪实际绩效与计划绩效。
 
