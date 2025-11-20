@@ -5,7 +5,7 @@ user-guide-description: 了解如何使用 Mix Modeler。
 source-git-commit: cc6f7810bf60c7b364280139cb1cbb39794595d8
 workflow-type: tm+mt
 source-wordcount: '88'
-ht-degree: 51%
+ht-degree: 55%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 51%
 
 + [Mix Modeler 指南](/help/overview.md)
 
-+ 开始使用 {#get-started}
++ 快速入门 {#get-started}
    + [什么是Mix Modeler？](/help/get-started/about.md)
    + [应用程序工作流](/help/get-started/workflow.md)
 
@@ -39,11 +39,11 @@ ht-degree: 51%
    + [概述](/help/harmonize-data/overview.md)
    + [字段](/help/harmonize-data/fields.md)
    + [数据集规则](/help/harmonize-data/dataset-rules.md)
-   + [营销接触点](/help/harmonize-data/marketing-touchpoints.md)
+   + [市场营销接触点](/help/harmonize-data/marketing-touchpoints.md)
    + [转化](/help/harmonize-data/conversions.md)
    + [使用情况报表](/help/harmonize-data/usage-report.md)
 
-+ 引入数据 {#ingest-data}
++ 摄取数据 {#ingest-data}
    + [概述](/help/ingest-data/overview.md)
    + [架构](/help/ingest-data/schemas.md)
    + [数据集](/help/ingest-data/datasets.md)
