@@ -14,9 +14,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Mix Modeler **[!UICONTROL Performance to plan]**&#x200B;主页[!BADGE  ]{type=Informative}中的![ ](/help/assets/icons/Home.svg)Beta **[!UICONTROL Overview]**&#x200B;选项卡是测试版功能，其功能可能会发生更改。 该功能仅对有限数量的客户可用。
+>Mix Modeler **[!UICONTROL Performance to plan]**&#x200B;主页[!BADGE &#x200B; &#x200B;]{type=Informative}中的![&#x200B; &#x200B;](/help/assets/icons/Home.svg)Beta **[!UICONTROL Overview]**&#x200B;选项卡是测试版功能，其功能可能会发生更改。 该功能仅对有限数量的客户可用。
 
-Mix Modeler **[!UICONTROL Plans]**&#x200B;主页[!BADGE  ]{type=Informative}中的![ ](/help/assets/icons/Home.svg)Beta **[!UICONTROL Overview]**&#x200B;选项卡提供了一个跟踪仪表板，用于监视营销针对计划的执行情况。 您可以通过状态卡和可视化图表跟踪实际绩效与计划绩效。
+Mix Modeler **[!UICONTROL Plans]**&#x200B;主页[!BADGE &#x200B; &#x200B;]{type=Informative}中的![&#x200B; &#x200B;](/help/assets/icons/Home.svg)Beta **[!UICONTROL Overview]**&#x200B;选项卡提供了一个跟踪仪表板，用于监视营销针对计划的执行情况。 您可以通过状态卡和可视化图表跟踪实际绩效与计划绩效。
 
 仪表板可帮助您识别差距、发现风险或机会，并及时调整计划和预算。
 
@@ -38,7 +38,7 @@ Mix Modeler **[!UICONTROL Plans]**&#x200B;主页[!BADGE  ]{type=Informative}中�
 * [可视化图表](#visualizations)：
    * [*量度*](#metric-actual-vs-planned)
    * [*量度*](#metric-actual-vs-planned-by-granularity)
-   * [渠道 ](#channel-metric-by-granularity)
+   * [渠道 &#x200B;](#channel-metric-by-granularity)
    * [*量度*](#metric-vs-metric-by-channel)
    * [*量度*](#metric-by-granularity)
    * [*量度*](#metric-by-channel)
@@ -102,7 +102,7 @@ Mix Modeler **[!UICONTROL Plans]**&#x200B;主页[!BADGE  ]{type=Informative}中�
 散点图可视化图表，显示选定量度中的渠道散点图。
 
 
-### *指标*，粒度为&#x200B;*3}*
+### *指标*，粒度为&#x200B;*3&rbrace;*
 
 显示选定指标的实际值和计划值的条形图可视化图表。
 
