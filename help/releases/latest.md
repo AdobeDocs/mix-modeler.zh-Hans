@@ -4,10 +4,10 @@ description: 最新 Mix Modeler 发行说明
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 6fc734793102533003c731e22dfe0d8c422a1cde
+source-git-commit: 5f3b5462bd2174534692051f61c57f0d3f9d4db0
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 5%
+source-wordcount: '874'
+ht-degree: 4%
 
 ---
 
@@ -43,6 +43,7 @@ ht-degree: 5%
 |---|---|---|---|
 | **[!UICONTROL Compare plans update]** | [比较计划](/help/plans/compare.md) UI现在可显示付费营销的其他详细信息：投资回报率(ROI)或CPA，以及收入。 | 2025年8月20日 | 2025年8月20日 |
 | **协调更新** | 现在，所有数据集规则都使用类似的[通用映射到协调字段体验](/help/harmonize-data/dataset-rules.md)，无论数据集类型如何。 当您从摘要数据集中映射标准协调字段时，Mix Modeler会尝试自动推导相应的Experience Platform数据集字段。 | 2025年7月29日 | 2025年7月29日 |
+| **增强型全景边际投资回报率/CPA优化** | 使您可改善营销预算在一段时间内的分配方式。 您无需在整个计划期间收敛边际投资回报率/CPA，而是可以[跨月](/help/plans/build.md)进行优化，同时保留每月支出模式。 | 2025年7月8日 | 2025年7月8日 |
 
 
 ## 2025年5月至6月
