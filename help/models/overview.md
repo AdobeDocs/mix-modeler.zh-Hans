@@ -3,9 +3,9 @@ title: 模型概述
 description: 了解如何在Mix Modeler中构建和使用模型。
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 620f77d5d22713381d708eef47dcb4c7eee79da9
+source-git-commit: 8f4b07782d74341afd23e8c3d15f7f2d30a7ccbd
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '963'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Mix Modeler中的模型是一种机器学习模型，用于根据营销人员的
 
 要查看当前模型的表格，请在Mix Modeler界面中执行以下操作：
 
-1. 从左边栏中选择![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**。
+1. 从左边栏中选择![FileData](/help/assets/icons2/FileData.svg) **[!UICONTROL Models]**。
 
 1. 您会看到当前模型的表。
 
@@ -54,10 +54,13 @@ Mix Modeler中的模型是一种机器学习模型，用于根据营销人员的
    | **[!UICONTROL Name]** | 模型的名称 |
    | **[!UICONTROL Description]** | 模型的描述 |
    | **[!UICONTROL Conversion event]** | 您为模型选择的转换。 |
-   | **[!UICONTROL Run frequency]** | 训练模型的运行频率。 |
+   | **[!UICONTROL Run]**&#x200B;频率 | 训练模型的运行频率。 |
    | **[!UICONTROL Last run]** | 模型上次训练的日期和时间。 |
    | **[!UICONTROL Status]** | 模型的状态。 |
 
+   要按升序![ArrowMoveUp](/help/assets/icons2/ArrowMoveUp.svg)或降序![ArrowMoveDown](/help/assets/icons2/ArrowMoveDown.svg)顺序对任意列的表进行排序，请选择列的标题。
+
+   要对&#x200B;**[!UICONTROL Name]**&#x200B;列进行排序或调整其大小，请选择&#x200B;**[!UICONTROL Name]** ![V形向下](/help/assets/icons/ChevronDown.svg)。 从上下文菜单中选择&#x200B;**[!UICONTROL Sort ascending]**、**[!UICONTROL Sort descending]**&#x200B;或&#x200B;**[!UICONTROL Resize column]**。 或者，您可以将鼠标悬停在列分隔符上以调整&#x200B;**[!UICONTROL Name]**&#x200B;列的大小。
 
    模型的报告状态取决于模型在其生命周期中的位置。 例如，模型是否创建、（重新）训练成功与否或（重新）评分成功与否。
 
@@ -119,7 +122,7 @@ Mix Modeler中的模型是一种机器学习模型，用于根据营销人员的
 
 1. 为模型选择![更多](/help/assets/icons/More.svg)，然后从上下文菜单中选择&#x200B;**[!UICONTROL Duplicate]**。
 
-您将被重定向到创建新模型的步骤，其中提议的名称由附加了&#x200B;**[!UICONTROL (Copy)] (_n_)**&#x200B;的原始模型名称组成。
+您将被重定向到创建新模型的步骤，其中提议的名称由附加了&#x200B;**[!UICONTROL (Copy)](_n_)**&#x200B;的原始模型名称组成。
 
 ### Edit
 
@@ -171,5 +174,5 @@ Mix Modeler中的模型是一种机器学习模型，用于根据营销人员的
 
 1. 选择多个模型。
 1. 从蓝色操作栏中，选择![删除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;以删除模型。
-1. 在&#x200B;**[!UICONTROL Delete]** x **[!UICONTROL Delete *模型&#x200B;*确认对话框中选择]**&#x200B;以删除模型。 选择要取消的&#x200B;**[!UICONTROL Cancel]**。
+1. 在&#x200B;**[!UICONTROL Delete]** x **[!UICONTROL Delete *模型&#x200B;*确认对话框中选择]**以删除模型。 选择要取消的&#x200B;**[!UICONTROL Cancel]**。
 

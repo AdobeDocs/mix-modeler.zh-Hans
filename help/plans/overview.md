@@ -3,9 +3,9 @@ title: 计划概述
 description: 了解如何在Mix Modeler中查看、选择和操作计划。
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: f0871834ec665c907caf0af3edeeed4fb2549a58
+source-git-commit: 0d11168b71319e6c854482f89dbb1bb68962a880
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Mix Modeler中的计划允许您按业务部门和渠道分配预算。 计划�
 
 要查看当前计划的表格，请在Mix Modeler界面中执行以下操作：
 
-1. 从左边栏中选择![](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]**。
+1. 从左边栏中选择![](/help/assets/icons2/FileChart.svg) **[!UICONTROL Plans]**。
 
 1. 您会看到当前计划及其状态的表。
 
@@ -63,6 +63,10 @@ Mix Modeler中的计划允许您按业务部门和渠道分配预算。 计划�
 
    您可以使用![ColumnSetting](/help/assets/icons/ColumnSetting.svg)来选择要显示在表格中的![复选标记](/help/assets/icons/Checkmark.svg)列。
 
+   要按升序![ArrowMoveUp](/help/assets/icons2/ArrowMoveUp.svg)或降序![ArrowMoveDown](/help/assets/icons2/ArrowMoveDown.svg)顺序对任意列的表进行排序，请选择列的标题。
+
+   要对&#x200B;**[!UICONTROL Name]**、**[!UICONTROL Model]**&#x200B;或&#x200B;**[!UICONTROL Date range]**&#x200B;列进行排序或调整其大小，请选择&#x200B;**[!UICONTROL Name]** ![V形](/help/assets/icons/ChevronDown.svg)、**[!UICONTROL Model]** ![V形](/help/assets/icons/ChevronDown.svg)或&#x200B;**[!UICONTROL Date range]** ![V形](/help/assets/icons/ChevronDown.svg)。 从上下文菜单中选择&#x200B;**[!UICONTROL Sort ascending]**、**[!UICONTROL Sort descending]**&#x200B;或&#x200B;**[!UICONTROL Resize column]**。 或者，可以将鼠标悬停在这些列的列分隔符上以调整列的大小。
+
 1. 使用![搜索](/help/assets/icons/Search.svg)在表中搜索并筛选一个或多个特定计划。
 
 ### 计划洞察
@@ -83,7 +87,7 @@ Mix Modeler中的计划允许您按业务部门和渠道分配预算。 计划�
 - 为计划选择![更多](/help/assets/icons/More.svg)。 从上下文菜单中选择&#x200B;**[!UICONTROL Duplicate]**。
 - 或者，在表![SelectBox](/help/assets/icons/SelectBox.svg)中选择一个计划，然后从蓝色操作栏中选择![复制](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]**。
 
-已创建一个新计划，其名称由原始计划的名称附加上&#x200B;**[!UICONTROL (Copy)] (_n_)**&#x200B;组成。 系统会自动将您重定向到[计划创建](build.md)，以便为复制的计划提供更新的详细信息。
+已创建一个新计划，其名称由原始计划的名称附加上&#x200B;**[!UICONTROL (Copy)](_n_)**&#x200B;组成。 系统会自动将您重定向到[计划创建](build.md)，以便为复制的计划提供更新的详细信息。
 
 - 原始计划中的详细信息（如描述、预算等）将复制过来。
 - 原始计划中的预算约束将复制到新创建的计划中。
@@ -108,12 +112,12 @@ Mix Modeler中的计划允许您按业务部门和渠道分配预算。 计划�
 要删除计划，请执行以下操作：
 
 1. 为计划选择![更多](/help/assets/icons/More.svg)。 从上下文菜单中选择&#x200B;**[!UICONTROL Delete]**。 <br/>或者，在表![SelectBox](/help/assets/icons/SelectBox.svg)中选择计划，然后从蓝色操作栏中选择![删除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**。
-1. 在&#x200B;**[!UICONTROL Delete plan]**&#x200B;确认对话框中选择&#x200B;**[!UICONTROL Delete]**&#x200B;以删除计划。 选择要取消的&#x200B;**[!UICONTROL Cancel]**。
+1. 在&#x200B;**[!UICONTROL Delete]**&#x200B;确认对话框中选择&#x200B;**[!UICONTROL Delete plan]**&#x200B;以删除计划。 选择要取消的&#x200B;**[!UICONTROL Cancel]**。
 
 要删除多个计划，请执行以下操作：
 
 1. 选择多个计划。
 1. 从蓝色操作栏中，选择![删除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;以删除计划。
-1. 在&#x200B;**[!UICONTROL Delete *x *计划]**&#x200B;确认对话框中选择&#x200B;**[!UICONTROL Delete]**&#x200B;以删除计划。 选择要取消的&#x200B;**[!UICONTROL Cancel]**。
+1. 在&#x200B;**[!UICONTROL Delete]** x **[!UICONTROL Delete *计划&#x200B;*确认对话框中选择]**以删除计划。 选择要取消的&#x200B;**[!UICONTROL Cancel]**。
 
 
