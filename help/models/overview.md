@@ -3,9 +3,9 @@ title: 模型概述
 description: 了解如何在Mix Modeler中构建和使用模型。
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
+source-git-commit: 620f77d5d22713381d708eef47dcb4c7eee79da9
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '915'
 ht-degree: 0%
 
 ---
@@ -51,14 +51,13 @@ Mix Modeler中的模型是一种机器学习模型，用于根据营销人员的
 
    | 列名称 | 详细信息 |
    |---|---|
-   | 名称 | 模型的名称 |
-   | 描述 | 模型的描述 |
-   | 转化事件 | 您为模型选择的转换。 |
-   | 运行频率 | 训练模型的运行频率。 |
-   | 上次运行 | 模型上次训练的日期和时间。 |
-   | 状态 | 模型的状态。 |
+   | **[!UICONTROL Name]** | 模型的名称 |
+   | **[!UICONTROL Description]** | 模型的描述 |
+   | **[!UICONTROL Conversion event]** | 您为模型选择的转换。 |
+   | **[!UICONTROL Run frequency]** | 训练模型的运行频率。 |
+   | **[!UICONTROL Last run]** | 模型上次训练的日期和时间。 |
+   | **[!UICONTROL Status]** | 模型的状态。 |
 
-   {style="table-layout:auto"}
 
    模型的报告状态取决于模型在其生命周期中的位置。 例如，模型是否创建、（重新）训练成功与否或（重新）评分成功与否。
 
@@ -120,7 +119,7 @@ Mix Modeler中的模型是一种机器学习模型，用于根据营销人员的
 
 1. 为模型选择![更多](/help/assets/icons/More.svg)，然后从上下文菜单中选择&#x200B;**[!UICONTROL Duplicate]**。
 
-您将被重定向到创建新模型的步骤，其中提议的名称由附加了&#x200B;**[!UICONTROL (Copy)] (_n_)**&#x200B;的原始模型名称组成。
+您将被重定向到创建新模型的步骤，其中提议的名称由附加了&#x200B;**[!UICONTROL (Copy)](_n_)**&#x200B;的原始模型名称组成。
 
 ### Edit
 
@@ -172,5 +171,5 @@ Mix Modeler中的模型是一种机器学习模型，用于根据营销人员的
 
 1. 选择多个模型。
 1. 从蓝色操作栏中，选择![删除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;以删除模型。
-1. 在&#x200B;**[!UICONTROL Delete]** x **[!UICONTROL Delete *模型&#x200B;*确认对话框中选择]**&#x200B;以删除模型。 选择要取消的&#x200B;**[!UICONTROL Cancel]**。
+1. 在&#x200B;**[!UICONTROL Delete]** x **[!UICONTROL Delete *模型&#x200B;*确认对话框中选择]**以删除模型。 选择要取消的&#x200B;**[!UICONTROL Cancel]**。
 
