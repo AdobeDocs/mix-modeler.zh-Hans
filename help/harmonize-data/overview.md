@@ -3,10 +3,10 @@ title: 协调数据集概述
 description: 了解如何在Mix Modeler中协调数据。
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 80fbb8aea3e66342a7887f1660af0f4bf05ffcdb
+source-git-commit: 83ccceb5f8b73157048ed17b190194de4ed05c4f
 workflow-type: tm+mt
-source-wordcount: '1192'
-ht-degree: 5%
+source-wordcount: '1347'
+ht-degree: 6%
 
 ---
 
@@ -17,7 +17,7 @@ Mix Modeler中的数据性质因数据源而异。 数据可以是：
 * 聚合或摘要数据，例如从围墙花园数据源收集的数据，或通过运行广告牌营销活动、事件或物理广告营销活动收集的离线广告数据（如支出），
 * 事件数据，例如来自第一方数据源的事件数据。 此事件数据可以是通过Adobe Analytics源连接器从Adobe Analytics收集的数据，也可以是通过Experience Platform Web或Mobile SDK或Edge Network API收集的数据，或使用源连接器引入的数据。
 
-Mix Modeler的协调服务将聚合和事件数据吸收到一致的数据视图中。 此数据视图与[内部和外部因素数据](#factors)相结合，是Mix Modeler中模型的源。 该服务在不同数据集上使用最高的粒度。 例如，如果一个数据集的粒度为每月，而其余数据集的粒度为每周和每日，则协调服务使用每月粒度创建一个数据视图。
+Mix Modeler的协调服务将聚合和事件数据吸收到一致的数据视图中。 此数据视图是Mix Modeler中的模型的源。 该服务在不同数据集上使用最高的粒度。 例如，如果一个数据集的粒度为每月，而其余数据集的粒度为每周和每日，则协调服务使用每月粒度创建一个数据视图。
 
 ## 因素
 
@@ -27,7 +27,22 @@ Mix Modeler的协调服务将聚合和事件数据吸收到一致的数据视图
 
 * 外部因素是组织无法控制的因素，但仍会影响您实现的转化。 例如CPI、标普500等。
 
+Mix Modeler中的因子功能使用协调的因子工作流程。 此工作流简化了因子管理方式，提供了模型间的一致性，并提供了直观的体验。
 
+作为协调因子工作流程的一部分：
+
+1. 在[数据集规则](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule)中为因子数据集中的因子定义协调字段。
+1. [同步](/help/harmonize-data/dataset-rules.md#sync-data)您的协调数据。
+1. [在模型配置中使用因子](/help/models/build.md#configure)。
+
+### 迁移
+
+您的模型可能尚未采用协调因子工作流程，并且尚未使用基于Experience Platform数据集的因子工作流程。 这些模型继续显示其原始基于数据集的因子，直到模型更新为基于协调因子工作流的新因子。
+
+当您复制使用基于数据集的因子工作流的模型时：
+
+* 如果模型未得到协调，旧的因子配置将不会延续到重复的模型中。 您必须使用新的协调因子工作流添加因子。
+* 如果模型已协调，则会结转并保留或更新系数。
 
 ## 统一数据的示例
 
@@ -39,8 +54,8 @@ Mix Modeler的协调服务将聚合和事件数据吸收到一致的数据视图
 
 | 日期 | 日期类型 | 渠道 | Campaign | 品牌 | 地域 | 点击次数 | 支出 |
 |---|:--:|---|---|---|---|---:|---:|
-| 12-31-2021 | 天 | YouTube | Y_Fall_02 | BrandX | US | 10000 | 100 |
-| 01-01-2022 | 天 | YouTube | Y_Fall_02 | BrandX | US | 1000 | 10 |
+| 12-31-2021 | 天 | YouTube | Y_Fall_02 | BrandX | 美国 | 10000 | 100 |
+| 01-01-2022 | 天 | YouTube | Y_Fall_02 | BrandX | 美国 | 1000 | 10 |
 | 01-03-2022 | 天 | YouTube | Y_Fall_01 | BrandY | CA | 10000 | 100 |
 | 01-04-2022 | 天 | YouTube | Y_Summer_01 | 空 | CA | 9000 | 80 |
 
@@ -53,9 +68,9 @@ Mix Modeler的协调服务将聚合和事件数据吸收到一致的数据视图
 
 | 日期 | 日期类型 | 渠道 | Campaign | 地域 | 点击次数 | 支出 |
 |--- |:---:|--- |---|---|---:|---:|
-| 01-01-2022 | 周 | Facebook | FB_Fall_01 | US | 8000 | 100 |
-| 01-08-2022 | 周 | Facebook | FB_Fall_02 | US | 1000 | 10 |
-| 01-08-2022 | 周 | Facebook | FB_Fall_01 | US | 7000 | 100 |
+| 01-01-2022 | 周 | Facebook | FB_Fall_01 | 美国 | 8000 | 100 |
+| 01-08-2022 | 周 | Facebook | FB_Fall_02 | 美国 | 1000 | 10 |
+| 01-08-2022 | 周 | Facebook | FB_Fall_01 | 美国 | 7000 | 100 |
 | 01-16-2022 | 周 | Facebook | FB_Summer_01 | CA | 10000 | 80 |
 
 {style="table-layout:auto"}
@@ -67,9 +82,9 @@ Mix Modeler的协调服务将聚合和事件数据吸收到一致的数据视图
 
 | 日期 | 日期类型 | 地域 | 目标 | 收入 |
 |--- |:---: |---|---|---:|
-| 01-01-2022 | 天 | US | 时尚 | 200 |
-| 01-08-2022 | 天 | US | 时尚 | 10 |
-| 01-08-2022 | 天 | US | 珠宝 | 1100 |
+| 01-01-2022 | 天 | 美国 | 时尚 | 200 |
+| 01-08-2022 | 天 | 美国 | 时尚 | 10 |
+| 01-08-2022 | 天 | 美国 | 珠宝 | 1100 |
 | 01-16-2022 | 天 | CA | 珠宝 | 80 |
 
 {style="table-layout:auto"}
@@ -95,16 +110,16 @@ Mix Modeler的协调服务将聚合和事件数据吸收到一致的数据视图
 
 | 日期 | 日期类型 | 渠道 | Campaign | 品牌 | 地域 | 目标 | 点击次数 | 支出 | 收入 |
 |--- |:---:|--- |--- |--- |---|---|---:|---:|---:|
-| 12-27-2021 | 周 | YouTube | Y_Fall_02 | BrandX | US | 空 | 11000 | 110 | 空 |
+| 12-27-2021 | 周 | YouTube | Y_Fall_02 | BrandX | 美国 | 空 | 11000 | 110 | 空 |
 | 01-03-2022 | 周 | YouTube | Y_Fall_01 | BrandY | CA | 空 | 10000 | 100 | 空 |
 | 01-03-2022 | 周 | YouTube | Y_Summer_01 | 空 | CA | 空 | 9000 | 80 | 空 |
-| 01-01-2022 | 周 | Facebook | FB_Fall_01 | 空 | US | 空 | 8000 | 100 | 空 |
-| 01-08-2022 | 周 | Facebook | FB_Fall_02 | 空 | US | 空 | 1000 | 10 | 空 |
-| 01-08-2022 | 周 | Facebook | FB_Fall_01 | 空 | US | 空 | 7000 | 100 | 空 |
+| 01-01-2022 | 周 | Facebook | FB_Fall_01 | 空 | 美国 | 空 | 8000 | 100 | 空 |
+| 01-08-2022 | 周 | Facebook | FB_Fall_02 | 空 | 美国 | 空 | 1000 | 10 | 空 |
+| 01-08-2022 | 周 | Facebook | FB_Fall_01 | 空 | 美国 | 空 | 7000 | 100 | 空 |
 | 01-16-2022 | 周 | Facebook | FB_Summer_01 | 空 | CA | 空 | 10000 | 80 | 空 |
-| 12-27-2021 | 周 | 空 | 空 | 空 | US | 时尚 | 空 | 空 | 200 |
-| 01-03-2022 | 周 | 空 | 空 | 空 | US | 时尚 | 空 | 空 | 10 |
-| 01-03-2022 | 周 | 空 | 空 | 空 | US | 珠宝 | 空 | 空 | 1100 |
+| 12-27-2021 | 周 | 空 | 空 | 空 | 美国 | 时尚 | 空 | 空 | 200 |
+| 01-03-2022 | 周 | 空 | 空 | 空 | 美国 | 时尚 | 空 | 空 | 10 |
+| 01-03-2022 | 周 | 空 | 空 | 空 | 美国 | 珠宝 | 空 | 空 | 1100 |
 | 01-10-2022 | 周 | 空 | 空 | 空 | CA | 珠宝 | 空 | 空 | 80 |
 | 01-01-2022 | 周 | CSE | 空 | 空 | 空 | 空 | 2 | 空 | 空 |
 | 01-08-2022 | 周 | CSE | 空 | 空 | 空 | 空 | 2 | 空 | 空 |
@@ -134,9 +149,9 @@ Mix Modeler的协调服务将聚合和事件数据吸收到一致的数据视图
 
    1. 要修改“协调”数据表中显示的协调字段列，请使用![设置](/help/assets/icons/Setting.svg)打开&#x200B;**[!UICONTROL Column settings]**&#x200B;对话框。
 
-      1. 从&#x200B;**[!UICONTROL AVAILABLE COLUMNS]**&#x200B;中选择![SelectBox](/help/assets/icons/SelectBox.svg)一个或多个列，并使用![右V形](/help/assets/icons/ChevronRight.svg)将这些列添加到&#x200B;**[!UICONTROL SELECTED COLUMNS]**。
+      1. 从![中选择](/help/assets/icons/SelectBox.svg)SelectBox **[!UICONTROL AVAILABLE COLUMNS]**&#x200B;一个或多个列，并使用![右V形](/help/assets/icons/ChevronRight.svg)将这些列添加到&#x200B;**[!UICONTROL SELECTED COLUMNS]**。
 
-      1. 从&#x200B;**[!UICONTROL SELECTED COLUMNS]**&#x200B;中选择![SelectBox](/help/assets/icons/SelectBox.svg)一个或多个列，并使用![左V形](/help/assets/icons/ChevronLeft.svg)删除所选列并将这些列返回给&#x200B;**[!UICONTROL AVAILABLE COLUMNS]**。
+      1. 从![中选择](/help/assets/icons/SelectBox.svg)SelectBox **[!UICONTROL SELECTED COLUMNS]**&#x200B;一个或多个列，并使用![左V形](/help/assets/icons/ChevronLeft.svg)删除所选列并将这些列返回给&#x200B;**[!UICONTROL AVAILABLE COLUMNS]**。
 
       1. 从&#x200B;**[!UICONTROL DEFAULT SORT]**&#x200B;中选择一列并在&#x200B;**[!UICONTROL Ascending]**&#x200B;或&#x200B;**[!UICONTROL Descending]**&#x200B;之间切换。
 
@@ -144,7 +159,7 @@ Mix Modeler的协调服务将聚合和事件数据吸收到一致的数据视图
 
    1. 选择&#x200B;**[!UICONTROL Submit]**&#x200B;以提交列设置更改。 选择&#x200B;**[!UICONTROL Close]**&#x200B;以取消所做的任何更改。
 
-1. 如果有更多页面可用，请使用&#x200B;_x _&#x200B;**的**&#x200B;Page _x_&#x200B;上的![向左箭头](/help/assets/icons/ChevronLeft.svg)或![向右箭头](/help/assets/icons/ChevronRight.svg)在页面之间移动。
+1. 如果有更多页面可用，请使用![x](/help/assets/icons/ChevronLeft.svg)的![x](/help/assets/icons/ChevronRight.svg)上的&#x200B;**[!UICONTROL Page _向左箭头&#x200B;_或_向右箭头_]**&#x200B;在页面之间移动。
 
 1. 您可以选择下载协调的数据。
 
@@ -156,7 +171,7 @@ Mix Modeler的协调服务将聚合和事件数据吸收到一致的数据视图
    标题基于您提供的报表名称以及当前日期和时间（例如`Test Report_2025_04_23_9-5-18.csv`）的CSV报表将下载到您的默认下载文件夹。
 
 
-## 最佳实践
+## 最佳做法
 
 当您构建协调的数据集时，请应用以下最佳实践。
 
