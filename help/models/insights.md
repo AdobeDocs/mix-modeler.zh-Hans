@@ -3,9 +3,9 @@ title: 模型洞察
 description: 了解如何获取有关模型的详细信息，如Mix Modeler中的历史概述、模型见解和模型质量。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 2775c5a3779f6731f7f3143f6ed21db2993c0955
+source-git-commit: 197aa8d5593932e68e592b89dceabf7dc75c7cc7
 workflow-type: tm+mt
-source-wordcount: '2499'
+source-wordcount: '2804'
 ht-degree: 2%
 
 ---
@@ -130,7 +130,13 @@ ht-degree: 2%
 
 
 
-## **[!UICONTROL Factors]** [!BADGE 测试版]
+## **[!UICONTROL Factors]** [!BADGE 测试版] {#factors}
+
+>[!CONTEXTUALHELP]
+>id="models_factors_factorcontributionbreakdown"
+>title="因子贡献细分"
+>abstract="因子贡献细目显示可归因于模型中所包含的各种因子的基础转化率比例。<br/><br/>纯基表示与模型中包含的营销接触点和因素无关的基础转化。 其中包括由品牌价值、重复购买、有机需求以及长期市场趋势和季节性因素驱动的转化。"
+
 
 因子[!BADGE beta]选项卡显示外部因子相关见解。
 
@@ -146,7 +152,21 @@ ht-degree: 2%
 
 如果没有可用数据，您会看到一条消息![TableAndChart](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]**。
 
-## [!UICONTROL Attribution]
+## [!UICONTROL Attribution] {#attribution}
+
+
+>[!CONTEXTUALHELP]
+>id="models_attribution_breakdownbychannel"
+>title="按渠道细分"
+>abstract="**[!UICONTROL Breakdown by channel]**&#x200B;是根据客户体验事件架构，按定义的接触点的渠道类型划分的。 选择![更多](https://spectrum.adobe.com/static/icons/workflow_18/Smock_MoreSmallList_18_N.svg)和&#x200B;**[!UICONTROL Breakdown by touchpoint]**&#x200B;以按接触点显示细分。"
+
+
+>[!CONTEXTUALHELP]
+>id="models_attribution_breakdownbytouchpointposition"
+>title="按接触点位置细分"
+>abstract="此可视化图表按接触点的位置和所有转化路径上的接触点显示已归因转化的细分。 该可视化图表会比较接触点在某个位置的贡献是否优于其余位置以及在任何位置的其他接触点。 请注意，某个归因模型在所有接触点和位置上的贡献百分比总和将等于100。 初学者、影响者和完成者职位定义如下：<ul><li>**简易版**：指示接触点是否为转化路径中的首次触点。</li><li>**播放器**：指示接触点是否不是导致转化的第一个或最后一个触点。</li><li>**终结点**：指示接触点是否为转换前的末次触点。</li></ul>"
+
+
 
 >[!NOTE]
 >
@@ -252,19 +272,36 @@ Mix Modeler多点接触归因粒度事件得分与总体Mix Modeler得分和ROI�
 
 ## [!UICONTROL Diagnostics] {#diagnostics}
 
-
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_modelassessment"
 >title="模型评估图"
 >abstract="模型评估显示了细分为实际转化率与预测或残差转化率的对比。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/mix-modeler/using/overview" text="Mix Modeler 概述"
->additional-url="https://video.tv.adobe.com/v/3440804/?captions=chi_hans&learn=on&enablevpops" text="Mix Modeler 演示"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Mix Modeler 演示"
+
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_modeltrainingfitmetrics"
+>title="模型拟合量度"
+>abstract="显示多个模型训练适合量度的概述。"
 
 
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_pathstouched"
 >title="接触的路径"
 >abstract="接触的路径是指每个接触点上实现了转化的路径百分比与未实现转化的路径百分比。"
+
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_efficiencymeasure"
+>title="效率衡量"
+>abstract="算法归因模型生成的效率度量指示接触点对转化的相对重要性，独立于接触点数量。 这是在1到5分之间来衡量。 请注意，接触点数量越大并不能保证效率测量值越高。"
+
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_totalvolume"
+>title="总量"
+>abstract="总量是用户接触接触点的总次数，包括出现在实现转化的路径上的接触点以及未导致转化的路径。"
 
 
 >[!CONTEXTUALHELP]
@@ -280,7 +317,7 @@ Mix Modeler多点接触归因粒度事件得分与总体Mix Modeler得分和ROI�
   ![模型评估](../assets/model-assessment.png)
 
    * 可按实际转化与预测转化或残差转化进行细分的图表。
-要划分可视化图表，请从&#x200B;**[!UICONTROL Breakdown]**&#x200B;列表中选择以下选项之一。
+要划分可视化图表，请从**[!UICONTROL Breakdown]**&#x200B;列表中选择以下选项之一。
 
       * **[!UICONTROL Actual vs Predicted]**：此选项将实际值与模型预测进行比较。 理想情况下，预测值应与实际值紧密一致，但会有一些偏差。 较大或系统的偏差或模式可能表示缺少的关系和数据或潜在的偏差。
 

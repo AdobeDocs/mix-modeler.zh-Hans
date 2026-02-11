@@ -3,9 +3,9 @@ title: 数据集规则
 description: 了解如何在Mix Modeler中定义要用作协调数据一部分的数据集规则。
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 2775c5a3779f6731f7f3143f6ed21db2993c0955
+source-git-commit: 5468e0aaf37bf2dca8912199ea26e5f8d9069cb5
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1728'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 表列指定有关数据集规则的详细信息：
 
-| 列名称 | 详细信息 |
+| 列名 | 详细信息 |
 | ---------------------- | ----------|
 | **[!UICONTROL Dataset]** | 数据集的名称。  使用![更多](/help/assets/icons/More.svg)为数据集选择操作。 您可以：<ul><li>![预览](/help/assets/icons/Preview.svg) **[!UICONTROL View]**&#x200B;以查看数据集规则配置。 所有字段均被禁用。</li><li>![编辑](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]**&#x200B;以编辑数据集规则配置。</li><li>![删除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;以删除数据集规则配置。 系统会提示您在“删除数据集”对话框中确认删除。 选择&#x200B;**[!UICONTROL Delete]**&#x200B;以永久删除数据集规则配置。</li><ul> |
 | **[!UICONTROL Source]** | 数据集的来源： Adobe Analytics、体验事件、摘要（汇总）或使用者体验事件。 |
@@ -76,11 +76,11 @@ ht-degree: 0%
 
       1. 从&#x200B;**[!UICONTROL Map Into]**&#x200B;中选择&#x200B;**[!UICONTROL Case]**&#x200B;或&#x200B;**[!UICONTROL Mapping type]**。
 
-      1. 选择&#x200B;**[!UICONTROL Map Into]**&#x200B;后，请选择&#x200B;**[!UICONTROL Field]**&#x200B;和&#x200B;**[!UICONTROL *AEP数据集字段&#x200B;*]**&#x200B;或&#x200B;**[!UICONTROL Value]**&#x200B;以及默认值，以便默认情况下将协调字段映射到数据集字段或输入的值。
+      1. 选择&#x200B;**[!UICONTROL Map Into]**&#x200B;后，请选择&#x200B;**[!UICONTROL Field]**&#x200B;和&#x200B;**[!UICONTROL *AEP数据集字段&#x200B;*]**或&#x200B;**[!UICONTROL Value]**以及默认值，以便默认情况下将协调字段映射到数据集字段或输入的值。
 
-      1. 当您选择&#x200B;**[!UICONTROL Case]**&#x200B;时，请选择&#x200B;**[!UICONTROL Field]**&#x200B;和&#x200B;**[!UICONTROL *AEP数据集字段&#x200B;*]**&#x200B;或&#x200B;**[!UICONTROL Value]**&#x200B;以及默认值，以便默认情况下将协调字段映射到数据集字段或输入的值。
+      1. 当您选择&#x200B;**[!UICONTROL Case]**&#x200B;时，请选择&#x200B;**[!UICONTROL Field]**&#x200B;和&#x200B;**[!UICONTROL *AEP数据集字段&#x200B;*]**或&#x200B;**[!UICONTROL Value]**以及默认值，以便默认情况下将协调字段映射到数据集字段或输入的值。
 
-         1. 要显式设置值，可定义一个或多个情况，其中包含一个或多个条件。 每个条件都可以检查特定的&#x200B;**[!UICONTROL *AEP数据集字段&#x200B;*]**，无论它是&#x200B;**[!UICONTROL Exists]**&#x200B;还是&#x200B;**[!UICONTROL Not Exists]**，或者它是&#x200B;**[!UICONTROL Contains]**、**[!UICONTROL Not Contains]**、**[!UICONTROL Equals]**、**[!UICONTROL Not Equals]**、**[!UICONTROL Starts With]**&#x200B;还是&#x200B;**[!UICONTROL Ends With]**&#x200B;在&#x200B;**[!UICONTROL *&#x200B;处输入的值输入值&#x200B;*]**。
+         1. 要显式设置值，可定义一个或多个情况，其中包含一个或多个条件。 每个条件都可以检查特定的&#x200B;**[!UICONTROL *AEP数据集字段&#x200B;*]**，无论它是&#x200B;**[!UICONTROL Exists]**还是&#x200B;**[!UICONTROL Not Exists]**，或者它是&#x200B;**[!UICONTROL Contains]**、**[!UICONTROL Not Contains]**、**[!UICONTROL Equals]**、**[!UICONTROL Not Equals]**、**[!UICONTROL Starts With]**还是&#x200B;**[!UICONTROL Ends With]**在**[!UICONTROL *&#x200B;处输入的值输入值&#x200B;*]**。
 
          1. 要添加另一个案例，请选择![添加](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**；要添加另一个条件，请选择![添加](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**。
 
@@ -154,7 +154,14 @@ ht-degree: 0%
    ![同步数据](/help/assets/sync-data.png)
 
 
-## 数据合并首选项
+## 数据合并首选项 {#data-merge-preferences}
+
+
+>[!CONTEXTUALHELP]
+>id="harmonizeddata_datasetrules_datamergepreferences"
+>title="默认量度首选项"
+>abstract="在协调期间，如果多个数据源尝试更新给定渠道的量度字段，则会应用默认首选项。 此首选项应用于沙盒级别，除非下面定义的某些量度首选项被覆盖。"
+
 
 >[!NOTE]
 >
@@ -193,7 +200,7 @@ ht-degree: 0%
    * 要添加基于特定量度的首选项，请执行以下操作：
 
       1. 选择![加](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]**。
-         1. 从&#x200B;**[!UICONTROL *量度选择&#x200B;*]**&#x200B;列表中选择一个量度。
+         1. 从&#x200B;**[!UICONTROL *量度选择&#x200B;*]**列表中选择一个量度。
          1. 选择&#x200B;**[!UICONTROL CHANNELS]**&#x200B;或&#x200B;**[!UICONTROL CONVERSION TYPES]**。 从列表中选择&#x200B;**[!UICONTROL All]**&#x200B;或特定的渠道或转化类型。
          1. 选择&#x200B;**[!UICONTROL Summary]**&#x200B;或&#x200B;**[!UICONTROL Event]**&#x200B;以指定在合并数据时汇总数据或事件数据是否优先于量度（以及所有或选定的渠道）。
 

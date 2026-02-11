@@ -1,16 +1,23 @@
 ---
 title: 转化
-description: 了解如何创建转化，以便在Mix Modeler中协调数据时使用。
+description: 了解如何创建转化，以便在Mix Modeler中用作协调数据的一部分。
 feature: Harmonized Data, Conversions
 exl-id: a8559426-452a-43e8-9a60-0c0bc97d863c
-source-git-commit: 935b179e31d1b677a8c83b1566c02b7aaa617e8d
+source-git-commit: 5468e0aaf37bf2dca8912199ea26e5f8d9069cb5
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 1%
+source-wordcount: '420'
+ht-degree: 2%
 
 ---
 
-# 转化
+# 转化 {#conversions}
+
+
+>[!CONTEXTUALHELP]
+>id="harmonizeddata_conversions_create"
+>title="转化"
+>abstract="转化事件是确定营销活动影响的业务目标。 示例：电子商务订单、店内购买、网站访问等。"
+
 
 转化事件是确定营销活动影响的业务目标。 示例：电子商务订单、店内购买、网站访问等。
 
@@ -18,7 +25,7 @@ ht-degree: 1%
 
 ## 管理转化
 
-要在Mix Modeler界面中查看可用转化的表格，请执行以下操作：
+要在Mix Modeler界面中查看可用转化表格，请执行以下操作：
 
 1. 从左边栏中选择![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]**。
 
@@ -26,7 +33,7 @@ ht-degree: 1%
 
 表列指定有关转换的详细信息：
 
-| 列名称 | 详细信息 |
+| 列名 | 详细信息 |
 | --- | ---|
 | 名称 | 转换的名称。 |
 | 收入 | 用于计算转化收入的统一数据指标。 |
@@ -48,11 +55,11 @@ ht-degree: 1%
 
    1. 定义&#x200B;**[!UICONTROL Conversion category]**。
 
-      1. 从&#x200B;**[!UICONTROL *选择协调……*]**&#x200B;中选择一个值，例如`Conversion types`。
+      1. 从&#x200B;**[!UICONTROL *选择协调……*]**中选择一个值，例如`Conversion types`。
 
       1. 选择运算符![V形](/help/assets/icons/ChevronDown.svg)的值，例如&#x200B;**[!UICONTROL is]**。
 
-      1. 从&#x200B;**[!UICONTROL *中选择值&#x200B;*]**&#x200B;或输入值，例如&#x200B;**[!UICONTROL Store]**。
+      1. 从&#x200B;**[!UICONTROL *中选择值&#x200B;*]**或输入值，例如&#x200B;**[!UICONTROL Store]**。
 
    1. 从&#x200B;**[!UICONTROL Conversion metric for analysis]**&#x200B;中选择协调字段，例如&#x200B;**[!UICONTROL Orders]**。
 
