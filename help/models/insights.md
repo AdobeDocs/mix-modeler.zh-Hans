@@ -3,10 +3,10 @@ title: 模型洞察
 description: 了解如何获取有关模型的详细信息，如Mix Modeler中的历史概述、模型见解和模型质量。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 95cc236a70db0226293f97389343dbcb75c3d203
+source-git-commit: 7526706a710bf9277ddaa48c8b7b07fb321eda34
 workflow-type: tm+mt
-source-wordcount: '2827'
-ht-degree: 2%
+source-wordcount: '2844'
+ht-degree: 3%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 2%
 
 ![检测到模型漂移对话框](/help/assets/model-drift-dialog.png)
 
-## [!UICONTROL Model insights]
+## 模型洞察
 
 “模型分析”选项卡显示[按日期和基本媒体列出的贡献](#contribution-by-date-and-base-media)、[按渠道列出的贡献](#contribution-by-channel)、[营销绩效摘要](#marketing-performance-summary)和[边际响应曲线](#marginal-response-curves)的可视化图表。 该选项卡还提供[接触点细分](#touchppint-breakdown)表。
 
@@ -140,7 +140,7 @@ ht-degree: 2%
 
 
 
-## **[!UICONTROL Factors]** [!BADGE 测试版] {#factors}
+## 因素 {#factors}
 
 >[!CONTEXTUALHELP]
 >id="models_factors_factorcontributionbreakdown"
@@ -162,7 +162,7 @@ ht-degree: 2%
 
 如果没有可用数据，您会看到一条消息![TableAndChart](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]**。
 
-## [!UICONTROL Attribution] {#attribution}
+## 归因 {#attribution}
 
 
 >[!CONTEXTUALHELP]
@@ -207,13 +207,13 @@ Mix Modeler多点接触归因粒度事件得分与总体Mix Modeler得分和ROI�
 
 归因选项卡包含以下可视化图表：
 
-### [!UICONTROL Overview]
+### 概述
 
 [!UICONTROL Overview]可视化图表显示选定归因模型的转化合计和百分比。 选择更多模型会为可视化图表添加其他圆，每个圆都有自己的颜色与图例相对应。
 
 要查看包含归因模型详细信息的弹出窗口，请将光标悬停在可视化图表中的任何圆圈上。
 
-### [!UICONTROL Trends]
+### 趋势
 
 [!UICONTROL Daily trends]、[!UICONTROL Weekly trends]或[!UICONTROL Monthly trends]可视化图表显示选定归因模型的每日、每周或每月转化趋势。
 
@@ -221,7 +221,7 @@ Mix Modeler多点接触归因粒度事件得分与总体Mix Modeler得分和ROI�
 
 要查看详细信息，请将鼠标悬停在特定归因模型的数据行上以显示一个弹出窗口，其中显示该数据的转化总数。
 
-### [!UICONTROL Breakdown]
+### 细分
 
 [!UICONTROL Breakdown]可视化图表按渠道或接触点划分每个所选归因模型的转化。 此可视化图表有助于确定每个渠道或接触点的有效性。
 
@@ -229,7 +229,7 @@ Mix Modeler多点接触归因粒度事件得分与总体Mix Modeler得分和ROI�
 
 要查看详细信息，请将鼠标悬停在任何图表元素上。
 
-### [!UICONTROL Top campaigns]
+### 热门营销活动
 
 热门促销活动可视化图表显示排名最前的促销活动列表，其中包含“促销活动名称”、“渠道”、“媒体类型”和“增量转化”列。 此可视化图表有助于让您的团队了解特定渠道的特定营销活动的有效性，并深入了解您应该进一步投资哪些营销活动。
 
@@ -249,7 +249,7 @@ Mix Modeler多点接触归因粒度事件得分与总体Mix Modeler得分和ROI�
 要关闭展开的“热门促销活动”对话框，请选择&#x200B;**[!UICONTROL Close]**。
 
 
-### [!UICONTROL Breakdown by touchpoint position]
+### 按接触点位置细分
 
 [!UICONTROL Breakdown by touchpoint position]可视化图表是按接触点位置及所有转化路径上的接触点划分的已归因转化。 此图表可帮助您比较某个接触点在某个位置的贡献是否优于其他位置以及在任何位置的其他接触点。
 
@@ -267,7 +267,7 @@ Mix Modeler多点接触归因粒度事件得分与总体Mix Modeler得分和ROI�
 | [!UICONTROL Closer] | 此位置指示接触点是否为转化前的最后一次触点。 |
 
 
-### [!UICONTROL Top conversion paths]
+### 热门转化路径
 
 [!UICONTROL Top conversion paths]可视化图表根据选定的归因模型显示前5个转化路径。
 
@@ -280,14 +280,14 @@ Mix Modeler多点接触归因粒度事件得分与总体Mix Modeler得分和ROI�
 * 这些渠道归因模型贡献百分比的总和。
 
 
-## [!UICONTROL Diagnostics] {#diagnostics}
+## 诊断 {#diagnostics}
 
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_modelassessment"
 >title="模型评估图"
 >abstract="模型评估显示了细分为实际转化率与预测或残差转化率的对比。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/mix-modeler/using/overview" text="Mix Modeler 概述"
->additional-url="https://video.tv.adobe.com/v/3440804/?captions=chi_hans&learn=on&enablevpops" text="Mix Modeler 演示"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Mix Modeler 演示"
 
 
 >[!CONTEXTUALHELP]
@@ -327,7 +327,7 @@ Mix Modeler多点接触归因粒度事件得分与总体Mix Modeler得分和ROI�
   ![模型评估](../assets/model-assessment.png)
 
    * 可按实际转化与预测转化或残差转化进行细分的图表。
-要划分可视化图表，请从&#x200B;**[!UICONTROL Breakdown]**&#x200B;列表中选择以下选项之一。
+要划分可视化图表，请从**[!UICONTROL Breakdown]**&#x200B;列表中选择以下选项之一。
 
       * **[!UICONTROL Actual vs Predicted]**：此选项将实际值与模型预测进行比较。 理想情况下，预测值应与实际值紧密一致，但会有一些偏差。 较大或系统的偏差或模式可能表示缺少的关系和数据或潜在的偏差。
 
@@ -417,7 +417,7 @@ Mix Modeler多点接触归因粒度事件得分与总体Mix Modeler得分和ROI�
 * 从&#x200B;**[!UICONTROL Channels]**&#x200B;中选择一个渠道。
 
 
-## **[!UICONTROL Edit]**
+## Edit
 
 您可以编辑模型的名称、描述以及训练和评分计划。
 
