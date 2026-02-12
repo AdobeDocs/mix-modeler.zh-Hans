@@ -3,9 +3,9 @@ title: 模型洞察
 description: 了解如何获取有关模型的详细信息，如Mix Modeler中的历史概述、模型见解和模型质量。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 197aa8d5593932e68e592b89dceabf7dc75c7cc7
+source-git-commit: 0a6ed07585f4e2d324159f649efedf2ec6d1b40b
 workflow-type: tm+mt
-source-wordcount: '2804'
+source-wordcount: '2827'
 ht-degree: 2%
 
 ---
@@ -74,9 +74,19 @@ ht-degree: 2%
 
 一个圆环图可视化图表，可显示各个渠道的贡献分布。 此可视化图表通过前三个执行渠道的镜头（不包括基本和&#x200B;*所有其他*&#x200B;类别）展示递增性。 该可视化图表有助于支持优先级和预算分配。
 
-### 营销绩效摘要
+### 营销绩效摘要 {#marketing-performance-summary}
+
+
+>[!CONTEXTUALHELP]
+>id="models_insights_marketingperformancesummary"
+>title="未定义渠道"
+>abstract="包含未定义的渠道，但没有归因转化。"
+
 
 可按每个渠道显示ROI或CPA绩效的水平条形图可视化图表。 此可视化图表突出显示您的营销投资的ROI/CPA。 根据ROI / CPA ，这些渠道按降序排名。 可视化有助于识别哪些渠道最有效以及哪些渠道可能需要优化。
+
+未定义的渠道包含在可视化中，但没有归因转化。
+
 
 ### 边际响应曲线
 
@@ -277,7 +287,7 @@ Mix Modeler多点接触归因粒度事件得分与总体Mix Modeler得分和ROI�
 >title="模型评估图"
 >abstract="模型评估显示了细分为实际转化率与预测或残差转化率的对比。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/mix-modeler/using/overview" text="Mix Modeler 概述"
->additional-url="https://video.tv.adobe.com/v/3440804/?captions=chi_hans&learn=on&enablevpops" text="Mix Modeler 演示"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Mix Modeler 演示"
 
 
 >[!CONTEXTUALHELP]
@@ -317,7 +327,7 @@ Mix Modeler多点接触归因粒度事件得分与总体Mix Modeler得分和ROI�
   ![模型评估](../assets/model-assessment.png)
 
    * 可按实际转化与预测转化或残差转化进行细分的图表。
-要划分可视化图表，请从&#x200B;**[!UICONTROL Breakdown]**&#x200B;列表中选择以下选项之一。
+要划分可视化图表，请从**[!UICONTROL Breakdown]**&#x200B;列表中选择以下选项之一。
 
       * **[!UICONTROL Actual vs Predicted]**：此选项将实际值与模型预测进行比较。 理想情况下，预测值应与实际值紧密一致，但会有一些偏差。 较大或系统的偏差或模式可能表示缺少的关系和数据或潜在的偏差。
 
