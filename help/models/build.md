@@ -3,10 +3,10 @@ title: 构建模型
 description: 了解如何在Mix Modeler中构建模型。
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: b08a24856e28a1377728bc2c511f6ea483cbd0fd
+source-git-commit: 51a8449f41ec7488e23b15e8f1a280de60b7e7fa
 workflow-type: tm+mt
-source-wordcount: '978'
-ht-degree: 0%
+source-wordcount: '1024'
+ht-degree: 3%
 
 ---
 
@@ -26,7 +26,12 @@ ht-degree: 0%
 
 1. 选择&#x200B;**[!UICONTROL Next]**&#x200B;以继续下一步骤。 选择&#x200B;**[!UICONTROL Cancel]**&#x200B;取消模型配置。
 
-## 配置
+## 配置{#configure}
+
+>[!CONTEXTUALHELP]
+>id="model_marketingtouchpoints_select"
+>title="市场营销接触点"
+>abstract="市场营销接触点是接收者、个人和/或 cookie 级别的市场营销事件，用于评估营销投资对基于数字或基于收入的转化率的影响。<br/><br/>您无法使用具有重叠数据的接触点设置模型，并且必须至少有一个具有支出的接触点。"
 
 您可以在&#x200B;**[!UICONTROL Configure]**&#x200B;步骤中配置模型。 配置涉及转化目标的定义、营销接触点、符合条件的数据群体、外部和内部因素等。
 
@@ -34,13 +39,13 @@ ht-degree: 0%
 
    ![模型 — 转换步骤](/help/assets/model-conversion-step.png)
 
-   1. 从&#x200B;**[!UICONTROL Conversion]**&#x200B;下拉菜单中选择转换。 可用转化是您在[!UICONTROL Harmonized datasets]中定义为[转化](../harmonize-data/conversions.md)一部分的转化。 例如：**[!UICONTROL Online Conversion]**。
+   1. 从&#x200B;**[!UICONTROL Conversion]**&#x200B;下拉菜单中选择转换。 可用转化是您在[中定义为](../harmonize-data/conversions.md)转化[!UICONTROL Harmonized datasets]一部分的转化。 例如：**[!UICONTROL Online Conversion]**。
 
    1. 您可以选择![LinkOutLight](/help/assets/icons/LinkOutLight.svg) **[!UICONTROL Create a conversion]**&#x200B;以直接从模型配置中创建转换。
 
 
 
-1. 在&#x200B;**[!UICONTROL Marketing touchpoints]**&#x200B;部分中，您可以选择一个或多个营销接触点，对应于您在[!UICONTROL Harmonized datasets]中定义为[营销接触点](../harmonize-data/marketing-touchpoints.md)一部分的营销接触点。
+1. 在&#x200B;**[!UICONTROL Marketing touchpoints]**&#x200B;部分中，您可以选择一个或多个营销接触点，对应于您在[中定义为](../harmonize-data/marketing-touchpoints.md)营销接触点[!UICONTROL Harmonized datasets]一部分的营销接触点。
 
 
    ![模型 — 营销接触点步骤](/help/assets/model-marketing-touchpoint-step.png)
@@ -120,7 +125,7 @@ ht-degree: 0%
 
 
 
-1. 要定义模型的回顾时间范围，请在&#x200B;**[!UICONTROL Give contribution credit to touchpoints occurring within]** ... **[!UICONTROL weeks prior to the conversion]**&#x200B;中输入一个介于`1`和`52`之间的值。
+1. 要定义模型的回顾时间范围，请在`1` ... `52`中输入一个介于&#x200B;**[!UICONTROL Give contribution credit to touchpoints occurring within]**&#x200B;和&#x200B;**[!UICONTROL weeks prior to the conversion]**&#x200B;之间的值。
 
 1. 选择&#x200B;**[!UICONTROL Next]**&#x200B;以继续下一步骤。 如果需要更多配置，请使用红色轮廓和文本说明需要哪些其他配置。 <br/>选择&#x200B;**[!UICONTROL Back]**&#x200B;以返回上一步。 <br/>选择&#x200B;**[!UICONTROL Cancel]**&#x200B;取消模型配置。
 
@@ -143,15 +148,15 @@ ht-degree: 0%
 
 1. 在&#x200B;**[!UICONTROL MTA enabled]**&#x200B;部分中：
 
-   * 要为模型启用MTA功能，请激活&#x200B;**[!UICONTROL MTA enabled]**。 如果您已启用MTA，则在培训模型和为模型评分后，即可使用多点接触归因分析。 在[模型分析](insights.md)中查看[归因](insights.md#attribution)选项卡。
+   * 要为模型启用MTA功能，请激活&#x200B;**[!UICONTROL MTA enabled]**。 如果您已启用MTA，则在培训模型和为模型评分后，即可使用多点接触归因分析。 在[模型分析](insights.md#attribution)中查看[归因](insights.md)选项卡。
 
 1. 在&#x200B;**[!UICONTROL Prior knowledge]**&#x200B;部分中：
 
    ![模型 — 先验知识](/help/assets/model-prior-knowledge-step.png)
 
-   1. 选择默认为&#x200B;**[!UICONTROL Absolute values]**&#x200B;的&#x200B;**[!UICONTROL Rule type]**。
+   1. 选择默认为&#x200B;**[!UICONTROL Rule type]**&#x200B;的&#x200B;**[!UICONTROL Absolute values]**。
 
-   1. 使用&#x200B;**[!UICONTROL Contribution proportion]**&#x200B;列为&#x200B;**[!UICONTROL Name]**&#x200B;下列出的任何渠道指定贡献百分比。
+   1. 使用&#x200B;**[!UICONTROL Name]**&#x200B;列为&#x200B;**[!UICONTROL Contribution proportion]**&#x200B;下列出的任何渠道指定贡献百分比。
 
    1. 在适当的情况下，您可以为每个渠道添加&#x200B;**[!UICONTROL Level of confidence]**&#x200B;百分比。
 
