@@ -1,12 +1,13 @@
 ---
-title: 构建模型
-description: 了解如何在Mix Modeler中构建模型。
+title: 在Mix Modeler中构建模型
+description: 了解如何在Mix Modeler中构建模型，包括如何设置、配置和指定模型的高级选项。
 feature: Models
+solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 51a8449f41ec7488e23b15e8f1a280de60b7e7fa
+source-git-commit: 011b9b83569925ca9ff4f1ee472288473fbe8502
 workflow-type: tm+mt
-source-wordcount: '1024'
-ht-degree: 3%
+source-wordcount: '1276'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +21,7 @@ ht-degree: 3%
 
 您在&#x200B;**[!UICONTROL Setup]**&#x200B;步骤中定义名称和描述：
 
-1. 输入您的模型&#x200B;**[!UICONTROL Name]**，例如`Demo model`。 输入&#x200B;**[!UICONTROL Description]**，例如`Demo model to explore AI featues of Mix Modeler`。
+1. 输入您的模型&#x200B;**[!UICONTROL Name]**，例如`Demo model`。 输入&#x200B;**[!UICONTROL Description]**，例如`Demo model to explore AI features of Mix Modeler`。
 
    ![模型名称和描述](/help/assets/model-name-description.png)
 
@@ -83,7 +84,7 @@ ht-degree: 3%
 
    * 要添加符合条件的数据填充容器，请选择![添加](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**。
 
-   * 要删除符合条件的数据填充容器，请在容器中选择![更多](/help/assets/icons/More.svg)，然后从上下文菜单中选择&#x200B;**[!UICONTROL Remove marketing touchpoint]**。
+   * 要删除符合条件的数据填充容器，请在容器中选择![更多](/help/assets/icons/More.svg)，然后从上下文菜单中选择&#x200B;**[!UICONTROL Remove container]**。
 
    * 在容器之间选择&#x200B;**And**&#x200B;和&#x200B;**Or**，以便为符合条件的数据群体构建更复杂的定义。
 
@@ -163,35 +164,62 @@ ht-degree: 3%
    1. 需要时，使用&#x200B;**[!UICONTROL Clear all]**&#x200B;清除&#x200B;**[!UICONTROL Contribution proportion]**&#x200B;和&#x200B;**[!UICONTROL Level of confidence]**&#x200B;列的所有输入值。
 
 
-## 计划
+## 设置选项
 
-您可以在&#x200B;**[!UICONTROL Schedule]**&#x200B;步骤中为模型计划训练和计分。
-
-1. 在&#x200B;**[!UICONTROL Schedule]**&#x200B;部分中，您可以计划模型训练和评分。
-
-   ![计划模型](../assets/model-schedule.png)
-
-   要计划模型评分和训练，请执行以下操作：
-
-   1. 打开&#x200B;**[!UICONTROL Enable scheduled model scoring and training]**。
-   1. 选择&#x200B;**[!UICONTROL Scoring frequency]**：
-
-      * **[!UICONTROL Daily]**：输入有效时间（例如`05:22 pm`）或使用![时钟](/help/assets/icons/Clock.svg)。
-      * **[!UICONTROL Weekly]**：选择一周中的某一天并输入有效时间（例如`05:22 pm`）或使用![时钟](/help/assets/icons/Clock.svg)。
-      * **[!UICONTROL Monthly]**：从“在每次运行时运行”下拉菜单中选择一个月中的某一天，并输入有效时间（例如`05:22 pm`）或使用![时钟](/help/assets/icons/Clock.svg)。
-
-   1. 从下拉菜单中选择&#x200B;**[!UICONTROL Training frequency]**： **[!UICONTROL Monthly]**、**[!UICONTROL Quarterly]**、**[!UICONTROL Yearly]**&#x200B;或&#x200B;**[!UICONTROL None]**。
-
-1. 在&#x200B;**[!UICONTROL Define training window]**&#x200B;部分中，选择：
-
-   ![模型 — 定义训练时段](/help/assets/model-define-training-window.png)
-
-   * **[!UICONTROL Have Mix Modeler select a helpful training window]**&#x200B;和
-
-   * **[!UICONTROL Manually input a training window]**&#x200B;的问题。选中后，在&#x200B;**[!UICONTROL Include events the following years prior to a conversion]**&#x200B;中定义年数。
+您可以[计划训练和评分](#schedule)，[定义训练时段](#training-window)，并在[步骤中为模型指定](#granular-insights-reporting-fields)粒度分析报告字段&#x200B;**[!UICONTROL Set options]**。
 
 
-1. 选择&#x200B;**[!UICONTROL Finish]**&#x200B;以完成模型配置。
+### 计划
+
+在&#x200B;**[!UICONTROL Schedule]**&#x200B;部分中，您可以计划模型训练和评分。
+
+![计划模型](../assets/model-schedule.png)
+
+要计划模型评分和训练，请执行以下操作：
+
+1. 打开&#x200B;**[!UICONTROL Enable scheduled model scoring and training]**。
+1. 选择&#x200B;**[!UICONTROL Scoring frequency]**：
+
+   * **[!UICONTROL Daily]**：输入有效时间（例如`05:22 pm`）或使用![时钟](/help/assets/icons/Clock.svg)。
+   * **[!UICONTROL Weekly]**：选择一周中的某一天并输入有效时间（例如`05:22 pm`）或使用![时钟](/help/assets/icons/Clock.svg)。
+   * **[!UICONTROL Monthly]**：从“在每次运行时运行”下拉菜单中选择一个月中的某一天，并输入有效时间（例如`05:22 pm`）或使用![时钟](/help/assets/icons/Clock.svg)。
+
+1. 从下拉菜单中选择&#x200B;**[!UICONTROL Training frequency]**： **[!UICONTROL Monthly]**、**[!UICONTROL Quarterly]**、**[!UICONTROL Yearly]**&#x200B;或&#x200B;**[!UICONTROL None]**。
+
+
+### 训练窗口期
+
+在&#x200B;**[!UICONTROL Define training window]**&#x200B;部分中，选择：
+
+![模型 — 定义训练时段](/help/assets/model-define-training-window.png)
+
+* **[!UICONTROL Have Mix Modeler select a helpful training window]**&#x200B;和
+
+* **[!UICONTROL Manually input a training window]**&#x200B;的问题。选中后，在&#x200B;**[!UICONTROL Include events the following years prior to a conversion]**&#x200B;中定义年数。
+
+
+### 粒度分析报表字段
+
+**[!UICONTROL Granular insights reporting fields]**&#x200B;部分使用粒度增量报表功能。 此功能允许您选择协调的字段来细分转化和接触点增量分数。
+
+![定义粒度分析报表字段](/help/assets/granular-insights-reporting-fields.png)
+
+您可以定义这些协调的字段，以便使用精细的报表列在模型的报表中向下扩展，而不必创建单独的模型。
+
+例如，您构建了一个侧重于收入的模型，但同时您也对促销活动、媒体类型、地区和流量源效果感兴趣。 如果没有粒度的增量报表功能，您将必须构建四个单独的模型。 利用细粒度的增量报告功能，您可以根据促销活动、媒体类型、区域和流量源来细分收入模型。
+
+1. 从&#x200B;**[!UICONTROL _下的_]**&#x200B;选择协调字段&#x200B;**[!UICONTROL Includes]**&#x200B;中选择一个或多个协调字段。 将选定的协调字段添加到该小组中。
+1. 选择&#x200B;**[!UICONTROL *协调字段&#x200B;*]**![CrossSize100](/help/assets/icons/CrossSize100.svg)以从包含所选协调字段的容器中删除协调字段。
+1. 选择&#x200B;**[!UICONTROL Clear all]**&#x200B;以删除所有选定的协调字段。
+
+粒度增量报表的选定协调字段将作为对模型评分所产生的Experience Platform [架构](/help/ingest-data/schemas.md)和[数据集](/help/ingest-data/datasets.md)的一部分提供。 可以在&#x200B;**[!UICONTROL conversionPassthrough]**&#x200B;和&#x200B;**[!UICONTROL touchpointPassthrough]**&#x200B;对象中找到粒度分析报表字段。
+
+![为启用粒度增量报表的模型创建架构中的conversionPassthrough和touchpointPassthrough对象的屏幕截图](/help/assets/schema-granular-insights-reporting.png)
+
+
+## 完成
+
+* 选择&#x200B;**[!UICONTROL Finish]**&#x200B;以完成模型配置。
 
    * 在&#x200B;**[!UICONTROL Create instance?]**&#x200B;对话框中，选择&#x200B;**[!UICONTROL Ok]**&#x200B;以立即触发第一组训练和评分运行。 您的模型已列出，状态为![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Awaiting training]**。
 
@@ -199,6 +227,7 @@ ht-degree: 3%
 
    * 如果需要更多配置，请使用红色轮廓和文本说明需要哪些其他配置。
 
-   选择&#x200B;**[!UICONTROL Back]**&#x200B;以返回上一步。
+* 选择&#x200B;**[!UICONTROL Back]**&#x200B;以返回上一步。
 
-   选择&#x200B;**[!UICONTROL Cancel]**&#x200B;取消模型配置。
+* 选择&#x200B;**[!UICONTROL Cancel]**&#x200B;取消模型配置。
+

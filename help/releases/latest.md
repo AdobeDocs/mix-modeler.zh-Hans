@@ -4,10 +4,10 @@ description: 最新 Mix Modeler 发行说明
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: b19ce70c5ba990b6b720fdf80ef68b5cf7aef07c
+source-git-commit: 011b9b83569925ca9ff4f1ee472288473fbe8502
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 4%
+source-wordcount: '317'
+ht-degree: 5%
 
 ---
 
@@ -18,6 +18,11 @@ ht-degree: 4%
 以下发行说明涵盖最新版本的Mix Modeler。 Mix Modeler版本在持续交付模型上运行，该模型允许大约每月一次的发布。 因此，这些发行说明将会相应更新，因此请定期检查。
 
 
+## 2026 年 2 月
+
+| 功能 | 描述 | [转出开始](#release-strategy) | [正式发布](#release-strategy) |
+|---|---|---|---|
+| **[!UICONTROL Granular incrementality reporting]** | 定义协调的字段，以便您可以使用[粒度分析报告字段](/help/models/build.md#granular-insights-reporting-fields)在模型报告中深入分析，而不必创建单独的模型。 | 2026年2月18日 | 2026年2月18日 |
 
 ## 2026 年 1 月
 
