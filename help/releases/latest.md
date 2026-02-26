@@ -4,16 +4,16 @@ description: 最新 Mix Modeler 发行说明
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 011b9b83569925ca9ff4f1ee472288473fbe8502
+source-git-commit: 0a5fdbe90c4a32de45f4f2756f080dc265f5fbb7
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 5%
+source-wordcount: '361'
+ht-degree: 4%
 
 ---
 
 # 当前的Mix Modeler发行说明
 
-**上次更新时间**：2026年1月13日。
+**上次更新时间**：2026年2月26日。
 
 以下发行说明涵盖最新版本的Mix Modeler。 Mix Modeler版本在持续交付模型上运行，该模型允许大约每月一次的发布。 因此，这些发行说明将会相应更新，因此请定期检查。
 
@@ -22,6 +22,7 @@ ht-degree: 5%
 
 | 功能 | 描述 | [转出开始](#release-strategy) | [正式发布](#release-strategy) |
 |---|---|---|---|
+| **协调因子工作流** | 因子现在作为[协调因子工作流](/help/harmonize-data/overview.md#factors)的一部分进行管理。 这简化了如何[定义因子数据](/help/ingest-data/schemas.md#factor-standard-fields-field-group)，如何[管理作为数据集规则一部分的内部和外部因子](/help/harmonize-data/dataset-rules.md#factor-datasets)，以及如何在[模型](/help/models/build.md#configure)中使用因子数据。 | 2026年2月25日 | 2026年2月25日 |
 | **[!UICONTROL Granular incrementality reporting]** | 定义协调的字段，以便您可以使用[粒度分析报告字段](/help/models/build.md#granular-insights-reporting-fields)在模型报告中深入分析，而不必创建单独的模型。 | 2026年2月18日 | 2026年2月18日 |
 
 ## 2026 年 1 月
