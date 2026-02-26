@@ -4,7 +4,7 @@ description: 最新 Mix Modeler 发行说明
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 95b38fd12554e7ad223434c056d870a561fd9c68
+source-git-commit: 7581053507bd1a6a07b2f3853f454631ecee8cec
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 3%
@@ -41,3 +41,4 @@ ht-degree: 3%
 * **有限测试**：从Adobe内部用户的测试开始的分阶段发布。 然后，它提供给一小部分客户使用，以确保该功能满足客户的需求和期望。
 
 * **开始推出**：分阶段发布的推出从有限测试阶段开始。 然后，此发布在两个月内从0%到100%提供给客户。 由于分阶段推出在Experience Cloud组织级别进行，因此组织中所有授权用户都将获得相同的体验。
+
