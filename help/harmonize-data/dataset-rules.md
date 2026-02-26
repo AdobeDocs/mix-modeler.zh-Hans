@@ -3,9 +3,9 @@ title: 数据集规则
 description: 了解如何在Mix Modeler中定义要用作协调数据一部分的数据集规则。
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 5468e0aaf37bf2dca8912199ea26e5f8d9069cb5
+source-git-commit: 9987c845414fa5a3abda201d55f7b1ed6e211780
 workflow-type: tm+mt
-source-wordcount: '1728'
+source-wordcount: '2102'
 ht-degree: 0%
 
 ---
@@ -48,13 +48,13 @@ ht-degree: 0%
 
 在&#x200B;**[!UICONTROL Create]**&#x200B;屏幕中，
 
-1. 在&#x200B;**[!UICONTROL Dataset details]**&#x200B;中，从&#x200B;**[!UICONTROL Select dataset]**&#x200B;中选择数据集以开始配置。 在列表中，数据集在&#x200B;**[!UICONTROL Consumer Experience Events]**、**[!UICONTROL Adobe Analytics]**、**[!UICONTROL Experience Event]**&#x200B;和&#x200B;**[!UICONTROL Summary]**&#x200B;中分类。
+1. 在&#x200B;**[!UICONTROL Dataset details]**&#x200B;中，从&#x200B;**[!UICONTROL Select dataset]**&#x200B;中选择数据集以开始配置。 在列表中，数据集在&#x200B;**[!UICONTROL Summary]**、**[!UICONTROL Adobe Analytics]**、**[!UICONTROL Experience Event]**、**[!UICONTROL Factors]**&#x200B;和&#x200B;**[!UICONTROL Consumer Experience Events]**&#x200B;中分类。
 
 1. 为&#x200B;**[!UICONTROL Start of the week]**&#x200B;选择日期。
 
 1. 为&#x200B;**[!UICONTROL Daily]**&#x200B;选择&#x200B;**[!UICONTROL Weekly]**、**[!UICONTROL Monthly]**、**[!UICONTROL Yearly]**&#x200B;或&#x200B;**[!UICONTROL Granularity]**。
 
-1. 选择&#x200B;**[!UICONTROL Summary]**&#x200B;类别的数据集后，为&#x200B;**[!UICONTROL Aggregation]**&#x200B;选择&#x200B;**[!UICONTROL Replacement]**&#x200B;或&#x200B;**[!UICONTROL Data restatement is by]**。
+1. 当您选择了&#x200B;**[!UICONTROL Summary]**&#x200B;或&#x200B;**[!UICONTROL Factors]**&#x200B;类别的数据集时，请为&#x200B;**[!UICONTROL Aggregation]**&#x200B;选择&#x200B;**[!UICONTROL Replacement]**&#x200B;或&#x200B;**[!UICONTROL Data restatement is by]**。
 
    对于营销分析人员而言，来自发布者的报表数据非常重要，因为与发布者合作通常意味着大量支出，并且报表数据的更改可能会导致洞察信息和投资计划出现很大差异。 此外，营销分析师需要准确的数据才能获得正确的洞察力，并提出令人信服的提案以获得利益相关者的信心。 但是，这些发布者(如Google和Facebook)在协调数据时通常会重新声明或删除报表数据。 大多数更改的时间范围在报告媒体性能后的7天内。 30天内可能会对数据做其他更改。 通常，在30天后，书籍会被视为已结账且数据已完整。
 
@@ -62,25 +62,23 @@ ht-degree: 0%
 
    您可以在Experience Platform数据集中将重述的摘要数据行作为增量行发送，协调服务将使用该重述数据更新协调的数据集。 同样，您也可以删除需要反映在协调服务中的汇总数据行。
 
-1. 在&#x200B;**[!UICONTROL Map to harmonized fields]**&#x200B;部分中：
+1. 在&#x200B;**[!UICONTROL Map to harmonized fields]**&#x200B;部分中，从&#x200B;**[!UICONTROL Standard harmonized field]**&#x200B;中选择协调字段。 要快速[创建新的协调字段](/help/harmonize-data/fields.md#add-a-harmonized-field)，请选择&#x200B;**[!UICONTROL Create new]**。
 
-   1. 从&#x200B;**[!UICONTROL Standard harmonized field]**&#x200B;中选择协调字段。
-
-   1. 当所选协调字段为指标类型时：
+   * 当所选协调字段为指标类型时：
 
       1. 从&#x200B;**[!UICONTROL Count]**&#x200B;中选择&#x200B;**[!UICONTROL Sum]**&#x200B;或&#x200B;**[!UICONTROL Mapping type]**。
 
       1. 选择您希望协调字段默认映射到的&#x200B;**[!UICONTROL *AEP数据集字段&#x200B;*]**。
 
-   1. 当所选字段属于维度类型时：
+   * 当所选字段属于维度类型时：
 
       1. 从&#x200B;**[!UICONTROL Map Into]**&#x200B;中选择&#x200B;**[!UICONTROL Case]**&#x200B;或&#x200B;**[!UICONTROL Mapping type]**。
 
-      1. 选择&#x200B;**[!UICONTROL Map Into]**&#x200B;后，请选择&#x200B;**[!UICONTROL Field]**&#x200B;和&#x200B;**[!UICONTROL *AEP数据集字段&#x200B;*]**&#x200B;或&#x200B;**[!UICONTROL Value]**&#x200B;以及默认值，以便默认情况下将协调字段映射到数据集字段或输入的值。
+      1. 选择&#x200B;**[!UICONTROL Map Into]**&#x200B;后，请选择&#x200B;**[!UICONTROL Field]**&#x200B;和&#x200B;**[!UICONTROL *AEP数据集字段&#x200B;*]**或&#x200B;**[!UICONTROL Value]**以及默认值，以便默认情况下将协调字段映射到数据集字段或输入的值。
 
-      1. 当您选择&#x200B;**[!UICONTROL Case]**&#x200B;时，请选择&#x200B;**[!UICONTROL Field]**&#x200B;和&#x200B;**[!UICONTROL *AEP数据集字段&#x200B;*]**&#x200B;或&#x200B;**[!UICONTROL Value]**&#x200B;以及默认值，以便默认情况下将协调字段映射到数据集字段或输入的值。
+      1. 当您选择&#x200B;**[!UICONTROL Case]**&#x200B;时，请选择&#x200B;**[!UICONTROL Field]**&#x200B;和&#x200B;**[!UICONTROL *AEP数据集字段&#x200B;*]**或&#x200B;**[!UICONTROL Value]**以及默认值，以便默认情况下将协调字段映射到数据集字段或输入的值。
 
-         1. 要显式设置值，可定义一个或多个情况，其中包含一个或多个条件。 每个条件都可以检查特定的&#x200B;**[!UICONTROL *AEP数据集字段&#x200B;*]**，无论它是&#x200B;**[!UICONTROL Exists]**&#x200B;还是&#x200B;**[!UICONTROL Not Exists]**，或者它是&#x200B;**[!UICONTROL Contains]**、**[!UICONTROL Not Contains]**、**[!UICONTROL Equals]**、**[!UICONTROL Not Equals]**、**[!UICONTROL Starts With]**&#x200B;还是&#x200B;**[!UICONTROL Ends With]**&#x200B;在&#x200B;**[!UICONTROL *&#x200B;处输入的值输入值&#x200B;*]**。
+         1. 要显式设置值，可定义一个或多个情况，其中包含一个或多个条件。 每个条件都可以检查特定的&#x200B;**[!UICONTROL *AEP数据集字段&#x200B;*]**，无论它是&#x200B;**[!UICONTROL Exists]**还是&#x200B;**[!UICONTROL Not Exists]**，或者它是&#x200B;**[!UICONTROL Contains]**、**[!UICONTROL Not Contains]**、**[!UICONTROL Equals]**、**[!UICONTROL Not Equals]**、**[!UICONTROL Starts With]**还是&#x200B;**[!UICONTROL Ends With]**在**[!UICONTROL *&#x200B;处输入的值输入值&#x200B;*]**。
 
          1. 要添加另一个案例，请选择![添加](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**；要添加另一个条件，请选择![添加](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**。
 
@@ -90,7 +88,7 @@ ht-degree: 0%
 
          1. 要设置案例的结果值，请在&#x200B;**[!UICONTROL Then]**&#x200B;处输入值。
 
-      以下示例
+     以下示例：
 
       * 使用&#x200B;**[!UICONTROL Map Into]** **[!UICONTROL Mapping type]**&#x200B;将&#x200B;**[!UICONTROL Channel Type At Source]**&#x200B;协调字段映射到&#x200B;**[!UICONTROL channel_type]**&#x200B;数据集中的&#x200B;**[!DNL Luma Transactions]**&#x200B;字段。
 
@@ -101,15 +99,6 @@ ht-degree: 0%
 
         ![数据集规则事件](/help/assets/dataset-create-event.png)
 
-      当您从摘要数据集中映射标准协调字段时，Mix Modeler会尝试推导相应的Experience Platform数据集字段。 成功后：
-
-      * 如果字段为维度类型，则选择&#x200B;**[!UICONTROL Map into]**&#x200B;作为&#x200B;**[!UICONTROL Mapping type]**。
-      * 如果字段为量度类型，则选择&#x200B;**[!UICONTROL Sum]**&#x200B;作为&#x200B;**[!UICONTROL Mapping type]**。
-      * 已选择&#x200B;**[!UICONTROL Field]**&#x200B;作为&#x200B;**[!UICONTROL Default]**&#x200B;映射类型。
-      * 将自动为&#x200B;*Experience Platform数据集字段*&#x200B;插入相应的AEP数据集字段。
-
-      如果任何建议值不正确或不支持您的特定用例，则可以更改这些值。
-
 1. 选择![添加](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add field]**&#x200B;以定义其他字段。
 
 完成后，选择&#x200B;**[!UICONTROL Save as draft]**&#x200B;以保存规则的草稿版本，或选择&#x200B;**[!UICONTROL Save]**&#x200B;以保存并激活规则。 选择&#x200B;**[!UICONTROL Cancel]**&#x200B;取消规则配置。
@@ -119,7 +108,82 @@ ht-degree: 0%
 >摘要数据集规则的专用&#x200B;**[!UICONTROL Map to harmonized fields]**&#x200B;体验已弃用。 现在，无论数据集类型如何，所有数据集规则都使用类似的&#x200B;**[!UICONTROL Map to harmonized fields]**&#x200B;体验。 对于已使用已弃用的&#x200B;**[!UICONTROL Map to harmonized fields]**&#x200B;体验为其定义了规则的摘要数据集，您可能希望根据通用&#x200B;**[!UICONTROL Map to harmonized field]**&#x200B;体验验证这些规则。
 >
 
+#### 摘要数据集
 
+当您从摘要数据集中映射标准协调字段时，Mix Modeler会尝试推导相应的Experience Platform数据集字段。 成功后：
+
+* 如果字段为维度类型，则选择&#x200B;**[!UICONTROL Map into]**&#x200B;作为&#x200B;**[!UICONTROL Mapping type]**。
+* 如果字段为量度类型，则选择&#x200B;**[!UICONTROL Sum]**&#x200B;作为&#x200B;**[!UICONTROL Mapping type]**。
+* 已选择&#x200B;**[!UICONTROL Field]**&#x200B;作为&#x200B;**[!UICONTROL Default]**&#x200B;映射类型。
+* 将自动为&#x200B;*Experience Platform数据集字段*&#x200B;插入相应的AEP数据集字段。
+
+如果任何建议值不正确或不支持您的特定用例，则可以更改这些值。
+
+
+#### 因子数据集
+
+将协调字段映射到因子数据集中的字段，这样您就可以[添加因子作为模型配置的一部分](/help/models/build.md)。
+
+将协调字段映射到因子数据集中的字段时，将应用以下内容：
+
+##### 因子名称
+
+当您从因子数据集映射标准协调因子字段并且该因子数据集包含单个因子时，使用&#x200B;**[!UICONTROL Map into]**&#x200B;作为&#x200B;**[!UICONTROL Mapping type]**&#x200B;并为&#x200B;**[!UICONTROL Factor Name]**&#x200B;协调字段输入默认值。
+
+![数据集规则 — 映射单因素数据集](../assets/dataset-create-rule-factor-single.png)
+
+如果因子数据集包含多个因子，请使用&#x200B;**[!UICONTROL Case As]**&#x200B;作为&#x200B;**[!UICONTROL Mapping Type]**&#x200B;来定义因子名称协调字段和每个不同因子名称之间的映射。
+
+![数据集规则 — 映射单因素数据集](../assets/dataset-create-rule-factor-multiple.png)
+
+
+##### 因子类型
+
+在因子数据集和架构中，此字段是可选的。 如果在因子数据集和架构中定义了&#x200B;**[!UICONTROL Factor type]**&#x200B;并指定了&#x200B;**[!UICONTROL Internal]**&#x200B;或&#x200B;**[!UICONTROL External]**，则使用提供的值。 如果未指定值，则使用默认&#x200B;**[!UICONTROL Internal]**。
+
+##### 值类型
+
+在因子数据集和架构中，此字段是可选的。 如果在因子数据集和架构中定义了&#x200B;**[!UICONTROL Value type]**&#x200B;并指定了&#x200B;**[!UICONTROL Actual]**&#x200B;或&#x200B;**[!UICONTROL Forecasted]**，则使用提供的值。 如果未指定值，则使用默认&#x200B;**[!UICONTROL Actual]**。
+
+
+##### 粒度
+
+当因子数据集中的所有因子具有相同的源粒度时，您可以为因子数据集的粒度定义数据集规则。
+
+一旦协调了因子数据集，所有数据集就会在协调的数据集中遵循最高级别的粒度。
+
+
+##### 因子值
+
+对于&#x200B;**[!UICONTROL Factor value]**&#x200B;协调字段，使用聚合运算符之一作为&#x200B;**[!UICONTROL Mapping Type]**。 在因子数据集中定义多个因子时，聚合运算符将应用于所有因子。
+
+
+##### 示例
+
+* 您有一个因子数据集，其中包含以下示例数据：
+
+  | 时间戳 | 因子名称 | 因子值 |
+  |---|---|---:|
+  | 2025年3月13日 | _definedsp500 | 10 |
+  | 2025年3月13日 | _cpi | 20 |
+  | 2025年3月14日 | _definedsp500 | 30 |
+  | 2025年3月14日 | _cpi | 40 |
+  | 2025年3月15日 | _definedsp500 | 50 |
+  | 2025年3月15日 | _cpi | 60 |
+
+
+* 您为&#x200B;**[!UICONTROL Factor Name]**、**[!UICONTROL Factor Value]**&#x200B;和&#x200B;**[!UICONTROL Granularity]**&#x200B;定义了以下数据集规则：
+
+  ![数据集规则 — 因子示例](../assets/dataset-create-rule-factor-example.png)
+
+* 这将产生以下统一数据：
+
+  | 因子名称 | 因子值 | 因子类型 | 值类型 |
+  |---|---:|---|---|
+  | CPI | 20 | 内部 | 实际 |
+  | 标准普尔500指数 | 10 | 内部 | 实际 |
+
+  由于没有为&#x200B;**[!UICONTROL Factor Type]**&#x200B;和&#x200B;**[!UICONTROL Value Type]**&#x200B;定义数据集规则，因此使用默认值。
 
 ### 编辑数据集规则
 
@@ -200,7 +264,7 @@ ht-degree: 0%
    * 要添加基于特定量度的首选项，请执行以下操作：
 
       1. 选择![加](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]**。
-         1. 从&#x200B;**[!UICONTROL *量度选择&#x200B;*]**&#x200B;列表中选择一个量度。
+         1. 从&#x200B;**[!UICONTROL *量度选择&#x200B;*]**列表中选择一个量度。
          1. 选择&#x200B;**[!UICONTROL CHANNELS]**&#x200B;或&#x200B;**[!UICONTROL CONVERSION TYPES]**。 从列表中选择&#x200B;**[!UICONTROL All]**&#x200B;或特定的渠道或转化类型。
          1. 选择&#x200B;**[!UICONTROL Summary]**&#x200B;或&#x200B;**[!UICONTROL Event]**&#x200B;以指定在合并数据时汇总数据或事件数据是否优先于量度（以及所有或选定的渠道）。
 
