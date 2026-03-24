@@ -74,11 +74,11 @@ ht-degree: 3%
 
       1. 从&#x200B;**[!UICONTROL Mapping type]**&#x200B;中选择&#x200B;**[!UICONTROL Map Into]**&#x200B;或&#x200B;**[!UICONTROL Case]**。
 
-      1. 当您选择了&#x200B;**[!UICONTROL Map Into]**&#x200B;时，请选择&#x200B;**[!UICONTROL Field]**&#x200B;和&#x200B;**[!UICONTROL *AEP数据集字段&#x200B;*]**或&#x200B;**[!UICONTROL Value]**以及默认值，以将协调的字段默认映射到数据集字段或输入的值。
+      1. 当您选择了&#x200B;**[!UICONTROL Map Into]**&#x200B;时，请选择&#x200B;**[!UICONTROL Field]**&#x200B;和&#x200B;**[!UICONTROL *AEP数据集字段&#x200B;*]**&#x200B;或&#x200B;**[!UICONTROL Value]**&#x200B;以及默认值，以将协调的字段默认映射到数据集字段或输入的值。
 
-      1. 当您选择&#x200B;**[!UICONTROL Case]**&#x200B;时，请选择&#x200B;**[!UICONTROL Field]**&#x200B;和&#x200B;**[!UICONTROL *AEP数据集字段&#x200B;*]**或&#x200B;**[!UICONTROL Value]**以及默认值，以将协调的字段默认映射到数据集字段或输入的值。
+      1. 当您选择&#x200B;**[!UICONTROL Case]**&#x200B;时，请选择&#x200B;**[!UICONTROL Field]**&#x200B;和&#x200B;**[!UICONTROL *AEP数据集字段&#x200B;*]**&#x200B;或&#x200B;**[!UICONTROL Value]**&#x200B;以及默认值，以将协调的字段默认映射到数据集字段或输入的值。
 
-         1. 要显式设置值，可定义一个或多个由一个或多个条件组成的情况。 每个条件都可以检查特定&#x200B;**[!UICONTROL *AEP数据集字段&#x200B;*]**是&#x200B;**[!UICONTROL Exists]**还是&#x200B;**[!UICONTROL Not Exists]**，是否&#x200B;**[!UICONTROL Contains]**、**[!UICONTROL Not Contains]**、**[!UICONTROL Equals]**、**[!UICONTROL Not Equals]**、**[!UICONTROL Starts With]**或&#x200B;**[!UICONTROL Ends With]**在**[!UICONTROL *&#x200B;输入值&#x200B;*]**&#x200B;处输入的值。
+         1. 要显式设置值，可定义一个或多个由一个或多个条件组成的情况。 每个条件都可以检查特定&#x200B;**[!UICONTROL *AEP数据集字段&#x200B;*]**&#x200B;是&#x200B;**[!UICONTROL Exists]**&#x200B;还是&#x200B;**[!UICONTROL Not Exists]**，是否&#x200B;**[!UICONTROL Contains]**、**[!UICONTROL Not Contains]**、**[!UICONTROL Equals]**、**[!UICONTROL Not Equals]**、**[!UICONTROL Starts With]**&#x200B;或&#x200B;**[!UICONTROL Ends With]**&#x200B;在&#x200B;**[!UICONTROL *&#x200B;输入值&#x200B;*]**&#x200B;处输入的值。
 
          1. 要添加其他案例，请选择![添加](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**；要添加其他条件，请选择![添加](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**。
 
@@ -264,7 +264,7 @@ ht-degree: 3%
    * 要添加基于特定度量的首选项，请执行以下操作：
 
       1. 选择“![加](/help/assets/icons/AddCircle.svg)”**[!UICONTROL Add a metric]**。
-         1. 从&#x200B;**[!UICONTROL *度量选择&#x200B;*]**列表中选择度量。
+         1. 从&#x200B;**[!UICONTROL *度量选择&#x200B;*]**&#x200B;列表中选择度量。
          1. 选择 **[!UICONTROL CHANNELS]** 或 **[!UICONTROL CONVERSION TYPES]**。 从列表中选择&#x200B;**[!UICONTROL All]**&#x200B;或特定通道或转换类型。
          1. 选择“**[!UICONTROL Summary]**”或“**[!UICONTROL Event]**”以指定合并数据时是否优先使用摘要数据或事件数据作为度量（以及所有或所选通道）。
 

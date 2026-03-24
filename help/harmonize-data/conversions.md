@@ -55,11 +55,11 @@ ht-degree: 10%
 
    1. 定义&#x200B;**[!UICONTROL Conversion category]**。
 
-      1. 从&#x200B;**[!UICONTROL *选择协调……*]**中选择一个值，例如`Conversion types`。
+      1. 从&#x200B;**[!UICONTROL *选择协调……*]**&#x200B;中选择一个值，例如`Conversion types`。
 
       1. 为运算符![Chevron](/help/assets/icons/ChevronDown.svg)选择一个值，例如&#x200B;**[!UICONTROL is]**。
 
-      1. 从&#x200B;**[!UICONTROL *选择值&#x200B;*]**中选择一个值或输入一个值，例如&#x200B;**[!UICONTROL Store]**。
+      1. 从&#x200B;**[!UICONTROL *选择值&#x200B;*]**&#x200B;中选择一个值或输入一个值，例如&#x200B;**[!UICONTROL Store]**。
 
    1. 从&#x200B;**[!UICONTROL Conversion metric for analysis]**&#x200B;中选择协调的字段，例如&#x200B;**[!UICONTROL Orders]**。
 
