@@ -2,22 +2,24 @@
 cloud: Experience Cloud
 solution: Mix Modeler
 product: experience cloud
+landing-page-name: mix-modeler
+landing-page-breadcrumb-title: Mix Modeler
 type: Documentation
 mini-toc-levels: 2
-git-repo: https://github.com/AdobeDocs/mix-modeler.zh-Hans
+git-repo: https://github.com/AdobeDocs/mix-modeler.en
 index: true
 feature-set: Mix Modeler
 role: User, Admin
-source-git-commit: a9f4cd8a28551ed10c7c374d0269b014bf2ef82e
+source-git-commit: e8378b4f24f519b7f1f8ad04330287b9ce5d8a88
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 80%
+source-wordcount: '69'
+ht-degree: 0%
 
 ---
 
 
-# 内部使用的元数据
+# 元数据供内部使用
 
-metadata.md 文件包括可传递给存储库中用户指南 TOC.md 文件的存储库级别元数据。如果要更改任何用户指南的 metadata.md 内容，请在任意 TOC.md 文件中进行更改。
+metadata.md文件包含存储库级别的元数据，这些元数据会传送到存储库中的用户指南TOC.md文件。 如果要更改任何用户指南的metadata.md内容，请在任何TOC.md文件中进行更改。
 
-请参阅[元数据](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html)以获取 **solution**、**product** 和 **type** 的有效值的列表。
+查看[元数据](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html)以获取&#x200B;**解决方案**、**产品**&#x200B;和&#x200B;**类型**&#x200B;的有效值列表。
