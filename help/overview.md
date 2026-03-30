@@ -4,7 +4,7 @@ description: 了解如何用 Mix Modeler 在所有渠道上衡量营销活动并
 short-description: 了解如何用 Mix Modeler 在所有渠道上衡量营销活动并全面优化规划。
 feature: Harmonized Data, Models, Plans
 exl-id: 3427c338-f2a0-416b-bb4c-d8fef929c38a
-source-git-commit: 7581053507bd1a6a07b2f3853f454631ecee8cec
+source-git-commit: be8ff78c9f286356e9335b81f11a4efb07e39956
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 14%
@@ -74,8 +74,7 @@ ht-degree: 14%
     </td>
         <td>
       <img src="assets/Learn.svg" width="35px"><br/>
-      <strong>教程</strong><br/><a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/overview.html?lang=zh-Hans">概述</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/use-cases.html?lang=zh-Hans">用例</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-workflow.html?lang=zh-Hans">用户工作流程</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-interface-tour.html?lang=zh-Hans">用户界面导览</a>
+      <strong>教程</strong><br/><a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/overview.html?lang=en">概述</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/use-cases.html?lang=en">用例</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-workflow.html?lang=en">用户工作流程</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-interface-tour.html?lang=en">用户界面导览</a>
     </td>
   </tr>
 </table>
-
