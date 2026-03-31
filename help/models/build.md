@@ -1,13 +1,13 @@
 ---
 title: 在Mix Modeler中构建模型
-description: 了解如何在Mix Modeler中构建模型，包括如何设置、配置和指定模型的高级选项。
+description: 了解如何在Mix Modeler中构建模型，包括如何设置、配置和指定模型的高级选项。 例如，转化目标、接触点、广告和计划。
 feature: Models
 solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: efe31b517c1a6be518101fa8266b020348241b98
+source-git-commit: dd7a7260464b27b8ef257004b1c2a64d70ffe122
 workflow-type: tm+mt
-source-wordcount: '1275'
-ht-degree: 4%
+source-wordcount: '1557'
+ht-degree: 3%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 为了构建自定义AI支持的模型，界面提供了分步引导式模型配置流程。
 
-在Mix Modeler的![模型](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**&#x200B;界面中，选择&#x200B;**[!UICONTROL Open model canvas]**。
+在[!DNL Mix Modeler]的![模型](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**&#x200B;界面中，选择&#x200B;**[!UICONTROL Open model canvas]**。
 
 ## 设置
 
@@ -27,7 +27,7 @@ ht-degree: 4%
 
 1. 选择&#x200B;**[!UICONTROL Next]**&#x200B;以继续下一步骤。 选择&#x200B;**[!UICONTROL Cancel]**&#x200B;取消模型配置。
 
-## 配置{#configure}
+## 配置 {#configure}
 
 >[!CONTEXTUALHELP]
 >id="model_marketingtouchpoints_select"
@@ -96,61 +96,96 @@ ht-degree: 4%
    * 要添加因子数据集，请选择&#x200B;**[!UICONTROL Add Factor]**。 最多可以向模型添加30个因子。
 
       1. 从下拉菜单中选择&#x200B;**[!UICONTROL Factor dataset]**。 可用因子是您在[数据集规则](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule)中定义协调字段的因子。
-基于所选数据集，**[!UICONTROL Factor type**]为&#x200B;**[!UICONTROL Internal]**&#x200B;或&#x200B;**[!UICONTROL External]**。
+基于所选数据集，**[!UICONTROL Factor type]**&#x200B;为&#x200B;**[!UICONTROL Internal]**&#x200B;或&#x200B;**[!UICONTROL External]**。
 
       1. 从下拉菜单中选择&#x200B;**[!UICONTROL Impact on conversion]**。 可用选项为： **[!UICONTROL Auto]**、**[!UICONTROL Positive]**&#x200B;或&#x200B;**[!UICONTROL Negative]**。 默认选项是&#x200B;**[!UICONTROL Auto]**，它允许模型确定因子数据集的影响。
 
    * 要删除因子数据集，请选择![CrossSize200](/help/assets/icons/CrossSize400.svg)。
 
 
-
-
 1. 要为模型定义回看窗口期，请在&#x200B;**[!UICONTROL Define lookback window]**&#x200B;部分的&#x200B;**[!UICONTROL Give contribution credit to touchpoints occurring within]** ... **[!UICONTROL weeks prior to the conversion]**&#x200B;中输入一个介于`1`和`52`之间的值。
+
+1. 要定义模型的训练时间范围，请在&#x200B;**[!UICONTROL Define training window]**&#x200B;处，选择开始评分转化的位置。
+
+   ![模型 — 定义训练时段](/help/assets/model-define-training-window.png)
+
+   您可以在以下各项之间进行选择：
+
+   * **[!UICONTROL Have Mix Modeler select a helpful training window]**&#x200B;和
+
+   * **[!UICONTROL Manually input a training window]**. 选中后，在&#x200B;**[!UICONTROL Include events the following years prior to a conversion]**&#x200B;中定义年数。
+
+   模型需要此输入。 年数决定了您可以在&#x200B;**[!UICONTROL Advanced]**&#x200B;步骤中配置的渠道adstock的上限方式。
 
 1. 选择&#x200B;**[!UICONTROL Next]**&#x200B;以继续下一步骤。 如果需要更多配置，请使用红色轮廓和文本说明需要哪些其他配置。<br/>选择&#x200B;**[!UICONTROL Back]**&#x200B;以返回上一步。<br/>选择&#x200B;**[!UICONTROL Cancel]**&#x200B;取消模型配置。
 
 
-## 高级
+## 高级 {#advanced}
 
 >[!CONTEXTUALHELP]
 >id="model_advanced_channeladstock"
 >title="渠道adstock"
->abstract="将领域专业知识、试验结果或以前的渠道分析直接纳入模型设置。 Adstock配置有助于引导模型与现实世界的期望保持一致，并提高输出的可解释性和可信度。 每个渠道的回看周数加上滞后周数总计的上限为配置的培训时段的八分之一。 此上限允许模型有足够的数据来学习广告库存效果。"
+>abstract="将领域专业知识、试验结果或以前的渠道分析直接纳入模型设置。 Adstock配置有助于引导模型与现实世界的期望保持一致，并提高输出的可解释性和可信度。 每个渠道的回看周数加上滞后周数总计的上限为配置的培训时段的八分之一。 此上限允许模型有足够的数据来了解adstock效果。"
 
-您可以在&#x200B;**[!UICONTROL Advanced]**&#x200B;步骤中指定高级设置。 在此步骤中，您可以为多点接触归因(MTA)启用模型。
+您可以在&#x200B;**[!UICONTROL Advanced]**&#x200B;步骤中指定高级设置。 在此步骤中，您可以定义[支出共享](#spend-share)，启用[多点接触归因(MTA)](#mta)的模型，定义[先验知识](#prior-knowledge)并定义[渠道adstock](#channel-adstock)。
 
-1. 在&#x200B;**[!UICONTROL Spend share]**&#x200B;部分中：
+### 支出共享
 
-   * 要在营销数据稀疏时使用历史营销投资比率通知模型，请激活&#x200B;**[!UICONTROL Allow spend share]**。 建议使用此设置，尤其是在以下情况下：
-      * 渠道没有足够的观察次数（例如，消费频率低、展示次数或点击次数少）。
-      * 您正在对数据可能稀疏的尖峰但常规且潜在的高消费媒体（如某些品牌的电视节目）建模。
+在&#x200B;**[!UICONTROL Spend share]**&#x200B;部分中：
 
-     >[!NOTE]
-     >
-     >对于一次性投资（例如超级碗广告），考虑将该数据作为一个因素纳入，而不是依赖支出份额。
-     >
+* 要在营销数据稀疏时使用历史营销投资比率通知模型，请激活&#x200B;**[!UICONTROL Allow spend share]**。 建议使用此设置，尤其是在以下情况下：
+   * 渠道没有足够的观察次数（例如，消费频率低、展示次数或点击次数少）。
+   * 您正在对数据可能稀疏的尖峰但常规且潜在的高消费媒体（如某些品牌的电视节目）建模。
+
+  >[!NOTE]
+  >
+  >对于一次性投资（例如超级碗广告），应将该数据作为一个因素考虑，而不是依赖支出份额。
+  >
+
+### MTA
+
+在&#x200B;**[!UICONTROL MTA enabled]**&#x200B;部分中：
+
+* 要为模型启用MTA功能，请激活&#x200B;**[!UICONTROL MTA enabled]**。 如果您已启用MTA，则在培训模型和为模型评分后，即可使用多点接触归因分析。 在[模型分析](insights.md)中查看[归因](insights.md#attribution)选项卡。
 
 
-1. 在&#x200B;**[!UICONTROL MTA enabled]**&#x200B;部分中：
+### 先验知识
 
-   * 要为模型启用MTA功能，请激活&#x200B;**[!UICONTROL MTA enabled]**。 如果您已启用MTA，则在培训模型和为模型评分后，即可使用多点接触归因分析。 在[模型分析](insights.md)中查看[归因](insights.md#attribution)选项卡。
+在&#x200B;**[!UICONTROL Prior knowledge]**&#x200B;部分中：
 
-1. 在&#x200B;**[!UICONTROL Prior knowledge]**&#x200B;部分中：
+![模型 — 先验知识](/help/assets/model-prior-knowledge-step.png)
 
-   ![模型 — 先验知识](/help/assets/model-prior-knowledge-step.png)
+1. 选择默认为&#x200B;**[!UICONTROL Absolute values]**&#x200B;的&#x200B;**[!UICONTROL Rule type]**。
 
-   1. 选择默认为&#x200B;**[!UICONTROL Absolute values]**&#x200B;的&#x200B;**[!UICONTROL Rule type]**。
+1. 使用&#x200B;**[!UICONTROL Contribution proportion]**&#x200B;列为&#x200B;**[!UICONTROL Name]**&#x200B;下列出的任何渠道指定贡献百分比。
 
-   1. 使用&#x200B;**[!UICONTROL Contribution proportion]**&#x200B;列为&#x200B;**[!UICONTROL Name]**&#x200B;下列出的任何渠道指定贡献百分比。
+1. 在适当的情况下，您可以为每个渠道添加&#x200B;**[!UICONTROL Level of confidence]**&#x200B;百分比。
 
-   1. 在适当的情况下，您可以为每个渠道添加&#x200B;**[!UICONTROL Level of confidence]**&#x200B;百分比。
+1. 需要时，使用&#x200B;**[!UICONTROL Clear all]**&#x200B;清除&#x200B;**[!UICONTROL Contribution proportion]**&#x200B;和&#x200B;**[!UICONTROL Level of confidence]**&#x200B;列的所有输入值。
 
-   1. 需要时，使用&#x200B;**[!UICONTROL Clear all]**&#x200B;清除&#x200B;**[!UICONTROL Contribution proportion]**&#x200B;和&#x200B;**[!UICONTROL Level of confidence]**&#x200B;列的所有输入值。
+
+### 渠道adstock
+
+在&#x200B;**[!UICONTROL Channel adstock]**&#x200B;部分中，您可以为模型中定义的每个渠道（营销渠道）定义单个Adstock回看（结转或衰减效果）和滞后（延迟响应时间）。
+
+此渠道adstock配置允许对不同的营销渠道如何随着时间推移影响业务结果进行细粒度控制。 或者，您可以使用系统缺省值和“一刀切”配置。
+
+渠道adstock配置可帮助您捕获渠道特定的细微差别。 例如，电视广告的长期影响，付费搜索的短期影响，或者影响者支出与可观察转化之间的滞后。 尝试使用adstock回顾和滞后参数，生成更准确、量身定制且值得信赖的见解。 最终，渠道adstock配置可以带来更准确的预算分配和更好的业务决策。
+
+![渠道adstock](/help/assets/channel-ad-stock.png)
+
+要配置渠道adstock：
+
+* 对于每个渠道(**[!UICONTROL Name]**)，定义一个&#x200B;**[!UICONTROL Lag (weeks)]**、**[!UICONTROL Min Lookback (weeks)]**&#x200B;和&#x200B;**[!UICONTROL Max Lookback (weeks)]**&#x200B;值。 对于每个值：
+
+   * 使用![加](/help/assets/icons/Add.svg)增加值，![减](/help/assets/icons/Subtract.svg)减少值，或手动输入值。
+
+  每个渠道的滞后周数加上最大回顾周数之和最多为配置的培训时段的八分之一。 此上限允许模型有足够的数据来了解adstock效果。 例如，对于两年的培训期，渠道的&#x200B;**[!UICONTROL Lag (weeks)]**&#x200B;和&#x200B;**[!UICONTROL Lookback (weeks)]**&#x200B;的最大值为13周。 此上限在您定义值时强制执行。
 
 
 ## 设置选项
 
-您可以[计划训练和评分](#schedule)，[定义训练时段](#training-window)，并在&#x200B;**[!UICONTROL Set options]**&#x200B;步骤中为模型指定[粒度分析报告字段](#granular-insights-reporting-fields)。
+您可以[计划训练和评分](#schedule)，并在&#x200B;**[!UICONTROL Set options]**&#x200B;步骤中为模型指定[粒度分析报表字段](#granular-insights-reporting-fields)。
 
 
 ### 计划
@@ -169,17 +204,6 @@ ht-degree: 4%
    * **[!UICONTROL Monthly]**：从“在每次运行时运行”下拉菜单中选择一个月中的某一天，并输入有效时间（例如`05:22 pm`）或使用![时钟](/help/assets/icons/Clock.svg)。
 
 1. 从下拉菜单中选择&#x200B;**[!UICONTROL Training frequency]**： **[!UICONTROL Monthly]**、**[!UICONTROL Quarterly]**、**[!UICONTROL Yearly]**&#x200B;或&#x200B;**[!UICONTROL None]**。
-
-
-### 训练窗口期
-
-在&#x200B;**[!UICONTROL Define training window]**&#x200B;部分中，选择：
-
-![模型 — 定义训练时段](/help/assets/model-define-training-window.png)
-
-* **[!UICONTROL Have Mix Modeler select a helpful training window]**&#x200B;和
-
-* **[!UICONTROL Manually input a training window]**. 选中后，在&#x200B;**[!UICONTROL Include events the following years prior to a conversion]**&#x200B;中定义年数。
 
 
 ### 粒度分析报表字段
