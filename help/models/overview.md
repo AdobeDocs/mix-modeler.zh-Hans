@@ -3,9 +3,9 @@ title: 模型概述
 description: 了解如何在Mix Modeler中构建、训练、评分和管理机器学习模型，以衡量和预测营销结果。
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 7836e378a0f9068fc868dcede0ab8b3e2803776a
+source-git-commit: e78380c2f735c1658a8d4d69353c7953ceb9c8c3
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1082'
 ht-degree: 0%
 
 ---
@@ -119,7 +119,7 @@ Mix Modeler中的模型是一种机器学习模型，用于根据营销人员的
 
 1. 为模型选择![更多](/help/assets/icons/More.svg)，然后从上下文菜单中选择&#x200B;**[!UICONTROL Duplicate]**。
 
-您将被重定向到创建新模型的步骤，其中提议的名称由附加了&#x200B;**[!UICONTROL (Copy)] (_n_)**&#x200B;的原始模型名称组成。
+您将被重定向到创建新模型的步骤，其中提议的名称由附加了&#x200B;**[!UICONTROL (Copy)](_n_)**&#x200B;的原始模型名称组成。
 
 ### Edit
 
@@ -151,9 +151,8 @@ Mix Modeler中的模型是一种机器学习模型，用于根据营销人员的
       1. 选择&#x200B;**[!UICONTROL Clear all]**&#x200B;以删除所有选定的协调字段。
 
      >[!IMPORTANT]
-     >如果将粒度分析报表字段添加到在2026年2月18日&#x200B;**之前创建的模型**，则需要对该模型进行重定向。 这种重新排序方式可确保使用粒度分析报表字段更新模型基础的架构。
-     >
-     >推荐的方法是复制此类模型。 并在创建重复模型时包含粒度分析报表字段。
+     >应复制任何具有2026年1月12日之前创建的MTA的模型，以启用精细的模型洞察。<br/>
+     >任何现有模型都需要进行重定向，才能在得分数据中反映更新的粒度维度。
      >
 
 1. 选择 **[!UICONTROL Save]**。
@@ -178,5 +177,5 @@ Mix Modeler中的模型是一种机器学习模型，用于根据营销人员的
 
 1. 选择多个模型。
 1. 从蓝色操作栏中，选择![删除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;以删除模型。
-1. 在&#x200B;**[!UICONTROL Delete *x *模型]**&#x200B;确认对话框中选择&#x200B;**[!UICONTROL Delete]**&#x200B;以删除模型。 选择要取消的&#x200B;**[!UICONTROL Cancel]**。
+1. 在&#x200B;**[!UICONTROL Delete *x *模型]**确认对话框中选择&#x200B;**[!UICONTROL Delete]**以删除模型。 选择要取消的&#x200B;**[!UICONTROL Cancel]**。
 
