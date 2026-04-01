@@ -3,10 +3,10 @@ title: 模型分析
 description: 了解如何获取有关模型的详细信息，如Mix Modeler中的历史概述、模型见解和模型质量。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: be10a2fff940db4effe8f5d23aa7404e6d77ac74
+source-git-commit: 7836e378a0f9068fc868dcede0ab8b3e2803776a
 workflow-type: tm+mt
-source-wordcount: '2999'
-ht-degree: 9%
+source-wordcount: '2896'
+ht-degree: 8%
 
 ---
 
@@ -189,7 +189,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="models_factors_factorcontributionbreakdown"
 >title="因素贡献分解"
->abstract="因素贡献分解显示模型中各个因素可归因的基础转化占比。<br/><br/>纯基础转化表示独立于模型中营销接触点和因素之外产生的转化。 其中包括由品牌资产、重复购买、自然需求以及长期市场趋势和季节性因素驱动的转化。"
+>abstract="因子贡献细目显示可归因于模型中所包含的各种因子的基础转化率比例。<br/><br/>纯基表示与模型中包含的营销接触点和因素无关的基础转化。 其中包括由品牌资产、重复购买、自然需求以及长期市场趋势和季节性因素驱动的转化。"
 
 
 因子[!BADGE beta]选项卡显示外部因子相关见解。
@@ -367,7 +367,7 @@ Mix Modeler多点接触归因粒度事件分数与总体[!DNL Mix Modeler]分数
   ![模型评估](../assets/model-assessment.png)
 
    * 可按实际转化与预测转化或残差转化进行细分的图表。
-要划分可视化图表，请从&#x200B;**[!UICONTROL Breakdown]**&#x200B;列表中选择以下选项之一。
+要划分可视化图表，请从**[!UICONTROL Breakdown]**&#x200B;列表中选择以下选项之一。
 
       * **[!UICONTROL Actual vs Predicted]**：此选项将实际值与模型预测进行比较。 理想情况下，预测值应与实际值紧密一致，但会有一些偏差。 较大或系统的偏差或模式可能表示缺少的关系和数据或潜在的偏差。
 
@@ -456,27 +456,3 @@ Mix Modeler多点接触归因粒度事件分数与总体[!DNL Mix Modeler]分数
 
 * 从&#x200B;**[!UICONTROL Channels]**&#x200B;中选择一个渠道。
 
-
-## Edit
-
-您可以编辑模型的名称、描述以及训练和评分计划。
-
-1. 选择![编辑](/help/assets/icons/Edit.svg)编辑
-
-1. 在&#x200B;**[!UICONTROL Edit model]**&#x200B;对话框中：
-
-   * 输入新的&#x200B;**[!UICONTROL Name]**&#x200B;和&#x200B;**[!UICONTROL Description]**。
-
-   * 要启用计划，请启用&#x200B;**[!UICONTROL Status]**。 您只能为经过训练和评分的模型启用计划。
-
-      1. 选择&#x200B;**[!UICONTROL Scoring frequency]**：
-
-         * **[!UICONTROL Daily]**：输入有效时间（例如`05:22 pm`）或使用![时钟](/help/assets/icons/Clock.svg)。
-         * **[!UICONTROL Weekly]**：选择一周中的某一天并输入有效时间（例如`05:22 pm`）或使用![时钟](/help/assets/icons/Clock.svg)。
-         * **[!UICONTROL Monthly]**：从“在每次运行时运行”下拉菜单中选择一个月中的某一天，并输入有效时间（例如`05:22 pm`）或使用![时钟](/help/assets/icons/Clock.svg)。
-
-      1. 从下拉菜单中选择&#x200B;**[!UICONTROL Training frequency]**： **[!UICONTROL Monthly]**、**[!UICONTROL Quarterly]**、**[!UICONTROL Yearly]**&#x200B;或&#x200B;**[!UICONTROL None]**。
-
-     ![编辑模型](../assets/model-edit.png)
-
-1. 选择 **[!UICONTROL Save]**。

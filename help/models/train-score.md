@@ -2,7 +2,8 @@
 title: 训练模型并为其评分
 description: 了解如何训练和评分模型。
 feature: Models
-source-git-commit: 6855d19347b7f6f1477a6265310df5950b8463c9
+exl-id: c4fbe13e-4548-421b-ba90-274fc42f4be2
+source-git-commit: 7836e378a0f9068fc868dcede0ab8b3e2803776a
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 0%
@@ -26,7 +27,7 @@ ht-degree: 0%
    在&#x200B;**[!UICONTROL Train model]**&#x200B;对话框中，选择选项以：
 
    * **[!UICONTROL Train model with last 2 years of marketing data]**，或
-   * **[!UICONTROL Train model using specific date range of data]**。
+   * **[!UICONTROL Train model using specific date range of data]**.
 指定日期范围。 您可以使用![日历](/help/assets/icons/Calendar.svg)选择日期范围。 您必须选择至少一年的数据范围。
 
    ![重新训练模型](../assets/retrain-model.png)
@@ -56,14 +57,13 @@ ht-degree: 0%
    在&#x200B;**[!UICONTROL Score marketing data]**&#x200B;对话框中，选择选项以：
 
    * **[!UICONTROL Score new marketing data from *mm/dd/yyyy *]**，使用新的营销数据对模型进行增量评分，或
-   * **[!UICONTROL Score specific date range of marketing data]**&#x200B;以重新核在特定日期范围内。
+   * **[!UICONTROL Score specific date range of marketing data]**以重新核在特定日期范围内。
 指定日期范围。 您可以使用![日历](/help/assets/icons/Calendar.svg)选择日期范围。
 
    ![重新核心模型](../assets/rescore-model.png)
 
-1. 选择&#x200B;**[!UICONTROL Score]**。 使用特定数据范围对模型重新评分时，您会看到&#x200B;**[!UICONTROL Existing model is replaced]**&#x200B;对话框，提示您确认使用选定日期范围的新得分替换模型。 选择&#x200B;**[!UICONTROL Replace model]**&#x200B;以确认。
+1. 选择 **[!UICONTROL Score]**。 使用特定数据范围对模型重新排序时，您会看到&#x200B;**[!UICONTROL Existing model is replaced]**&#x200B;对话框，提示您确认使用选定日期范围的新得分替换模型。 选择&#x200B;**[!UICONTROL Replace model]**&#x200B;以确认。
 
 >[!IMPORTANT]
 >
 >重新核心模型不会更改已基于重新核心模型创建的任何“计划”。 要在计划中使用新重新整理的模型，您必须创建一个新计划。
-

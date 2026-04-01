@@ -1,11 +1,11 @@
 ---
 title: 模型概述
-description: 了解如何在Mix Modeler中构建和使用模型。
+description: 了解如何在Mix Modeler中构建、训练、评分和管理机器学习模型，以衡量和预测营销结果。
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 2775c5a3779f6731f7f3143f6ed21db2993c0955
+source-git-commit: 7836e378a0f9068fc868dcede0ab8b3e2803776a
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '1108'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Mix Modeler中的模型功能允许您配置、训练特定于业务目标的模型并对模型进行评分。 训练和评分支持在多触点归因和营销组合建模之间进行AI驱动的转移学习。
 
-这些模型基于您在Mix Modeler应用程序工作流程中创建的协调数据。
+这些模型基于您在应用程序工作流程中创建的统一数据。
 
 Mix Modeler中的模型是一种机器学习模型，用于根据营销人员的投资来衡量和预测指定的结果。 营销接触点和摘要级别的数据可用作输入。 Mix Modeler允许您根据不同的变量集、维度和结果（如收入、销量和商机）创建模型的变体。
 
@@ -32,8 +32,7 @@ Mix Modeler中的模型是一种机器学习模型，用于根据营销人员的
 * 预先了解来自其他来源的营销贡献，例如以往的利益相关者经验、增量测试、其他模型。
 * 支出份额，在营销数据稀疏时使用相对支出份额作为代理。
 
-首次创建模型时，创建操作会立即启动训练和评分过程。 在初始培训和评分运行完成后，模型见解可供审阅。 随后可重新训练模型。 此外，还可以向模型添加数据，这需要您手动重新核心模型。 随着新的调查结果和信息的出现以及需要进行的调整，重新培训和重新评分是一个反复的过程，需要得到一个最适合您的业务目标的模型。
-
+首次创建模型时，创建操作会立即启动训练和评分过程。 在初始培训和评分运行完成后，模型见解可供审阅。 随后可重新训练模型。 此外，还可以向模型添加数据，这需要您手动重新核心模型。 随着新的发现和信息的出现，以及需要作出调整才能获得最适合您业务目标的模型，重新培训和重新搜索是一个反复进行的过程。
 
 ## 构建模型
 
@@ -43,13 +42,13 @@ Mix Modeler中的模型是一种机器学习模型，用于根据营销人员的
 
 要查看当前模型的表格，请在Mix Modeler界面中执行以下操作：
 
-1. 从左边栏中选择![FileData](/help/assets/icons2/FileData.svg) **[!UICONTROL Models]**。
+1. 从左边栏中选择![FileDataS2](/help/assets/icons2/FileData.svg) **[!UICONTROL Models]**。
 
 1. 您会看到当前模型的表。
 
    表列指定有关模型的详细信息。
 
-   | 列名称 | 详细信息 |
+   | 列名 | 详细信息 |
    |---|---|
    | **[!UICONTROL Name]** | 模型的名称 |
    | **[!UICONTROL Description]** | 模型的描述 |
@@ -58,7 +57,7 @@ Mix Modeler中的模型是一种机器学习模型，用于根据营销人员的
    | **[!UICONTROL Last run]** | 模型上次训练的日期和时间。 |
    | **[!UICONTROL Status]** | 模型的状态。 |
 
-   要按升序![ArrowMoveUp](/help/assets/icons2/ArrowMoveUp.svg)或降序![ArrowMoveDown](/help/assets/icons2/ArrowMoveDown.svg)顺序对任意列的表进行排序，请选择列的标题。
+   要按升序![ArrowMoveUpS2](/help/assets/icons2/ArrowMoveUp.svg)或降序![ArrowMoveDownS2](/help/assets/icons2/ArrowMoveDown.svg)对任意列的表进行排序，请选择列的标题。
 
    要对&#x200B;**[!UICONTROL Name]**&#x200B;列进行排序或调整其大小，请选择&#x200B;**[!UICONTROL Name]** ![V形向下](/help/assets/icons/ChevronDown.svg)。 从上下文菜单中选择&#x200B;**[!UICONTROL Sort ascending]**、**[!UICONTROL Sort descending]**&#x200B;或&#x200B;**[!UICONTROL Resize column]**。 或者，您可以将鼠标悬停在列分隔符上以调整&#x200B;**[!UICONTROL Name]**&#x200B;列的大小。
 
@@ -98,18 +97,16 @@ Mix Modeler中的模型是一种机器学习模型，用于根据营销人员的
 
 要查看模型的见解，请执行以下操作：
 
-1. 从左边栏中选择![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**。
-
+1. 从左边栏中选择![FileData](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**。
 1. 选择模型名称。
 
 您被重定向到[模型分析](insights.md)。
-
 
 ### 查看详细信息
 
 要查看模型的更多详细信息，请执行以下操作：
 
-1. 从左边栏中选择![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**。
+1. 从左边栏中选择![FileData](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**。
 
 1. 为模型选择![信息](/help/assets/icons/Info.svg)以显示包含详细信息的弹出窗口。
 
@@ -118,61 +115,68 @@ Mix Modeler中的模型是一种机器学习模型，用于根据营销人员的
 
 您可以快速复制模型。
 
-1. 从左边栏中选择![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**。
+1. 从左边栏中选择![FileData](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**。
 
 1. 为模型选择![更多](/help/assets/icons/More.svg)，然后从上下文菜单中选择&#x200B;**[!UICONTROL Duplicate]**。
 
-您将被重定向到创建新模型的步骤，其中提议的名称由附加了&#x200B;**[!UICONTROL (Copy)] (_n_)**&#x200B;的原始模型名称组成。
+您将被重定向到创建新模型的步骤，其中提议的名称由附加了&#x200B;**[!UICONTROL (Copy)](_n_)**&#x200B;的原始模型名称组成。
 
 ### Edit
 
 您可以编辑模型的名称、描述以及训练和评分计划。
 
-1. 从左边栏中选择![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**。
+1. 从左边栏中选择![FileData](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**。
 
 1. 为模型选择![更多](/help/assets/icons/More.svg)，然后从上下文菜单中选择&#x200B;**[!UICONTROL Edit]**。
 
    在&#x200B;**[!UICONTROL Edit model]**&#x200B;对话框中：
 
+   ![编辑模型](../assets/model-edit.png)
+
    * 输入新的&#x200B;**[!UICONTROL Name]**&#x200B;和&#x200B;**[!UICONTROL Description]**。
 
-   * 要启用计划，请启用&#x200B;**[!UICONTROL Status]**。 您只能为经过训练和评分的模型启用计划。
+   * 要启用计划，请启用&#x200B;**[!UICONTROL Enable schedule model training and scoring]**。 您只能为经过训练和评分的模型启用计划。
 
       1. 选择&#x200B;**[!UICONTROL Scoring frequency]**：
 
-         * **[!UICONTROL Daily]**：输入有效时间（例如`05:22 pm`）或使用![时钟](/help/assets/icons/Clock.svg)。
-         * **[!UICONTROL Weekly]**：选择一周中的某一天并输入有效时间（例如`05:22 pm`）或使用![时钟](/help/assets/icons/Clock.svg)。
-         * **[!UICONTROL Monthly]**：从“在每次运行时运行”下拉菜单中选择一个月中的某一天，并输入有效时间（例如`05:22 pm`）或使用![时钟](/help/assets/icons/Clock.svg)。
+         * **[!UICONTROL Daily]**：输入有效的时间（例如`10:00 am`）或使用![时钟](/help/assets/icons/Clock.svg)定义时间。
+         * **[!UICONTROL Weekly]**：选择一周中的某一天并输入有效的时间（例如`10:00 am`）或使用![时钟](/help/assets/icons/Clock.svg)来定义时间。
+         * **[!UICONTROL Monthly]**：从“在每次运行时运行”下拉菜单中选择一个月中的某一天，并输入有效时间（例如`10:00 am`），或使用![时钟](/help/assets/icons/Clock.svg)定义时间。
 
       1. 从下拉菜单中选择&#x200B;**[!UICONTROL Training frequency]**： **[!UICONTROL Monthly]**、**[!UICONTROL Quarterly]**、**[!UICONTROL Yearly]**&#x200B;或&#x200B;**[!UICONTROL None]**。
 
-     ![编辑模型](../assets/model-edit.png)
+   * 要更新[粒度分析报告字段](/help/models/build.md#granular-insights-reporting-fields)，请在&#x200B;**[!UICONTROL Granular Insights Reporting Fields]**&#x200B;部分中：
+      1. 从&#x200B;**[!UICONTROL Includes]**&#x200B;下的&#x200B;**[!UICONTROL _选择协调字段_]**&#x200B;中选择一个或多个协调字段。 将选定的协调字段添加到该小组中。
+      1. 选择&#x200B;**[!UICONTROL *协调字段&#x200B;*]**![CrossSize100](/help/assets/icons/CrossSize100.svg)以从包含所选协调字段的容器中删除协调字段。
+      1. 选择&#x200B;**[!UICONTROL Clear all]**&#x200B;以删除所有选定的协调字段。
+
+     >[!IMPORTANT]
+     >如果将粒度分析报表字段添加到在2026年2月18日&#x200B;**之前创建的模型**，则需要对该模型进行重定向。 这种重新排序方式可确保使用粒度分析报表字段更新模型基础的架构。
+     >
+     >推荐的方法是复制此类模型。 并在创建重复模型时包含粒度分析报表字段。
+     >
 
 1. 选择 **[!UICONTROL Save]**。
 
-
-
 ### 训练
 
-当您想要包含新的增量营销和因子数据时，请考虑重新训练模型。 有关详细信息，请参阅[训练和评分模型](train-score.md#train)。
-
+当您想要包含新的增量营销和因子数据时，请重新训练模型。 有关详细信息，请参阅[训练和评分模型](train-score.md#train)。
 
 ### 得分
 
 您可以根据新的营销数据对模型递增计分，或针对特定日期范围对模型重新计分。 有关详细信息，请参阅[训练和评分模型](train-score.md#score)。
 
-
 ### 删除模型
 
 要删除模型，请执行以下操作：
 
-1. 从左边栏中选择![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**。
+1. 从左边栏中选择![FileData](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**。
 1. 为模型选择![更多](/help/assets/icons/More.svg)，然后从上下文菜单中选择&#x200B;**[!UICONTROL Delete]**。 或者，从蓝色操作栏中选择![删除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**。
-1. 在&#x200B;**[!UICONTROL Delete]**&#x200B;确认对话框中选择&#x200B;**[!UICONTROL Delete model]**&#x200B;以删除模型。 选择要取消的&#x200B;**[!UICONTROL Cancel]**。
+1. 在&#x200B;**[!UICONTROL Delete model]**&#x200B;确认对话框中选择&#x200B;**[!UICONTROL Delete]**&#x200B;以删除模型。 选择要取消的&#x200B;**[!UICONTROL Cancel]**。
 
 要删除多个模型，请执行以下操作：
 
 1. 选择多个模型。
 1. 从蓝色操作栏中，选择![删除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;以删除模型。
-1. 在&#x200B;**[!UICONTROL Delete]** x **[!UICONTROL Delete *模型&#x200B;*确认对话框中选择]**&#x200B;以删除模型。 选择要取消的&#x200B;**[!UICONTROL Cancel]**。
+1. 在&#x200B;**[!UICONTROL Delete *x *模型]**确认对话框中选择&#x200B;**[!UICONTROL Delete]**以删除模型。 选择要取消的&#x200B;**[!UICONTROL Cancel]**。
 
