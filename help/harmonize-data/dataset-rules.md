@@ -279,7 +279,7 @@ ht-degree: 3%
 
    * 要删除基于现有的特定量度的首选项，请选择![删除](/help/assets/icons/Delete.svg)。
 
-1. 选择&#x200B;**[!UICONTROL Save]**&#x200B;以保存数据合并首选项。 数据重新同步已启动。<br/>选择要取消的&#x200B;**[!UICONTROL Cancel]**。
+1. 选择&#x200B;**[!UICONTROL Save]**&#x200B;以保存数据合并首选项。 数据重新同步已启动。 <br/>选择要取消的&#x200B;**[!UICONTROL Cancel]**。
 
 ## 删除源数据集
 

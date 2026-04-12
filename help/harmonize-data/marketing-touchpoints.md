@@ -5,8 +5,8 @@ feature: Harmonized Data, Marketing Touch Points
 exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
 source-git-commit: 51a8449f41ec7488e23b15e8f1a280de60b7e7fa
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 11%
+source-wordcount: '477'
+ht-degree: 12%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 11%
 
 1. 从左边栏中选择![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]**。
 
-1. 从顶部栏中选择&#x200B;**[!UICONTROL Marketing touchpoint]**。 您会看到营销接触点表。 如果有更多页面可用，请使用![x](/help/assets/icons/ChevronLeft.svg)的![x](/help/assets/icons/ChevronRight.svg)上的&#x200B;**[!UICONTROL Page _向左箭头&#x200B;_或_向右箭头_]**&#x200B;在表的页面之间移动。
+1. 从顶部栏中选择&#x200B;**[!UICONTROL Marketing touchpoint]**。 您会看到营销接触点表。 如果有更多页面可用，请使用&#x200B;_x _&#x200B;**的**&#x200B;Page _x_&#x200B;上的![向左箭头](/help/assets/icons/ChevronLeft.svg)或![向右箭头](/help/assets/icons/ChevronRight.svg)在表的页面之间移动。
 
 表列指定有关营销接触点的详细信息：
 
@@ -38,7 +38,7 @@ ht-degree: 11%
 | 支出量度 | 用于计算接触点支出的协调数据指标。 |
 | 数量指标 | 用于计算接触点数量的协调数据指标。 |
 | 规则 | 要使用的接触点规则。 |
-| 已创建 | 创建营销接触点的日期和时间。 |
+| 创建时间 | 创建营销接触点的日期和时间。 |
 | 上次修改时间 | 上次修改营销接触点的日期和时间。 |
 
 
