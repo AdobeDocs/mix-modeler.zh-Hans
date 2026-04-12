@@ -39,7 +39,7 @@ ht-degree: 10%
 | 收入 | 用于计算转化收入的统一数据指标。 |
 | 转化量度 | 用作分析转化指标的协调数据指标。 |
 | 类别 | 转化的转化类别。 |
-| 已创建 | 创建转化的日期和时间。 |
+| 创建时间 | 创建转化的日期和时间。 |
 | 上次修改时间 | 上次修改转换的日期和时间。 |
 
 
@@ -55,11 +55,11 @@ ht-degree: 10%
 
    1. 定义&#x200B;**[!UICONTROL Conversion category]**。
 
-      1. 从&#x200B;**[!UICONTROL *选择协调……*]**&#x200B;中选择一个值，例如`Conversion types`。
+      1. 从&#x200B;**[!UICONTROL *选择协调……*]**中选择一个值，例如`Conversion types`。
 
       1. 选择运算符![V形](/help/assets/icons/ChevronDown.svg)的值，例如&#x200B;**[!UICONTROL is]**。
 
-      1. 从&#x200B;**[!UICONTROL *中选择值&#x200B;*]**&#x200B;或输入值，例如&#x200B;**[!UICONTROL Store]**。
+      1. 从&#x200B;**[!UICONTROL *中选择值&#x200B;*]**或输入值，例如&#x200B;**[!UICONTROL Store]**。
 
    1. 从&#x200B;**[!UICONTROL Conversion metric for analysis]**&#x200B;中选择协调字段，例如&#x200B;**[!UICONTROL Orders]**。
 
