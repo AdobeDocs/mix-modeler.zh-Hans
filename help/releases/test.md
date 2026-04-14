@@ -5,7 +5,7 @@ feature-set: Experience Cloud
 feature: Release Notes
 hide: true
 exl-id: 5f832a79-7a0c-43cd-87cf-a5ceceb79032
-source-git-commit: 8340b8a6c32670f372fff489fd46ea1003ff1d02
+source-git-commit: dda5f56fc2bf3066fbd2cd9170dd6c6ab3cbd17e
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 1%
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 | 标记 | 数据视图 | 所有者 | 其他筛选器 |
 |---|---|---|---|
-| 您可以![搜索](/help/assets/icons/Search.svg) *搜索标记*&#x200B;以限制标记列表。 <br/><br/>当您选择一个或多个标记时，列表会自动被限制为显示其他可能的剩余标记。 <br/><br/> **[!UICONTROL Tags]**&#x200B;中的数字&#x200B;**⃣**&#x200B;是指可用标记的数量。 <br/><br/> **[!UICONTROL *标记&#x200B;*]**&#x200B;中的数字指⃣用spefici标记标记的过滤器数。 | 您可以![搜索](/help/assets/icons/Search.svg) *搜索数据视图*&#x200B;以限制数据视图的列表。 <br/>您可以选择多个数据视图来筛选筛选器列表。 <br/><br/> **[!UICONTROL Tags]**&#x200B;中的数字&#x200B;**⃣**&#x200B;是指可用标记的数量。 <br/><br/> **[!UICONTROL *标记&#x200B;*]**&#x200B;中的数字指⃣用spefici标记标记的过滤器数。 | 您可以![搜索](/help/assets/icons/Search.svg) *搜索数据视图*&#x200B;以限制数据视图的列表。 <br/>您可以选择多个数据视图来筛选筛选器列表。 <br/><br/> **[!UICONTROL Tags]**&#x200B;中的数字&#x200B;**⃣**&#x200B;是指可用标记的数量。 <br/><br/> **[!UICONTROL *标记&#x200B;*]**&#x200B;中的数字指⃣用spefici标记标记的过滤器数。 | 您可以![搜索](/help/assets/icons/Search.svg) *搜索数据视图*&#x200B;以限制数据视图的列表。 <br/>您可以选择多个数据视图来筛选筛选器列表。 <br/><br/> **[!UICONTROL Tags]**&#x200B;中的数字&#x200B;**⃣**&#x200B;是指可用标记的数量。 <br/><br/> **[!UICONTROL *标记&#x200B;*]**&#x200B;中的数字指⃣用spefici标记标记的过滤器数。🅐 🅔 |
+| 您可以![搜索](/help/assets/icons/Search.svg) *搜索标记*&#x200B;以限制标记列表。 <br/><br/>当您选择一个或多个标记时，列表会自动被限制为显示其他可能的剩余标记。 <br/><br/> **[!UICONTROL Tags]**&#x200B;中的数字&#x200B;**⃣**&#x200B;是指可用标记的数量。 <br/><br/> **[!UICONTROL *标记&#x200B;*]**中的数字指⃣用spefici标记标记的过滤器数。 | 您可以![搜索](/help/assets/icons/Search.svg) *搜索数据视图*&#x200B;以限制数据视图的列表。 <br/>您可以选择多个数据视图来筛选筛选器列表。 <br/><br/> **[!UICONTROL Tags]**&#x200B;中的数字&#x200B;**⃣**&#x200B;是指可用标记的数量。 <br/><br/> **[!UICONTROL *标记&#x200B;*]**中的数字指⃣用spefici标记标记的过滤器数。 | 您可以![搜索](/help/assets/icons/Search.svg) *搜索数据视图*&#x200B;以限制数据视图的列表。 <br/>您可以选择多个数据视图来筛选筛选器列表。 <br/><br/> **[!UICONTROL Tags]**&#x200B;中的数字&#x200B;**⃣**&#x200B;是指可用标记的数量。 <br/><br/> **[!UICONTROL *标记&#x200B;*]**中的数字指⃣用spefici标记标记的过滤器数。 | 您可以![搜索](/help/assets/icons/Search.svg) *搜索数据视图*&#x200B;以限制数据视图的列表。 <br/>您可以选择多个数据视图来筛选筛选器列表。 <br/><br/> **[!UICONTROL Tags]**&#x200B;中的数字&#x200B;**⃣**&#x200B;是指可用标记的数量。 <br/><br/> **[!UICONTROL *标记&#x200B;*]**中的数字指⃣用spefici标记标记的过滤器数。🅐 🅔 |
 
 {style="table-layout:fixed"}
 
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-本文记录了![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics**&#x200B;中的归因面板。<br/>有关本文的![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) **Customer Journey Analytics**&#x200B;版本，请参阅[归因面板](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/panels/attribution)。
+本文记录了![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics**&#x200B;中的归因面板。<br/>有关本文的![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) **Customer Journey Analytics**&#x200B;版本，请参阅[归因面板](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution)。
 
 >[!ENDSHADEBOX]
 
