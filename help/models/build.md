@@ -7,7 +7,7 @@ exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
 source-git-commit: 3a8c82d30e97e875e129c931dcd2578fa39f05a5
 workflow-type: tm+mt
 source-wordcount: '1578'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -124,8 +124,8 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="model_advanced_channeladstock"
->title="渠道adstock"
->abstract="将领域专业知识、试验结果或以前的渠道分析直接纳入模型设置。 Adstock配置有助于引导模型与现实世界的期望保持一致，并提高输出的可解释性和可信度。 每个渠道的回看周数加上滞后周数总计的上限为配置的培训时段的八分之一。 此上限允许模型有足够的数据来了解adstock效果。"
+>title="渠道广告素材库"
+>abstract="将域专业知识、实验结果或以前的渠道分析直接纳入模型设置。 广告素材库配置有助于引导模型与现实世界的期望保持一致，并提高输出的可解释性和可信度。 每个渠道的回顾周数与滞后周数之和，上限为配置的培训窗口的八分之一。 此上限允许模型有足够的数据来了解adstock效果。"
 
 您可以在&#x200B;**[!UICONTROL Advanced]**&#x200B;步骤中指定高级设置。 在此步骤中，您可以定义[支出共享](#spend-share)，启用[多点接触归因(MTA)](#mta)的模型，定义[先验知识](#prior-knowledge)并定义[渠道adstock](#channel-adstock)。
 
@@ -164,7 +164,7 @@ ht-degree: 2%
 1. 需要时，使用&#x200B;**[!UICONTROL Clear all]**&#x200B;清除&#x200B;**[!UICONTROL Contribution proportion]**&#x200B;和&#x200B;**[!UICONTROL Level of confidence]**&#x200B;列的所有输入值。
 
 
-### 渠道adstock
+### 渠道广告素材库
 
 在&#x200B;**[!UICONTROL Channel adstock]**&#x200B;部分中，您可以为模型中定义的每个渠道（营销渠道）定义单个Adstock回看（结转或衰减效果）和滞后（延迟响应时间）。
 
