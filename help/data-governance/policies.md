@@ -28,7 +28,7 @@ ht-degree: 2%
 
 # 支持
 
-完成工作流创建模型并提交模型的配置后，[策略实施](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/overview#automatic-enforcement)将检查是否存在任何违规。 如果发生策略冲突，则会出现一个弹出窗口，指示已违反一个或多个策略。 此检查旨在确保Experience Platform中的数据操作和营销操作符合数据使用策略。
+完成工作流创建模型并提交模型的配置后，[策略实施](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/enforcement/overview#automatic-enforcement)将检查是否存在任何违规。 如果发生策略冲突，则会出现一个弹出窗口，指示已违反一个或多个策略。 此检查旨在确保Experience Platform中的数据操作和营销操作符合数据使用策略。
 
 默认情况下，Mix Modeler会检查是否存在与Adobe定义的与以下标签和营销操作关联的策略违规：
 
@@ -77,7 +77,7 @@ Currently,  Mix Modeler does not support all of the data governance functionalit
 
 >[!MORELIKETHIS]
 >
->[数据使用策略概述](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/overview)
+>[数据使用策略概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/policies/overview)
 >
 >
 

@@ -27,7 +27,7 @@ ht-degree: 6%
 
 1. 选择&#x200B;**[!UICONTROL SETUP]**&#x200B;下的![架构](/help/assets/icons/Schemas.svg) **[!UICONTROL Schemas]**。
 
-有关详细信息，请参阅[架构UI概述](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en)。
+有关详细信息，请参阅[架构UI概述](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=zh-Hans)。
 
 ## 汇总或汇总数据
 
@@ -97,7 +97,7 @@ ht-degree: 6%
 
 ## 支持的数据类型
 
-目前，Mix Modeler支持Experience Platform数据类型的子集。 支持架构组合[基础](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type)中提到的以下基本数据类型（字段）：
+目前，Mix Modeler支持Experience Platform数据类型的子集。 支持架构组合[基础](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hans#data-type)中提到的以下基本数据类型（字段）：
 
 - 字符串
 - 整数
