@@ -3,10 +3,15 @@ title: 架构
 description: 了解如何管理将数据摄取到Mix Modeler所需的架构。
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-source-git-commit: 7524c2ffc0408b04e6bef5bd5deedc1feea0b682
+TQID: https://experienceleague.adobe.com/E41pnyBetoLPOOulNmKh033myMvfF4bV9A2Xd3FXqcs
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+autotag-review: '2026-05-01T08:56:54.552Z'
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 4%
+source-wordcount: 613
+ht-degree: 6%
 
 ---
 
@@ -16,9 +21,9 @@ ht-degree: 4%
 
 1. 转到Mix Modeler界面。
 
-1. 选择![下的](/help/assets/icons/Schemas.svg)架构&#x200B;**[!UICONTROL Schemas]** **[!UICONTROL SETUP]**。
+1. 选择&#x200B;**[!UICONTROL SETUP]**&#x200B;下的![架构](/help/assets/icons/Schemas.svg) **[!UICONTROL Schemas]**。
 
-有关详细信息，请参阅[架构UI概述](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=zh-Hans)。
+有关详细信息，请参阅[架构UI概述](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en)。
 
 ## 汇总或汇总数据
 
@@ -44,7 +49,7 @@ ht-degree: 4%
 
 - 竞争者索引数据
 
-  | 时间戳 | date_type | 因子 | 值 |
+  | 时间戳 | date_type | 因子 | value |
   |---|---|---|--:|
   | 2020-11-28T00:00:00.000Z | 周 | competier_index | 289.8 |
   | 2020-12-05T00:00:00.000Z | 周 | competier_index | 291.2 |
@@ -53,7 +58,7 @@ ht-degree: 4%
 
 - 公共假日数据
 
-  | 时间戳 | date_type | 因子 | 值 |
+  | 时间戳 | date_type | 因子 | value |
   |---|---|---|--:|
   | 2020-11-28T00:00:00.000Z | 周 | all_holidays_flag | 0.0 |
   | 2020-12-05T00:00:00.000Z | 周 | all_holidays_flag | 0.0 |
@@ -63,7 +68,7 @@ ht-degree: 4%
   | ... | ... | ... | ... |
 
 
-有关使用&#x200B;**[!DNL LumaPaidMarketingSchema]**&#x200B;作为基类的&#x200B;**[!DNL XDM Summary Metrics]**&#x200B;的更全面的示例，请参见下文。 架构使用专用字段组（带颜色注释）用于指标(**[!DNL AMMMetrics]**)、维度(**[!DNL AMMDimensions]**)和其他特定于客户的信息(**[!DNL CustomerSpecific]**)。
+有关使用&#x200B;**[!DNL XDM Summary Metrics]**&#x200B;作为基类的&#x200B;**[!DNL LumaPaidMarketingSchema]**&#x200B;的更全面的示例，请参见下文。 架构使用专用字段组（带颜色注释）用于指标(**[!DNL AMMMetrics]**)、维度(**[!DNL AMMDimensions]**)和其他特定于客户的信息(**[!DNL CustomerSpecific]**)。
 
 ![摘要架构](/help/assets/summary-schema.png)
 
@@ -76,7 +81,7 @@ ht-degree: 4%
 | 字段显示名称 | 字段名称 | 字段类型 | 数据类型 | 必需 | 描述 |
 |---|---|---|---|:-:|---|
 | 因子名称 | factorName | 维度 | 字符串 | ![复选标记](/help/assets/icons/Checkmark.svg) | 因子的名称 |
-| 因子值 | 因子值 | 量度 | 多次 | ![复选标记](/help/assets/icons/Checkmark.svg) | 因子的值 |
+| 因子值 | 因子值 | 量度 | 双精度 | ![复选标记](/help/assets/icons/Checkmark.svg) | 因子的值 |
 | 因子类型 | factorType | 维度 | 字符串（枚举） | | 因子的类型。<br/>可能的值包括： <ul><li>内部（内部因素）</li><li>外部（外部因素）</li></ul> |
 | 值类型 | valueType | 维度 | 字符串（枚举） | | 可能的值包括：<ul><li>实际（实际值）</li><li>预测（预测值）</li></ul>无值时，默认值为Actual。 |
 | 粒度 | 粒度 | 维度 | 字符串（枚举） | | 可能的值包括：<ul><li>每日</li><li>每周</li><li>每月</li></ul> |
@@ -88,12 +93,12 @@ ht-degree: 4%
 
 ## 支持的数据类型
 
-目前，Mix Modeler支持Experience Platform数据类型的子集。 支持架构组合[基础](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hans#data-type)中提到的以下基本数据类型（字段）：
+目前，Mix Modeler支持Experience Platform数据类型的子集。 支持架构组合[基础](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type)中提到的以下基本数据类型（字段）：
 
 - 字符串
 - 整数
-- 多次
-- 布尔型
+- 双精度
+- 布尔值
 - 长
 - 短
 - 字节

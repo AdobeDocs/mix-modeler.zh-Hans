@@ -3,18 +3,25 @@ title: 支持
 description: 了解如何从Mix Modeler访问策略。
 feature: Administration
 exl-id: 4dba7c30-ad1e-4213-a2b0-afc55f2448a3
-source-git-commit: 132dc18b84723358a7d65e2aaadd49cf1deb2dd8
+TQID: https://experienceleague.adobe.com/fk6qAZS7Uymx2dzptcazBieXIJ3mGF2pjG-EDhm-Kh4
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: f6633d1c-3d2d-4f48-95d4-4bbc9913db52
+subfeature_v2: id: fd80ec6b-9b9e-448a-a6d0-b0c9a15da6b8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+autotag-review: '2026-05-01T09:17:02.907Z'
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 1%
+source-wordcount: 507
+ht-degree: 2%
 
 ---
 
 # 支持
 
-完成工作流创建模型并提交模型的配置后，[策略实施](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/enforcement/overview#automatic-enforcement)将检查是否存在任何违规。 如果发生策略冲突，则会出现一个弹出窗口，指示已违反一个或多个策略。 此检查旨在确保Experience Platform中的数据操作和营销操作符合数据使用策略。
+完成工作流创建模型并提交模型的配置后，[策略实施](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/overview#automatic-enforcement)将检查是否存在任何违规。 如果发生策略冲突，则会出现一个弹出窗口，指示已违反一个或多个策略。 此检查旨在确保Experience Platform中的数据操作和营销操作符合数据使用策略。
 
-默认情况下，Mix Modeler会检查是否存在与以下标签和营销操作关联的Adobe定义策略的违规：
+默认情况下，Mix Modeler会检查是否存在与Adobe定义的与以下标签和营销操作关联的策略违规：
 
 | 策略名称 | 关联的标签 | 关联的营销操作 |
 |---|---|---|
@@ -61,7 +68,7 @@ Currently,  Mix Modeler does not support all of the data governance functionalit
 
 >[!MORELIKETHIS]
 >
->[数据使用策略概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/policies/overview)
+>[数据使用策略概述](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/overview)
 >
 >
 

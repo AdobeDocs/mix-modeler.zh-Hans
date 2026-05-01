@@ -3,10 +3,17 @@ title: 使用评分数据
 description: 了解如何保留Mix Modeler中的模型评分数据。
 feature: Models
 exl-id: 2f2c3d20-7b14-41cc-a11a-03e8ad9e5d7a
-source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
+TQID: https://experienceleague.adobe.com/6eMg5Azsb-rdyG5g-hIkiyJrVbgOOul5V-0TvxzCTyo
+autotag-review: '2026-05-01T08:58:54.964Z'
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: f40f1683-8300-4054-aab8-77da06ad63ff
+subfeature_v2: id: cb40363e-1205-4921-971c-9ee6bdb18329
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 6%
+source-wordcount: 684
+ht-degree: 11%
 
 ---
 
@@ -19,7 +26,7 @@ ht-degree: 6%
 
 ## 汇总评分数据架构
 
-评分数据的架构的名称类似于`AMM AI Schema - <name of model> <id>`。 例如： `AMM AI Schema - Model for Online Conversion 10120`。
+评分数据的架构的名称类似于`AMM AI Schema - <name of model> <id>`。 例如：`AMM AI Schema - Model for Online Conversion 10120`。
 
 保留模型评分数据的数据集的名称类似于`AMM AI Aggregrate Scores - <id>`，例如`AMM AI Aggregrate Scores - 10120`。
 
@@ -29,14 +36,14 @@ ht-degree: 6%
 |---|---|---|
 | `campaignGroup` | 字符串 | 营销活动组的名称。 |
 | `campaignName` | 字符串 | 营销活动的名称。 |
-| `contribution` | 多次 | 给定接触点中归属于此转化的贡献。 |
+| `contribution` | 双精度 | 给定接触点中归属于此转化的贡献。 |
 | `conversionEndDate` | 日期 | 转换窗口的结束日期。 |
 | `conversionName` | 字符串 | 在转换定义设置步骤中创建的转换的名称。 |
 | `conversionStartDate` | 日期 | 转换窗口的开始日期。 |
 | `geo` | 字符串 | 发生转化的地理位置。 |
 | `mediaChannel` | 字符串 | 在接触点设置步骤中使用的渠道名称。 |
 | `mediaSubChannel` | 字符串 | 子渠道的名称。 |
-| `revenue` | 多次 | 归因于给定接触点的此转化的收入。 |
+| `revenue` | 双精度 | 归因于给定接触点的此转化的收入。 |
 | `scoreCreatedTime` | 日期时间 | 创建此得分记录时的时间戳。 |
 | `touchpointEndDate` | 日期 | 接触点窗口的结束日期。 |
 | `touchpointName` | 字符串 | 在接触点定义设置步骤中创建的接触点的名称。 目前，接触点是在媒体频道上定义的。 |
@@ -45,7 +52,7 @@ ht-degree: 6%
 
 ## 事件评分数据架构
 
-评分数据的架构的名称类似于`Attribution AI Scores - <name of model> <id> - Schema`。 例如： `Attribution AI Scores - Model for Online Conversion 10120 - Schema`。
+评分数据的架构的名称类似于`Attribution AI Scores - <name of model> <id> - Schema`。 例如：`Attribution AI Scores - Model for Online Conversion 10120 - Schema`。
 
 保留模型评分数据的数据集的名称类似于`Attribution AI Scores - <name of model> <id>`，例如`Attribution AI Scores - Model for Online Conversion 10120 `。
 
@@ -64,7 +71,7 @@ ht-degree: 6%
 |      `eventType` | 字符串 | 此时间序列记录的主要事件类型。<br> **示例：** `Order` |
 |      `geo` | 字符串 | 转换传递的地理位置`placeContext.geo.countryCode`。<br> **示例：** `US` |
 |      `path` | 字符串 | |
-|      `priceTotal` | 多次 | 通过转换<br>获得的收入 **示例：** `99.9` |
+|      `priceTotal` | 双精度 | 通过转换<br>获得的收入 **示例：** `99.9` |
 |      `product` | 字符串 | 产品本身的XDM标识符。<br> **示例：** `RX 1080 ti` |
 |      `productType` | 字符串 | 在此产品视图中向用户显示的产品显示名称。<br> **示例：** `Gpus` |
 |      `quantity` | 整数 | 转换期间购买的数量。<br> **示例：** `1` |
@@ -79,13 +86,13 @@ ht-degree: 6%
 |           `namespace` | 字符串 | 包含用于构建模型的用户的详细信息，如`id`和`namespace`。 |
 | `touchpointsDetail` | 对象[] | 导致转化的接触点详细信息列表，按接触点出现次数或时间戳排序。 |
 |      `scores` | 对象 | 作为得分的接触点对此转化的贡献。 |
-|           `algorithmicInfluenced` | 多次 | 影响分数是每个营销接触点负责的转化率部分。 |
-|           `algorithmicSourced` | 多次 | 增量分数是营销接触点直接造成的边际影响量。 |
-|           `decayUnits` | 多次 | 基于规则的归因得分，其中距离转化较近的接触点比距离转化较远的接触点获得更多的点数。 |
-|           `firstTouch` | 多次 | 基于规则的归因得分，将所有信用分配给转化路径上的初始接触点。 |
-|           `lastTouch` | 多次 | 基于规则的归因得分，可将所有信用分配给最接近转化的接触点。 |
-|           `linear` | 多次 | 基于规则的归因得分，它将信用平等分配给转化路径上的每个接触点。 |
-|           `uShape` | 多次 | 基于规则的归因得分，将40%的信用分配给第一个接触点，将40%的信用分配给最后一个接触点。 其他接触点平分剩余的20%。 |
+|           `algorithmicInfluenced` | 双精度 | 影响分数是每个营销接触点负责的转化率部分。 |
+|           `algorithmicSourced` | 双精度 | 增量分数是营销接触点直接造成的边际影响量。 |
+|           `decayUnits` | 双精度 | 基于规则的归因得分，其中距离转化较近的接触点比距离转化较远的接触点获得更多的点数。 |
+|           `firstTouch` | 双精度 | 基于规则的归因得分，将所有信用分配给转化路径上的初始接触点。 |
+|           `lastTouch` | 双精度 | 基于规则的归因得分，可将所有信用分配给最接近转化的接触点。 |
+|           `linear` | 双精度 | 基于规则的归因得分，它将信用平等分配给转化路径上的每个接触点。 |
+|           `uShape` | 双精度 | 基于规则的归因得分，将40%的信用分配给第一个接触点，将40%的信用分配给最后一个接触点。 其他接触点平分剩余的20%。 |
 |      `touchPoint` | 对象 | 接触点元数据。 |
 |           `passThrough` | 对象 | |
 |                `eventType` | 字符串 | |

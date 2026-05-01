@@ -3,9 +3,16 @@ title: 数据集规则
 description: 了解如何在Mix Modeler中定义要用作协调数据一部分的数据集规则。
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: e6f24c96e873804b37011a1afafb7012d999fc1b
+TQID: https://experienceleague.adobe.com/AHQ73zgE97hHUbZ-lW9-l0c-MKHjA50Qcj9w02MjyGM
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: a567f0f7-0057-4079-8ded-5b24cc25af15
+subfeature_v2: id: ba4fd72c-282e-4fb6-abc1-08e6fb87b2adid: d4b8ba18-64c1-4413-be54-74405ec7f558
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+autotag-review: '2026-05-01T09:12:48.985Z'
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '2106'
+source-wordcount: 2106
 ht-degree: 3%
 
 ---
@@ -74,11 +81,11 @@ ht-degree: 3%
 
       1. 从&#x200B;**[!UICONTROL Mapping type]**&#x200B;中选择&#x200B;**[!UICONTROL Map Into]**&#x200B;或&#x200B;**[!UICONTROL Case]**。
 
-      1. 选择&#x200B;**[!UICONTROL Map Into]**&#x200B;后，请选择&#x200B;**[!UICONTROL Field]**&#x200B;和&#x200B;**[!UICONTROL *AEP数据集字段&#x200B;*]**&#x200B;或&#x200B;**[!UICONTROL Value]**&#x200B;以及默认值，以便默认情况下将协调字段映射到数据集字段或输入的值。
+      1. 选择&#x200B;**[!UICONTROL Map Into]**&#x200B;后，请选择&#x200B;**[!UICONTROL Field]**&#x200B;和&#x200B;**[!UICONTROL *AEP数据集字段&#x200B;*]**或&#x200B;**[!UICONTROL Value]**以及默认值，以便默认情况下将协调字段映射到数据集字段或输入的值。
 
-      1. 当您选择&#x200B;**[!UICONTROL Case]**&#x200B;时，请选择&#x200B;**[!UICONTROL Field]**&#x200B;和&#x200B;**[!UICONTROL *AEP数据集字段&#x200B;*]**&#x200B;或&#x200B;**[!UICONTROL Value]**&#x200B;以及默认值，以便默认情况下将协调字段映射到数据集字段或输入的值。
+      1. 当您选择&#x200B;**[!UICONTROL Case]**&#x200B;时，请选择&#x200B;**[!UICONTROL Field]**&#x200B;和&#x200B;**[!UICONTROL *AEP数据集字段&#x200B;*]**或&#x200B;**[!UICONTROL Value]**以及默认值，以便默认情况下将协调字段映射到数据集字段或输入的值。
 
-         1. 要显式设置值，可定义一个或多个情况，其中包含一个或多个条件。 每个条件都可以检查特定的&#x200B;**[!UICONTROL *AEP数据集字段&#x200B;*]**，无论它是&#x200B;**[!UICONTROL Exists]**&#x200B;还是&#x200B;**[!UICONTROL Not Exists]**，或者它是&#x200B;**[!UICONTROL Contains]**、**[!UICONTROL Not Contains]**、**[!UICONTROL Equals]**、**[!UICONTROL Not Equals]**、**[!UICONTROL Starts With]**&#x200B;还是&#x200B;**[!UICONTROL Ends With]**&#x200B;在&#x200B;**[!UICONTROL *&#x200B;处输入的值输入值&#x200B;*]**。
+         1. 要显式设置值，可定义一个或多个情况，其中包含一个或多个条件。 每个条件都可以检查特定的&#x200B;**[!UICONTROL *AEP数据集字段&#x200B;*]**，无论它是&#x200B;**[!UICONTROL Exists]**还是&#x200B;**[!UICONTROL Not Exists]**，或者它是&#x200B;**[!UICONTROL Contains]**、**[!UICONTROL Not Contains]**、**[!UICONTROL Equals]**、**[!UICONTROL Not Equals]**、**[!UICONTROL Starts With]**还是&#x200B;**[!UICONTROL Ends With]**在**[!UICONTROL *&#x200B;处输入的值输入值&#x200B;*]**。
 
          1. 要添加另一个案例，请选择![添加](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**；要添加另一个条件，请选择![添加](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**。
 
@@ -264,7 +271,7 @@ ht-degree: 3%
    * 要添加基于特定量度的首选项，请执行以下操作：
 
       1. 选择![加](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]**。
-         1. 从&#x200B;**[!UICONTROL *量度选择&#x200B;*]**&#x200B;列表中选择一个量度。
+         1. 从&#x200B;**[!UICONTROL *量度选择&#x200B;*]**列表中选择一个量度。
          1. 选择 **[!UICONTROL CHANNELS]** 或 **[!UICONTROL CONVERSION TYPES]**。 从列表中选择&#x200B;**[!UICONTROL All]**&#x200B;或特定的渠道或转化类型。
          1. 选择&#x200B;**[!UICONTROL Summary]**&#x200B;或&#x200B;**[!UICONTROL Event]**&#x200B;以指定在合并数据时汇总数据或事件数据是否优先于量度（以及所有或选定的渠道）。
 

@@ -1,12 +1,18 @@
 ---
 title: 协调的字段
-description: 了解如何定义要用作协调Mix Modeler中数据一部分的字段。
+description: 了解如何在Mix Modeler中定义要用作协调数据一部分的字段。
 feature: Harmonized Data, Harmonized Fields
 exl-id: f051279a-1ae9-49bd-a946-abfc34c90413
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+TQID: https://experienceleague.adobe.com/NlB6aA4AO-0Tpbb9SibgUz0eVUgs8roO9Mju2M8tl7s
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: a567f0f7-0057-4079-8ded-5b24cc25af15
+subfeature_v2: id: d4b8ba18-64c1-4413-be54-74405ec7f558id: b4655f7e-1a6e-4fa3-a7c5-3c34d4786e49
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+autotag-review: '2026-05-01T09:13:17.577Z'
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 8%
+source-wordcount: 688
+ht-degree: 11%
 
 ---
 
@@ -24,7 +30,7 @@ Mix Modeler中默认可用的全局协调字段包括：
 | 字段名称 | 显示名称 | 类别 | 数据类型 | 注释 |
 | ---------------------- | ---------------------- | --------- | --------- | --------- |
 | 品牌 | 品牌 | 维度 | 字符串 |           |
-| 营销活动 | Campaign | 维度 | 字符串 |           |
+| 营销活动 | 促销活动 | 维度 | 字符串 |           |
 | 渠道 | 渠道 | 维度 | 字符串 |           |
 | channel_id | 渠道ID | 维度 | 字符串 |           |
 | channel_type_at_source | Source中的渠道类型 | 维度 | 字符串 |           |
@@ -57,11 +63,11 @@ Mix Modeler中默认可用的全局协调字段包括：
 
 1. 从左边栏中选择![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]**。
 
-1. 从顶部栏中选择&#x200B;**[!UICONTROL Fields]**。 您会看到协调字段的表。 如果有更多页面可用，请使用&#x200B;_x _&#x200B;**的**&#x200B;Page _x_&#x200B;上的![向左箭头](/help/assets/icons/ChevronLeft.svg)或![向右箭头](/help/assets/icons/ChevronRight.svg)在表的页面之间移动。
+1. 从顶部栏中选择&#x200B;**[!UICONTROL Fields]**。 您会看到协调字段的表。 如果有更多页面可用，请使用&#x200B;_x _]**的**[!UICONTROL Page _x_&#x200B;上的![向左箭头](/help/assets/icons/ChevronLeft.svg)或![向右箭头](/help/assets/icons/ChevronRight.svg)在表的页面之间移动。
 
    表格列指定有关协调字段的详细信息
 
-   | 列名称 | 详细信息 |
+   | 列名 | 详细信息 |
    | ---------------------- | ----------|
    | 字段名称 | 协调字段的名称。 |
    | 显示名称 | 协调字段的显示名称。 此显示名称在定义数据集规则、营销接触点和转化定义时使用。 |
@@ -93,7 +99,7 @@ Mix Modeler中默认可用的全局协调字段包括：
 
    1. 选择&#x200B;**[!UICONTROL Data type]**。
 
-      - 当选择的类别Dimension时，**[!UICONTROL String]**&#x200B;或&#x200B;**[!UICONTROL Date time]**。
+      - 当选择的类别为Dimension时，**[!UICONTROL String]**&#x200B;或&#x200B;**[!UICONTROL Date time]**。
       - 当选择的类别为量度或派生类别时，**[!UICONTROL Number]**&#x200B;或&#x200B;**[!UICONTROL Currency]**。
 
    1. 选择&#x200B;**[!UICONTROL Submit]**&#x200B;以添加协调字段。 选择&#x200B;**[!UICONTROL Close]**&#x200B;关闭对话框而不添加协调字段。

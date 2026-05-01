@@ -3,9 +3,15 @@ title: Mix Modeler用例
 description: Mix Modeler用例。
 feature: Schemas, Datasets, Conversions, Harmonized Data, Marketing Touch Points, Models, Plans
 exl-id: cc82abec-d0ce-44bf-ad7e-fc379a394185
-source-git-commit: e6f24c96e873804b37011a1afafb7012d999fc1b
+TQID: https://experienceleague.adobe.com/AaVm2Jwz9MX-zuURspqkXLG9ZoO91iBowQU-hWBg-4M
+autotag-review: '2026-05-01T08:58:19.052Z'
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: a234aebd-3855-4376-a64d-29b38411e0c5id: fe1c9ae8-a908-4ae1-a0b6-fcf35177b134
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: 645
 ht-degree: 3%
 
 ---
@@ -34,7 +40,7 @@ Mix Modeler支持以下主要用例。
 
 | 步骤 | 详细信息 |
 |---|---|
-| 摄取 | 识别数据源并将其摄取到常用架构下。<br/>将Adobe Analytics或Customer Journey Analytics中的现有投资应用到快速通道部署。 |
+| 摄取 | 识别数据源并将其摄取到常用架构下。 <br/>将Adobe Analytics或Customer Journey Analytics中的现有投资应用到快速通道部署。 |
 | 配置 | 使用AI-as-a-Service框架为特定业务目标配置灵活的模型<br/>通过双向传输学习自动确保接触点和摘要级别之间的一致性。 |
 | 分析 | 清楚地了解整体营销和单个渠道/子渠道的ROI。<br/>清楚地了解哪些接触点最能推动增量转化。 |
 
@@ -73,9 +79,9 @@ Mix Modeler支持以下主要用例。
 
 | 步骤 | 详细信息 |
 |---|---|
-| 配置 | 根据您的业务目标轻松自定义测量模型。<br/>单击几下即可定义参数，无需编码：例如渠道、地理位置、销售周期、滞后、内部和外部业务因素等。 |
+| 配置 | 轻松根据业务目标自定义测量模型。<br/>单击几下即可定义参数，无需编码：例如渠道、地理位置、销售周期、滞后、内部和外部业务因素等。 |
 | 训练 | 训练配置的AI/ML模型如何学习最适合输入数据的情况，从而提供最准确的结果。 |
-| 优化 | 根据模型预测获取自动优化的预算分配。<br/>使用直观的UI，通过几次单击即可开发和比较多个预算方案。 |
+| 优化 | 根据模型预测获取自动优化的预算分配。<br/>使用直观的UI，通过单击几下即可开发和比较多个预算方案。 |
 
 {style="table-layout:auto"}
 
@@ -155,7 +161,7 @@ Successful implementation of this use can have the following impact:
 | 步骤 | 详细信息 |
 |---|---|
 | 模型 | 配置和训练AI/ML模型，以获得一致的MTA接触点分数和MMM聚合结果。 |
-| 分析 | 将增量接触点得分导出到Customer Journey Analytics或外部BI工具中。<br/>执行细粒度分析，并使用接触点得分构建高级仪表板。 |
+| 分析 | 将增量接触点得分导出到Customer Journey Analytics或外部BI工具中。<br/>执行粒度分析，并使用接触点得分构建高级仪表板。 |
 | 操作 | 使用Real-Time Customer Data Platform为顶级消费者区段创建和激活相似内容。<br/>为未来的营销活动，按客户区段制定数据驱动的营销策略。 |
 
 {style="table-layout:auto"}

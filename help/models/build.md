@@ -4,10 +4,16 @@ description: 了解如何在Mix Modeler中构建模型，包括如何设置、�
 feature: Models
 solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 3a8c82d30e97e875e129c931dcd2578fa39f05a5
+TQID: https://experienceleague.adobe.com/cFNaPV6-R3d5ogcBfOyEVNqJoIvfg2JBzVeedjrtEq4
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: e0abf868-dae2-4c1c-83e9-b21799232845id: f40f1683-8300-4054-aab8-77da06ad63ff
+subfeature_v2: id: a567f0f7-0057-4079-8ded-5b24cc25af15id: a9505d76-24a1-4ffe-bd01-6ac32d5af453id: bc2f5225-03d4-4bc8-89ec-99d78c30e6ddid: c89e26b6-808d-4500-8b01-450a63466999
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: beb7a3c1-66ab-4786-b879-7621375b3c40id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 4420f8b550f642dd55fd9d2af9675326e08a8af9
 workflow-type: tm+mt
-source-wordcount: '1578'
-ht-degree: 5%
+source-wordcount: 1578
+ht-degree: 8%
 
 ---
 
@@ -32,7 +38,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="model_marketingtouchpoints_select"
 >title="市场营销接触点"
->abstract="市场营销接触点是接收者、个人和/或 cookie 级别的市场营销事件，用于评估营销投资对基于数字或基于收入的转化率的影响。<br/><br/>您无法使用具有重叠数据的接触点设置模型，并且必须至少有一个具有支出的接触点。"
+>abstract="市场营销接触点是接收者、个人和/或 cookie 级别的市场营销事件，用于评估营销投资对基于数字或基于收入的转化率的影响。<br/><br/>您无法通过有重叠数据的接触点设置模型，而且必须至少有一个有支出的接触点。"
 
 
 您可以在&#x200B;**[!UICONTROL Configure]**&#x200B;步骤中配置模型。 配置涉及转化目标的定义、营销接触点、符合条件的数据群体、外部和内部因素等。
@@ -125,7 +131,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="model_advanced_channeladstock"
 >title="渠道广告素材库"
->abstract="将域专业知识、实验结果或以前的渠道分析直接纳入模型设置。 广告素材库配置有助于引导模型与现实世界的期望保持一致，并提高输出的可解释性和可信度。 每个渠道的回顾周数与滞后周数之和，上限为配置的培训窗口的八分之一。 此上限允许模型有足够的数据来了解adstock效果。"
+>abstract="将域专业知识、实验结果或以前的渠道分析直接纳入模型设置。 广告素材库配置有助于引导模型与现实世界的期望保持一致，并提高输出的可解释性和可信度。 每个渠道的回顾周数与滞后周数之和，上限为配置的培训窗口的八分之一。 这一上限允许模型拥有足够的数据来学习广告素材库效果。"
 
 您可以在&#x200B;**[!UICONTROL Advanced]**&#x200B;步骤中指定高级设置。 在此步骤中，您可以定义[支出共享](#spend-share)，启用[多点接触归因(MTA)](#mta)的模型，定义[先验知识](#prior-knowledge)并定义[渠道adstock](#channel-adstock)。
 
@@ -180,7 +186,7 @@ ht-degree: 5%
 
    * 使用![加](/help/assets/icons/Add.svg)增加值，![减](/help/assets/icons/Subtract.svg)减少值，或手动输入值。
 
-  每个渠道的滞后周数加上最大回顾周数之和最多为配置的培训时段的八分之一。 此上限允许模型有足够的数据来了解adstock效果。 例如，对于两年的培训期，渠道的&#x200B;**[!UICONTROL Lag (weeks)]**&#x200B;和&#x200B;**[!UICONTROL Lookback (weeks)]**&#x200B;的最大值为13周。 此上限在您定义值时强制执行。
+  每个渠道的滞后周数加上最大回顾周数之和最多为配置的培训时段的八分之一。 这一上限允许模型拥有足够的数据来学习广告素材库效果。 例如，对于两年的培训期，渠道的&#x200B;**[!UICONTROL Lag (weeks)]**&#x200B;和&#x200B;**[!UICONTROL Lookback (weeks)]**&#x200B;的最大值为13周。 此上限在您定义值时强制执行。
 
 * 要将所有渠道adstock重置为默认值，请执行以下操作：
 

@@ -3,13 +3,19 @@ title: 模型分析
 description: 了解如何获取有关模型的详细信息，如Mix Modeler中的历史概述、模型见解和模型质量。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 7836e378a0f9068fc868dcede0ab8b3e2803776a
+TQID: https://experienceleague.adobe.com/Ml1WZzjI8bruwu0xV5r6Y9DY34aZad-nMhUMoIObIow
+autotag-review: '2026-05-01T08:59:31.397Z'
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: f40f1683-8300-4054-aab8-77da06ad63ff
+subfeature_v2: id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '2896'
-ht-degree: 8%
+source-wordcount: 2896
+ht-degree: 11%
 
 ---
-
 
 # 模型洞察
 
@@ -161,7 +167,7 @@ ht-degree: 8%
 >如果现有模型的&#x200B;**[!UICONTROL Channel synergy]**&#x200B;选项卡不可见，请确保重新训练模型以启用功能和可视化。
 
 
-### 渠道adstock
+### 渠道广告素材库
 
 为每个配置的渠道adstock可视化显示的渠道adstock可视化图表。 这些可视化图表有助于您了解每个渠道的营销支出影响如何随时间的推移和衰减，以及在初始曝光之后如何持续和衰减。 该可视化通过结合从模型中学习的时态动态而提供了对信道转移的真实视图。
 
@@ -189,7 +195,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="models_factors_factorcontributionbreakdown"
 >title="因素贡献分解"
->abstract="因子贡献细目显示可归因于模型中所包含的各种因子的基础转化率比例。<br/><br/>纯基表示与模型中包含的营销接触点和因素无关的基础转化。 其中包括由品牌资产、重复购买、自然需求以及长期市场趋势和季节性因素驱动的转化。"
+>abstract="因素贡献细分显示了可归因于模型中各种因素的基准转化比例。<br/><br/>纯基准代表了与模型中包含的营销接触点和因素无关的总会发生的基准转化。 其中包括由品牌资产、重复购买、自然需求以及长期市场趋势和季节性因素驱动的转化。"
 
 
 因子[!BADGE beta]选项卡显示外部因子相关见解。
@@ -217,7 +223,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="models_attribution_breakdownbytouchpointposition"
 >title="按接触点位置细分"
->abstract="此可视化按接触点在转化路径中的位置以及接触点类型，对归因转化进行细分。 该可视化图表比较接触点在某个位置的贡献是否优于在剩余位置和任何位置的其他接触点。"
+>abstract="此可视化按接触点在转化路径中的位置以及接触点类型，对归因转化进行细分。 此可视化图表比较了某个接触点在特定位置的贡献是否优于其他位置或其他接触点在任意位置的贡献。"
 
 
 
@@ -345,13 +351,13 @@ Mix Modeler多点接触归因粒度事件分数与总体[!DNL Mix Modeler]分数
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_efficiencymeasure"
 >title="效率指标"
->abstract="由算法归因模型生成的效率指标表示某个接触点对转化的重要性，相对于接触点数量而言是独立衡量的。 此量度从1到5。 请注意，接触点数量较高并不一定意味着效率指标更高。"
+>abstract="由算法归因模型生成的效率指标表示某个接触点对转化的重要性，相对于接触点数量而言是独立衡量的。 这是从 1 到 5 的衡量。 请注意，接触点数量较高并不一定意味着效率指标更高。"
 
 
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_totalvolume"
 >title="总量"
->abstract="总数量是用户接触接触点的总次数。 并且包括出现在实现和未导致转化的路径上的接触点。"
+>abstract="总数量是某个用户接触一个接触点的聚合次数。 它包括达到转化的路径上的接触点和未达到转化的路径上的接触点。"
 
 
 >[!CONTEXTUALHELP]
@@ -367,7 +373,7 @@ Mix Modeler多点接触归因粒度事件分数与总体[!DNL Mix Modeler]分数
   ![模型评估](../assets/model-assessment.png)
 
    * 可按实际转化与预测转化或残差转化进行细分的图表。
-要划分可视化图表，请从&#x200B;**[!UICONTROL Breakdown]**&#x200B;列表中选择以下选项之一。
+要划分可视化图表，请从**[!UICONTROL Breakdown]**&#x200B;列表中选择以下选项之一。
 
       * **[!UICONTROL Actual vs Predicted]**：此选项将实际值与模型预测进行比较。 理想情况下，预测值应与实际值紧密一致，但会有一些偏差。 较大或系统的偏差或模式可能表示缺少的关系和数据或潜在的偏差。
 

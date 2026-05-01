@@ -3,9 +3,15 @@ title: 转化
 description: 了解如何创建转化，以便在Mix Modeler中用作协调数据的一部分。
 feature: Harmonized Data, Conversions
 exl-id: a8559426-452a-43e8-9a60-0c0bc97d863c
-source-git-commit: 5468e0aaf37bf2dca8912199ea26e5f8d9069cb5
+TQID: https://experienceleague.adobe.com/rjFYd9XMTc5z4frFlq41PJqh9Zim-qoHSToyZenTPXE
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: a567f0f7-0057-4079-8ded-5b24cc25af15
+subfeature_v2: id: bc2f5225-03d4-4bc8-89ec-99d78c30e6dd
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+autotag-review: '2026-05-01T09:15:50.061Z'
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: 424
 ht-degree: 10%
 
 ---
@@ -55,11 +61,11 @@ ht-degree: 10%
 
    1. 定义&#x200B;**[!UICONTROL Conversion category]**。
 
-      1. 从&#x200B;**[!UICONTROL *选择协调……*]**&#x200B;中选择一个值，例如`Conversion types`。
+      1. 从&#x200B;**[!UICONTROL *选择协调……*]**中选择一个值，例如`Conversion types`。
 
       1. 选择运算符![V形](/help/assets/icons/ChevronDown.svg)的值，例如&#x200B;**[!UICONTROL is]**。
 
-      1. 从&#x200B;**[!UICONTROL *中选择值&#x200B;*]**&#x200B;或输入值，例如&#x200B;**[!UICONTROL Store]**。
+      1. 从&#x200B;**[!UICONTROL *中选择值&#x200B;*]**或输入值，例如&#x200B;**[!UICONTROL Store]**。
 
    1. 从&#x200B;**[!UICONTROL Conversion metric for analysis]**&#x200B;中选择协调字段，例如&#x200B;**[!UICONTROL Orders]**。
 

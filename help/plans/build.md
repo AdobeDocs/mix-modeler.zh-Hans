@@ -3,13 +3,16 @@ title: 构建计划
 description: 了解如何在Mix Modeler中构建计划。
 feature: Plans
 exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
-source-git-commit: 20985d0f9e9d2990b881ab448f6475e4bb8244d1
+TQID: https://experienceleague.adobe.com/8p0uU5IAWbhwE9L0nVC-au5uyAh05jAJW47l0Jgucy4
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 4420f8b550f642dd55fd9d2af9675326e08a8af9
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: 952
 ht-degree: 0%
 
 ---
-
 
 # 构建计划
 
@@ -25,7 +28,7 @@ ht-degree: 0%
    1. 在&#x200B;**[!UICONTROL Setup]**&#x200B;部分中：
 
       1. 输入&#x200B;**[!UICONTROL Plan name]**，例如`Goal based plan`。 输入&#x200B;**[!UICONTROL Description]**，例如`A goal based plan`。
-      1. 从&#x200B;**[!UICONTROL Model]**&#x200B;中选择&#x200B;**[!UICONTROL _选择一个选项……_.]**
+      1. 从&#x200B;**[!UICONTROL _中选择一个&#x200B;**[!UICONTROL Model]**选择一个选项……_.]**
 
          ![计划设置](/help/assets/plan-setup.png)
 
@@ -40,7 +43,7 @@ ht-degree: 0%
          1. 在&#x200B;**[!UICONTROL Optimize]**&#x200B;容器中：
             1. 从&#x200B;**[!UICONTROL Select conversion]**&#x200B;下拉菜单中选择转换。
             1. 从&#x200B;**[!UICONTROL Select model]**&#x200B;下拉菜单中选择模型。
-         1. 通过键入日期或使用&#x200B;**[!UICONTROL Date range]**&#x200B;日历![选择日期范围来指定](/help/assets/icons/Calendar.svg)。
+         1. 通过键入日期或使用![日历](/help/assets/icons/Calendar.svg)选择日期范围来指定&#x200B;**[!UICONTROL Date range]**。
          1. 输入&#x200B;**[!UICONTROL Budget]**。
 若要添加其他日期范围（每个日期范围都有预算），请选择![日历添加](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**。
 要删除日期范围和相关预算，请选择![关闭](/help/assets/icons/Close.svg)。
@@ -58,7 +61,7 @@ ht-degree: 0%
             1. 从&#x200B;**[!UICONTROL Select target metric]**&#x200B;下拉菜单中选择一个目标量度。 您可以选择介于&#x200B;**[!UICONTROL Conversion]**、**[!UICONTROL CPA]**、**[!UICONTROL Revenue]**&#x200B;或&#x200B;**[!UICONTROL ROI]**&#x200B;之间。
             1. 从&#x200B;**[!UICONTROL Select model]**&#x200B;下拉菜单中选择模型。
          1. 通过键入日期或使用![日历](/help/assets/icons/Calendar.svg)选择日期范围来指定日期范围。
-         1. 输入所选目标度量的值。 例如，**[!UICONTROL Total Conversions]**&#x200B;的数字、**[!UICONTROL Paid Marketing ROI]**&#x200B;的百分比或&#x200B;**[!UICONTROL Paid Marketing CPA]**&#x200B;和&#x200B;**[!UICONTROL Total Revenue]**&#x200B;的货币值。
+         1. 输入所选目标度量的值。 例如，**[!UICONTROL Total Conversions]**&#x200B;的数字、**[!UICONTROL Paid Marketing ROI]**&#x200B;的百分比或&#x200B;**[!UICONTROL Paid Marketing CPA]**&#x200B;和&#x200B;**[!UICONTROL Total Revenue]**的货币值。
 要添加其他日期范围（每个日期范围都有其目标指标），请选择![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**。
 要删除日期范围和关联的目标量度，请选择![关闭](/help/assets/icons/Close.svg)。
          1. 要定义要限制计划的可选最大预算，请执行以下操作：
@@ -72,7 +75,7 @@ ht-degree: 0%
 
    ![计划完成](/help/assets/plan-done-required-fields.png)
 
-   * 如果要生成具有预测的ROI的AI推荐计划，请选择![NewPlan](/help/assets/icons/NewPlan.svg) **[!UICONTROL Create plan now]**。 选择&#x200B;**[!UICONTROL OK]**。 您的计划已创建。
+   * 如果要生成具有预测的ROI的AI推荐计划，请选择![NewPlan](/help/assets/icons/NewPlan.svg) **[!UICONTROL Create plan now]**。 选择 **[!UICONTROL OK]**。 您的计划已创建。
 
 
 
@@ -105,7 +108,7 @@ ht-degree: 0%
 
    1. 要定义每个渠道的预算，请为&#x200B;**[!UICONTROL Min]**&#x200B;和&#x200B;**[!UICONTROL Max]**&#x200B;输入值或使用滑块。
 
-   1. 要在货币或百分比输入之间切换，请为&#x200B;**[!UICONTROL $]**&#x200B;选择&#x200B;**[!UICONTROL %]**&#x200B;或&#x200B;**[!UICONTROL View spend by]**。 如果您选择了不基于货币的目标量度，则此切换处于禁用状态。
+   1. 要在货币或百分比输入之间切换，请为&#x200B;**[!UICONTROL View spend by]**&#x200B;选择&#x200B;**[!UICONTROL $]**&#x200B;或&#x200B;**[!UICONTROL %]**。 如果您选择了不基于货币的目标量度，则此切换处于禁用状态。
 
    1. 完成后，选择&#x200B;**[!UICONTROL Create]**。
       ![花费选择](/help/assets/plan-spend-selection.png)

@@ -3,9 +3,15 @@ title: 计划的绩效
 description: 了解如何在Mix Modeler中使用性能来规划概述。
 feature: Dashboard, Plans, Models
 exl-id: 930fc1d5-8e28-4610-af7b-c4ec91f86a8a
-source-git-commit: 89def3d6f5a1415d8f7a91b05d68d70ca881bdf4
+TQID: https://experienceleague.adobe.com/iRFbGXoCx5jzg6ATId2tNLTfyigoTzD4JQIqlPU5isU
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+subfeature_v2: id: d7b067e6-4f39-41e9-a081-7650346a84cdid: b2520ae7-8f6c-4952-935e-aacc2c10256fid: e6c284e0-b6e6-4f82-bf96-e96bb5157b90
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+autotag-review: '2026-05-01T09:20:18.412Z'
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: 537
 ht-degree: 0%
 
 ---
@@ -14,15 +20,15 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Mix Modeler **[!UICONTROL Performance to plan]**&#x200B;主页[!BADGE &#x200B; &#x200B;]{type=Informative}中的![&#x200B; &#x200B;](/help/assets/icons/Home.svg)Beta **[!UICONTROL Overview]**&#x200B;选项卡是测试版功能，其功能可能会发生更改。 该功能仅对有限数量的客户可用。
+>Mix Modeler ![主页](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x200B;中的&#x200B;**[!UICONTROL Performance to plan]** [!BADGE Beta]{type=Informative}选项卡是测试版功能，其功能可能会发生更改。 该功能仅对有限数量的客户可用。
 
-Mix Modeler **[!UICONTROL Plans]**&#x200B;主页[!BADGE &#x200B; &#x200B;]{type=Informative}中的![&#x200B; &#x200B;](/help/assets/icons/Home.svg)Beta **[!UICONTROL Overview]**&#x200B;选项卡提供了一个跟踪仪表板，用于监视营销针对计划的执行情况。 您可以通过状态卡和可视化图表跟踪实际绩效与计划绩效。
+Mix Modeler ![主页](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x200B;中的&#x200B;**[!UICONTROL Plans]** [!BADGE Beta]{type=Informative}选项卡提供了一个跟踪仪表板，用于监视营销针对计划的执行情况。 您可以通过状态卡和可视化图表跟踪实际绩效与计划绩效。
 
 仪表板可帮助您识别差距、发现风险或机会，并及时调整计划和预算。
 
 要选择为KPI状态卡和可视化图表显示的数据，请执行以下操作：
 
-* 使用&#x200B;**[!UICONTROL Plan name]**&#x200B;选择一个选项……**[!UICONTROL _，从_]**&#x200B;下拉菜单中选择一个计划。
+* 使用&#x200B;**[!UICONTROL _选择一个选项……_]**，从&#x200B;**[!UICONTROL Plan name]**&#x200B;下拉菜单中选择一个计划。
 
 * 指定日期期间。 要更改日期期间，请使用![日历](/help/assets/icons/Calendar.svg)手动输入开始日期和结束日期，或选择日期期间。
 
@@ -36,12 +42,12 @@ Mix Modeler **[!UICONTROL Plans]**&#x200B;主页[!BADGE &#x200B; &#x200B;]{type=
    * [KPI](#kpi)
 
 * [可视化图表](#visualizations)：
-   * [*量度*](#metric-actual-vs-planned)
-   * [*量度*](#metric-actual-vs-planned-by-granularity)
-   * [渠道 &#x200B;](#channel-metric-by-granularity)
-   * [*量度*](#metric-vs-metric-by-channel)
-   * [*量度*](#metric-by-granularity)
-   * [*量度*](#metric-by-channel)
+   * [*量度*：实际与计划](#metric-actual-vs-planned)
+   * [*量度*：实际粒度与按&#x200B;*粒度计划的粒度*](#metric-actual-vs-planned-by-granularity)
+   * [渠道&#x200B;*指标*&#x200B;乘以&#x200B;*粒度*](#channel-metric-by-granularity)
+   * [*指标*&#x200B;与&#x200B;*指标*（按渠道）](#metric-vs-metric-by-channel)
+   * [*指标*，粒度为&#x200B;*3}*](#metric-by-granularity)
+   * [按渠道显示的&#x200B;*量度*](#metric-by-channel)
 
 ## KPI状态卡
 
@@ -72,7 +78,7 @@ Mix Modeler **[!UICONTROL Plans]**&#x200B;主页[!BADGE &#x200B; &#x200B;]{type=
 1. 从&#x200B;**[!UICONTROL KPI status card]**&#x200B;对话框中，从&#x200B;**[!UICONTROL KPI]**&#x200B;下拉菜单中选择一个KPI。 可用选项为： [!UICONTROL Conversions]、[!UICONTROL CPA]、[!UICONTROL Revenue]、[!UICONTROL ROI]和[!UICONTROL Spend]。
 
 
-## 可视化图表
+## 可视化
 
 提供了六个可视化图表，您可以编辑这六个可视化图表中的每一个可视化图表。
 
@@ -102,7 +108,7 @@ Mix Modeler **[!UICONTROL Plans]**&#x200B;主页[!BADGE &#x200B; &#x200B;]{type=
 散点图可视化图表，显示选定量度中的渠道散点图。
 
 
-### *指标*，粒度为&#x200B;*3&rbrace;*
+### *指标*，粒度为&#x200B;*3}*
 
 显示选定指标的实际值和计划值的条形图可视化图表。
 
@@ -123,7 +129,7 @@ Mix Modeler **[!UICONTROL Plans]**&#x200B;主页[!BADGE &#x200B; &#x200B;]{type=
 
       * 对于基于ROI的计划，选项包括： [!UICONTROL Conversions]、[!UICONTROL CPA]、[!UICONTROL Revenue]、[!UICONTROL ROI]、[!UICONTROL Spend]和[!UICONTROL Volume]。
       * 对于基于CPA的计划，选项为： [!UICONTROL Conversions]、[!UICONTROL CPA]、[!UICONTROL Spend]和[!UICONTROL Volume]。
-   * **[!UICONTROL Granularity]**：从&#x200B;**[!UICONTROL date ranges]**&#x200B;下拉菜单中选择&#x200B;**[!UICONTROL week]**&#x200B;或&#x200B;**[!UICONTROL Granularity]**。
+   * **[!UICONTROL Granularity]**：从&#x200B;**[!UICONTROL Granularity]**&#x200B;下拉菜单中选择&#x200B;**[!UICONTROL date ranges]**&#x200B;或&#x200B;**[!UICONTROL week]**。
 
    您在&#x200B;**[!UICONTROL Preview]**&#x200B;中看到更改与&#x200B;**[!UICONTROL Current]**&#x200B;可视化图表有何不同。
 
