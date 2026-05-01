@@ -5,11 +5,19 @@ feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
 TQID: https://experienceleague.adobe.com/0cBg65pu0-gkk1AlWOvQHxn5RUaIRkOs1Yz7FPppcsk
 autotag-review: '2026-05-01T09:05:53.776Z'
-product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
-feature_v2: id: d822825b-9821-40d5-9b0d-42a9e3f317c5
-subfeature_v2: id: d7b067e6-4f39-41e9-a081-7650346a84cdid: b2520ae7-8f6c-4952-935e-aacc2c10256fid: e6c284e0-b6e6-4f82-bf96-e96bb5157b90
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+subfeature_v2:
+  - id: d7b067e6-4f39-41e9-a081-7650346a84cd
+  - id: b2520ae7-8f6c-4952-935e-aacc2c10256f
+  - id: e6c284e0-b6e6-4f82-bf96-e96bb5157b90
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
 source-wordcount: 679
@@ -92,7 +100,7 @@ Mix Modeler中的计划允许您按业务部门和渠道分配预算。 计划�
 - 为计划选择![更多](/help/assets/icons/More.svg)。 从上下文菜单中选择&#x200B;**[!UICONTROL Duplicate]**。
 - 或者，在表![SelectBox](/help/assets/icons/SelectBox.svg)中选择一个计划，然后从蓝色操作栏中选择![复制](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]**。
 
-已创建一个新计划，其名称由原始计划的名称附加上&#x200B;**[!UICONTROL (Copy)](_n_)**&#x200B;组成。 系统会自动将您重定向到[计划创建](build.md)，以便为复制的计划提供更新的详细信息。
+已创建一个新计划，其名称由原始计划的名称附加上&#x200B;**[!UICONTROL (Copy)] (_n_)**&#x200B;组成。 系统会自动将您重定向到[计划创建](build.md)，以便为复制的计划提供更新的详细信息。
 
 - 原始计划中的详细信息（如描述、预算等）将复制过来。
 - 原始计划中的预算约束将复制到新创建的计划中。
@@ -123,6 +131,6 @@ Mix Modeler中的计划允许您按业务部门和渠道分配预算。 计划�
 
 1. 选择多个计划。
 1. 从蓝色操作栏中，选择![删除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;以删除计划。
-1. 在&#x200B;**[!UICONTROL Delete *x *计划]**确认对话框中选择&#x200B;**[!UICONTROL Delete]**以删除计划。 选择要取消的&#x200B;**[!UICONTROL Cancel]**。
+1. 在&#x200B;**[!UICONTROL Delete *x *计划]**&#x200B;确认对话框中选择&#x200B;**[!UICONTROL Delete]**&#x200B;以删除计划。 选择要取消的&#x200B;**[!UICONTROL Cancel]**。
 
 

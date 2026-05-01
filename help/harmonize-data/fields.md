@@ -4,10 +4,16 @@ description: 了解如何在Mix Modeler中定义要用作协调数据一部分�
 feature: Harmonized Data, Harmonized Fields
 exl-id: f051279a-1ae9-49bd-a946-abfc34c90413
 TQID: https://experienceleague.adobe.com/NlB6aA4AO-0Tpbb9SibgUz0eVUgs8roO9Mju2M8tl7s
-product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
-feature_v2: id: a567f0f7-0057-4079-8ded-5b24cc25af15
-subfeature_v2: id: d4b8ba18-64c1-4413-be54-74405ec7f558id: b4655f7e-1a6e-4fa3-a7c5-3c34d4786e49
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+subfeature_v2:
+  - id: d4b8ba18-64c1-4413-be54-74405ec7f558
+  - id: b4655f7e-1a6e-4fa3-a7c5-3c34d4786e49
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 autotag-review: '2026-05-01T09:13:17.577Z'
 source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
@@ -63,7 +69,7 @@ Mix Modeler中默认可用的全局协调字段包括：
 
 1. 从左边栏中选择![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]**。
 
-1. 从顶部栏中选择&#x200B;**[!UICONTROL Fields]**。 您会看到协调字段的表。 如果有更多页面可用，请使用&#x200B;_x _]**的**[!UICONTROL Page _x_&#x200B;上的![向左箭头](/help/assets/icons/ChevronLeft.svg)或![向右箭头](/help/assets/icons/ChevronRight.svg)在表的页面之间移动。
+1. 从顶部栏中选择&#x200B;**[!UICONTROL Fields]**。 您会看到协调字段的表。 如果有更多页面可用，请使用&#x200B;_x _&#x200B;**的**&#x200B;Page _x_&#x200B;上的![向左箭头](/help/assets/icons/ChevronLeft.svg)或![向右箭头](/help/assets/icons/ChevronRight.svg)在表的页面之间移动。
 
    表格列指定有关协调字段的详细信息
 

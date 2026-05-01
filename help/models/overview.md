@@ -5,11 +5,20 @@ feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
 TQID: https://experienceleague.adobe.com/2EmrUfSObFMDb0rNRG1OWqU8c2P9Dp1nf1y8-SpEY3k
 autotag-review: '2026-05-01T08:59:10.903Z'
-product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
-feature_v2: id: f40f1683-8300-4054-aab8-77da06ad63ff
-subfeature_v2: id: a9505d76-24a1-4ffe-bd01-6ac32d5af453id: c89e26b6-808d-4500-8b01-450a63466999id: cb40363e-1205-4921-971c-9ee6bdb18329
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+subfeature_v2:
+  - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
+  - id: c89e26b6-808d-4500-8b01-450a63466999
+  - id: cb40363e-1205-4921-971c-9ee6bdb18329
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
 source-wordcount: 1082
@@ -126,7 +135,7 @@ Mix Modeler中的模型是一种机器学习模型，用于根据营销人员的
 
 1. 为模型选择![更多](/help/assets/icons/More.svg)，然后从上下文菜单中选择&#x200B;**[!UICONTROL Duplicate]**。
 
-您将被重定向到创建新模型的步骤，其中提议的名称由附加了&#x200B;**[!UICONTROL (Copy)](_n_)**&#x200B;的原始模型名称组成。
+您将被重定向到创建新模型的步骤，其中提议的名称由附加了&#x200B;**[!UICONTROL (Copy)] (_n_)**&#x200B;的原始模型名称组成。
 
 ### Edit
 
@@ -184,5 +193,5 @@ Mix Modeler中的模型是一种机器学习模型，用于根据营销人员的
 
 1. 选择多个模型。
 1. 从蓝色操作栏中，选择![删除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;以删除模型。
-1. 在&#x200B;**[!UICONTROL Delete *x *模型]**确认对话框中选择&#x200B;**[!UICONTROL Delete]**以删除模型。 选择要取消的&#x200B;**[!UICONTROL Cancel]**。
+1. 在&#x200B;**[!UICONTROL Delete *x *模型]**&#x200B;确认对话框中选择&#x200B;**[!UICONTROL Delete]**&#x200B;以删除模型。 选择要取消的&#x200B;**[!UICONTROL Cancel]**。
 

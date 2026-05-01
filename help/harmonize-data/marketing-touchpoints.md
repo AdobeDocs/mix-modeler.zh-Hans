@@ -4,10 +4,15 @@ description: 了解如何在Mix Modeler中创建营销接触点，以将其用�
 feature: Harmonized Data, Marketing Touch Points
 exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
 TQID: https://experienceleague.adobe.com/6HEgtbsEegA-XyeNQTCQd5JhMZyKZ9BzxPAiJGOr1N0
-product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
-feature_v2: id: a567f0f7-0057-4079-8ded-5b24cc25af15
-subfeature_v2: id: b2d4aeb9-eabe-49f6-8edb-bb2862d5980b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+subfeature_v2:
+  - id: b2d4aeb9-eabe-49f6-8edb-bb2862d5980b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 autotag-review: '2026-05-01T09:13:36.558Z'
 source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
@@ -34,7 +39,7 @@ ht-degree: 12%
 
 1. 从左边栏中选择![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]**。
 
-1. 从顶部栏中选择&#x200B;**[!UICONTROL Marketing touchpoint]**。 您会看到营销接触点表。 如果有更多页面可用，请使用&#x200B;_x _]**的**[!UICONTROL Page _x_&#x200B;上的![向左箭头](/help/assets/icons/ChevronLeft.svg)或![向右箭头](/help/assets/icons/ChevronRight.svg)在表的页面之间移动。
+1. 从顶部栏中选择&#x200B;**[!UICONTROL Marketing touchpoint]**。 您会看到营销接触点表。 如果有更多页面可用，请使用&#x200B;_x _&#x200B;**的**&#x200B;Page _x_&#x200B;上的![向左箭头](/help/assets/icons/ChevronLeft.svg)或![向右箭头](/help/assets/icons/ChevronRight.svg)在表的页面之间移动。
 
 表列指定有关营销接触点的详细信息：
 
@@ -60,11 +65,11 @@ ht-degree: 12%
 
    1. 定义&#x200B;**[!UICONTROL Touchpoint rule]**。
 
-      1. 从&#x200B;**[!UICONTROL *选择协调的&#x200B;*]**中选择一个值，例如&#x200B;**[!UICONTROL Brand]**。
+      1. 从&#x200B;**[!UICONTROL *选择协调的&#x200B;*]**&#x200B;中选择一个值，例如&#x200B;**[!UICONTROL Brand]**。
 
       1. 为运算符![V形](/help/assets/icons/ChevronDown.svg)选择一个值，例如&#x200B;**[!UICONTROL is]**。
 
-      1. 从&#x200B;**[!UICONTROL *中选择值&#x200B;*]**或输入值，例如&#x200B;**[!DNL Luma]**。
+      1. 从&#x200B;**[!UICONTROL *中选择值&#x200B;*]**&#x200B;或输入值，例如&#x200B;**[!DNL Luma]**。
 
    1. 从&#x200B;**[!UICONTROL Touchpoint volume]**&#x200B;中选择协调字段，例如&#x200B;**[!UICONTROL Impressions]**。
 

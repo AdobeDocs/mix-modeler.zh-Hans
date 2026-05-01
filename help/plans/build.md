@@ -4,9 +4,13 @@ description: 了解如何在Mix Modeler中构建计划。
 feature: Plans
 exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
 TQID: https://experienceleague.adobe.com/8p0uU5IAWbhwE9L0nVC-au5uyAh05jAJW47l0Jgucy4
-product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 4420f8b550f642dd55fd9d2af9675326e08a8af9
 workflow-type: tm+mt
 source-wordcount: 952
@@ -28,7 +32,7 @@ ht-degree: 0%
    1. 在&#x200B;**[!UICONTROL Setup]**&#x200B;部分中：
 
       1. 输入&#x200B;**[!UICONTROL Plan name]**，例如`Goal based plan`。 输入&#x200B;**[!UICONTROL Description]**，例如`A goal based plan`。
-      1. 从&#x200B;**[!UICONTROL _中选择一个&#x200B;**[!UICONTROL Model]**选择一个选项……_.]**
+      1. 从&#x200B;**[!UICONTROL _中选择一个&#x200B;**&#x200B;[!UICONTROL Model]&#x200B;**选择一个选项……_.]**
 
          ![计划设置](/help/assets/plan-setup.png)
 
@@ -61,7 +65,7 @@ ht-degree: 0%
             1. 从&#x200B;**[!UICONTROL Select target metric]**&#x200B;下拉菜单中选择一个目标量度。 您可以选择介于&#x200B;**[!UICONTROL Conversion]**、**[!UICONTROL CPA]**、**[!UICONTROL Revenue]**&#x200B;或&#x200B;**[!UICONTROL ROI]**&#x200B;之间。
             1. 从&#x200B;**[!UICONTROL Select model]**&#x200B;下拉菜单中选择模型。
          1. 通过键入日期或使用![日历](/help/assets/icons/Calendar.svg)选择日期范围来指定日期范围。
-         1. 输入所选目标度量的值。 例如，**[!UICONTROL Total Conversions]**&#x200B;的数字、**[!UICONTROL Paid Marketing ROI]**&#x200B;的百分比或&#x200B;**[!UICONTROL Paid Marketing CPA]**&#x200B;和&#x200B;**[!UICONTROL Total Revenue]**的货币值。
+         1. 输入所选目标度量的值。 例如，**[!UICONTROL Total Conversions]**&#x200B;的数字、**[!UICONTROL Paid Marketing ROI]**&#x200B;的百分比或&#x200B;**[!UICONTROL Paid Marketing CPA]**&#x200B;和&#x200B;**[!UICONTROL Total Revenue]**&#x200B;的货币值。
 要添加其他日期范围（每个日期范围都有其目标指标），请选择![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**。
 要删除日期范围和关联的目标量度，请选择![关闭](/help/assets/icons/Close.svg)。
          1. 要定义要限制计划的可选最大预算，请执行以下操作：
