@@ -3,10 +3,25 @@ title: 摄取数据概述
 description: 了解如何将数据摄取到Mix Modeler。
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
+TQID: https://experienceleague.adobe.com/XPr8Av7skzHBYoU6WtNw8PtHFrPH-MokICrLwoB2-J0
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+  - id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
+subfeature_v2:
+  - id: ad7101f7-ae92-401b-a25a-d3060d42989d
+  - id: d1167c89-f64a-42ca-ac95-1d91b7790df2
+  - id: ee1bf083-e090-4def-936b-c111d29f42d0
+  - id: a4dc3e7d-bd07-4ac8-8e49-ff2e8fecf1e7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+autotag-review: '2026-05-01T09:11:34.506Z'
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 7%
+source-wordcount: 584
+ht-degree: 14%
 
 ---
 
@@ -20,7 +35,7 @@ Mix Modeler可处理来自不同封闭花园的事件级数据、汇总或汇总
 
 * 使用Adobe Analytics源连接器收集的数据。 并转换为符合Adobe Analytics架构的默认或自定义版本的数据集。
 * 使用Experience Platform Web SDK、Mobile SDK或Edge Network Server API收集的数据，用于收集Web、移动设备或任何其他类型设备上的客户交互。
-* 汇总或摘要来自封闭花园的数据(如Facebook、YouTube)、流量源或离线广告数据。
+* 汇总或摘要来自封闭花园的数据（如Facebook、YouTube）、流量源或离线广告数据。
 * 包含对模型构建有用的内部或外部因素的非营销聚合或摘要数据。
 
 您可以使用Experience Platform支持的任何类型的机制，从其他来源摄取体验事件级别的汇总营销工作数据和数据。 例如Experience Platform SDK、API、源连接器以及流式摄取和批量摄取。 要了解有关在Experience Platform中引入数据以用于Adobe Mix Modeler的更多信息，请参阅[数据引入概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ingestion/home)。
@@ -41,12 +56,12 @@ Mix Modeler可处理来自不同封闭花园的事件级数据、汇总或汇总
 
 +++ 汇总营销工作数据
 
-| 地域 | 日期 | 日期类型 | 渠道 | Campaign | 单击 | 已获取 | 参与度 | 印象 | Open | 已拥有 | 已发送 | 支出 |
+| 地域 | 日期 | 日期类型 | 渠道 | 促销活动 | Click | 已获取 | 参与度 | 印象 | 打开 | 已拥有 | 已发送 | 支出 |
 |---|:--|---|:---:|---|--:|---|--:|---|---|---|--:|--:|
-| AMER | 2021-10-31 | 天 | 电子邮件 | | 12752 | | | | | | 1132945 | |
+| AMER | 2021-10-31 | 天 | EMAIL | | 12752 | | | | | | 1132945 | |
 | AMER | 2021-10-31 | 天 | FB | | 148844 | | | | | | | 42111 |
 | AMER | 2021-10-31 | 天 | YT | | | | 2314452 | | | | | 10540 |
-| 日本 | 2021-10-21 | 天 | 电子邮件 | | 21089 | | | | | | 3283626 | |
+| 日本 | 2021-10-21 | 天 | EMAIL | | 21089 | | | | | | 3283626 | |
 | 日本 | 2021-10-21 | 天 | SOCIAL | | | | 621 | | | | | 74512 |
 
 {style="table-layout:auto"}

@@ -3,10 +3,28 @@ title: 数据治理概述
 description: 了解如何使用Experience Platform中的服务和工具，以便您控制收集的体验数据。 这样，您就可以遵守业务实践、法律义务和发展过程。
 feature: Administration
 exl-id: 87407c29-e158-48bf-bde9-b3c16a16107e
-source-git-commit: bdde574b150bda2b0c82a9f5a20160fed26cb69d
+TQID: https://experienceleague.adobe.com/vc5z266rexOpAuR1HJCj-ltOLZmkccBDvfi8JUsuiJ4
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: f6633d1c-3d2d-4f48-95d4-4bbc9913db52
+subfeature_v2:
+  - id: bf7ac0fc-effb-4f0c-b93f-658412718d3c
+  - id: fd80ec6b-9b9e-448a-a6d0-b0c9a15da6b8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+autotag-review: '2026-05-01T09:16:50.195Z'
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 2%
+source-wordcount: 462
+ht-degree: 3%
 
 ---
 
@@ -29,4 +47,4 @@ Experience Platform数据管理让您能够控制和理解数据通过Experience
 | 支持 | 作为协调数据工作流程的一部分，Experience Platform定义的政策将被执行。 任何违反数据使用标签的情况都会报告并显示给用户。 有关详细信息，请参阅[策略](policies.md)。 |
 | 加密 | 所有用于模型输入和输出的数据集都遵循Experience Platform准则。 Experience Platform数据加密适用于静态和传输中的数据。 |
 | 数据卫生 | 所有用于模型输入和模型外的数据集都遵循Experience Platform准则。 Experience Platform提供了一套用于管理客户数据生命周期的工具，包括支持不同类型的数据过期。 从Experience Platform中删除源数据集（用作协调数据的一部分）时，系统会通知您。 有关详细信息，请参阅[数据集规则](/help/harmonize-data/dataset-rules.md)。 |
-| 客户托管密钥 | 如果您已获得Mix Modeler的Privacy Security Shield加载项许可，则可以使用客户管理的密钥功能，利用Azure密钥库通过API自带密钥。 您可以在Mix Modeler中完全管理模型内正在处理的数据。 |
+| 客户托管密钥 | 如果您已获得Mix Modeler与Privacy Security Shield加载项的许可，则可以使用客户管理的密钥功能，利用Azure密钥库通过API自带密钥。 您可以在Mix Modeler中完全管理模型内正在处理的数据。 |

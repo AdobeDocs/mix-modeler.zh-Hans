@@ -3,10 +3,27 @@ title: 协调数据集概述
 description: 了解如何在Mix Modeler中协调数据。
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 23cb7cefe3d1dabfdb8484ad150c38d785841e3b
+TQID: https://experienceleague.adobe.com/9ki9Q-ZAmwmiyYFt-EAaa1ybylaoMauTvoxQ9ux1IEI
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+subfeature_v2:
+  - id: bc2f5225-03d4-4bc8-89ec-99d78c30e6dd
+  - id: d4b8ba18-64c1-4413-be54-74405ec7f558
+  - id: ba4fd72c-282e-4fb6-abc1-08e6fb87b2ad
+  - id: b4655f7e-1a6e-4fa3-a7c5-3c34d4786e49
+  - id: b2d4aeb9-eabe-49f6-8edb-bb2862d5980b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+autotag-review: '2026-05-01T09:10:10.340Z'
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '1369'
-ht-degree: 7%
+source-wordcount: 1382
+ht-degree: 17%
 
 ---
 
@@ -52,12 +69,12 @@ Mix Modeler中的因子功能使用协调的因子工作流程。 此工作流�
 
 包含YouTube中的营销工作数据集，并将聚合数据集的粒度设置为每天。
 
-| 日期 | 日期类型 | 渠道 | Campaign | 品牌 | 地域 | 点击次数 | 支出 |
+| 日期 | 日期类型 | 渠道 | 促销活动 | 品牌 | 地域 | 点击次数 | 支出 |
 |---|:--:|---|---|---|---|---:|---:|
 | 12-31-2021 | 天 | YouTube | Y_Fall_02 | BrandX | 美国 | 10000 | 100 |
 | 01-01-2022 | 天 | YouTube | Y_Fall_02 | BrandX | 美国 | 1000 | 10 |
 | 01-03-2022 | 天 | YouTube | Y_Fall_01 | BrandY | CA | 10000 | 100 |
-| 01-04-2022 | 天 | YouTube | Y_Summer_01 | 空 | CA | 9000 | 80 |
+| 01-04-2022 | 天 | YouTube | Y_Summer_01 | Null | CA | 9000 | 80 |
 
 {style="table-layout:auto"}
 
@@ -66,7 +83,7 @@ Mix Modeler中的因子功能使用协调的因子工作流程。 此工作流�
 
 包含来自Facebook的营销工作数据集，其聚合数据的粒度设置为每周。
 
-| 日期 | 日期类型 | 渠道 | Campaign | 地域 | 点击次数 | 支出 |
+| 日期 | 日期类型 | 渠道 | 促销活动 | 地域 | 点击次数 | 支出 |
 |--- |:---:|--- |---|---|---:|---:|
 | 01-01-2022 | 周 | Facebook | FB_Fall_01 | 美国 | 8000 | 100 |
 | 01-08-2022 | 周 | Facebook | FB_Fall_02 | 美国 | 1000 | 10 |
@@ -92,7 +109,7 @@ Mix Modeler中的因子功能使用协调的因子工作流程。 此工作流�
 
 **数据集4**
 
-客户提供的示例体验事件数据集(Web SDK事件)。
+客户提供的示例体验事件数据集（Web SDK事件）。
 
 | 时间戳 | 身份标识命名空间 | 身份ID | 渠道 | 点击次数 |
 |--- |--- |--- |--- |---:|
@@ -108,21 +125,21 @@ Mix Modeler中的因子功能使用协调的因子工作流程。 此工作流�
 
 **协调的数据集**
 
-| 日期 | 日期类型 | 渠道 | Campaign | 品牌 | 地域 | 目标 | 点击次数 | 支出 | 收入 |
+| 日期 | 日期类型 | 渠道 | 促销活动 | 品牌 | 地域 | 目标 | 点击次数 | 支出 | 收入 |
 |--- |:---:|--- |--- |--- |---|---|---:|---:|---:|
-| 12-27-2021 | 周 | YouTube | Y_Fall_02 | BrandX | 美国 | 空 | 11000 | 110 | 空 |
-| 01-03-2022 | 周 | YouTube | Y_Fall_01 | BrandY | CA | 空 | 10000 | 100 | 空 |
-| 01-03-2022 | 周 | YouTube | Y_Summer_01 | 空 | CA | 空 | 9000 | 80 | 空 |
-| 01-01-2022 | 周 | Facebook | FB_Fall_01 | 空 | 美国 | 空 | 8000 | 100 | 空 |
-| 01-08-2022 | 周 | Facebook | FB_Fall_02 | 空 | 美国 | 空 | 1000 | 10 | 空 |
-| 01-08-2022 | 周 | Facebook | FB_Fall_01 | 空 | 美国 | 空 | 7000 | 100 | 空 |
-| 01-16-2022 | 周 | Facebook | FB_Summer_01 | 空 | CA | 空 | 10000 | 80 | 空 |
-| 12-27-2021 | 周 | 空 | 空 | 空 | 美国 | 时尚 | 空 | 空 | 200 |
-| 01-03-2022 | 周 | 空 | 空 | 空 | 美国 | 时尚 | 空 | 空 | 10 |
-| 01-03-2022 | 周 | 空 | 空 | 空 | 美国 | 珠宝 | 空 | 空 | 1100 |
-| 01-10-2022 | 周 | 空 | 空 | 空 | CA | 珠宝 | 空 | 空 | 80 |
-| 01-01-2022 | 周 | CSE | 空 | 空 | 空 | 空 | 2 | 空 | 空 |
-| 01-08-2022 | 周 | CSE | 空 | 空 | 空 | 空 | 2 | 空 | 空 |
+| 12-27-2021 | 周 | YouTube | Y_Fall_02 | BrandX | 美国 | Null | 11000 | 110 | Null |
+| 01-03-2022 | 周 | YouTube | Y_Fall_01 | BrandY | CA | Null | 10000 | 100 | Null |
+| 01-03-2022 | 周 | YouTube | Y_Summer_01 | Null | CA | Null | 9000 | 80 | Null |
+| 01-01-2022 | 周 | Facebook | FB_Fall_01 | Null | 美国 | Null | 8000 | 100 | Null |
+| 01-08-2022 | 周 | Facebook | FB_Fall_02 | Null | 美国 | Null | 1000 | 10 | Null |
+| 01-08-2022 | 周 | Facebook | FB_Fall_01 | Null | 美国 | Null | 7000 | 100 | Null |
+| 01-16-2022 | 周 | Facebook | FB_Summer_01 | Null | CA | Null | 10000 | 80 | Null |
+| 12-27-2021 | 周 | Null | Null | Null | 美国 | 时尚 | Null | Null | 200 |
+| 01-03-2022 | 周 | Null | Null | Null | 美国 | 时尚 | Null | Null | 10 |
+| 01-03-2022 | 周 | Null | Null | Null | 美国 | 珠宝 | Null | Null | 1100 |
+| 01-10-2022 | 周 | Null | Null | Null | CA | 珠宝 | Null | Null | 80 |
+| 01-01-2022 | 周 | CSE | Null | Null | Null | Null | 2 | Null | Null |
+| 01-08-2022 | 周 | CSE | Null | Null | Null | Null | 2 | Null | Null |
 
 {style="table-layout:auto"}
 
@@ -149,9 +166,9 @@ Mix Modeler中的因子功能使用协调的因子工作流程。 此工作流�
 
    1. 要修改“协调”数据表中显示的协调字段列，请使用![设置](/help/assets/icons/Setting.svg)打开&#x200B;**[!UICONTROL Column settings]**&#x200B;对话框。
 
-      1. 从![中选择](/help/assets/icons/SelectBox.svg)SelectBox **[!UICONTROL AVAILABLE COLUMNS]**&#x200B;一个或多个列，并使用![右V形](/help/assets/icons/ChevronRight.svg)将这些列添加到&#x200B;**[!UICONTROL SELECTED COLUMNS]**。 您定义的所有标准协调字段（包括与因子数据集相关的字段，如&#x200B;**[!UICONTROL Factor Name]**、**[!UICONTROL Factor Value]**、**[!UICONTROL Factor Type]**&#x200B;和&#x200B;**[!UICONTROL Factor Value Type]**）均可用。
+      1. 从&#x200B;**[!UICONTROL AVAILABLE COLUMNS]**&#x200B;中选择![SelectBox](/help/assets/icons/SelectBox.svg)一个或多个列，并使用![右V形](/help/assets/icons/ChevronRight.svg)将这些列添加到&#x200B;**[!UICONTROL SELECTED COLUMNS]**。 您定义的所有标准协调字段（包括与因子数据集相关的字段，如&#x200B;**[!UICONTROL Factor Name]**、**[!UICONTROL Factor Value]**、**[!UICONTROL Factor Type]**&#x200B;和&#x200B;**[!UICONTROL Factor Value Type]**）均可用。
 
-      1. 从![中选择](/help/assets/icons/SelectBox.svg)SelectBox **[!UICONTROL SELECTED COLUMNS]**&#x200B;一个或多个列，并使用![左V形](/help/assets/icons/ChevronLeft.svg)删除所选列并将这些列返回给&#x200B;**[!UICONTROL AVAILABLE COLUMNS]**。
+      1. 从&#x200B;**[!UICONTROL SELECTED COLUMNS]**&#x200B;中选择![SelectBox](/help/assets/icons/SelectBox.svg)一个或多个列，并使用![左V形](/help/assets/icons/ChevronLeft.svg)删除所选列并将这些列返回给&#x200B;**[!UICONTROL AVAILABLE COLUMNS]**。
 
       1. 从&#x200B;**[!UICONTROL DEFAULT SORT]**&#x200B;中选择一列并在&#x200B;**[!UICONTROL Ascending]**&#x200B;或&#x200B;**[!UICONTROL Descending]**&#x200B;之间切换。
 
@@ -159,7 +176,7 @@ Mix Modeler中的因子功能使用协调的因子工作流程。 此工作流�
 
    1. 选择&#x200B;**[!UICONTROL Submit]**&#x200B;以提交列设置更改。 选择&#x200B;**[!UICONTROL Close]**&#x200B;以取消所做的任何更改。
 
-1. 如果有更多页面可用，请使用![x](/help/assets/icons/ChevronLeft.svg)的![x](/help/assets/icons/ChevronRight.svg)上的&#x200B;**[!UICONTROL Page _向左箭头&#x200B;_或_向右箭头_]**&#x200B;在页面之间移动。
+1. 如果有更多页面可用，请使用&#x200B;_x _&#x200B;**的**&#x200B;Page _x_&#x200B;上的![向左箭头](/help/assets/icons/ChevronLeft.svg)或![向右箭头](/help/assets/icons/ChevronRight.svg)在页面之间移动。
 
 1. 您可以选择下载协调的数据。
 
@@ -171,7 +188,7 @@ Mix Modeler中的因子功能使用协调的因子工作流程。 此工作流�
    标题基于您提供的报表名称以及当前日期和时间（例如`Test Report_2025_04_23_9-5-18.csv`）的CSV报表将下载到您的默认下载文件夹。
 
 
-## 最佳做法
+## 最佳实践
 
 当您构建协调的数据集时，请应用以下最佳实践。
 
