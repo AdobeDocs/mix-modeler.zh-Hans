@@ -3,9 +3,13 @@ title: Mix Modeler深入探讨
 description: 探索Adobe Mix Modeler背后的技术方法，包括多点接触归因、营销组合建模、转移学习和预算优化。
 feature: Administration
 hide: true
-feature_v2: id: a234aebd-3855-4376-a64d-29b38411e0c5id: fe1c9ae8-a908-4ae1-a0b6-fcf35177b134
-level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+feature_v2:
+  - id: a234aebd-3855-4376-a64d-29b38411e0c5
+  - id: fe1c9ae8-a908-4ae1-a0b6-fcf35177b134
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
 source-git-commit: 4f4fe68694c81ddb258656eb05d62ef057f200cb
 workflow-type: tm+mt
 source-wordcount: 2747
@@ -126,9 +130,9 @@ Mix Modeler为多点接触归因产生的见解提供了[适合营销人员的�
 * **乘法模型**：销售或转化是基线乘数和媒体乘数的乘积。
 
   因此，不要使用加性模型：
-  *每周转换=基线需求&#x200B;**+**搜索乘数&#x200B;**+**显示乘数&#x200B;**+**....*
+  *每周转换=基线需求&#x200B;**+**&#x200B;搜索乘数&#x200B;**+**&#x200B;显示乘数&#x200B;**+**....*
 使用乘法模型：
-  *每周转换=基线需求&#x200B;**x**搜索乘数&#x200B;**x**显示乘数&#x200B;**x**....*
+  *每周转换=基线需求&#x200B;**x**&#x200B;搜索乘数&#x200B;**x**&#x200B;显示乘数&#x200B;**x**....*
 
   或者采用以下公式： ** Y = ⨍<sub>BL</sub>（X<sub>个因子</sub>；θ<sub>个因子</sub>）x ⨍<sub>S</sub>(X<sub>S</sub>；θ<sub>S</sub>)x<sub>D{14⨍}(X<sub>D</sub>；θ<sub>D</sub>)*</sub>
 
