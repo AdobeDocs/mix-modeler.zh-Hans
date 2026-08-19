@@ -4,24 +4,15 @@ description: 了解如何在Mix Modeler中定义要用作协调数据一部分�
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
 TQID: https://experienceleague.adobe.com/AHQ73zgE97hHUbZ-lW9-l0c-MKHjA50Qcj9w02MjyGM
-product_v2:
-  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-feature_v2:
-  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
-subfeature_v2:
-  - id: ba4fd72c-282e-4fb6-abc1-08e6fb87b2ad
-  - id: d4b8ba18-64c1-4413-be54-74405ec7f558
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: a567f0f7-0057-4079-8ded-5b24cc25af15
+subfeature_v2: id: ba4fd72c-282e-4fb6-abc1-08e6fb87b2adid: d4b8ba18-64c1-4413-be54-74405ec7f558
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: '2026-05-01T09:12:48.985Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+source-git-commit: 0e1bd1a2e96e96b98be502b9c8413d63816efa3d
 workflow-type: tm+mt
-source-wordcount: 2106
+source-wordcount: 2161
 ht-degree: 3%
 
 ---
@@ -33,6 +24,7 @@ ht-degree: 3%
 * 对于在Adobe Experience Platform中摄取的聚合数据，可将一个或多个可用数据集字段映射到相应的协调字段。
 * 对于事件数据，您可以直接或使用条件将一个或多个协调的字段单独映射到数据集中的字段。
 
+![数据集规则列表](/help/assets/harmonize-dataset-rules-list.png)
 
 ## 管理数据集规则
 
@@ -42,7 +34,15 @@ ht-degree: 3%
 
 1. 从顶部栏中选择&#x200B;**[!UICONTROL Dataset rules]**。 您会看到数据集规则的表。
 
-您可以使用![搜索](/help/assets/icons/Search.svg)快速搜索数据集&#x200B;**[!UICONTROL _输入数据集名称_]**。
+您可以对数据集进行搜索和过滤：
+
+* 使用![搜索](/help/assets/icons/Search.svg)快速搜索数据集&#x200B;**[!UICONTROL _输入数据集名称_]**。
+* 使用以下方式筛选数据集：
+  * **[!UICONTROL Source]**：选择介于&#x200B;**[!UICONTROL all]**、**[!UICONTROL Summary]**、**[!UICONTROL Adobe Analytics]**、**[!UICONTROL Adobe Audience Manager]**、**[!UICONTROL Experience Events]**、**[!UICONTROL Consumer Experience Events]**&#x200B;或&#x200B;**[!UICONTROL Factors]**&#x200B;之间。
+  * **[!UICONTROL Granularity]**：选择介于&#x200B;**[!UICONTROL all]**、**[!UICONTROL Daily]**、**[!UICONTROL Weekly]**、**[!UICONTROL Monthly]**&#x200B;或&#x200B;**[!UICONTROL Yearly]**&#x200B;之间。
+  * **[!UICONTROL Start of the week]**：选择全部或可能的工作日（**[!UICONTROL Monday]**&#x200B;到&#x200B;**[!UICONTROL Sunday]**。）
+
+使用![CrossSize200](/help/assets/icons/CrossSize200.svg) **[!UICONTROL Clear]**&#x200B;清除所有筛选器和搜索字段。
 
 表列指定有关数据集规则的详细信息：
 
@@ -82,38 +82,38 @@ ht-degree: 3%
 
    * 当所选协调字段为指标类型时：
 
-      1. 从&#x200B;**[!UICONTROL Mapping type]**&#x200B;中选择&#x200B;**[!UICONTROL Count]**&#x200B;或&#x200B;**[!UICONTROL Sum]**。
+     1. 从&#x200B;**[!UICONTROL Mapping type]**&#x200B;中选择&#x200B;**[!UICONTROL Count]**&#x200B;或&#x200B;**[!UICONTROL Sum]**。
 
-      1. 选择您希望协调字段默认映射到的&#x200B;**[!UICONTROL *AEP数据集字段&#x200B;*]**。
+     1. 选择您希望协调字段默认映射到的&#x200B;**[!UICONTROL *AEP数据集字段&#x200B;*]**。
 
    * 当所选字段属于维度类型时：
 
-      1. 从&#x200B;**[!UICONTROL Mapping type]**&#x200B;中选择&#x200B;**[!UICONTROL Map Into]**&#x200B;或&#x200B;**[!UICONTROL Case]**。
+     1. 从&#x200B;**[!UICONTROL Mapping type]**&#x200B;中选择&#x200B;**[!UICONTROL Map Into]**&#x200B;或&#x200B;**[!UICONTROL Case]**。
 
-      1. 选择&#x200B;**[!UICONTROL Map Into]**&#x200B;后，请选择&#x200B;**[!UICONTROL Field]**&#x200B;和&#x200B;**[!UICONTROL *AEP数据集字段&#x200B;*]**&#x200B;或&#x200B;**[!UICONTROL Value]**&#x200B;以及默认值，以便默认情况下将协调字段映射到数据集字段或输入的值。
+     1. 选择&#x200B;**[!UICONTROL Map Into]**&#x200B;后，请选择&#x200B;**[!UICONTROL Field]**&#x200B;和&#x200B;**[!UICONTROL *AEP数据集字段&#x200B;*]**或&#x200B;**[!UICONTROL Value]**以及默认值，以便默认情况下将协调字段映射到数据集字段或输入的值。
 
-      1. 当您选择&#x200B;**[!UICONTROL Case]**&#x200B;时，请选择&#x200B;**[!UICONTROL Field]**&#x200B;和&#x200B;**[!UICONTROL *AEP数据集字段&#x200B;*]**&#x200B;或&#x200B;**[!UICONTROL Value]**&#x200B;以及默认值，以便默认情况下将协调字段映射到数据集字段或输入的值。
+     1. 当您选择&#x200B;**[!UICONTROL Case]**&#x200B;时，请选择&#x200B;**[!UICONTROL Field]**&#x200B;和&#x200B;**[!UICONTROL *AEP数据集字段&#x200B;*]**或&#x200B;**[!UICONTROL Value]**以及默认值，以便默认情况下将协调字段映射到数据集字段或输入的值。
 
-         1. 要显式设置值，可定义一个或多个情况，其中包含一个或多个条件。 每个条件都可以检查特定的&#x200B;**[!UICONTROL *AEP数据集字段&#x200B;*]**，无论它是&#x200B;**[!UICONTROL Exists]**&#x200B;还是&#x200B;**[!UICONTROL Not Exists]**，或者它是&#x200B;**[!UICONTROL Contains]**、**[!UICONTROL Not Contains]**、**[!UICONTROL Equals]**、**[!UICONTROL Not Equals]**、**[!UICONTROL Starts With]**&#x200B;还是&#x200B;**[!UICONTROL Ends With]**&#x200B;在&#x200B;**[!UICONTROL *&#x200B;处输入的值输入值&#x200B;*]**。
+        1. 要显式设置值，可定义一个或多个情况，其中包含一个或多个条件。 每个条件都可以检查特定的&#x200B;**[!UICONTROL *AEP数据集字段&#x200B;*]**，无论它是&#x200B;**[!UICONTROL Exists]**还是&#x200B;**[!UICONTROL Not Exists]**，或者它是&#x200B;**[!UICONTROL Contains]**、**[!UICONTROL Not Contains]**、**[!UICONTROL Equals]**、**[!UICONTROL Not Equals]**、**[!UICONTROL Starts With]**还是&#x200B;**[!UICONTROL Ends With]**在**[!UICONTROL *&#x200B;处输入的值输入值&#x200B;*]**。
 
-         1. 要添加另一个案例，请选择![添加](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**；要添加另一个条件，请选择![添加](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**。
+        1. 要添加另一个案例，请选择![添加](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**；要添加另一个条件，请选择![添加](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**。
 
-         1. 要删除案例或条件，请在相应的容器中选择![关闭](/help/assets/icons/Close.svg)。
+        1. 要删除案例或条件，请在相应的容器中选择![关闭](/help/assets/icons/Close.svg)。
 
-         1. 要选择是应该将任何条件还是所有条件应用于案例，请选择&#x200B;**[!UICONTROL Any of]**&#x200B;或&#x200B;**[!UICONTROL All of]**。
+        1. 要选择是应该将任何条件还是所有条件应用于案例，请选择&#x200B;**[!UICONTROL Any of]**&#x200B;或&#x200B;**[!UICONTROL All of]**。
 
-         1. 要设置案例的结果值，请在&#x200B;**[!UICONTROL Then]**&#x200B;处输入值。
+        1. 要设置案例的结果值，请在&#x200B;**[!UICONTROL Then]**&#x200B;处输入值。
 
      以下示例：
 
-      * 使用&#x200B;**[!UICONTROL Map Into]** **[!UICONTROL Mapping type]**&#x200B;将&#x200B;**[!UICONTROL Channel Type At Source]**&#x200B;协调字段映射到&#x200B;**[!DNL Luma Transactions]**&#x200B;数据集中的&#x200B;**[!UICONTROL channel_type]**&#x200B;字段。
+     * 使用&#x200B;**[!UICONTROL Map Into]** **[!UICONTROL Mapping type]**&#x200B;将&#x200B;**[!UICONTROL Channel Type At Source]**&#x200B;协调字段映射到&#x200B;**[!DNL Luma Transactions]**&#x200B;数据集中的&#x200B;**[!UICONTROL channel_type]**&#x200B;字段。
 
-      * 使用&#x200B;**[!UICONTROL Case]** **[!UICONTROL Mapping type]**&#x200B;有条件地将&#x200B;**[!DNL Luma Transactions]**&#x200B;数据集中&#x200B;**[!UICONTROL marketing.campaignName]**&#x200B;字段的值映射到&#x200B;**[!UICONTROL Campaign]**&#x200B;协调字段。 Campaign协调字段设置为：
+     * 使用&#x200B;**[!UICONTROL Case]** **[!UICONTROL Mapping type]**&#x200B;有条件地将&#x200B;**[!DNL Luma Transactions]**&#x200B;数据集中&#x200B;**[!UICONTROL marketing.campaignName]**&#x200B;字段的值映射到&#x200B;**[!UICONTROL Campaign]**&#x200B;协调字段。 Campaign协调字段设置为：
 
-         * **[!UICONTROL marketing.campaignName]**&#x200B;为`_black_friday`或`BlackFriday`时的`Black Friday`。
-         * 到所有其它情况下的&#x200B;**[!UICONTROL marketing.campaignName]**&#x200B;的值。
+       * **[!UICONTROL marketing.campaignName]**&#x200B;为`_black_friday`或`BlackFriday`时的`Black Friday`。
+       * 到所有其它情况下的&#x200B;**[!UICONTROL marketing.campaignName]**&#x200B;的值。
 
-        ![数据集规则事件](/help/assets/dataset-create-event.png)
+       ![数据集规则事件](/help/assets/dataset-create-event.png)
 
 1. 选择![添加](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add field]**&#x200B;以定义其他字段。
 
@@ -279,19 +279,19 @@ ht-degree: 3%
 
    * 要添加基于特定量度的首选项，请执行以下操作：
 
-      1. 选择![加](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]**。
-         1. 从&#x200B;**[!UICONTROL *量度选择&#x200B;*]**&#x200B;列表中选择一个量度。
-         1. 选择 **[!UICONTROL CHANNELS]** 或 **[!UICONTROL CONVERSION TYPES]**。 从列表中选择&#x200B;**[!UICONTROL All]**&#x200B;或特定的渠道或转化类型。
-         1. 选择&#x200B;**[!UICONTROL Summary]**&#x200B;或&#x200B;**[!UICONTROL Event]**&#x200B;以指定在合并数据时汇总数据或事件数据是否优先于量度（以及所有或选定的渠道）。
+     1. 选择![加](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]**。
+        1. 从&#x200B;**[!UICONTROL *量度选择&#x200B;*]**列表中选择一个量度。
+        1. 选择 **[!UICONTROL CHANNELS]** 或 **[!UICONTROL CONVERSION TYPES]**。 从列表中选择&#x200B;**[!UICONTROL All]**&#x200B;或特定的渠道或转化类型。
+        1. 选择&#x200B;**[!UICONTROL Summary]**&#x200B;或&#x200B;**[!UICONTROL Event]**&#x200B;以指定在合并数据时汇总数据或事件数据是否优先于量度（以及所有或选定的渠道）。
 
-         要添加一个或多个其他渠道或转化类型，请执行以下操作：
+        要添加一个或多个其他渠道或转化类型，请执行以下操作：
 
-         1. 选择![加号](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a channel]**&#x200B;或![加号](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion type]**。
-         1. 选择 **[!UICONTROL Summary]** 或 **[!UICONTROL Event]**。
+        1. 选择![加号](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a channel]**&#x200B;或![加号](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion type]**。
+        1. 选择 **[!UICONTROL Summary]** 或 **[!UICONTROL Event]**。
 
-         要删除渠道或转换类型，请选择![交叉](/help/assets/icons/Close.svg)。
+        要删除渠道或转换类型，请选择![交叉](/help/assets/icons/Close.svg)。
 
-      1. 要添加基于首选项的更具体的量度，请重复上一步骤。
+     1. 要添加基于首选项的更具体的量度，请重复上一步骤。
 
    * 要删除基于现有的特定量度的首选项，请选择![删除](/help/assets/icons/Delete.svg)。
 
