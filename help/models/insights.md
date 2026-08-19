@@ -17,9 +17,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+source-git-commit: 0e1bd1a2e96e96b98be502b9c8413d63816efa3d
 workflow-type: tm+mt
-source-wordcount: 2902
+source-wordcount: 2957
 ht-degree: 11%
 
 ---
@@ -86,7 +86,13 @@ ht-degree: 11%
 
 ### 按渠道显示的贡献
 
-一个圆环图可视化图表，可显示各个渠道的贡献分布。 此可视化图表通过前三个执行渠道的镜头（不包括基本和&#x200B;*所有其他*&#x200B;类别）展示递增性。 该可视化图表有助于支持优先级和预算分配。
+一个圆环图可视化图表，可显示各个渠道的贡献分布。 此可视化图表通过表现最佳的渠道的镜头来展示递增性。 该可视化图表有助于支持优先级和预算分配。
+
+您可以选择要在可视化图表中显示的媒体渠道：
+
+* 要仅关注付费媒体渠道的贡献，请选择&#x200B;**[!UICONTROL Paid media]**。
+* 要查看所有渠道的贡献，请选择&#x200B;**[!UICONTROL All media]**。
+
 
 ### 营销绩效摘要 {#marketing-performance-summary}
 
@@ -96,6 +102,11 @@ ht-degree: 11%
 >abstract="未定义渠道会包含在内，但不会归因任何转化。"
 
 可按每个渠道显示ROI或CPA绩效的水平条形图可视化图表。 此可视化图表突出显示您的营销投资的ROI/CPA。 根据ROI / CPA ，这些渠道按降序排名。 可视化有助于识别哪些渠道最有效以及哪些渠道可能需要优化。
+
+仅对于基于收入的模型：
+
+* 要为可视化配置所需的&#x200B;**[!UICONTROL Metric]**，请选择&#x200B;**[!UICONTROL ROI]** （收入 — 支出）/支出)或&#x200B;**[!UICONTROL ROAS]** （收入/支出）。
+* 要配置所选量度的显示方式，请为&#x200B;**[!UICONTROL Show as]**&#x200B;选择&#x200B;**[!UICONTROL %]**&#x200B;或&#x200B;**[!UICONTROL $]**。
 
 未定义的渠道包含在可视化中，但没有归因转化。
 
@@ -243,14 +254,14 @@ ht-degree: 11%
 支持以下归因模型：
 
 * 基于[!DNL Mix Modeler]中选定的模型：
-   * 算法 — 影响输出
-   * 算法 — 增量
+  * 算法 — 影响输出
+  * 算法 — 增量
 * 基于规则：
-   * 衰减单位
-   * 首次接触
-   * 最后接触
-   * 线性
-   * Ushape
+  * 衰减单位
+  * 首次接触
+  * 最后接触
+  * 线性
+  * Ushape
 
 有关[!DNL Mix Modeler]中的多点触控归因功能的介绍，请参阅[多点触控归因](../get-started/about.md#multi-touch-attribution)。
 
@@ -379,20 +390,21 @@ Mix Modeler多点接触归因粒度事件分数与总体[!DNL Mix Modeler]分数
 
   ![模型评估](../assets/model-assessment.png)
 
-   * 可按实际转化与预测转化或残差转化进行细分的图表。要划分可视化图表，请从&#x200B;**[!UICONTROL Breakdown]**&#x200B;列表中选择以下选项之一。
+  * 可按实际转化与预测转化或残差转化进行细分的图表。
+    要划分可视化图表，请从&#x200B;**[!UICONTROL Breakdown]**&#x200B;列表中选择以下选项之一。
 
-      * **[!UICONTROL Actual vs Predicted]**：此选项将实际值与模型预测进行比较。 理想情况下，预测值应与实际值紧密一致，但会有一些偏差。 较大或系统的偏差或模式可能表示缺少的关系和数据或潜在的偏差。
+    * **[!UICONTROL Actual vs Predicted]**：此选项将实际值与模型预测进行比较。 理想情况下，预测值应与实际值紧密一致，但会有一些偏差。 较大或系统的偏差或模式可能表示缺少的关系和数据或潜在的偏差。
 
-      * **[!UICONTROL Residuals]**：此选项显示实际值和预测值之间的差异。 一个性能良好的模型具有随机分布的残差，没有清晰的模式或增加的传播。 结构化的趋势或不断扩大的残差可能表明缺少关系和数据，或存在差异问题。
+    * **[!UICONTROL Residuals]**：此选项显示实际值和预测值之间的差异。 一个性能良好的模型具有随机分布的残差，没有清晰的模式或增加的传播。 结构化的趋势或不断扩大的残差可能表明缺少关系和数据，或存在差异问题。
 
-   * 显示每个转化量度的以下列的表：
+  * 显示每个转化量度的以下列的表：
 
-      * **[!UICONTROL Actual Conversion]**
-      * **[!UICONTROL Predicted Conversion]**
-      * **[!UICONTROL Residual Conversion]**
-      * **[!UICONTROL R<sup>2</sup>]**，一个分数，它表明数据与回归模型的拟合程度（拟合程度）。
-      * **[!UICONTROL MAPE]** （平均绝对百分比误差），这是最常用于测量预测准确度的KPI之一，它以实际值的百分比表示预测误差。
-      * **[!UICONTROL RMSE]** （均方根误差）：显示平均误差，根据误差的平方进行加权。
+    * **[!UICONTROL Actual Conversion]**
+    * **[!UICONTROL Predicted Conversion]**
+    * **[!UICONTROL Residual Conversion]**
+    * **[!UICONTROL R<sup>2</sup>]**，一个分数，它表明数据与回归模型的拟合程度（拟合程度）。
+    * **[!UICONTROL MAPE]** （平均绝对百分比误差），这是最常用于测量预测准确度的KPI之一，它以实际值的百分比表示预测误差。
+    * **[!UICONTROL RMSE]** （均方根误差）：显示平均误差，根据误差的平方进行加权。
 
   要下载包含该表数据的CSV文件，请选择![下载](/help/assets/icons/Download.svg)。
 
@@ -400,11 +412,11 @@ Mix Modeler多点接触归因粒度事件分数与总体[!DNL Mix Modeler]分数
 
   ![模型训练适合量度表](../assets/model-training-fit-metrics.png)
 
-   * **[!UICONTROL Training R<sup>2</sup>]**：指示模型预测解释的实际值中差异的比例，从0到1。
-   * **[!UICONTROL Training sMAPE]** （对称平均绝对百分比错误）：测量训练数据的平均百分比错误。 值越低表示精度越高。
-   * **[!UICONTROL Training RMSE]** （均方根错误）：测量训练数据的平均百分比错误。 惩罚比MAPE更大的错误。 RMSE越低表明预测准确度越高，但对离群值比较敏感。
-   * **[!UICONTROL Out-of-sample sMAPE]**：评估不可见数据的百分比错误，平衡预测过多和预测不足。 有助于评估泛化性。 目前，Mix Modeler使用上一季度培训数据作为维持集来评估百分比错误。
-   * **[!UICONTROL Out-of-sample RMSE]**：评估不可见数据的百分比错误，平衡预测过多和预测不足。 帮助评估泛化性。 当前，[!DNL Mix Modeler]使用上一季度的训练数据作为维持集来评估百分比错误。 RMSE比MAPE更严重地惩罚错误。
+  * **[!UICONTROL Training R<sup>2</sup>]**：指示模型预测解释的实际值中差异的比例，从0到1。
+  * **[!UICONTROL Training sMAPE]** （对称平均绝对百分比错误）：测量训练数据的平均百分比错误。 值越低表示精度越高。
+  * **[!UICONTROL Training RMSE]** （均方根错误）：测量训练数据的平均百分比错误。 惩罚比MAPE更大的错误。 RMSE越低表明预测准确度越高，但对离群值比较敏感。
+  * **[!UICONTROL Out-of-sample sMAPE]**：评估不可见数据的百分比错误，平衡预测过多和预测不足。 有助于评估泛化性。 目前，Mix Modeler使用上一季度培训数据作为维持集来评估百分比错误。
+  * **[!UICONTROL Out-of-sample RMSE]**：评估不可见数据的百分比错误，平衡预测过多和预测不足。 帮助评估泛化性。 当前，[!DNL Mix Modeler]使用上一季度的训练数据作为维持集来评估百分比错误。 RMSE比MAPE更严重地惩罚错误。
 
 
 * **[!UICONTROL Touchpoint effectiveness]**&#x200B;表，表示归因人工智能算法模型的结果。
@@ -415,9 +427,9 @@ Mix Modeler多点接触归因粒度事件分数与总体[!DNL Mix Modeler]分数
 
   该可视化图表按降序显示每个接触点的[!UICONTROL Efficiency measure] ![降序](/help/assets/icons/SortOrderDown.svg)：
 
-   * **[!UICONTROL Paths touched]**：可视化实现转化的路径百分比和未实现转化的路径百分比。 对于接触点，当归因转化率较高时，您会看到更多归因转化。 此比率将导致转化的路径百分比与&#x200B;*不会*&#x200B;导致转化的路径百分比进行比较。
-   * **[!UICONTROL Efficiency measure]**：由算法归因模型生成，效率度量指示接触点对转化的相对重要性，与接触点数量无关。 效率在1到5的刻度上测量。 请注意，接触点数量较高并不一定意味着效率指标更高。
-   * **[!UICONTROL Total volume]**：用户接触接触点的总次数。 该数字包括出现在实现转化的路径上的接触点以及导致转化的路径&#x200B;*而非*。
+  * **[!UICONTROL Paths touched]**：可视化实现转化的路径百分比和未实现转化的路径百分比。 对于接触点，当归因转化率较高时，您会看到更多归因转化。 此比率将导致转化的路径百分比与&#x200B;*不会*&#x200B;导致转化的路径百分比进行比较。
+  * **[!UICONTROL Efficiency measure]**：由算法归因模型生成，效率度量指示接触点对转化的相对重要性，与接触点数量无关。 效率在1到5的刻度上测量。 请注意，接触点数量较高并不一定意味着效率指标更高。
+  * **[!UICONTROL Total volume]**：用户接触接触点的总次数。 该数字包括出现在实现转化的路径上的接触点以及导致转化的路径&#x200B;*而非*。
 
 
 ### 模型漂移检测

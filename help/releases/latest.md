@@ -17,24 +17,33 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: '2026-05-01T09:06:55.437Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+source-git-commit: 1e6444e672e85d9f3f666bc865d020fb67c45b09
 workflow-type: tm+mt
-source-wordcount: 435
-ht-degree: 5%
+source-wordcount: 524
+ht-degree: 6%
 
 ---
 
 # 当前的Mix Modeler发行说明
 
-**上次更新时间**：2026年2月26日。
+**上次更新日期**：2026年8月19日。
 
 以下发行说明涵盖最新版本的Mix Modeler。 Mix Modeler版本在持续交付模型上运行，该模型允许大约每月一次的发布。 因此，这些发行说明将会相应更新，因此请定期检查。
+
+## 2026年8月
+
+| 功能 | 描述 | [转出开始](#release-strategy) | [正式发布](#release-strategy) |
+|---|---|---|---|
+| **根据数据集规则进行筛选** | 在统一数据集配置中，您可以[根据源、粒度和一周的开始过滤数据集规则](/help/harmonize-data/dataset-rules.md#manage-dataset-rules)。 | 2026年8月19日 | 2026年8月19日 |
+| **付费媒体频道焦点** | 您可以选择在模型分析中[关注付费媒体渠道贡献](/help/models/insights.md#contribution-by-channel)。 | 2026年8月19日 | 2026年8月19日 |
+| **营销绩效摘要配置** | 您可以[选择量度以及量度的显示方式](/help/models/insights.md#marketing-performance-summary)，以获取模型分析中基于收入的模型的营销性能摘要。 | 2026年8月19日 | 2026年8月19日 |
+
 
 ## 2026年3月
 
 | 功能 | 描述 | [转出开始](#release-strategy) | [正式发布](#release-strategy) |
 |---|---|---|---|
-| **渠道adstock** | 您可以通过[渠道adstock](/help/models/build.md#channel-adstock)，将域专业知识、试验结果或以前的渠道分析直接合并到模型高级配置中。 并在模型的渠道分析中显示[渠道adstock分析](/help/models/insights.md#channel-adstock)。 | 2026年3月30日 | 2026年3月30日 |
+| **渠道adstock** | 您可以通过[渠道adstock](/help/models/build.md#channel-adstock)，将域专业知识、试验结果或以前的渠道分析直接合并到模型高级配置中。 并在模型的渠道分析中显示[渠道adstock分析](/help/models/insights.md#channel-adstock)。 | 2026 年 3 月 30 日 | 2026 年 3 月 30 日 |
 
 ## 2026 年 2 月
 
