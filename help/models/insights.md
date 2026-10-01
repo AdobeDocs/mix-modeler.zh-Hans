@@ -7,23 +7,28 @@ TQID: https://experienceleague.adobe.com/Ml1WZzjI8bruwu0xV5r6Y9DY34aZad-nMhUMoIO
 autotag-review: '2026-05-01T08:59:31.397Z'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
 feature_v2:
   - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
 subfeature_v2:
   - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
+    internal-label: Model insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0e1bd1a2e96e96b98be502b9c8413d63816efa3d
+    internal-label: Insights
+source-git-commit: 4c3c5548ced77cf84daf5cd8eb6708bfbc3dbb48
 workflow-type: tm+mt
-source-wordcount: 2957
+source-wordcount: '2951'
 ht-degree: 11%
-
 ---
-
 # 模型洞察
 
 模型分析中的每个可视化图表都旨在帮助您：
@@ -235,7 +240,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="models_attribution_breakdownbychannel"
 >title="按渠道细分"
->abstract="**[!UICONTROL Breakdown by channel]**&#x200B;是根据客户体验事件架构，按定义的接触点的渠道类型划分的。 选择![更多](https://spectrum.adobe.com/static/icons/workflow_18/Smock_MoreSmallList_18_N.svg)和&#x200B;**[!UICONTROL Breakdown by touchpoint]**&#x200B;以按接触点显示细分。"
+>abstract="**[!UICONTROL Breakdown by channel]**&#x200B;是根据客户体验事件架构，按定义的接触点的渠道类型划分的。 选择![更多](/help/assets/icons/More.svg)和&#x200B;**[!UICONTROL Breakdown by touchpoint]**&#x200B;以按接触点显示细分。"
 
 
 >[!CONTEXTUALHELP]
@@ -391,7 +396,7 @@ Mix Modeler多点接触归因粒度事件分数与总体[!DNL Mix Modeler]分数
   ![模型评估](../assets/model-assessment.png)
 
   * 可按实际转化与预测转化或残差转化进行细分的图表。
-    要划分可视化图表，请从&#x200B;**[!UICONTROL Breakdown]**&#x200B;列表中选择以下选项之一。
+    要划分可视化图表，请从**[!UICONTROL Breakdown]**&#x200B;列表中选择以下选项之一。
 
     * **[!UICONTROL Actual vs Predicted]**：此选项将实际值与模型预测进行比较。 理想情况下，预测值应与实际值紧密一致，但会有一些偏差。 较大或系统的偏差或模式可能表示缺少的关系和数据或潜在的偏差。
 
