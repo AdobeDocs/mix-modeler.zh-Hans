@@ -3,26 +3,32 @@ title: 计划洞察
 description: 了解如何在Mix Modeler中查看计划的见解并编辑计划。
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-TQID: https://experienceleague.adobe.com/Qi-C1-9Dbi71TbUTi64xlxs1pNXijt0nasTghWiD6AM
+autotag-review: '2026-04-28T06:09:37.014Z'
+TQID: 'https://experienceleague.adobe.com/Qi-C1-9Dbi71TbUTi64xlxs1pNXijt0nasTghWiD6AM'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
 feature_v2:
   - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
+  - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+    internal-label: Plans
 subfeature_v2:
   - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
+    internal-label: Model insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-autotag-review: '2026-04-28T06:09:37.014Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Insights
+source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
 workflow-type: tm+mt
-source-wordcount: 1174
+source-wordcount: '1190'
 ht-degree: 0%
-
 ---
-
 # 计划洞察
 
 
@@ -32,29 +38,29 @@ ht-degree: 0%
 创建分析后，您将看到计划的概览，包括：
 
 - 显示计划所基于的[!UICONTROL Model]、[!UICONTROL Data range]和[!UICONTROL Plan target]的标头。
-   - 如果定义了基于目标的计划，则标记会指示目标的状态。可能的选项包括：
+  - 如果定义了基于目标的计划，则标记会指示目标的状态。可能的选项包括：
 
-      - [!BADGE 目标可实现]{type=Positive}
-      - [!BADGE 目标无法实现]{type=Negative}
+    - [!BADGE 目标可实现]{type=Positive}
+    - [!BADGE 目标无法实现]{type=Negative}
 
-   - 选择![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Show more]**&#x200B;以显示更多详细信息。
+  - 选择![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Show more]**&#x200B;以显示更多详细信息。
 
 - [[!UICONTROL Forecasted paid channel ROI]可视化图表](#forecasted-paid-channel-spend-and-roi)
 - [[!UICONTROL Forecasted revenue]可视化图表](#forecasted-revenue)
 - [[!UICONTROL Forecasted conversion]可视化图表](#forecasted-conversions)
 - [[!UICONTROL Marginal channel return]可视化图表](#marginal-channel-return)
-- 计划[&#128279;](#date-range-breakdown)的[!UICONTROL Data range breakdown]表，显示列
+- 计划](#date-range-breakdown)的[[!UICONTROL Data range breakdown]表，显示列
 
-   - 渠道
-   - ROI
-   - CPA
-   - 收入
-   - 转化目标
-   - 支出
+  - 渠道
+  - ROI
+  - CPA
+  - 收入
+  - 转化目标
+  - 支出
 
 要关闭该界面，请选择&#x200B;**[!UICONTROL Close]**。
 
-若要更改查看计划ROI的方式，请在&#x200B;**[!UICONTROL View ROI]**&#x200B;中选择&#x200B;**[!UICONTROL X]**&#x200B;或&#x200B;**[!UICONTROL &#x200B; %]**。
+若要更改查看计划ROI的方式，请在&#x200B;**[!UICONTROL View ROI]**&#x200B;中选择&#x200B;**[!UICONTROL X]**&#x200B;或&#x200B;**[!UICONTROL  %]**。
 
 ## 预测的付费渠道支出和ROI
 
@@ -140,7 +146,7 @@ ht-degree: 0%
       1. 在&#x200B;**[!UICONTROL Setup]**&#x200B;部分中：
 
          1. 输入&#x200B;**[!UICONTROL Plan name]**，例如`Demo plan`。 输入&#x200B;**[!UICONTROL Description]**，例如`Demo plan for Luma company`。
-         1. 从&#x200B;**[!UICONTROL _中选择一个&#x200B;**&#x200B;[!UICONTROL Model]&#x200B;**选择一个选项……_.]**
+         1. 从&#x200B;**[!UICONTROL _中选择一个&#x200B;**[!UICONTROL Model]**选择一个选项……_.]**
 
             ![计划设置](/help/assets/plan-setup.png)
 
@@ -151,33 +157,33 @@ ht-degree: 0%
 
            此选项允许您为一个或多个日期范围输入预算。
 
-            1. 在&#x200B;**[!UICONTROL Optimize]**&#x200B;容器中：
-               1. 从&#x200B;**[!UICONTROL Select conversion]**&#x200B;下拉菜单中选择转换。
-               1. 从&#x200B;**[!UICONTROL Select model]**&#x200B;下拉菜单中选择模型。
-            1. 通过键入日期或使用![日历](/help/assets/icons/Calendar.svg)选择日期范围来指定&#x200B;**[!UICONTROL Date range]**。
-            1. 输入&#x200B;**[!UICONTROL Budget]**。
-若要添加其他日期范围（每个日期范围都有预算），请选择![日历添加](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**。
-要删除日期范围和相关预算，请选择![关闭](/help/assets/icons/Close.svg)。
-            1. 要定义要限制计划的可选最大预算，请执行以下操作：
-               1. 打开&#x200B;**[!UICONTROL Maximize budget]**。
-               1. 指定最大预算的金额。 金额应等于或高于为日期范围指定的预算总额。
+           1. 在&#x200B;**[!UICONTROL Optimize]**&#x200B;容器中：
+              1. 从&#x200B;**[!UICONTROL Select conversion]**&#x200B;下拉菜单中选择转换。
+              1. 从&#x200B;**[!UICONTROL Select model]**&#x200B;下拉菜单中选择模型。
+           1. 通过键入日期或使用![日历](/help/assets/icons/Calendar.svg)选择日期范围来指定&#x200B;**[!UICONTROL Date range]**。
+           1. 输入&#x200B;**[!UICONTROL Budget]**。
+              若要添加其他日期范围（每个日期范围都有预算），请选择![日历添加](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**。
+              要删除日期范围和相关预算，请选择![关闭](/help/assets/icons/Close.svg)。
+           1. 要定义要限制计划的可选最大预算，请执行以下操作：
+              1. 打开&#x200B;**[!UICONTROL Maximize budget]**。
+              1. 指定最大预算的金额。 金额应等于或高于为日期范围指定的预算总额。
 
 
          - **[!UICONTROL I have a target to achieve]** [!BADGE Beta]
 
            ![计划目标](../assets/plan-target.png)
 
-            1. 在&#x200B;**[!UICONTROL Optimize]**&#x200B;容器中
-               1. 从&#x200B;**[!UICONTROL Select conversion]**&#x200B;下拉菜单中选择转换。
-               1. 从&#x200B;**[!UICONTROL Select target metric]**&#x200B;下拉菜单中选择一个目标量度。 您可以选择介于&#x200B;**[!UICONTROL Conversion]**、**[!UICONTROL CPA]**、**[!UICONTROL Revenue]**&#x200B;或&#x200B;**[!UICONTROL ROI]**&#x200B;之间。
-               1. 从&#x200B;**[!UICONTROL Select model]**&#x200B;下拉菜单中选择模型。
-            1. 通过键入日期或使用![日历](/help/assets/icons/Calendar.svg)选择日期范围来指定日期范围。
-            1. 输入所选目标度量的值。 例如，**[!UICONTROL Conversion]**&#x200B;的数字、**[!UICONTROL ROI]**&#x200B;的百分比或&#x200B;**[!UICONTROL CPA]**&#x200B;和&#x200B;**[!UICONTROL Revenue]**&#x200B;的货币值。
-要添加其他日期范围（每个日期范围都有其目标指标），请选择![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**。
-要删除日期范围和关联的目标量度，请选择![关闭](/help/assets/icons/Close.svg)。
-            1. 要定义要限制计划的可选最大预算，请执行以下操作：
-               1. 打开&#x200B;**[!UICONTROL Maximize budget]**。
-               1. 指定最大预算的金额。
+           1. 在&#x200B;**[!UICONTROL Optimize]**&#x200B;容器中
+              1. 从&#x200B;**[!UICONTROL Select conversion]**&#x200B;下拉菜单中选择转换。
+              1. 从&#x200B;**[!UICONTROL Select target metric]**&#x200B;下拉菜单中选择一个目标量度。 您可以选择介于&#x200B;**[!UICONTROL Conversion]**、**[!UICONTROL CPA]**、**[!UICONTROL Revenue]**&#x200B;或&#x200B;**[!UICONTROL ROI]**&#x200B;之间。
+              1. 从&#x200B;**[!UICONTROL Select model]**&#x200B;下拉菜单中选择模型。
+           1. 通过键入日期或使用![日历](/help/assets/icons/Calendar.svg)选择日期范围来指定日期范围。
+           1. 输入所选目标度量的值。 例如，**[!UICONTROL Conversion]**&#x200B;的数字、**[!UICONTROL ROI]**&#x200B;的百分比或&#x200B;**[!UICONTROL CPA]**&#x200B;和&#x200B;**[!UICONTROL Revenue]**的货币值。
+              要添加其他日期范围（每个日期范围都有其目标指标），请选择![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**。
+              要删除日期范围和关联的目标量度，请选择![关闭](/help/assets/icons/Close.svg)。
+           1. 要定义要限制计划的可选最大预算，请执行以下操作：
+              1. 打开&#x200B;**[!UICONTROL Maximize budget]**。
+              1. 指定最大预算的金额。
 
          1. 选择&#x200B;**[!UICONTROL Next]**&#x200B;以返回到&#x200B;**[!UICONTROL Spend selection]**&#x200B;分区。
 

@@ -3,31 +3,42 @@ title: 数据治理概述
 description: 了解如何使用Experience Platform中的服务和工具，以便您控制收集的体验数据。 这样，您就可以遵守业务实践、法律义务和发展过程。
 feature: Administration
 exl-id: 87407c29-e158-48bf-bde9-b3c16a16107e
-TQID: https://experienceleague.adobe.com/vc5z266rexOpAuR1HJCj-ltOLZmkccBDvfi8JUsuiJ4
+autotag-review: '2026-05-01T09:16:50.195Z'
+TQID: 'https://experienceleague.adobe.com/vc5z266rexOpAuR1HJCj-ltOLZmkccBDvfi8JUsuiJ4'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
 feature_v2:
   - id: f6633d1c-3d2d-4f48-95d4-4bbc9913db52
+    internal-label: Data governance
+  - id: fe2edbb1-46f9-4347-a27c-577cab3640cb
+    internal-label: Administration
 subfeature_v2:
   - id: bf7ac0fc-effb-4f0c-b93f-658412718d3c
+    internal-label: Audits
   - id: fd80ec6b-9b9e-448a-a6d0-b0c9a15da6b8
+    internal-label: Policies
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+    internal-label: Data quality
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-autotag-review: '2026-05-01T09:16:50.195Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Privacy
+source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
 workflow-type: tm+mt
-source-wordcount: 462
+source-wordcount: '462'
 ht-degree: 3%
-
 ---
-
 # 数据治理概述
 
 Mix Modeler与Experience Platform之间的集成让Mix Modeler能够利用Experience Platform的内置数据管理功能。 此文档的此部分详细介绍Mix Modeler中可用的数据管理功能。
@@ -36,7 +47,7 @@ Experience Platform数据管理让您能够控制和理解数据通过Experience
 
 在Experience Platform使用的数据集上创建的数据使用标签和策略会相应地显示在Mix Modeler中。 例如，在删除作为协调数据中的数据集规则一部分的数据集时，这些标签会阻止或警告用户。 或者隐藏在创建数据集规则时为用户限制的架构字段。
 
-通过数据管理集成，您可以更高效地管理法规遵从性。 组织中的数据管理员可以设置策略来限制使用。 因此，您可以使用符合数据管理员定义的策略的数据。 阅读有关[标签和策略](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-dataviews/data-governance)的文档以了解更多信息。
+通过数据管理集成，您可以更高效地管理法规遵从性。 组织中的数据管理员可以设置策略来限制使用。 因此，您可以使用符合数据管理员定义的策略的数据。 阅读有关[标签和策略](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-governance)的文档以了解更多信息。
 
 以下数据治理功能可用：
 
