@@ -64,7 +64,7 @@ Mix Modeler ![主页](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x2
   * [*量度*：实际粒度与按&#x200B;*粒度计划的粒度*](#metric-actual-vs-planned-by-granularity)
   * [渠道&#x200B;*指标*&#x200B;乘以&#x200B;*粒度*](#channel-metric-by-granularity)
   * [*指标*&#x200B;与&#x200B;*指标*（按渠道）](#metric-vs-metric-by-channel)
-  * [*指标*，粒度为&#x200B;*3}*](#metric-by-granularity)
+  * [*指标*，粒度为&#x200B;*3&rbrace;*](#metric-by-granularity)
   * [按渠道显示的&#x200B;*量度*](#metric-by-channel)
 
 ## KPI状态卡
@@ -126,7 +126,7 @@ Mix Modeler ![主页](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x2
 散点图可视化图表，显示选定量度中的渠道散点图。
 
 
-### *指标*，粒度为&#x200B;*3}*
+### *指标*，粒度为&#x200B;*3&rbrace;*
 
 显示选定指标的实际值和计划值的条形图可视化图表。
 
