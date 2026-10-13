@@ -4,30 +4,39 @@ description: 了解如何在Mix Modeler中构建模型，包括如何设置、�
 feature: Models
 solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-TQID: https://experienceleague.adobe.com/cFNaPV6-R3d5ogcBfOyEVNqJoIvfg2JBzVeedjrtEq4
+TQID: 'https://experienceleague.adobe.com/cFNaPV6-R3d5ogcBfOyEVNqJoIvfg2JBzVeedjrtEq4'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
 feature_v2:
   - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
   - id: f40f1683-8300-4054-aab8-77da06ad63ff
-subfeature_v2:
+    internal-label: Models
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
+subfeature_v2:
   - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
+    internal-label: Model insights
   - id: bc2f5225-03d4-4bc8-89ec-99d78c30e6dd
+    internal-label: Conversions
   - id: c89e26b6-808d-4500-8b01-450a63466999
+    internal-label: Build model
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+    internal-label: Email marketing
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 4420f8b550f642dd55fd9d2af9675326e08a8af9
+    internal-label: Insights
+source-git-commit: d83e095cdcd2954b5c6cc5f4b3f32a26cf27ed9a
 workflow-type: tm+mt
-source-wordcount: 1578
-ht-degree: 8%
-
+source-wordcount: '1591'
+ht-degree: 9%
 ---
-
 # 构建模型
 
 为了构建自定义AI支持的模型，界面提供了分步引导式模型配置流程。
@@ -86,19 +95,19 @@ ht-degree: 8%
 
    * 对于每个容器，定义一个或多个事件。
 
-      1. 对于每个事件：
+     1. 对于每个事件：
 
-         1. 从&#x200B;**[!UICONTROL _选择协调字段_]**&#x200B;中选择量度或维度。
+        1. 从&#x200B;**[!UICONTROL _选择协调字段_]**&#x200B;中选择量度或维度。
 
-         1. 选择适当的运算符： **[!UICONTROL equals]**、**[!UICONTROL not equals]**、**[!UICONTROL less than]**、**[!UICONTROL greater than]**、**[!UICONTROL starts with]**、**[!UICONTROL doesn't start with]**、**[!UICONTROL ends with]**、**[!UICONTROL doesn't end with]**、**[!UICONTROL contains]**、**[!UICONTROL doesn't contain]**、**[!UICONTROL is in]**&#x200B;或&#x200B;**[!UICONTROL is not in]**。
+        1. 选择适当的运算符： **[!UICONTROL equals]**、**[!UICONTROL not equals]**、**[!UICONTROL less than]**、**[!UICONTROL greater than]**、**[!UICONTROL starts with]**、**[!UICONTROL doesn't start with]**、**[!UICONTROL ends with]**、**[!UICONTROL doesn't end with]**、**[!UICONTROL contains]**、**[!UICONTROL doesn't contain]**、**[!UICONTROL is in]**&#x200B;或&#x200B;**[!UICONTROL is not in]**。
 
-         1. 在&#x200B;**[!UICONTROL _处输入或选择一个值输入或选择值_]**。
+        1. 在&#x200B;**[!UICONTROL _处输入或选择一个值输入或选择值_]**。
 
-      1. 若要在容器中添加其他事件，请选择![添加](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add event]**。
+     1. 若要在容器中添加其他事件，请选择![添加](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add event]**。
 
-      1. 要从容器中删除事件，请选择![关闭](/help/assets/icons/CrossSize75.svg)。
+     1. 要从容器中删除事件，请选择![关闭](/help/assets/icons/CrossSize75.svg)。
 
-      1. 要使用容器中定义的所有或多个事件进行筛选，请选择&#x200B;**[!UICONTROL Any of]**&#x200B;或&#x200B;**[!UICONTROL All of]**。 标签相应地从&#x200B;**[!UICONTROL Include ... Or ...]**&#x200B;更改为&#x200B;**[!UICONTROL Include ... And ...]**。
+     1. 要使用容器中定义的所有或多个事件进行筛选，请选择&#x200B;**[!UICONTROL Any of]**&#x200B;或&#x200B;**[!UICONTROL All of]**。 标签相应地从&#x200B;**[!UICONTROL Include ... Or ...]**&#x200B;更改为&#x200B;**[!UICONTROL Include ... And ...]**。
 
    * 要添加符合条件的数据填充容器，请选择![添加](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**。
 
@@ -112,10 +121,10 @@ ht-degree: 8%
 
    * 要添加因子数据集，请选择&#x200B;**[!UICONTROL Add Factor]**。 最多可以向模型添加30个因子。
 
-      1. 从下拉菜单中选择&#x200B;**[!UICONTROL Factor dataset]**。 可用因子是您在[数据集规则](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule)中定义协调字段的因子。
-基于所选数据集，**[!UICONTROL Factor type]**&#x200B;为&#x200B;**[!UICONTROL Internal]**&#x200B;或&#x200B;**[!UICONTROL External]**。
+     1. 从下拉菜单中选择&#x200B;**[!UICONTROL Factor dataset]**。 可用因子是您在[数据集规则](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule)中定义协调字段的因子。
+        基于所选数据集，**[!UICONTROL Factor type]**&#x200B;为&#x200B;**[!UICONTROL Internal]**&#x200B;或&#x200B;**[!UICONTROL External]**。
 
-      1. 从下拉菜单中选择&#x200B;**[!UICONTROL Impact on conversion]**。 可用选项为： **[!UICONTROL Auto]**、**[!UICONTROL Positive]**&#x200B;或&#x200B;**[!UICONTROL Negative]**。 默认选项是&#x200B;**[!UICONTROL Auto]**，它允许模型确定因子数据集的影响。
+     1. 从下拉菜单中选择&#x200B;**[!UICONTROL Impact on conversion]**。 可用选项为： **[!UICONTROL Auto]**、**[!UICONTROL Positive]**&#x200B;或&#x200B;**[!UICONTROL Negative]**。 默认选项是&#x200B;**[!UICONTROL Auto]**，它允许模型确定因子数据集的影响。
 
    * 要删除因子数据集，请选择![CrossSize200](/help/assets/icons/CrossSize400.svg)。
 
@@ -151,8 +160,8 @@ ht-degree: 8%
 在&#x200B;**[!UICONTROL Spend share]**&#x200B;部分中：
 
 * 要在营销数据稀疏时使用历史营销投资比率通知模型，请激活&#x200B;**[!UICONTROL Allow spend share]**。 建议使用此设置，尤其是在以下情况下：
-   * 渠道没有足够的观察次数（例如，消费频率低、展示次数或点击次数少）。
-   * 您正在对数据可能稀疏的尖峰但常规且潜在的高消费媒体（如某些品牌的电视节目）建模。
+  * 渠道没有足够的观察次数（例如，消费频率低、展示次数或点击次数少）。
+  * 您正在对数据可能稀疏的尖峰但常规且潜在的高消费媒体（如某些品牌的电视节目）建模。
 
   >[!NOTE]
   >
@@ -195,13 +204,13 @@ ht-degree: 8%
 
 * 对于每个渠道(**[!UICONTROL Name]**)，定义一个&#x200B;**[!UICONTROL Lag (weeks)]**、**[!UICONTROL Min Lookback (weeks)]**&#x200B;和&#x200B;**[!UICONTROL Max Lookback (weeks)]**&#x200B;值。 对于每个值：
 
-   * 使用![加](/help/assets/icons/Add.svg)增加值，![减](/help/assets/icons/Subtract.svg)减少值，或手动输入值。
+  * 使用![加](/help/assets/icons/Add.svg)增加值，![减](/help/assets/icons/Subtract.svg)减少值，或手动输入值。
 
   每个渠道的滞后周数加上最大回顾周数之和最多为配置的培训时段的八分之一。 这一上限允许模型拥有足够的数据来学习广告素材库效果。 例如，对于两年的培训期，渠道的&#x200B;**[!UICONTROL Lag (weeks)]**&#x200B;和&#x200B;**[!UICONTROL Lookback (weeks)]**&#x200B;的最大值为13周。 此上限在您定义值时强制执行。
 
 * 要将所有渠道adstock重置为默认值，请执行以下操作：
 
-   * 选择 **[!UICONTROL Reset to defaults]**。
+  * 选择 **[!UICONTROL Reset to defaults]**。
 
 
 ## 设置选项
@@ -250,11 +259,11 @@ ht-degree: 8%
 
 * 选择&#x200B;**[!UICONTROL Finish]**&#x200B;以完成模型配置。
 
-   * 在&#x200B;**[!UICONTROL Create instance?]**&#x200B;对话框中，选择&#x200B;**[!UICONTROL Ok]**&#x200B;以立即触发第一组训练和评分运行。 您的模型已列出，状态为![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Awaiting training]**。
+  * 在&#x200B;**[!UICONTROL Create instance?]**&#x200B;对话框中，选择&#x200B;**[!UICONTROL Ok]**&#x200B;以立即触发第一组训练和评分运行。 您的模型已列出，状态为![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Awaiting training]**。
 
-     选择要取消的&#x200B;**[!UICONTROL Cancel]**。
+    选择要取消的&#x200B;**[!UICONTROL Cancel]**。
 
-   * 如果需要更多配置，请使用红色轮廓和文本说明需要哪些其他配置。
+  * 如果需要更多配置，请使用红色轮廓和文本说明需要哪些其他配置。
 
 * 选择&#x200B;**[!UICONTROL Back]**&#x200B;以返回上一步。
 
